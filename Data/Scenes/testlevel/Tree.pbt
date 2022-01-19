@@ -19,6 +19,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 5085293713741650490
+  ChildIds: 1920909686749165110
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,13 +38,75 @@ Objects {
   }
 }
 Objects {
+  Id: 1920909686749165110
+  Name: "Advanced Car - Go Kart"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9128250603234241807
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Car - Go Kart"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 400
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10151376561601915412
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1220.58691
+            Y: 201.65065
+            Z: 49.9999924
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Yaw: -159.443954
+            Roll: 178.056015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 4.00000191
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3401040600958689189
+    }
+  }
+}
+Objects {
   Id: 5085293713741650490
   Name: "Clay Form 03"
   Transform {
     Location {
-      X: -400
-      Y: 550
-      Z: 200
+      X: 300
+      Y: 100
+      Z: 550
     }
     Rotation {
     }
