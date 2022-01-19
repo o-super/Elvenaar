@@ -16,6 +16,7 @@
 local MODULE = require( script:GetCustomProperty("ModuleManager") )
 require ( script:GetCustomProperty("NPCManager") )
 function NPC_MANAGER() return MODULE.Get("standardcombo.NPCKit.NPCManager") end
+--function NPC_OBJECTIVE_MANAGER() return MODULE.Get("NPCObjectiveManager") end
 function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 function CROSS_CONTEXT_CALLER() return MODULE.Get("standardcombo.Utils.CrossContextCaller") end
 function NAV_MESH() return _G.NavMesh end
@@ -639,6 +640,13 @@ function FindNearestEnemy()
 			end
 		end
 	end
+	
+	-- Objective
+	--if nearestEnemy == nil then
+	--	local objectives = NPC_OBJECTIVE_MANAGER().GetObjectives(myTeam)
+	--	print("Objectives found: " .. tostring(objectives))
+	--end
+	
 	return nearestEnemy
 end
 
