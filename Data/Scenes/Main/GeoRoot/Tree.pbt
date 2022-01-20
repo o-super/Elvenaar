@@ -1,11 +1,11 @@
 Name: "GeoRoot"
 RootId: 14857565446836230151
 Objects {
-  Id: 8403457539401083634
+  Id: 5892397553416542977
   Name: "2Frogs-ObjectiveHealthBarDataProviderClient"
   Transform {
     Location {
-      Z: 125
+      Z: 150
     }
     Rotation {
     }
@@ -17,6 +17,12 @@ Objects {
   }
   ParentId: 14857565446836230151
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:HealthBarTemplate"
+      AssetReference {
+        Id: 14847420911046470577
+      }
+    }
     Overrides {
       Name: "cs:Root"
       ObjectReference {

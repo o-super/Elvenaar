@@ -111,11 +111,11 @@ Objects {
       Int: 1
     }
     Overrides {
-      Name: "cs:hitPoints"
+      Name: "cs:CurrentHealth"
       Int: 1000
     }
     Overrides {
-      Name: "cs:maxHitPoints"
+      Name: "cs:MaxHealth"
       Int: 1001
     }
   }
