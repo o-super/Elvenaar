@@ -142,6 +142,11 @@ function OnProjectileImpact(projectile, other, hitResult)
 	-- Apply the damage
 	COMBAT().ApplyDamage(attackData)
 
+	-- Apply Damage to Damageable objects
+	if other.parent ~= nil then
+		other.parent:ApplyDamage(dmg)
+	end
+
 	-- Cleanup
 	projectile:Destroy()
 end

@@ -17,11 +17,8 @@ local MODULE = require( script:GetCustomProperty("ModuleManager") )
 require ( script:GetCustomProperty("NPCManager") )
 function NPC_MANAGER() return MODULE.Get("standardcombo.NPCKit.NPCManager") end
 
-
 require ( script:GetCustomProperty("NPCObjectiveManager") )
 function NPC_OBJECTIVE_MANAGER() return MODULE.Get("NPCObjectiveManager") end
-MODULE.listAll()
-
 
 function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 function CROSS_CONTEXT_CALLER() return MODULE.Get("standardcombo.Utils.CrossContextCaller") end
