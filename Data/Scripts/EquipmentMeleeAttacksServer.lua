@@ -116,8 +116,6 @@ function MeleeAttackNPC(hitResult, abilityInfo)
 
 	-- Avoid hitting the same player or damageable object multiple times in a single swing
     if (abilityInfo.ignoreList[target] ~= 1) then
-
-		print("Ability: " .. tostring(ability.owner))
         -- Apply the damage
 		local dmg = Damage.New(abilityInfo.damage)
 		dmg:SetHitResult(hitResult)

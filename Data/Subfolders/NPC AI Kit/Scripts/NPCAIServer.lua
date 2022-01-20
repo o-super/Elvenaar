@@ -16,7 +16,13 @@
 local MODULE = require( script:GetCustomProperty("ModuleManager") )
 require ( script:GetCustomProperty("NPCManager") )
 function NPC_MANAGER() return MODULE.Get("standardcombo.NPCKit.NPCManager") end
---function NPC_OBJECTIVE_MANAGER() return MODULE.Get("NPCObjectiveManager") end
+
+
+require ( script:GetCustomProperty("NPCObjectiveManager") )
+function NPC_OBJECTIVE_MANAGER() return MODULE.Get("NPCObjectiveManager") end
+MODULE.listAll()
+
+
 function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 function CROSS_CONTEXT_CALLER() return MODULE.Get("standardcombo.Utils.CrossContextCaller") end
 function NAV_MESH() return _G.NavMesh end
@@ -640,12 +646,25 @@ function FindNearestEnemy()
 			end
 		end
 	end
-	
+		
 	-- Objective
-	--if nearestEnemy == nil then
-	--	local objectives = NPC_OBJECTIVE_MANAGER().GetObjectives(myTeam)
-	--	print("Objectives found: " .. tostring(objectives))
-	--end
+	if nearestEnemy == nil then
+		local objectives = NPC_OBJECTIVE_MANAGER().GetObjectives(myTeam)
+		local targetObj = nil
+		local targetDist = 9999999
+		
+		for _,objective in ipairs(objectives) do
+			if not COMBAT().IsDead(objective) then
+				local delta = objective:GetWorldPosition() - myPos
+				local distSquared = delta.sizeSquared
+				if distSquared < targetDist or targetObj == nil then
+					targetDist = distSquared
+					targetObj = objective
+				end
+			end
+		end
+		nearestEnemy = targetObj
+	end
 	
 	return nearestEnemy
 end

@@ -9,6 +9,7 @@
 local API = {}
 _G["NPCObjectiveManager"] = API
 
+print("Added NPCObjectiveManager!")
 
 local allObjectives = {}
 local objColliders = {}

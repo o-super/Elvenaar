@@ -67,5 +67,12 @@ function Get_Internal(self, path, isOptionalModule)
 	return modules[path]
 end
 
+function API.listAll()
+	print("===LISTING MODULES===")
+	for k,v in pairs(modules) do print(k,v) end
+		print("===END===")
+	return 0
+end
+
 return API
 
