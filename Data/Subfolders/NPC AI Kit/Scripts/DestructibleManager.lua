@@ -63,7 +63,6 @@ function GetIdFor(theScript)
 end
 
 function API.DamageObject(attackData)
-	print("DamageObject() object = " .. tostring(object))
 	local object = attackData.object
 	if object ~= nil and object:IsA("CoreObject") then
 		local theScript, obj = API.GetRegisteredObject(object)

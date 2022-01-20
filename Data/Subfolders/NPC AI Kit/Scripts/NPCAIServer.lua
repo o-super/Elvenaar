@@ -825,8 +825,21 @@ function IsAlive()
 	return currentState < STATE_DEAD_1
 end
 
-
 function OnObjectDamaged(id, prevHealth, dmgAmount, impactPosition, impactRotation, sourceObject)
+	-- This bypass the engage cooldown
+	if currentState == STATE_ENGAGING
+	or currentState == STATE_ATTACK_CAST
+	or currentState == STATE_ATTACK_RECOVERY
+	then
+		local objectives = NPC_OBJECTIVE_MANAGER().GetObjectives(myTeam)
+		local isObjective = NPC_OBJECTIVE_MANAGER().IsRegistered(target)
+		-- If the actual target is an objective then change target to the attacking player
+		if isObjective == true then
+			SetTarget(sourceObject)
+		end
+		return
+	end
+	
 	if engageCooldown > 0 then return end
 	
 	if currentState == STATE_SLEEPING or 
@@ -835,8 +848,7 @@ function OnObjectDamaged(id, prevHealth, dmgAmount, impactPosition, impactRotati
 		if Object.IsValid(sourceObject) and GetObjectTeam(sourceObject) ~= GetTeam() and 
 			not COMBAT().IsDead(sourceObject) and CanHear(impactPosition) then
 			Search(impactPosition, sourceObject:GetWorldPosition())
-		end
-		
+		end	
 	elseif currentState == STATE_ENGAGING and
 	target ~= sourceObject and
 	Object.IsValid(target) and
