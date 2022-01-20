@@ -26,7 +26,7 @@ Objects {
   ChildIds: 6926037083254795178
   ChildIds: 11382034739886477438
   ChildIds: 13339378433146364153
-  ChildIds: 11451177112856535879
+  ChildIds: 17774601040954402794
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,8 +45,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11451177112856535879
-  Name: "Damageable Object"
+  Id: 17774601040954402794
+  Name: "Relic Objective"
   Transform {
     Location {
     }
@@ -59,12 +59,64 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 11451177112856535879
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CurrentHealth"
+      Int: 1000
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11451177112856535879
+  Name: "Damageable Object"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17774601040954402794
+  ChildIds: 15521791922699005073
   ChildIds: 5452615304600725315
   ChildIds: 9074128141559519245
+  ChildIds: 2720511137852390645
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
       Int: 1
+    }
+    Overrides {
+      Name: "cs:hitPoints"
+      Int: 1000
+    }
+    Overrides {
+      Name: "cs:maxHitPoints"
+      Int: 1001
     }
   }
   WantsNetworking: true
@@ -92,6 +144,76 @@ Objects {
         Id: 841534158063459245
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2720511137852390645
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11451177112856535879
+  ChildIds: 14857565446836230151
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14857565446836230151
+  Name: "GeoRoot"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2720511137852390645
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "GeoRoot"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -171,7 +293,6 @@ Objects {
   Name: "Fantasy Clay Pot 01"
   Transform {
     Location {
-      X: -100
     }
     Rotation {
     }
@@ -209,6 +330,51 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15521791922699005073
+  Name: "NPCAttackClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 11451177112856535879
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 11451177112856535879
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5467214380549700431
     }
   }
   NetworkRelevanceDistance {
