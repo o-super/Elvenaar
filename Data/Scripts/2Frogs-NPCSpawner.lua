@@ -11,8 +11,7 @@ function spawnNPC()
     local newNPC = World.SpawnAsset(NPC_TEMPLATE, {position = pos, rotation = rot})
 end
 
-spawnNPC()
-spawnNPC()
-spawnNPC()
-spawnNPC()
-spawnNPC()
+
+for i = 0, 6 do
+    spawnNPC()
+end

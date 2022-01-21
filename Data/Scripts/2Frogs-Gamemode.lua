@@ -4,6 +4,6 @@
 
 -- List Of Players
 
-function tick()
+function tick(deltaTime)
     -- if all players have a team : startGame()
 end

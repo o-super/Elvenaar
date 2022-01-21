@@ -1,6 +1,118 @@
 Name: "Gameplay Settings"
 RootId: 9086936746104183945
 Objects {
+  Id: 14217688817982206037
+  Name: "Static Player Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16657464430720987128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Static Player Equipment - Defender"
+        }
+        Overrides {
+          Name: "cs:Team"
+          Int: 1
+        }
+        Overrides {
+          Name: "cs:EquipmentTemplate"
+          AssetReference {
+            Id: 5762153949876895066
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 660945891459954170
+    }
+  }
+}
+Objects {
+  Id: 11990594476335130936
+  Name: "Static Player Equipment"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16657464430720987128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Static Player Equipment - Attacker"
+        }
+        Overrides {
+          Name: "cs:Team"
+          Int: 1
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:EquipmentTemplate"
+          AssetReference {
+            Id: 6800407926496735662
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 660945891459954170
+    }
+  }
+}
+Objects {
   Id: 7887413003118682011
   Name: "Lobby Required Players"
   Transform {
@@ -156,7 +268,15 @@ Objects {
         }
         Overrides {
           Name: "cs:KillOnTeamSwitch"
-          Bool: true
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:OnlySwitchDeadPlayers"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:ScrambleAtRoundEnd"
+          Bool: false
         }
       }
     }
