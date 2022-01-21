@@ -1,6 +1,44 @@
 Name: "Gameplay Settings"
 RootId: 9086936746104183945
 Objects {
+  Id: 5148258221727168075
+  Name: "Team Autobalancer"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8101005287434700507
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Team Autobalancer"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:KillOnTeamSwitch"
+          Bool: true
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9934143638944641437
+    }
+  }
+}
+Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
