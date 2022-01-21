@@ -60,6 +60,43 @@ Objects {
   }
 }
 Objects {
+  Id: 2866750808355360684
+  Name: "Gamemode"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14119872795076188527
+  ChildIds: 2751609791504911723
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 2751609791504911723
   Name: "2Frogs-Gamemode"
   Transform {
@@ -73,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14119872795076188527
+  ParentId: 2866750808355360684
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -99,42 +136,6 @@ Objects {
     ScriptAsset {
       Id: 799043392494393830
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2866750808355360684
-  Name: "Gamemode"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14119872795076188527
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

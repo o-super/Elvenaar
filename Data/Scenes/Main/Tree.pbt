@@ -129,7 +129,6 @@ Objects {
   ChildIds: 16572351611231552146
   ChildIds: 7114030134706513641
   ChildIds: 6926037083254795178
-  ChildIds: 2851372077085071665
   ChildIds: 12874777007388652008
   ChildIds: 10122255796440110680
   WantsNetworking: true
@@ -8909,49 +8908,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2851372077085071665
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 250
-      Y: -50
-      Z: 350
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2540699062385856111
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  PlayerSpawnPoint {
-    PlayerScaleMultiplier: 1
-    SpawnEffectsTemplate {
-      Id: 841534158063459245
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 6926037083254795178
   Name: "2Frogs - Advanced Dual Katana"
   Transform {
@@ -9167,7 +9123,7 @@ Objects {
 }
 Objects {
   Id: 16813558807825262224
-  Name: "Spawn Point"
+  Name: "LobbySpawn"
   Transform {
     Location {
       X: 150
@@ -9200,6 +9156,7 @@ Objects {
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
+    SpawnKey: "Lobby"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }

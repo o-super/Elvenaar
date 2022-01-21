@@ -198,52 +198,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5148258221727168075
-  Name: "Team Autobalancer"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8101005287434700507
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Team Autobalancer"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:KillOnTeamSwitch"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:OnlySwitchDeadPlayers"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:ScrambleAtRoundEnd"
-          Bool: false
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9934143638944641437
-    }
-  }
-}
-Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
@@ -522,6 +476,45 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9512796055937810767
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:none"
+      }
+      SpawnMode {
+        Value: "mc:espawnmode:roundrobin"
+      }
+    }
   }
 }
 Objects {

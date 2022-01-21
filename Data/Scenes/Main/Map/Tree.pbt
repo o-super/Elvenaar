@@ -1,12 +1,13 @@
 Name: "Map"
 RootId: 14476493040834258042
 Objects {
-  Id: 7383698789980104285
-  Name: "Spawns"
+  Id: 4512888583482864961
+  Name: "Spawn Point"
   Transform {
     Location {
-      X: -1150
-      Y: -1150
+      X: -550
+      Y: 450
+      Z: 150
     }
     Rotation {
     }
@@ -17,90 +18,6 @@ Objects {
     }
   }
   ParentId: 14476493040834258042
-  ChildIds: 662723630688950352
-  ChildIds: 11705413846491256167
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11705413846491256167
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -600
-      Y: -1350
-      Z: 150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7383698789980104285
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-    PlayerScaleMultiplier: 1
-    SpawnEffectsTemplate {
-      Id: 841534158063459245
-    }
-    ShouldDecrowdPlayers: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 662723630688950352
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 650
-      Y: 1400
-      Z: 150
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7383698789980104285
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,6 +32,48 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15064772885316599253
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -550
+      Y: -2150
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14476493040834258042
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 2
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
       Id: 841534158063459245

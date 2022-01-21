@@ -2,10 +2,16 @@
     Main script taking care of the game lifecycle
 ]]--
 
--- List Of Players : Game.GetPlayers()
+-- To delay by x seconds
+-- Task.Wait(2)
+
+-- Constants
+local TEAN_DEFEND = 1
+local TEAM_ATTACK = 2
 
 -- Custom 
 local ABGS = require(script:GetCustomProperty("API"))
+local lobbySpawn = World.FindObjectByName("LobbySpawn")
 local Timer = 0
 local RoundStartCoutdown = 10
 local MinimumPlayers = 2
@@ -15,6 +21,15 @@ print("Waiting for " .. MinimumPlayers .. " players to join...")
 function OnRoundStart()
     print("New round starting...")
     spawnPlayers()
+end
+
+function OnPlayerJoin(player)
+    print("Player joined")
+    local pos = lobbySpawn:GetWorldPosition()
+    local rot = lobbySpawn:GetWorldRotation()
+    local spawnSettings = {position = pos, rotation = rot}
+    player.team = 0
+    player:Spawn(spawnSettings)
 end
 
 function spawnPlayers()
@@ -27,7 +42,7 @@ end
 -- Check if all players have a team, return true or false
 function havePlayersATeam()
     for _, player in pairs(Game.GetPlayers()) do
-        if player.team ~= 1 and player.team ~= 2 then
+        if player.team ~= TEAN_DEFEND and player.team ~= TEAM_ATTACK then
             return false
         end
     end
@@ -52,3 +67,4 @@ function Tick(DeltaTime)
 end
 
 Game.roundStartEvent:Connect(OnRoundStart)
+Game.playerJoinedEvent:Connect(OnPlayerJoin)
