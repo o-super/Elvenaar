@@ -737,7 +737,6 @@ Objects {
       OutlineColor {
         A: 1
       }
-      OutlineSize: 2
     }
     AnchorLayout {
       SelfAnchor {

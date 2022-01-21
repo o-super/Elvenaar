@@ -2,7 +2,7 @@ Name: "Map"
 RootId: 14476493040834258042
 Objects {
   Id: 4512888583482864961
-  Name: "Spawn Point"
+  Name: "DefendSpawn"
   Transform {
     Location {
       X: -550
@@ -44,7 +44,7 @@ Objects {
 }
 Objects {
   Id: 15064772885316599253
-  Name: "Spawn Point"
+  Name: "AttackSpawn"
   Transform {
     Location {
       X: -550
