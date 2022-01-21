@@ -8,12 +8,20 @@
 local ABGS = require(script:GetCustomProperty("API"))
 local Timer = 0
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 
 print("Waiting for " .. MinimumPlayers .. " players to join...")
 
 function OnRoundStart()
-    print("New round starting... Todo: Respawn players to team location")
+    print("New round starting...")
+    spawnPlayers()
+end
+
+function spawnPlayers()
+    for _, player in pairs(Game.GetPlayers()) do
+        player:Despawn()
+        player:Spawn()
+    end
 end
 
 -- Check if all players have a team, return true or false
