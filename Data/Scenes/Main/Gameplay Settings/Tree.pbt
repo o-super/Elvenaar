@@ -1,6 +1,133 @@
 Name: "Gameplay Settings"
 RootId: 9086936746104183945
 Objects {
+  Id: 7887413003118682011
+  Name: "Lobby Required Players"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4494359131020210007
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Lobby Required Players"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:RequiredPlayers"
+          Int: 2
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16102508889787088317
+    }
+  }
+}
+Objects {
+  Id: 13451610188973200756
+  Name: "Game State Display"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11397727575064778677
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Game State Display"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:ShowDuringRoundEnd"
+          Bool: true
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11744264748846959994
+    }
+  }
+}
+Objects {
+  Id: 13824730207721179098
+  Name: "Basic Game State Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16086570097188718822
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Game State Manager"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:RoundHasDuration"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:RoundEndHasDuration"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:LobbyHasDuration"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4383426604898820202
+    }
+  }
+}
+Objects {
   Id: 5148258221727168075
   Name: "Team Autobalancer"
   Transform {
@@ -243,6 +370,41 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15063673039964173286
+  Name: "Team Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:teamsvs"
+      }
+    }
   }
 }
 Objects {
