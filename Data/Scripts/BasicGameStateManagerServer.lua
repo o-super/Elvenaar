@@ -43,6 +43,23 @@ if ROUND_END_DURATION < 0.0 then
     ROUND_END_DURATION = 0.0
 end
 
+-- nil SetGoalMessage(string)
+-- Set the current goal message. Passed to API
+function SetGoalMessage(message)
+	-- Broadcast basic game state event
+	--Events.BroadcastToAllPlayers("GameStateChanged", oldState, newState, stateHasDuration, stateEndTime)
+
+	-- Set replicator fields
+	script:SetNetworkedCustomProperty("GoalMessage", message)
+end
+
+-- string GetGoalMessage()
+-- Get the current goal message. Passed to API
+function GetGoalMessage()
+	print("Wee")
+	return script:GetCustomProperty("GoalMessage")
+end
+
 -- int GetGameState()
 -- Gets the current state. Passed to API
 function GetGameState()
@@ -139,4 +156,4 @@ end
 -- Initialize
 SetGameState(ABGS.GAME_STATE_LOBBY)
 
-ABGS.RegisterGameStateManagerServer(GetGameState, GetTimeRemainingInState, SetGameState, SetTimeRemainingInState)
+ABGS.RegisterGameStateManagerServer(GetGameState, GetTimeRemainingInState, SetGameState, SetTimeRemainingInState, SetGoalMessage, GetGoalMessage)

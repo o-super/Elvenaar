@@ -20,6 +20,7 @@ local ABGS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local STATE_NAME_TEXT = script:GetCustomProperty("StateNameText"):WaitForObject()
 local STATE_TIME_TEXT = script:GetCustomProperty("StateTimeText"):WaitForObject()
+local STATE_NAME_OBJECTIVE = script:GetCustomProperty("ObjectiveName"):WaitForObject()
 
 -- User exposed settings
 local SHOW_STATE_NAME = COMPONENT_ROOT:GetCustomProperty("ShowStateName")
@@ -34,7 +35,13 @@ function UpdateTimeRemaining(remainingTime)
         STATE_TIME_TEXT.visibility = Visibility.INHERIT
         local minutes = math.floor(remainingTime) // 60 % 60
         local seconds = math.floor(remainingTime) % 60
-        STATE_TIME_TEXT.text = string.format("%02d:%02d", minutes, seconds)
+        if minutes == 0 and seconds == 0 then
+            STATE_TIME_TEXT.text = "GO"
+        elseif minutes == 0 then
+            STATE_TIME_TEXT.text = string.format("%02d", seconds)
+        else
+            STATE_TIME_TEXT.text = string.format("%02d:%02d", minutes, seconds)
+        end
     end
 end
 
@@ -62,6 +69,8 @@ function Tick(deltaTime)
             STATE_NAME_TEXT.text = "End"
             UpdateTimeRemaining(remainingTime)
         end
+        -- Update Objective Name
+        STATE_NAME_OBJECTIVE.text = ABGS.GetGoalMessage()
     end
 end
 

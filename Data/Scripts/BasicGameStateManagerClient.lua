@@ -19,6 +19,12 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 local ABGS = require(script:GetCustomProperty("API"))
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 
+-- string GetGoalMessage()
+-- Get the current goal message. Passed to API
+function GetGoalMessage()
+	return SERVER_SCRIPT:GetCustomProperty("GoalMessage")
+end
+
 -- int GetGameState()
 -- Gets the current state. Passed to API
 function GetGameState()
@@ -37,4 +43,4 @@ function GetTimeRemainingInState()
 end
 
 -- Initialize
-ABGS.RegisterGameStateManagerClient(GetGameState, GetTimeRemainingInState)
+ABGS.RegisterGameStateManagerClient(GetGameState, GetTimeRemainingInState, GetGoalMessage)
