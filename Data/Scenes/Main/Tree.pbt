@@ -8942,7 +8942,6 @@ Objects {
     Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
-    TeamInt: 2
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
       Id: 841534158063459245
@@ -9200,7 +9199,6 @@ Objects {
     Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
-    TeamInt: 1
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
       Id: 841534158063459245

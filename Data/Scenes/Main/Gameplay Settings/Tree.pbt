@@ -1,6 +1,48 @@
 Name: "Gameplay Settings"
 RootId: 9086936746104183945
 Objects {
+  Id: 17843341347820030121
+  Name: "Basic Game State Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16086570097188718822
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Game State Manager"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:RoundHasDuration"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:RoundEndHasDuration"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4383426604898820202
+    }
+  }
+}
+Objects {
   Id: 14217688817982206037
   Name: "Static Player Equipment"
   Transform {
@@ -79,7 +121,7 @@ Objects {
         }
         Overrides {
           Name: "cs:Team"
-          Int: 1
+          Int: 2
         }
         Overrides {
           Name: "Position"
@@ -109,44 +151,6 @@ Objects {
     }
     TemplateAsset {
       Id: 660945891459954170
-    }
-  }
-}
-Objects {
-  Id: 7887413003118682011
-  Name: "Lobby Required Players"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4494359131020210007
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Lobby Required Players"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:RequiredPlayers"
-          Int: 2
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16102508889787088317
     }
   }
 }
@@ -190,52 +194,6 @@ Objects {
     }
     TemplateAsset {
       Id: 11744264748846959994
-    }
-  }
-}
-Objects {
-  Id: 13824730207721179098
-  Name: "Basic Game State Manager"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9086936746104183945
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16086570097188718822
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Basic Game State Manager"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:RoundHasDuration"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:RoundEndHasDuration"
-          Bool: false
-        }
-        Overrides {
-          Name: "cs:LobbyHasDuration"
-          Bool: false
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4383426604898820202
     }
   }
 }
