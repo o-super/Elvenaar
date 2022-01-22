@@ -328,4 +328,6 @@ Assets {
     }
   }
   SerializationVersion: 104
+  VirtualFolderPath: "2Frogs-CrossbowParticles"
+  VirtualFolderPath: "FireCrossbowParticles"
 }

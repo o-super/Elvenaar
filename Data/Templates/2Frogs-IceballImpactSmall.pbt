@@ -1,13 +1,13 @@
 Assets {
-  Id: 16017986732598959977
-  Name: "2Frogs-IceCrossbowWindSurfaceImpact"
+  Id: 9159635545190776678
+  Name: "2Frogs-IceballImpactSmall"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 10418910743879584761
+      RootId: 12771375585045237236
       Objects {
-        Id: 10418910743879584761
-        Name: "2Frogs-IceCrossbowWindSurfaceImpact"
+        Id: 12771375585045237236
+        Name: "2Frogs-IceballImpactSmall"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 7344067985109509592
+        ParentId: 11346856131111451494
+        ChildIds: 2460994853181292360
         UnregisteredParameters {
         }
-        Lifespan: 3
+        Lifespan: 2.5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -38,13 +38,12 @@ Assets {
         }
       }
       Objects {
-        Id: 7344067985109509592
+        Id: 2460994853181292360
         Name: "ClientContext"
         Transform {
           Location {
           }
           Rotation {
-            Pitch: 90
           }
           Scale {
             X: 1
@@ -52,20 +51,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10418910743879584761
-        ChildIds: 16738916302557976828
-        ChildIds: 9869544031904481066
+        ParentId: 12771375585045237236
+        ChildIds: 2802098637821803852
+        ChildIds: 12190013689211426353
+        ChildIds: 13450655500500290269
         UnregisteredParameters {
         }
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -74,8 +74,8 @@ Assets {
         }
       }
       Objects {
-        Id: 16738916302557976828
-        Name: "Magic Fire Attack Impact 01 SFX"
+        Id: 2802098637821803852
+        Name: "Magic Fireball Small Impact 01 SFX"
         Transform {
           Location {
           }
@@ -87,7 +87,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7344067985109509592
+        ParentId: 2460994853181292360
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -101,13 +101,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 207417246900206152
+            Id: 11737394181739799059
           }
           AutoPlay: true
-          Volume: 1
+          Volume: 0.8
           Falloff: 3600
-          Radius: 600
-          EnableOcclusion: true
+          Radius: 200
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -116,13 +115,12 @@ Assets {
         }
       }
       Objects {
-        Id: 9869544031904481066
-        Name: "Plasma Muzzleflash VFX"
+        Id: 12190013689211426353
+        Name: "Magic Fireball Whoosh Impact 01 SFX"
         Transform {
           Location {
           }
           Rotation {
-            Pitch: -180
           }
           Scale {
             X: 1
@@ -130,19 +128,68 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7344067985109509592
+        ParentId: 2460994853181292360
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 3470226793002511774
+          }
+          AutoPlay: true
+          Volume: 0.6
+          Falloff: 2500
+          Radius: 400
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 13450655500500290269
+        Name: "Impact Sparks VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2460994853181292360
         UnregisteredParameters {
           Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.0245032702
-              G: 0.74
-              A: 1
-            }
+            Name: "bp:Enable Flash"
+            Bool: true
           }
           Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Hotspot"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Spark Lines"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: true
           }
           Overrides {
             Name: "bp:Color"
@@ -165,7 +212,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 8577162694663814137
+            Id: 11887549032181544333
           }
           TeamSettings {
           }
@@ -182,21 +229,30 @@ Assets {
       }
     }
     Assets {
-      Id: 207417246900206152
-      Name: "Magic Fire Attack Impact 01 SFX"
+      Id: 11737394181739799059
+      Name: "Magic Fireball Small Impact 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_fire_attack_impact_01_Cue_ref"
+        AssetId: "sfx_magic_fireball_small_impact_01a_Cue_ref"
       }
     }
     Assets {
-      Id: 8577162694663814137
-      Name: "Plasma Muzzle Flash VFX"
+      Id: 3470226793002511774
+      Name: "Magic Fireball Whoosh Impact 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_magic_fireball_whoosh_impact_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 11887549032181544333
+      Name: "Impact Sparks VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_plasma_muzzleflash"
+        AssetId: "fxbp_impact_sparks"
       }
     }
     PrimaryAssetId {
@@ -205,6 +261,4 @@ Assets {
     }
   }
   SerializationVersion: 104
-  VirtualFolderPath: "2Frogs-CrossbowParticles"
-  VirtualFolderPath: "IceCrossbowParticles"
 }

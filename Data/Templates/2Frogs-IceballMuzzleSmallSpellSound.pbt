@@ -1,13 +1,13 @@
 Assets {
-  Id: 8682642656596597215
-  Name: "2Frogs-LightningGauntletRed"
+  Id: 16439204412453520729
+  Name: "2Frogs-IceballMuzzleSmallSpellSound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 10585008555547023758
+      RootId: 7396702750655873938
       Objects {
-        Id: 10585008555547023758
-        Name: "LightningGauntlet_Impact"
+        Id: 7396702750655873938
+        Name: "2Frogs-IceballMuzzleSmallSpellSound"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,12 @@ Assets {
             Z: 1
           }
         }
-        ChildIds: 12424914800722580292
-        ChildIds: 11818711161952622868
+        ParentId: 4781671109827199097
+        ChildIds: 3400595523953426757
         UnregisteredParameters {
         }
+        Lifespan: 3
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,74 +38,8 @@ Assets {
         }
       }
       Objects {
-        Id: 12424914800722580292
-        Name: "Plasma Impact VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-        ParentId: 10585008555547023758
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 0.6
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              G: 2
-              B: 3
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.76
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 15862839354445934362
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 11818711161952622868
-        Name: "Electric Zap 02 SFX"
+        Id: 3400595523953426757
+        Name: "ClientContext"
         Transform {
           Location {
           }
@@ -115,7 +51,41 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10585008555547023758
+        ParentId: 7396702750655873938
+        ChildIds: 608858738613001645
+        UnregisteredParameters {
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 608858738613001645
+        Name: "Magic Fireball Whoosh Attack 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3400595523953426757
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -129,12 +99,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 1936564360012768714
+            Id: 12396009455283163015
           }
+          AutoPlay: true
           Volume: 1
-          Falloff: 3600
-          Radius: 400
-          EnableOcclusion: true
+          Falloff: 2000
+          Radius: 600
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -144,21 +114,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15862839354445934362
-      Name: "Plasma Impact VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_plasma_impact"
-      }
-    }
-    Assets {
-      Id: 1936564360012768714
-      Name: "Electric Zap 02 SFX"
+      Id: 12396009455283163015
+      Name: "Magic Frost Ice Bolt Attack 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_electric_zap_02_ref"
+        AssetId: "sfx_magic_frost_ice_bolt_attack_02_Cue_ref"
       }
     }
     PrimaryAssetId {

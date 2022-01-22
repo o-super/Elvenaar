@@ -45,6 +45,12 @@ Objects {
             Id: 2258318585196481226
           }
         }
+        Overrides {
+          Name: "ImpactSurfaceId"
+          AssetReference {
+            Id: 9278282229974852456
+          }
+        }
       }
     }
     TemplateAsset {
