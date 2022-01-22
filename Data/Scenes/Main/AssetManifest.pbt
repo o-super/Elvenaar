@@ -17,6 +17,33 @@ Assets {
   }
 }
 Assets {
+  Id: 15275463334341845517
+  Name: "Katana Handle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_handle_001"
+  }
+}
+Assets {
+  Id: 11019742060840546363
+  Name: "Katana Blade"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_blade_001"
+  }
+}
+Assets {
+  Id: 8490697223434751385
+  Name: "Shield 06"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_shield_006"
+  }
+}
+Assets {
   Id: 6854294233855189574
   Name: "Snow 01"
   PlatformAssetType: 2
@@ -32,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_magic_circle_generator_fantasy"
+  }
+}
+Assets {
+  Id: 3642695097438974619
+  Name: "Katana Guard"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_guard_001"
   }
 }
 Assets {

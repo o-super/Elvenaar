@@ -103,6 +103,18 @@ Objects {
   ParentId: 14476493040834258042
   ChildIds: 11063965435356873231
   ChildIds: 4996709036979933660
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:team"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:spawner"
+      ObjectReference {
+        SelfId: 11063965435356873231
+      }
+    }
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

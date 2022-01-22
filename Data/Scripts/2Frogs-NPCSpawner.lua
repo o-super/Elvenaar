@@ -10,8 +10,3 @@ function spawnNPC()
     local rot = script:GetWorldRotation()
     local newNPC = World.SpawnAsset(NPC_TEMPLATE, {position = pos, rotation = rot})
 end
-
-
-for i = 0, 6 do
-    spawnNPC()
-end

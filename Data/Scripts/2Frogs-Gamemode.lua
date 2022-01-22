@@ -11,15 +11,35 @@ local ABGS = require(script:GetCustomProperty("API"))
 local lobbySpawn = World.FindObjectByName("LobbySpawn")
 local attackSpawns = World.FindObjectsByName("AttackSpawn")
 local defendSpawns = World.FindObjectsByName("DefendSpawn")
+local npcSpawners = World.FindObjectsByName("NPCSpawner")
+local attackNpcSpawner = {}
+local defendNpcSpawner = {}
+for _, spawner in pairs(npcSpawners) do
+    if spawner:GetCustomProperty("team") == TEAM_DEFEND then
+        table.insert(defendNpcSpawner, spawner:GetCustomProperty("spawner"):WaitForObject())
+    elseif spawner:GetCustomProperty("team") == TEAM_ATTACK then
+        table.insert(attackNpcSpawner, spawner:GetCustomProperty("spawner"):WaitForObject())
+    end
+end
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
-
-print("defense spawns: " .. tostring(defendSpawns[1]))
+local MinimumPlayers = 1
 
 function OnRoundStart()
     SetGoalMessage("")
-    spawnPlayers()
+    SpawnPlayers()
+    SpawnAttackerWave()
+end
+
+-- Spawn a basic wave of 6 npcs on all spawns
+function SpawnAttackerWave()
+    for i = 0, 6 do
+        for _, spawner in pairs(attackNpcSpawner) do            
+            Task.Wait(0.2)
+            -- Patafix : spawner.spawnNPC() does not work, using context instead
+            spawner.context["spawnNPC"]()
+        end
+    end
 end
 
 function SetGoalMessage(message)
@@ -69,7 +89,7 @@ function OnPlayerJoin(player)
     player:Spawn(spawnSettings)
 end
 
-function spawnPlayers()
+function SpawnPlayers()
     for _, player in pairs(Game.GetPlayers()) do
         player:Despawn()
         player:Spawn()
