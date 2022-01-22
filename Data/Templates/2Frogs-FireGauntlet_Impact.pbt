@@ -1,13 +1,13 @@
 Assets {
-  Id: 8682642656596597215
-  Name: "2Frogs-LightningGauntletRed"
+  Id: 9278282229974852456
+  Name: "2Frogs-FireGauntlet_Impact"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 10585008555547023758
       Objects {
         Id: 10585008555547023758
-        Name: "LightningGauntlet_Impact"
+        Name: "2Frogs-FireGauntlet_Impact"
         Transform {
           Scale {
             X: 1
@@ -70,7 +70,7 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.76
+              R: 0.86
               A: 1
             }
           }
@@ -167,4 +167,6 @@ Assets {
     }
   }
   SerializationVersion: 104
+  VirtualFolderPath: "2Frogs-GauntletParticles"
+  VirtualFolderPath: "FireGauntlet"
 }

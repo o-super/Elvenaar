@@ -28,6 +28,24 @@ Objects {
             Z: 150
           }
         }
+        Overrides {
+          Name: "MuzzleFlashId"
+          AssetReference {
+            Id: 16439204412453520729
+          }
+        }
+        Overrides {
+          Name: "ImpactProjectileId"
+          AssetReference {
+            Id: 9159635545190776678
+          }
+        }
+        Overrides {
+          Name: "ProjectileId"
+          AssetReference {
+            Id: 17099634478216039101
+          }
+        }
       }
     }
     TemplateAsset {

@@ -1,13 +1,13 @@
 Assets {
-  Id: 10116679038056248081
-  Name: "2Frogs-CrossbowIceImpact"
+  Id: 2568980856061291598
+  Name: "2Frogs-IceCrossbowMagicArrowProjectile"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 7843102895453594477
+      RootId: 3322289721393282508
       Objects {
-        Id: 7843102895453594477
-        Name: "2Frogs-CrossbowIceImpact"
+        Id: 3322289721393282508
+        Name: "2Frogs-IceCrossbowMagicArrowProjectile"
         Transform {
           Scale {
             X: 1
@@ -15,12 +15,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15778795352663330980
-        ChildIds: 17249082683310130964
+        ParentId: 5630200607851565516
+        ChildIds: 16880049548601861162
+        ChildIds: 17333182990995135265
+        ChildIds: 419058550902205305
         UnregisteredParameters {
         }
-        Lifespan: 3
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -38,264 +38,23 @@ Assets {
         }
       }
       Objects {
-        Id: 17249082683310130964
-        Name: "ClientContext"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: 90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7843102895453594477
-        ChildIds: 4055244783957294242
-        ChildIds: 1552168297800342266
-        ChildIds: 10438348641019152589
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        NetworkContext {
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 4055244783957294242
-        Name: "Magic Wind Blast Short 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 17249082683310130964
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 18391419457437296243
-          }
-          AutoPlay: true
-          Volume: 0.8
-          Falloff: 3600
-          Radius: 600
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 1552168297800342266
-        Name: "Cast Burst Ring VFX"
-        Transform {
-          Location {
-            X: -2.33650208e-05
-            Z: -4.99999857
-          }
-          Rotation {
-            Yaw: -179.999985
-            Roll: -179.999954
-          }
-          Scale {
-            X: 0.17
-            Y: 0.17
-            Z: 0.17
-          }
-        }
-        ParentId: 17249082683310130964
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Appearance"
-            Enum {
-              Value: "mc:ecastringappearance:newenumerator0"
-            }
-          }
-          Overrides {
-            Name: "bp:U Tiles"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Count"
-            Int: 2
-          }
-          Overrides {
-            Name: "bp:Rotation Speed Min"
-            Vector {
-              Z: 90
-            }
-          }
-          Overrides {
-            Name: "bp:Rotation Speed Max"
-            Vector {
-              Z: -90
-            }
-          }
-          Overrides {
-            Name: "bp:Life Min"
-            Float: 0.35
-          }
-          Overrides {
-            Name: "bp:Life Max"
-            Float: 0.6
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.457284689
-              G: 1
-              B: 0.45
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Edge Color"
-            Color {
-              R: 0.230000019
-              G: 0.923510075
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 15
-          }
-          Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 1
-              Y: 1
-              Z: 2
-            }
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.230000019
-              G: 0.923510075
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 2668490165851605550
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 10438348641019152589
-        Name: "CrossbowMagicArrow"
-        Transform {
-          Location {
-            X: -9.32533893e-15
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 0.2
-          }
-        }
-        ParentId: 17249082683310130964
-        ChildIds: 11126579282538650009
-        ChildIds: 4502796662703613038
-        ChildIds: 10875264596460170388
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 11126579282538650009
+        Id: 16880049548601861162
         Name: "Cone"
         Transform {
           Location {
-            X: 65
-            Y: -1.29544067
+            X: 12.6046143
+            Y: -0.194335938
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 1
+            X: 0.0400000028
+            Y: 0.0400000028
+            Z: 0.2
           }
         }
-        ParentId: 10438348641019152589
+        ParentId: 3322289721393282508
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -320,7 +79,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -342,23 +101,23 @@ Assets {
         }
       }
       Objects {
-        Id: 4502796662703613038
+        Id: 17333182990995135265
         Name: "Cylinder"
         Transform {
           Location {
-            X: -47.0927124
-            Z: -1.52587891e-05
+            X: -23.4024353
+            Y: 0.0647583
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 0.1
-            Y: 0.1
-            Z: 2.39999962
+            X: 0.0200000014
+            Y: 0.0200000014
+            Z: 0.762546837
           }
         }
-        ParentId: 10438348641019152589
+        ParentId: 3322289721393282508
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -383,7 +142,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -405,25 +164,26 @@ Assets {
         }
       }
       Objects {
-        Id: 10875264596460170388
+        Id: 419058550902205305
         Name: "Feathers"
         Transform {
           Location {
-            X: -155
+            X: -60.9932861
+            Y: 0.0647583
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.2
+            Y: 0.2
+            Z: 0.2
           }
         }
-        ParentId: 10438348641019152589
-        ChildIds: 4904802446154104367
-        ChildIds: 3495876036914324278
-        ChildIds: 9752662216065026586
-        ChildIds: 343047602239207351
+        ParentId: 3322289721393282508
+        ChildIds: 9862908288238682577
+        ChildIds: 2379952705154442241
+        ChildIds: 15937479181452788041
+        ChildIds: 4029476500078745745
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -443,7 +203,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4904802446154104367
+        Id: 9862908288238682577
         Name: "Feather"
         Transform {
           Location {
@@ -456,9 +216,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10875264596460170388
-        ChildIds: 9876857535760841188
-        ChildIds: 622751361279089209
+        ParentId: 419058550902205305
+        ChildIds: 6803995959825042152
+        ChildIds: 4803598358784107676
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -472,14 +232,13 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Feather_3"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 9876857535760841188
+        Id: 6803995959825042152
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -496,7 +255,7 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 4904802446154104367
+        ParentId: 9862908288238682577
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -521,7 +280,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -543,7 +302,7 @@ Assets {
         }
       }
       Objects {
-        Id: 622751361279089209
+        Id: 4803598358784107676
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -560,7 +319,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 4904802446154104367
+        ParentId: 9862908288238682577
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -585,7 +344,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -607,7 +366,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3495876036914324278
+        Id: 2379952705154442241
         Name: "Feather"
         Transform {
           Location {
@@ -621,9 +380,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10875264596460170388
-        ChildIds: 3671410655760930589
-        ChildIds: 3958794505010168415
+        ParentId: 419058550902205305
+        ChildIds: 7143443836072323184
+        ChildIds: 5466550614153038027
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -637,14 +396,13 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Feather_2"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 3671410655760930589
+        Id: 7143443836072323184
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -661,7 +419,7 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 3495876036914324278
+        ParentId: 2379952705154442241
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -686,7 +444,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -708,7 +466,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3958794505010168415
+        Id: 5466550614153038027
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -725,7 +483,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 3495876036914324278
+        ParentId: 2379952705154442241
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -750,7 +508,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -772,7 +530,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9752662216065026586
+        Id: 15937479181452788041
         Name: "Feather"
         Transform {
           Location {
@@ -786,9 +544,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10875264596460170388
-        ChildIds: 8643516432532313774
-        ChildIds: 8202530091261729324
+        ParentId: 419058550902205305
+        ChildIds: 2675704020126404693
+        ChildIds: 11858001592501186957
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -802,14 +560,13 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Feather_1"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 8643516432532313774
+        Id: 2675704020126404693
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -826,7 +583,7 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 9752662216065026586
+        ParentId: 15937479181452788041
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -851,7 +608,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -873,7 +630,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8202530091261729324
+        Id: 11858001592501186957
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -890,7 +647,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 9752662216065026586
+        ParentId: 15937479181452788041
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -915,7 +672,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -937,7 +694,7 @@ Assets {
         }
       }
       Objects {
-        Id: 343047602239207351
+        Id: 4029476500078745745
         Name: "Feather"
         Transform {
           Location {
@@ -951,9 +708,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10875264596460170388
-        ChildIds: 9083726266396412468
-        ChildIds: 4965993493604935318
+        ParentId: 419058550902205305
+        ChildIds: 7690316443339147895
+        ChildIds: 5661891933932831437
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -967,14 +724,13 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Feather"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 9083726266396412468
+        Id: 7690316443339147895
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -991,7 +747,7 @@ Assets {
             Z: 0.2
           }
         }
-        ParentId: 343047602239207351
+        ParentId: 4029476500078745745
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1016,7 +772,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -1038,7 +794,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4965993493604935318
+        Id: 5661891933932831437
         Name: "Curved Wedge"
         Transform {
           Location {
@@ -1055,7 +811,7 @@ Assets {
             Z: 0.1
           }
         }
-        ParentId: 343047602239207351
+        ParentId: 4029476500078745745
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1080,7 +836,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -1100,24 +856,6 @@ Assets {
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
-      }
-    }
-    Assets {
-      Id: 18391419457437296243
-      Name: "Magic Wind Blast Short 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_wind_blast_short_01a_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 2668490165851605550
-      Name: "Cast Burst Ring VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_cast_circle_generic"
       }
     }
     Assets {

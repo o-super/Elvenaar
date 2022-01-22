@@ -34,6 +34,30 @@ Objects {
             Id: 12175959584676642170
           }
         }
+        Overrides {
+          Name: "MuzzleFlashId"
+          AssetReference {
+            Id: 18208158386342387800
+          }
+        }
+        Overrides {
+          Name: "TrailId"
+          AssetReference {
+            Id: 4423854089896083055
+          }
+        }
+        Overrides {
+          Name: "ImpactSurfaceId"
+          AssetReference {
+            Id: 13773744946106957920
+          }
+        }
+        Overrides {
+          Name: "ProjectileId"
+          AssetReference {
+            Id: 5028845113697327521
+          }
+        }
       }
     }
     TemplateAsset {
@@ -73,6 +97,30 @@ Objects {
           Name: "ImpactProjectileId"
           AssetReference {
             Id: 10116679038056248081
+          }
+        }
+        Overrides {
+          Name: "MuzzleFlashId"
+          AssetReference {
+            Id: 13011748029717090221
+          }
+        }
+        Overrides {
+          Name: "TrailId"
+          AssetReference {
+            Id: 15548317603943964587
+          }
+        }
+        Overrides {
+          Name: "ImpactSurfaceId"
+          AssetReference {
+            Id: 16017986732598959977
+          }
+        }
+        Overrides {
+          Name: "ProjectileId"
+          AssetReference {
+            Id: 2568980856061291598
           }
         }
       }
