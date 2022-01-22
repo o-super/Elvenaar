@@ -7,7 +7,7 @@ Assets {
       RootId: 7824962716784656785
       Objects {
         Id: 7824962716784656785
-        Name: "Fire Staff"
+        Name: "2Frogs-FireStaff"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4241782856893667671
+        ParentId: 4781671109827199097
         ChildIds: 9831154470990534055
         ChildIds: 1353001287903686124
         ChildIds: 2994539897947284113
@@ -1330,7 +1330,6 @@ Assets {
           }
         }
         ParentId: 17642430807970045579
-        ChildIds: 16565593966050639493
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1370,41 +1369,6 @@ Assets {
             Physics {
             }
             BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 16565593966050639493
-        Name: "EquipmentTeamColor"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 6.27000666
-            Y: 6.27000666
-            Z: 6.27000666
-          }
-        }
-        ParentId: 16379030111784807730
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 15438218715691669456
           }
         }
         NetworkRelevanceDistance {
