@@ -308,6 +308,156 @@ Objects {
   }
 }
 Objects {
+  Id: 5269821451962453728
+  Name: "2Frogs - Relic Objective"
+  Transform {
+    Location {
+      X: 1950
+      Y: -650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2
+    }
+  }
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2420317408083004382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs - Relic Objective"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -250
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 282887732358444069
+    }
+  }
+}
+Objects {
+  Id: 11486445631107578819
+  Name: "2Frogs - Relic Objective"
+  Transform {
+    Location {
+      X: 250
+      Y: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2
+    }
+  }
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2420317408083004382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs - Relic Objective"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50
+            Y: -300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 282887732358444069
+    }
+  }
+}
+Objects {
+  Id: 5334098467214620572
+  Name: "2Frogs - Relic Objective"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2420317408083004382
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs - Relic Objective"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 250
+            Y: -100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 282887732358444069
+    }
+  }
+}
+Objects {
   Id: 17733886931906502818
   Name: "2Frogs - Relic Objective"
   Transform {
@@ -326,6 +476,12 @@ Objects {
         Overrides {
           Name: "Name"
           String: "2Frogs - Relic Objective"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 200
+          }
         }
       }
     }

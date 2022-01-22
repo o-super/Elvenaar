@@ -7,7 +7,7 @@ Assets {
       RootId: 2420317408083004382
       Objects {
         Id: 2420317408083004382
-        Name: "Relic Objective"
+        Name: "2Frogs - Relic Objective"
         Transform {
           Scale {
             X: 2
@@ -90,10 +90,10 @@ Assets {
             StartingHitpoints: 1000
             DestroyOnDeath: true
             DestroyOnDeathClientTemplateId {
-              Id: 4237152654866106812
+              Id: 841534158063459245
             }
             DestroyOnDeathNetworkedTemplateId {
-              Id: 841534158063459245
+              Id: 4237152654866106812
             }
           }
         }

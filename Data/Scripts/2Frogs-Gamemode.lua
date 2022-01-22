@@ -24,24 +24,65 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 3
 local TimeBetweenWaves = 45
 local LastWaveFinishedSpawning = false
+local RoundRunning = false
+local RoundNb = 0
 
 function OnRoundStart()
+    print("Round started")
+    RoundNb = RoundNb + 1
+    RoundRunning = true
     SetGoalMessage("")
     SpawnPlayers(false)
+    local SeqAtRoundNb = RoundNb
     for i = CurrentWaveNb, MaxNBWaveAttacking do
         SpawnAttackerWave()
         Task.Wait(TimeBetweenWaves)
+        -- Security : We make sure that the previous spawn sequence stops
+        -- to avoid spawns from previous round to continue during the new one
+        if RoundRunning == false or SeqAtRoundNb ~= RoundNb then
+            print("Round cycle stopped2")
+            return
+        end
     end
 end
 
 function OnRoundEnd()
-    Task.Wait(3)
+    print("Round off")
+    RoundRunning = false
+    CountDownActive = false
+    Task.Wait(3)    
+    KillAllNPCs()
+    CurrentWaveNb = 1
+    ResetObjectives()
     ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
     SpawnPlayers(true)
+end
+
+function ResetObjectives()
+    local objectives = World.FindObjectsByName("2Frogs - Relic Objective")
+    for _, obj in pairs(objectives) do
+        -- get pos / rot / scale
+        local pos = obj:GetWorldPosition()
+        local rot = obj:GetWorldRotation()
+        local scale = obj:GetWorldScale()
+        local templateId = obj.sourceTemplateId
+        -- destroy obj
+        obj:Destroy()        
+        -- spawn new
+        World.SpawnAsset(templateId, {position = pos, rotation = rot, scale = scale})
+    end
+end
+
+-- Kill all NPCs from both teams
+function KillAllNPCs()
+    local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed")
+    for _, npc in pairs(npcs) do
+        npc:Destroy()
+    end
 end
 
 -- Spawn a basic wave of 6 npcs on all spawns

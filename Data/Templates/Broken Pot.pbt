@@ -7,7 +7,7 @@ Assets {
       RootId: 11332160414242294572
       Objects {
         Id: 11332160414242294572
-        Name: "Fantasy Clay Pot 01 Damaged 02"
+        Name: "Broken Pot"
         Transform {
           Scale {
             X: 2
@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
