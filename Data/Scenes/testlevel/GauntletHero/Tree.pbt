@@ -49,7 +49,7 @@ Objects {
         Id: 16742564257062277966
       }
       ImpactAssetRef {
-        Id: 16557616049571294279
+        Id: 8682642656596597215
       }
       Muzzle {
         Location {
