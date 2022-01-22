@@ -21,12 +21,12 @@ for _, spawner in pairs(npcSpawners) do
         table.insert(attackNpcSpawner, spawner:GetCustomProperty("spawner"):WaitForObject())
     end
 end
+local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
-local MaxNBWaveAttacking = 1
-local CurrentWaveNb = 1
-local TimeBetweenWaves = 60
+local MinimumPlayers = 2
+local MaxNBWaveAttacking = 3
+local TimeBetweenWaves = 45
 local LastWaveFinishedSpawning = false
 
 function OnRoundStart()
