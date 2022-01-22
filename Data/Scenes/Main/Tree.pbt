@@ -24,6 +24,9 @@ Objects {
   ChildIds: 3350673055041674239
   ChildIds: 12272679567399242941
   ChildIds: 13329861089451284783
+  ChildIds: 8961581740205408162
+  ChildIds: 329559483219998963
+  ChildIds: 2156468067957670037
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +42,111 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2156468067957670037
+  Name: "2Frogs - Advanced 2-Handed Sword"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5442477862039634599
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs - Advanced 2-Handed Sword"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3901
+            Y: 252
+            Z: 3283
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6805203662627609587
+    }
+  }
+}
+Objects {
+  Id: 329559483219998963
+  Name: "2Frogs-FireHammer"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17625387956018399407
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-FireHammer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3575
+            Y: 80
+            Z: 3219
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14782523183219764078
+    }
+  }
+}
+Objects {
+  Id: 8961581740205408162
+  Name: "2Frogs-FireStaff"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7824962716784656785
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-FireStaff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3352
+            Y: 309
+            Z: 3366
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7864648436159920345
+    }
   }
 }
 Objects {
