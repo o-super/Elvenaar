@@ -28,6 +28,12 @@ Objects {
             Z: 50
           }
         }
+        Overrides {
+          Name: "ImpactProjectileId"
+          AssetReference {
+            Id: 12175959584676642170
+          }
+        }
       }
     }
     TemplateAsset {
@@ -61,6 +67,12 @@ Objects {
             X: -5500
             Y: -1600
             Z: 50
+          }
+        }
+        Overrides {
+          Name: "ImpactProjectileId"
+          AssetReference {
+            Id: 10116679038056248081
           }
         }
       }
