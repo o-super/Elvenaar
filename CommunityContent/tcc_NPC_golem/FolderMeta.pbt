@@ -1,0 +1,87 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "de445bec81884fbab4e8818d10fb33bb"
+  OwnerAccountId: "2dea7792e18149188138102f069fda2a"
+  OwnerName: "KDAWafi"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 162151367198570398
+  value: 4246238555556433819
+}
+AssetIdsOriginalToNew {
+  key: 1116760160694603255
+  value: 390947521989093356
+}
+AssetIdsOriginalToNew {
+  key: 1883778736238546551
+  value: 3036408583126240858
+}
+AssetIdsOriginalToNew {
+  key: 2003752736780784297
+  value: 6395276360623182239
+}
+AssetIdsOriginalToNew {
+  key: 2038077216541919415
+  value: 10417858319489785359
+}
+AssetIdsOriginalToNew {
+  key: 5735974621602057589
+  value: 9418542738461051086
+}
+AssetIdsOriginalToNew {
+  key: 5927220524009298293
+  value: 15443681303924139998
+}
+AssetIdsOriginalToNew {
+  key: 7577485333701035703
+  value: 14824765473985965579
+}
+AssetIdsOriginalToNew {
+  key: 9770511928359673738
+  value: 14238388358946919377
+}
+AssetIdsOriginalToNew {
+  key: 11834432829939941397
+  value: 5274446383964284046
+}
+AssetIdsOriginalToNew {
+  key: 12527124715810253259
+  value: 18253792444702242392
+}
+AssetIdsOriginalToNew {
+  key: 13645484765276120961
+  value: 16842047434421835203
+}
+AssetIdsOriginalToNew {
+  key: 14084924065427283392
+  value: 14151671287995518770
+}
+AssetIdsOriginalToNew {
+  key: 14373757464648078715
+  value: 11340497847009215838
+}
+AssetIdsOriginalToNew {
+  key: 15636749404113921442
+  value: 480636448618470618
+}
+AssetIdsOriginalToNew {
+  key: 16318927357437431690
+  value: 17714812520442897049
+}
+AssetIdsOriginalToNew {
+  key: 16660356295141481842
+  value: 190481778123679792
+}
+AssetIdsOriginalToNew {
+  key: 17367449922255341506
+  value: 7116060194743025120
+}
+AssetIdsOriginalToNew {
+  key: 17876034834621974685
+  value: 14261620914961186044
+}
+AssetIdsOriginalToNew {
+  key: 18347368943070787697
+  value: 799152945786884900
+}
