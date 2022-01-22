@@ -11,7 +11,7 @@ local ABGS = require(script:GetCustomProperty("API"))
 local lobbySpawn = World.FindObjectByName("LobbySpawn")
 local attackSpawns = World.FindObjectsByName("AttackSpawn")
 local defendSpawns = World.FindObjectsByName("DefendSpawn")
-local npcSpawners = World.FindObjectsByName("NPCSpawner")
+local npcSpawners = World.FindObjectsByName("2Frogs-NPCSpawner")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -24,16 +24,24 @@ end
 local CountDownActive = false
 local RoundStartCoutdown = 10
 local MinimumPlayers = 1
+local MaxNBWaveAttacking = 10
+local CurrentWaveNb = 1
+local TimeBetweenWaves = 60
 
 function OnRoundStart()
     SetGoalMessage("")
     SpawnPlayers()
-    SpawnAttackerWave()
+    for i = CurrentWaveNb, MaxNBWaveAttacking do
+        SpawnAttackerWave()
+        Task.Wait(TimeBetweenWaves)
+    end
 end
 
 -- Spawn a basic wave of 6 npcs on all spawns
 function SpawnAttackerWave()
-    for i = 0, 6 do
+    SetGoalMessage("Spawning wave " .. CurrentWaveNb)
+    CurrentWaveNb = CurrentWaveNb + 1    
+    for i = 1, 8 do
         for _, spawner in pairs(attackNpcSpawner) do            
             Task.Wait(0.2)
             -- Patafix : spawner.spawnNPC() does not work, using context instead

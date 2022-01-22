@@ -85,12 +85,11 @@ Objects {
   }
 }
 Objects {
-  Id: 4782939636881890216
-  Name: "NPCSpawner"
+  Id: 12931828534605315854
+  Name: "2Frogs-NPCSpawner"
   Transform {
     Location {
-      X: -850
-      Y: -2450
+      X: -4000
     }
     Rotation {
     }
@@ -101,1542 +100,47 @@ Objects {
     }
   }
   ParentId: 14476493040834258042
-  ChildIds: 11063965435356873231
-  ChildIds: 4996709036979933660
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:team"
-      Int: 2
-    }
-    Overrides {
-      Name: "cs:spawner"
-      ObjectReference {
-        SelfId: 11063965435356873231
-      }
-    }
-  }
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16631134881011033056
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-NPCSpawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4000
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1762830272943559455
+    }
   }
 }
 Objects {
-  Id: 4996709036979933660
-  Name: "Magic Circle Trap"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4782939636881890216
-  ChildIds: 12653460642955428844
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 4996709036979933660
-    SubobjectId: 11214313205369707867
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12653460642955428844
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4996709036979933660
-  ChildIds: 5932667837021220298
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 12653460642955428844
-    SubobjectId: 8173120168392281963
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5932667837021220298
-  Name: "MCG: Fantasy - Frame"
-  Transform {
-    Location {
-      Z: 5.60092163
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3.30000019
-      Y: 3.30000019
-      Z: 3.30000019
-    }
-  }
-  ParentId: 12653460642955428844
-  ChildIds: 12644213377991578771
-  ChildIds: 422408872536485526
-  ChildIds: 816808483793643030
-  ChildIds: 12984410275202711266
-  ChildIds: 18365629246515790333
-  ChildIds: 17859949148638499368
-  ChildIds: 17421770731023532426
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Element A Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 12
-    }
-    Overrides {
-      Name: "bp:Element Type"
-      Enum {
-        Value: "mc:emcshapes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Center Element Pivot"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Circle Thickness"
-      Float: 8.30162811
-    }
-    Overrides {
-      Name: "bp:Bottom Color"
-      Color {
-        R: 0.87
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions U"
-      Float: 4
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 11.0013733
-    }
-    Overrides {
-      Name: "bp:Use Element Local Orientation"
-      Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 4204935042848427516
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 5932667837021220298
-    SubobjectId: 10134172162813862221
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17421770731023532426
-  Name: "Binding Chains VFX"
-  Transform {
-    Location {
-      Z: 31.0096054
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.909090877
-      Y: 0.909090877
-      Z: 0.303030252
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.820000052
-        G: 0.0651655793
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 19.7541771
-    }
-    Overrides {
-      Name: "bp:Hold Duration"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Chain Count"
-      Int: 6
-    }
-    Overrides {
-      Name: "bp:Manual Animation"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Randomize Times"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Fade Value"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Animation Value"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Loop"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6944913226793731875
-    }
-    TeamSettings {
-    }
-    Vfx {
-    }
-  }
-  InstanceHistory {
-    SelfId: 17421770731023532426
-    SubobjectId: 3400303722730900749
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17859949148638499368
-  Name: "MCG: All - Inner Glyph 2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.106687203
-      Y: 0.106687203
-      Z: 0.106687203
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Count"
-      Int: 12
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 210.326767
-    }
-    Overrides {
-      Name: "bp:Fade Axis"
-      Enum {
-        Value: "mc:emcfadeaxisxy:29"
-      }
-    }
-    Overrides {
-      Name: "bp:Fade Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Fade Softness"
-      Float: 0.148363069
-    }
-    Overrides {
-      Name: "bp:Fade Point Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Fade Style"
-      Enum {
-        Value: "mc:emcfadestyle:30"
-      }
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 2
-    }
-    Overrides {
-      Name: "bp:Scale"
-      Float: 1.0931828
-    }
-    Overrides {
-      Name: "bp:Keystone"
-      Float: 0.586821854
-    }
-    Overrides {
-      Name: "bp:Width"
-      Float: 1.39297068
-    }
-    Overrides {
-      Name: "bp:Height"
-      Float: 1.65597737
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 25.0313187
-    }
-    Overrides {
-      Name: "bp:Rotation Speed"
-      Float: 0.597990751
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Speed"
-      Float: 32.2770081
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14388349938129413296
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 17859949148638499368
-    SubobjectId: 2967193804652125871
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 18365629246515790333
-  Name: "MCG: All - Inner_Glyph"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.303030252
-      Y: 0.303030252
-      Z: 0.303030252
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Count"
-      Int: 12
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 210.326767
-    }
-    Overrides {
-      Name: "bp:Fade Axis"
-      Enum {
-        Value: "mc:emcfadeaxisxy:29"
-      }
-    }
-    Overrides {
-      Name: "bp:Fade Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Fade Softness"
-      Float: 0.148363069
-    }
-    Overrides {
-      Name: "bp:Fade Point Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Fade Style"
-      Enum {
-        Value: "mc:emcfadestyle:30"
-      }
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 3
-    }
-    Overrides {
-      Name: "bp:Scale"
-      Float: 1.0931828
-    }
-    Overrides {
-      Name: "bp:Keystone"
-      Float: 0.586821854
-    }
-    Overrides {
-      Name: "bp:Width"
-      Float: 1.39297068
-    }
-    Overrides {
-      Name: "bp:Height"
-      Float: 1.65597737
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 25.0313187
-    }
-    Overrides {
-      Name: "bp:Rotation Speed"
-      Float: 0.178063989
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Speed"
-      Float: 32.2770081
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14388349938129413296
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 18365629246515790333
-    SubobjectId: 2317397133038030202
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12984410275202711266
-  Name: "MCG: All - Chain_Outer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.07769573
-      Y: 1.07769573
-      Z: 1.07769573
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Information"
-      String: "See tool-tip for information. "
-    }
-    Overrides {
-      Name: "bp:Element Type"
-      Enum {
-        Value: "mc:emcshapes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Top Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Middle Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Bottom Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Color Offset Top"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Color Offset Middle"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Color Offset Bottom"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 11.0013733
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions U"
-      Float: 24
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions V"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Width"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Height"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Scale"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation Axis"
-      Enum {
-        Value: "mc:emcrotationaxis:2"
-      }
-    }
-    Overrides {
-      Name: "bp:Offset Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Width +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Height +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Distance +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Random Seed Value"
-      Int: 0
-    }
-    Overrides {
-      Name: "bp:Circle Thickness"
-      Float: 1.70327377
-    }
-    Overrides {
-      Name: "bp:Fade Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Fade Softness"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Initial Start Delay"
-      Float: 0.548059881
-    }
-    Overrides {
-      Name: "bp:Rotation Speed"
-      Float: -0.0485453
-    }
-    Overrides {
-      Name: "bp:Fade Axis"
-      Enum {
-        Value: "mc:emcfadeaxisxy:29"
-      }
-    }
-    Overrides {
-      Name: "bp:Fade Point Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Fade Style"
-      Enum {
-        Value: "mc:emcfadestyle:30"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 10
-    }
-    Overrides {
-      Name: "bp:Element B Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element B Shape"
-      Int: 14
-    }
-    Overrides {
-      Name: "bp:Dual Texture"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Alternate Blend"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element Blend"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Alpha Blending"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Flip U"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Flip V"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Element B Repetitions U"
-      Float: 24
-    }
-    Overrides {
-      Name: "bp:Element B Repetitions V"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Scroll Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Rotation Speed B"
-      Float: -0.0485453
-    }
-    Overrides {
-      Name: "bp:Scroll Speed B"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element A Offset U"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element A Offset V"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element B Offset U"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element B Offset V"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Outline"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Outline Thickness"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "bp:Sort Priority"
-      Int: -10
-    }
-    Overrides {
-      Name: "bp:Shape Thickness"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Keystone"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Keystone Top"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Axis"
-      Vector {
-        Z: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Element Rotation Update Rate"
-      Float: 30
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Update Rate"
-      Float: 30
-    }
-    Overrides {
-      Name: "bp:Element Rotation Animation Axis"
-      Vector {
-        Z: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Use Element Local Orientation"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Center Element Pivot"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Play"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Stop"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Duration End"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Stop Texture Animation On Stop"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element B Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14388349938129413296
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 12984410275202711266
-    SubobjectId: 7694182592153088613
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 816808483793643030
-  Name: "MCG: All - Chain_Inner"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.818181694
-      Y: 0.818181694
-      Z: 0.818181694
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Information"
-      String: "See tool-tip for information. "
-    }
-    Overrides {
-      Name: "bp:Element Type"
-      Enum {
-        Value: "mc:emcshapes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Top Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Middle Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Bottom Color"
-      Color {
-        G: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Color Offset Top"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Color Offset Middle"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Color Offset Bottom"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 10
-    }
-    Overrides {
-      Name: "bp:Border Edge Fade"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions U"
-      Float: 15
-    }
-    Overrides {
-      Name: "bp:Element A Repetitions V"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Width"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Height"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Scale"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation Axis"
-      Enum {
-        Value: "mc:emcrotationaxis:2"
-      }
-    }
-    Overrides {
-      Name: "bp:Offset Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Width +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Height +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Distance +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation +/-"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Random Seed Value"
-      Int: 0
-    }
-    Overrides {
-      Name: "bp:Circle Thickness"
-      Float: 3.08011627
-    }
-    Overrides {
-      Name: "bp:Fade Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Fade Softness"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Initial Start Delay"
-      Float: 1.35449791
-    }
-    Overrides {
-      Name: "bp:Rotation Speed"
-      Float: 0.097006917
-    }
-    Overrides {
-      Name: "bp:Fade Axis"
-      Enum {
-        Value: "mc:emcfadeaxisxy:29"
-      }
-    }
-    Overrides {
-      Name: "bp:Fade Point Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Fade Style"
-      Enum {
-        Value: "mc:emcfadestyle:30"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 10
-    }
-    Overrides {
-      Name: "bp:Element B Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator2"
-      }
-    }
-    Overrides {
-      Name: "bp:Element B Shape"
-      Int: 14
-    }
-    Overrides {
-      Name: "bp:Dual Texture"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Alternate Blend"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element Blend"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Alpha Blending"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Flip U"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Flip V"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Element B Repetitions U"
-      Float: 15
-    }
-    Overrides {
-      Name: "bp:Element B Repetitions V"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Scroll Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Rotation Speed B"
-      Float: 0.22289
-    }
-    Overrides {
-      Name: "bp:Scroll Speed B"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element A Offset U"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element A Offset V"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element B Offset U"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element B Offset V"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Outline"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Outline Thickness"
-      Float: 0.25
-    }
-    Overrides {
-      Name: "bp:Sort Priority"
-      Int: -10
-    }
-    Overrides {
-      Name: "bp:Shape Thickness"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Keystone"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Keystone Top"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Coloring Method"
-      Enum {
-        Value: "mc:emccoloringmethod:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Axis"
-      Vector {
-        Z: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Element Rotation Speed"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Element Rotation Update Rate"
-      Float: 30
-    }
-    Overrides {
-      Name: "bp:Circle Rotation Update Rate"
-      Float: 30
-    }
-    Overrides {
-      Name: "bp:Element Rotation Animation Axis"
-      Vector {
-        Z: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Use Element Local Orientation"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Center Element Pivot"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Play"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Stop"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Reset On Duration End"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Stop Texture Animation On Stop"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element B Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14388349938129413296
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 816808483793643030
-    SubobjectId: 15394214924908456593
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 422408872536485526
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.303030252
-      Y: 0.303030252
-      Z: 0.303030252
-    }
-  }
-  ParentId: 5932667837021220298
-  Lifespan: 1
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 8224839933062359962
-    }
-    TeamSettings {
-    }
-    Vfx {
-    }
-  }
-  InstanceHistory {
-    SelfId: 422408872536485526
-    SubobjectId: 15792554568654938641
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12644213377991578771
-  Name: "MCG: All - Skulls"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.303030223
-      Y: 0.303030223
-      Z: 0.303030223
-    }
-  }
-  ParentId: 5932667837021220298
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Element A Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:3"
-      }
-    }
-    Overrides {
-      Name: "bp:Element A Shape"
-      Int: 6
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 4
-    }
-    Overrides {
-      Name: "bp:Distance"
-      Float: 235.896744
-    }
-    Overrides {
-      Name: "bp:Scale"
-      Float: 0.488154918
-    }
-    Overrides {
-      Name: "bp:Element Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Center Element Pivot"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Emissive"
-      Float: 20
-    }
-    Overrides {
-      Name: "bp:Dual Texture"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Element B Theme"
-      Enum {
-        Value: "mc:emagiccirclealltypes:newenumerator1"
-      }
-    }
-    Overrides {
-      Name: "bp:Element Blend"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Element B Shape"
-      Int: 3
-    }
-    Overrides {
-      Name: "bp:Element B Set"
-      Enum {
-        Value: "mc:emagiccircleselementtype:newenumerator0"
-      }
-    }
-    Overrides {
-      Name: "bp:Alternate Blend"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Middle Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Bottom Color"
-      Color {
-        R: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14388349938129413296
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 12644213377991578771
-    SubobjectId: 8182929505783568404
-    InstanceId: 9594017990139371028
-    TemplateId: 7938464573116288463
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11063965435356873231
+  Id: 1338804601277808158
   Name: "2Frogs-NPCSpawner"
   Transform {
     Location {
+      Y: 4000
     }
     Rotation {
     }
@@ -1646,35 +150,124 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4782939636881890216
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:npc1"
-      AssetReference {
-        Id: 9262416444177668205
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16631134881011033056
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-NPCSpawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4000
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16543228216973460303
+    TemplateAsset {
+      Id: 1762830272943559455
     }
   }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+}
+Objects {
+  Id: 10832255096588484102
+  Name: "2Frogs-NPCSpawner"
+  Transform {
+    Location {
+      Y: -4000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16631134881011033056
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-NPCSpawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 4000
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1762830272943559455
+    }
+  }
+}
+Objects {
+  Id: 4341039344227566413
+  Name: "2Frogs-NPCSpawner"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14476493040834258042
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16631134881011033056
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-NPCSpawner"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -4000
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1762830272943559455
+    }
   }
 }
 Objects {
