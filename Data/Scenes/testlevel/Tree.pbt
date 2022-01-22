@@ -46,7 +46,7 @@ Objects {
 }
 Objects {
   Id: 6520289532565019168
-  Name: "Stone Angel"
+  Name: "2Frogs-StoneAngel"
   Transform {
     Scale {
       X: 1
@@ -61,7 +61,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Stone Angel"
+          String: "2Frogs-StoneAngel"
         }
         Overrides {
           Name: "Position"
@@ -73,7 +73,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 9409312560805665997
+      Id: 11060836445082429554
     }
   }
 }
