@@ -1,7 +1,7 @@
 Name: "Handle Body"
-RootId: 17042318583397940135
+RootId: 9825648278789288155
 Objects {
-  Id: 9664652954213929428
+  Id: 10187957251956612007
   Name: "Gem"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17042318583397940135
+  ParentId: 9825648278789288155
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,7 +43,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8544897376758883804
+  Id: 2474169427925433819
   Name: "Gem"
   Transform {
     Location {
@@ -59,7 +59,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17042318583397940135
+  ParentId: 9825648278789288155
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -86,7 +86,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6400575999625799983
+  Id: 2980503831080096864
   Name: "Cylinder - Chamfered Polished"
   Transform {
     Location {
@@ -100,17 +100,24 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 17042318583397940135
+  ParentId: 9825648278789288155
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -149,7 +156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17290246157391010729
+  Id: 8505945551872039902
   Name: "Cone - Truncated Wide"
   Transform {
     Location {
@@ -164,12 +171,12 @@ Objects {
       Z: 3.00000024
     }
   }
-  ParentId: 17042318583397940135
+  ParentId: 9825648278789288155
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6693051322045641436
+        Id: 17117735896314006411
       }
     }
     Overrides {
@@ -187,9 +194,6 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.15
-        G: 0.15
-        B: 0.15
         A: 1
       }
     }

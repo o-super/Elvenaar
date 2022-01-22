@@ -1,242 +1,7 @@
 Name: "Abilities_2"
-RootId: 381235960025947863
+RootId: 3970561650281823770
 Objects {
-  Id: 5801428009896596475
-  Name: "Poison Rain"
-  Transform {
-    Location {
-      Y: 330
-      Z: -45
-    }
-    Rotation {
-      Yaw: 2.04905591e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 381235960025947863
-  ChildIds: 4390107360535379734
-  ChildIds: 17380484589173347262
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    KeyBinding: "ability_ult"
-    CastPhaseSettings {
-      Duration: 0.6
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.3
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.2
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 14
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_throw"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:extraaction_03"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5801428009896596475
-    SubobjectId: 15153768104183777645
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17380484589173347262
-  Name: "ClientContext"
-  Transform {
-    Location {
-      X: -9.03125
-      Y: 1316.37744
-      Z: -225
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5801428009896596475
-  ChildIds: 15507457738277519349
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 17380484589173347262
-    SubobjectId: 8358062300849211688
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15507457738277519349
-  Name: "SetAbilityIconClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -94.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17380484589173347262
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API"
-      AssetReference {
-        Id: 10836701819625256261
-      }
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 14276935985026022417
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16593753839232279140
-    }
-  }
-  InstanceHistory {
-    SelfId: 15507457738277519349
-    SubobjectId: 6195723156771988835
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4390107360535379734
-  Name: "AOESpawnAbilityServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -2.04905591e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5801428009896596475
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:AOEAsset"
-      AssetReference {
-        Id: 11125207849485509870
-      }
-    }
-    Overrides {
-      Name: "cs:ForwardSpawnOffset"
-      Float: 3500
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5944685514757636593
-    }
-  }
-  InstanceHistory {
-    SelfId: 4390107360535379734
-    SubobjectId: 13700764420914701696
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 10953193301347235364
+  Id: 2771916015182176334
   Name: "Air Boost"
   Transform {
     Location {
@@ -249,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 381235960025947863
-  ChildIds: 13278822646024270863
-  ChildIds: 17642432600485354087
+  ParentId: 3970561650281823770
+  ChildIds: 11593786002315318252
+  ChildIds: 14922060902523994337
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -297,7 +62,7 @@ Objects {
       }
     }
     CooldownPhaseSettings {
-      Duration: 6
+      Duration: 10
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -307,24 +72,23 @@ Objects {
         Value: "mc:eabilitysetfacing:none"
       }
     }
-    Animation: "unarmed_death_spin"
     CanBePrevented: true
     KeyBinding_v2 {
       Value: "mc:egameaction:extraaction_04"
     }
   }
   InstanceHistory {
-    SelfId: 10953193301347235364
-    SubobjectId: 1931939248451808434
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 2771916015182176334
+    SubobjectId: 8135863014981245103
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 17642432600485354087
+  Id: 14922060902523994337
   Name: "ClientContext"
   Transform {
     Location {
@@ -337,9 +101,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10953193301347235364
-  ChildIds: 3194966507774873976
-  ChildIds: 8489619864200356901
+  ParentId: 2771916015182176334
+  ChildIds: 2840647469301768883
+  ChildIds: 14700809565129065712
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -355,17 +119,17 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 17642432600485354087
-    SubobjectId: 8509741973971976433
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 14922060902523994337
+    SubobjectId: 11063789536867022848
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8489619864200356901
+  Id: 14700809565129065712
   Name: "Boost Effects"
   Transform {
     Location {
@@ -378,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17642432600485354087
+  ParentId: 14922060902523994337
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -392,20 +156,20 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Boost Effects"
+    FilePartitionName: "Boost Effects_3"
   }
   InstanceHistory {
-    SelfId: 8489619864200356901
-    SubobjectId: 17806986144356023987
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 14700809565129065712
+    SubobjectId: 11140905793425685521
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 3194966507774873976
+  Id: 2840647469301768883
   Name: "AbilityVFXTriggerClient"
   Transform {
     Location {
@@ -418,12 +182,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17642432600485354087
+  ParentId: 14922060902523994337
   UnregisteredParameters {
     Overrides {
       Name: "cs:EffectsParent"
       ObjectReference {
-        SelfId: 8489619864200356901
+        SelfId: 14700809565129065712
       }
     }
   }
@@ -442,23 +206,20 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3194966507774873976
-    SubobjectId: 12581054979224538094
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 2840647469301768883
+    SubobjectId: 8211108242236660306
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13278822646024270863
+  Id: 11593786002315318252
   Name: "ImpulseBoostServer"
   Transform {
     Location {
-      X: 42.3201294
-      Y: -1078.91113
-      Z: 72.7945404
     }
     Rotation {
     }
@@ -468,19 +229,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10953193301347235364
+  ParentId: 2771916015182176334
   UnregisteredParameters {
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 10953193301347235364
+        SelfId: 2771916015182176334
       }
     }
     Overrides {
       Name: "cs:BoostDirection"
       Vector {
-        X: 100
-        Z: 2200
+        X: 300
+        Z: 2000
       }
     }
   }
@@ -500,25 +261,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13278822646024270863
-    SubobjectId: 4218171990090444441
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 11593786002315318252
+    SubobjectId: 17760737134332013325
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 9673586436109925469
-  Name: "Recharge Arrow"
+  Id: 5704403639687868643
+  Name: "Thunder"
   Transform {
     Location {
-      X: 81.1587524
-      Y: 855.389648
-      Z: -175
     }
     Rotation {
+      Yaw: 2.04905609e-05
     }
     Scale {
       X: 1
@@ -526,154 +285,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 381235960025947863
-  ChildIds: 14763974221262831810
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    KeyBinding: "ability_primary"
-    CastPhaseSettings {
-      Duration: 0.03
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.3
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 0.33
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "2hand_rifle_unsheathe"
-    CanBePrevented: true
-    KeyBinding_v2 {
-      Value: "mc:egameaction:invalid"
-    }
-  }
-  InstanceHistory {
-    SelfId: 9673586436109925469
-    SubobjectId: 356158584640890571
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14763974221262831810
-  Name: "WeaponAutoRechargeClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9673586436109925469
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Weapon"
-      ObjectReference {
-        SelfId: 12318494175333232249
-      }
-    }
-    Overrides {
-      Name: "cs:ReloadAbility"
-      ObjectReference {
-        SelfId: 9673586436109925469
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4405963884545860682
-    }
-  }
-  InstanceHistory {
-    SelfId: 14763974221262831810
-    SubobjectId: 5632318201225468500
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16066422984008800781
-  Name: "Scope"
-  Transform {
-    Location {
-      X: 81.1587524
-      Y: 855.389648
-      Z: -175
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 381235960025947863
-  ChildIds: 2013302507155856530
-  ChildIds: 8206791471521107592
+  ParentId: 3970561650281823770
+  ChildIds: 15082903119371211765
+  ChildIds: 7069039101197087142
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -688,22 +302,17 @@ Objects {
   }
   Ability {
     IsEnabled: true
-    KeyBinding: "ability_primary"
+    KeyBinding: "ability_ult"
     CastPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
+      Duration: 0.8
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
+        Value: "mc:eabilitysetfacing:aim"
       }
     }
     ExecutePhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
+      Duration: 0.3
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
@@ -711,6 +320,7 @@ Objects {
       }
     }
     RecoveryPhaseSettings {
+      Duration: 0.2
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -721,37 +331,39 @@ Objects {
       }
     }
     CooldownPhaseSettings {
+      Duration: 9
       CanMove: true
       CanJump: true
       CanRotate: true
+      PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
         Value: "mc:eabilitysetfacing:none"
       }
     }
-    CanBePrevented: true
+    Animation: "unarmed_throw"
     KeyBinding_v2 {
-      Value: "mc:egameaction:secondaryaction"
+      Value: "mc:egameaction:extraaction_03"
     }
   }
   InstanceHistory {
-    SelfId: 16066422984008800781
-    SubobjectId: 6645423334322569371
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 5704403639687868643
+    SubobjectId: 1852574016173115394
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8206791471521107592
+  Id: 7069039101197087142
   Name: "ClientContext"
   Transform {
     Location {
-      X: -81.1587524
-      Y: -855.389648
-      Z: 175
+      X: -9.03125
+      Y: 1316.37744
+      Z: -225
     }
     Rotation {
     }
@@ -761,9 +373,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066422984008800781
-  ChildIds: 14590165546579958937
-  ChildIds: 998635215377154616
+  ParentId: 5704403639687868643
+  ChildIds: 2837269036261723600
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -779,22 +390,23 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 8206791471521107592
-    SubobjectId: 17521903717008217118
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 7069039101197087142
+    SubobjectId: 3784698485851720007
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 998635215377154616
-  Name: "WeaponScopeAimClient"
+  Id: 2837269036261723600
+  Name: "SetAbilityIconClient"
   Transform {
     Location {
     }
     Rotation {
+      Yaw: -94.9999924
     }
     Scale {
       X: 1
@@ -802,24 +414,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8206791471521107592
+  ParentId: 7069039101197087142
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Weapon"
-      ObjectReference {
-        SelfId: 12318494175333232249
+      Name: "cs:API"
+      AssetReference {
+        Id: 10836701819625256261
       }
     }
     Overrides {
-      Name: "cs:ServerScript"
-      ObjectReference {
-        SelfId: 2013302507155856530
-      }
-    }
-    Overrides {
-      Name: "cs:ClientArt"
-      ObjectReference {
-        SelfId: 11370128215752950693
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 11435158390588968658
       }
     }
   }
@@ -834,22 +440,260 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 3658441705812330354
+      Id: 16593753839232279140
     }
   }
   InstanceHistory {
-    SelfId: 998635215377154616
-    SubobjectId: 10310413738819705006
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 2837269036261723600
+    SubobjectId: 8214486024580773169
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 14590165546579958937
+  Id: 15082903119371211765
+  Name: "AOESpawnAbilityServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -2.04905591e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5704403639687868643
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AOEAsset"
+      AssetReference {
+        Id: 6969074966523038734
+      }
+    }
+    Overrides {
+      Name: "cs:ForwardSpawnOffset"
+      Float: 2500
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5944685514757636593
+    }
+  }
+  InstanceHistory {
+    SelfId: 15082903119371211765
+    SubobjectId: 9785911713505536788
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1991193598387067957
+  Name: "Recharge"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 2.04905646e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3970561650281823770
+  ChildIds: 14624440578291157936
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    KeyBinding: "ability_ult"
+    CastPhaseSettings {
+      Duration: 0.45
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 0.25
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      Duration: 1
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "2hand_rifle_unsheathe"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:extraaction_32"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1991193598387067957
+    SubobjectId: 5565765950456784084
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14624440578291157936
+  Name: "ClientContext"
+  Transform {
+    Location {
+      X: -9.03125
+      Y: 1316.37744
+      Z: -225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1991193598387067957
+  ChildIds: 15168497488805490665
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 14624440578291157936
+    SubobjectId: 11271319763660190545
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15168497488805490665
   Name: "SetAbilityIconClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -94.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14624440578291157936
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:API"
+      AssetReference {
+        Id: 10836701819625256261
+      }
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 17377452767787399713
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16593753839232279140
+    }
+  }
+  InstanceHistory {
+    SelfId: 15168497488805490665
+    SubobjectId: 9520295951230801672
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5658456281543326123
+  Name: "Aim"
   Transform {
     Location {
     }
@@ -861,7 +705,137 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8206791471521107592
+  ParentId: 3970561650281823770
+  ChildIds: 6144132765743458694
+  ChildIds: 4687654861658463695
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    CastPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    KeyBinding_v2 {
+      Value: "mc:egameaction:secondaryaction"
+    }
+  }
+  InstanceHistory {
+    SelfId: 5658456281543326123
+    SubobjectId: 1736514383290548554
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4687654861658463695
+  Name: "ClientContext"
+  Transform {
+    Location {
+      X: -9.03198242
+      Y: 1316.37744
+      Z: -225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5658456281543326123
+  ChildIds: 14302300631914798657
+  ChildIds: 5393351112940573105
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 4687654861658463695
+    SubobjectId: 1698512235973666094
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5393351112940573105
+  Name: "SetAbilityIconClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -94.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4687654861658463695
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -891,22 +865,25 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14590165546579958937
-    SubobjectId: 5238954687241979407
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 5393351112940573105
+    SubobjectId: 2037525753378351440
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 2013302507155856530
-  Name: "WeaponAimServer"
+  Id: 14302300631914798657
+  Name: "WeaponAimClient"
   Transform {
     Location {
+      X: 554.263672
+      Y: -343.685059
     }
     Rotation {
+      Yaw: -94.9999695
     }
     Scale {
       X: 1
@@ -914,14 +891,59 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066422984008800781
+  ParentId: 4687654861658463695
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Weapon"
+      Name: "cs:ServerScript"
       ObjectReference {
-        SelfId: 12318494175333232249
+        SelfId: 6144132765743458694
       }
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9669538337137154128
+    }
+  }
+  InstanceHistory {
+    SelfId: 14302300631914798657
+    SubobjectId: 10440553426167539360
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6144132765743458694
+  Name: "WeaponAimServer"
+  Transform {
+    Location {
+      X: 545.231689
+      Y: 972.692383
+      Z: -225
+    }
+    Rotation {
+      Yaw: -94.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5658456281543326123
+  UnregisteredParameters {
     Overrides {
       Name: "cs:AimBinding"
       String: "ability_secondary"
@@ -932,34 +954,19 @@ Objects {
     }
     Overrides {
       Name: "cs:AimActiveStance"
-      String: "2hand_rifle_aim_shoulder"
+      String: "unarmed_carry_object_heavy"
     }
     Overrides {
       Name: "cs:AimZoomDistance"
-      Float: 0
+      Float: 150
     }
     Overrides {
       Name: "cs:SpreadZoom"
-      Float: -4
+      Float: -2
     }
     Overrides {
       Name: "cs:ZoomSpeed"
-      Float: 2
-    }
-    Overrides {
-      Name: "cs:ZoomFOV"
-      Float: 24
-    }
-    Overrides {
-      Name: "cs:ZoomOffset"
-      Vector {
-      }
-    }
-    Overrides {
-      Name: "cs:ScopeTemplate"
-      AssetReference {
-        Id: 8386938002737063729
-      }
+      Float: 1
     }
   }
   WantsNetworking: true
@@ -978,21 +985,20 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2013302507155856530
-    SubobjectId: 11042404289686930948
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 6144132765743458694
+    SubobjectId: 278078108684144999
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 2883827441046843820
-  Name: "Arrow Shoot"
+  Id: 12608571948834997100
+  Name: "Zap"
   Transform {
     Location {
-      X: 3.81469727e-06
     }
     Rotation {
     }
@@ -1002,9 +1008,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 381235960025947863
-  ChildIds: 15498823592501302145
-  ChildIds: 14283699652336463077
+  ParentId: 3970561650281823770
+  ChildIds: 16508711319147617202
+  ChildIds: 17558781267119493684
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -1019,9 +1025,8 @@ Objects {
   }
   Ability {
     IsEnabled: true
-    KeyBinding: "ability_primary"
     CastPhaseSettings {
-      Duration: 0.03
+      Duration: 0.1
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -1032,7 +1037,7 @@ Objects {
       }
     }
     ExecutePhaseSettings {
-      Duration: 0.3
+      Duration: 0.1
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -1043,6 +1048,7 @@ Objects {
       }
     }
     RecoveryPhaseSettings {
+      Duration: 0.05
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -1053,36 +1059,39 @@ Objects {
       }
     }
     CooldownPhaseSettings {
-      Duration: 0.82
+      Duration: 0.26
       CanMove: true
       CanJump: true
       CanRotate: true
+      PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
         Value: "mc:eabilitysetfacing:none"
       }
     }
-    Animation: "2hand_rifle_shoot"
-    CanBePrevented: true
+    Animation: "unarmed_magic_bolt"
     KeyBinding_v2 {
       Value: "mc:egameaction:primaryaction"
     }
   }
   InstanceHistory {
-    SelfId: 2883827441046843820
-    SubobjectId: 12307007387909843770
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 12608571948834997100
+    SubobjectId: 17898734017635138445
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 14283699652336463077
+  Id: 17558781267119493684
   Name: "ClientContext"
   Transform {
     Location {
+      X: -9.03198242
+      Y: 1316.37744
+      Z: -225
     }
     Rotation {
     }
@@ -1092,8 +1101,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2883827441046843820
-  ChildIds: 2957105500490447313
+  ParentId: 12608571948834997100
+  ChildIds: 7217187293984952017
+  ChildIds: 7710938673335364360
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -1109,24 +1119,23 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 14283699652336463077
-    SubobjectId: 4969663790443738739
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 17558781267119493684
+    SubobjectId: 11903827641622637269
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 2957105500490447313
+  Id: 7710938673335364360
   Name: "SetAbilityIconClient"
   Transform {
     Location {
-      X: -295.199585
-      Y: -582.68811
     }
     Rotation {
+      Yaw: -94.9999695
     }
     Scale {
       X: 1
@@ -1134,7 +1143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14283699652336463077
+  ParentId: 17558781267119493684
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -1145,7 +1154,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 9185331415595002383
+        Id: 5745050616147061482
       }
     }
   }
@@ -1164,22 +1173,26 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2957105500490447313
-    SubobjectId: 12378020489941066567
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 7710938673335364360
+    SubobjectId: 4439836190470673385
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 15498823592501302145
-  Name: "WeaponProjectileAttackServer"
+  Id: 7217187293984952017
+  Name: "WeaponAmmoUIClient"
   Transform {
     Location {
+      X: 231.753281
+      Y: -2116.37744
+      Z: 175
     }
     Rotation {
+      Yaw: 3.25688781e-12
     }
     Scale {
       X: 1
@@ -1187,18 +1200,75 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2883827441046843820
+  ParentId: 17558781267119493684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AttackAbility"
+      ObjectReference {
+        SelfId: 12608571948834997100
+      }
+    }
+    Overrides {
+      Name: "cs:AmmoUI"
+      AssetReference {
+        Id: 10786626380797665362
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9817732189774467734
+    }
+  }
+  InstanceHistory {
+    SelfId: 7217187293984952017
+    SubobjectId: 3654441542522500656
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16508711319147617202
+  Name: "WeaponProjectileAttackServer"
+  Transform {
+    Location {
+      X: 545.710449
+      Y: 971.516785
+      Z: -225
+    }
+    Rotation {
+      Yaw: -94.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12608571948834997100
   UnregisteredParameters {
     Overrides {
       Name: "cs:Weapon"
       ObjectReference {
-        SelfId: 12318494175333232249
+        SelfId: 9646845849897853276
       }
     }
     Overrides {
       Name: "cs:AttackAbility"
       ObjectReference {
-        SelfId: 2883827441046843820
+        SelfId: 12608571948834997100
       }
     }
     Overrides {
@@ -1209,11 +1279,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 60
-    }
-    Overrides {
-      Name: "cs:DamageHeadshot"
-      Int: 180
+      Int: 32
     }
   }
   WantsNetworking: true
@@ -1232,10 +1298,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15498823592501302145
-    SubobjectId: 6185920811834820887
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 16508711319147617202
+    SubobjectId: 12935762933003576147
+    InstanceId: 10165883168098334371
+    TemplateId: 1509172452166656231
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

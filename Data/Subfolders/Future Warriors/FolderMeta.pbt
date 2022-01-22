@@ -1,0 +1,83 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "8a61d26465c74b3b994fdf30d767d9ba"
+  OwnerAccountId: "1759ffb0fe484098826466123bc17cef"
+  OwnerName: "K1ngston"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 934602711539783668
+  value: 16865425614934253951
+}
+AssetIdsOriginalToNew {
+  key: 2028217787905613326
+  value: 11779364418066267291
+}
+AssetIdsOriginalToNew {
+  key: 2724255875262400255
+  value: 2149693750557423551
+}
+AssetIdsOriginalToNew {
+  key: 3062507574649782376
+  value: 11992046816972321559
+}
+AssetIdsOriginalToNew {
+  key: 3383353221901907507
+  value: 13614125993038576463
+}
+AssetIdsOriginalToNew {
+  key: 3435552257370208556
+  value: 13938447788029361204
+}
+AssetIdsOriginalToNew {
+  key: 4161516640642592986
+  value: 9507119869998890727
+}
+AssetIdsOriginalToNew {
+  key: 4460141841922158460
+  value: 11926120820691537853
+}
+AssetIdsOriginalToNew {
+  key: 5581578607625191374
+  value: 8131529319152550694
+}
+AssetIdsOriginalToNew {
+  key: 6190490122898761060
+  value: 12303725282376159821
+}
+AssetIdsOriginalToNew {
+  key: 6496260864369429448
+  value: 1667463327215843412
+}
+AssetIdsOriginalToNew {
+  key: 7344114963556744751
+  value: 16515143220443824437
+}
+AssetIdsOriginalToNew {
+  key: 7831716516565076544
+  value: 11724252867040718975
+}
+AssetIdsOriginalToNew {
+  key: 8072589015291920802
+  value: 6594173253466836140
+}
+AssetIdsOriginalToNew {
+  key: 8728364799014125484
+  value: 14006048155951161349
+}
+AssetIdsOriginalToNew {
+  key: 9036645797039498322
+  value: 11727566256220178382
+}
+AssetIdsOriginalToNew {
+  key: 12061832395799108488
+  value: 16504924185444384221
+}
+AssetIdsOriginalToNew {
+  key: 12552162834521891009
+  value: 7815178621410334715
+}
+AssetIdsOriginalToNew {
+  key: 15096384998622590565
+  value: 15182705689296713052
+}

@@ -1,18 +1,18 @@
 Assets {
-  Id: 10603225344082263367
-  Name: "Icon Rock"
+  Id: 17041884398913329708
+  Name: "Icon Ice"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Rock"
+    AssetId: "Icon_Ice"
   }
 }
 Assets {
-  Id: 10241216381993092650
-  Name: "Icon Weapon Axe"
+  Id: 15201232689808388272
+  Name: "Icon Weapon Sword"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_WeaponAxe"
+    AssetId: "Icon_WeaponSword"
   }
 }

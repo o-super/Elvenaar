@@ -1,7 +1,7 @@
 Name: "Feather_2"
-RootId: 4862544643059152329
+RootId: 2848741202499817083
 Objects {
-  Id: 11453566101332154186
+  Id: 1793773287932147039
   Name: "Curved Wedge"
   Transform {
     Location {
@@ -18,12 +18,19 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 4862544643059152329
+  ParentId: 2848741202499817083
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 3834379000310649197
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -62,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15081112456451180499
+  Id: 10920666615623456637
   Name: "Curved Wedge"
   Transform {
     Location {
@@ -79,12 +86,19 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 4862544643059152329
+  ParentId: 2848741202499817083
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 3834379000310649197
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }

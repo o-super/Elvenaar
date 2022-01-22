@@ -1,7 +1,7 @@
 Name: "BowLeftSide"
-RootId: 2338828702986046931
+RootId: 6125429995467374420
 Objects {
-  Id: 15580106467082814933
+  Id: 4138070951724064382
   Name: "Quarter-Donut"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1.51618481
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -39,6 +39,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
       Float: 12.5496731
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -77,7 +83,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12165079191721412039
+  Id: 12041065031102117401
   Name: "Horn"
   Transform {
     Location {
@@ -96,17 +102,23 @@ Objects {
       Z: 0.626204491
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -145,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14911855382561449370
+  Id: 14015042363889201833
   Name: "Donut 02"
   Transform {
     Location {
@@ -164,12 +176,19 @@ Objects {
       Z: 0.171185076
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -209,7 +228,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10604934300133493549
+  Id: 6077743352044916437
   Name: "Horn"
   Transform {
     Location {
@@ -228,17 +247,23 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -277,7 +302,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15722400960037832659
+  Id: 14639202585189538559
   Name: "Donut 02"
   Transform {
     Location {
@@ -296,17 +321,24 @@ Objects {
       Z: 0.272235364
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -345,7 +377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15153512277529927809
+  Id: 687218526680064494
   Name: "Horn"
   Transform {
     Location {
@@ -364,12 +396,19 @@ Objects {
       Z: 0.55580014
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18373897150747192343
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -409,7 +448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7405692686419221044
+  Id: 2969733106122082780
   Name: "Donut 02"
   Transform {
     Location {
@@ -428,12 +467,19 @@ Objects {
       Z: 0.257132173
     }
   }
-  ParentId: 2338828702986046931
+  ParentId: 6125429995467374420
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }

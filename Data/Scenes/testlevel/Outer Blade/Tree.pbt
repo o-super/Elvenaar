@@ -1,7 +1,7 @@
 Name: "Outer Blade"
-RootId: 5904784604548476462
+RootId: 2002060529258604975
 Objects {
-  Id: 17687732677022718899
+  Id: 1213629205785095304
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -17,20 +17,18 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 5904784604548476462
+  ParentId: 2002060529258604975
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 312731865979749501
+        Id: 16000511658898384046
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.929999948
         A: 1
       }
     }
@@ -71,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12884489464178702942
+  Id: 13716398820589684711
   Name: "Cone - Truncated Hollow Concave"
   Transform {
     Location {
@@ -87,12 +85,19 @@ Objects {
       Z: 2.35820651
     }
   }
-  ParentId: 5904784604548476462
+  ParentId: 2002060529258604975
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 312731865979749501
+        Id: 16000511658898384046
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -132,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4803311527515676949
+  Id: 879683209565526806
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -147,19 +152,18 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 5904784604548476462
+  ParentId: 2002060529258604975
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 312731865979749501
+        Id: 16000511658898384046
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        G: 0.584701657
-        B: 0.809999943
+        R: 0.929999948
         A: 1
       }
     }
@@ -200,7 +204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14845567403078594014
+  Id: 9993939454303577026
   Name: "Cone - Truncated Hollow Concave"
   Transform {
     Location {
@@ -216,12 +220,19 @@ Objects {
       Z: 2.35820651
     }
   }
-  ParentId: 5904784604548476462
+  ParentId: 2002060529258604975
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 312731865979749501
+        Id: 16000511658898384046
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -261,7 +272,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8833431167692536996
+  Id: 12315138736503060062
   Name: "Cone - Truncated Hollow Concave"
   Transform {
     Location {
@@ -276,12 +287,19 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 5904784604548476462
+  ParentId: 2002060529258604975
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 312731865979749501
+        Id: 16000511658898384046
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }

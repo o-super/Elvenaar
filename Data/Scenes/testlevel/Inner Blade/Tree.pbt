@@ -1,7 +1,7 @@
 Name: "Inner Blade"
-RootId: 6362448913531545097
+RootId: 2214526083869609361
 Objects {
-  Id: 10819947401434000150
+  Id: 4518186221097180381
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -15,12 +15,18 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -60,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11004444576551588269
+  Id: 16437433427347998029
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -75,12 +81,18 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -120,7 +132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4365335854982903936
+  Id: 6090165386526435717
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -135,12 +147,18 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -180,7 +198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5606745452939605011
+  Id: 12443282423963738108
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -196,12 +214,18 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -241,7 +265,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5006230436948616829
+  Id: 14114952548557318428
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -256,17 +280,23 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -305,7 +335,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6851184675029409947
+  Id: 12584038583669345536
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -321,17 +351,23 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -370,7 +406,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10130227925357631688
+  Id: 16424334199816091923
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -386,17 +422,23 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -435,7 +477,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17872387914173671321
+  Id: 17722778523939030262
   Name: "Lense - Quarter"
   Transform {
     Location {
@@ -451,17 +493,23 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 6362448913531545097
+  ParentId: 2214526083869609361
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {

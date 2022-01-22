@@ -1,7 +1,7 @@
 Name: "Abilities_1"
-RootId: 8431084143088147822
+RootId: 18211764954310106989
 Objects {
-  Id: 9269454478643932824
+  Id: 12099095971302981467
   Name: "Boost"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8431084143088147822
-  ChildIds: 5288150609454690775
-  ChildIds: 11286569270910518697
+  ParentId: 18211764954310106989
+  ChildIds: 18098278116271634731
+  ChildIds: 17802947908878257579
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -89,7 +89,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11286569270910518697
+  Id: 17802947908878257579
   Name: "ClientContext"
   Transform {
     Location {
@@ -102,9 +102,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9269454478643932824
-  ChildIds: 14052791508127922058
-  ChildIds: 16799151563024281064
+  ParentId: 12099095971302981467
+  ChildIds: 7748927177221041212
+  ChildIds: 15954504354697653287
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -130,7 +130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16799151563024281064
+  Id: 15954504354697653287
   Name: "Boost Effects"
   Transform {
     Location {
@@ -143,7 +143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11286569270910518697
+  ParentId: 17802947908878257579
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -170,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14052791508127922058
+  Id: 7748927177221041212
   Name: "AbilityVFXTriggerClient"
   Transform {
     Location {
@@ -183,12 +183,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11286569270910518697
+  ParentId: 17802947908878257579
   UnregisteredParameters {
     Overrides {
       Name: "cs:EffectsParent"
       ObjectReference {
-        SelfId: 16799151563024281064
+        SelfId: 15954504354697653287
       }
     }
   }
@@ -217,7 +217,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5288150609454690775
+  Id: 18098278116271634731
   Name: "ImpulseBoostServer"
   Transform {
     Location {
@@ -233,12 +233,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9269454478643932824
+  ParentId: 12099095971302981467
   UnregisteredParameters {
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 9269454478643932824
+        SelfId: 12099095971302981467
       }
     }
     Overrides {
@@ -275,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6598364755101411236
+  Id: 17216156935862722908
   Name: "Freeze Slash"
   Transform {
     Location {
@@ -285,10 +285,10 @@ Objects {
     Scale {
     }
   }
-  ParentId: 8431084143088147822
-  ChildIds: 5251476620230064377
-  ChildIds: 7869770048004707892
-  ChildIds: 10691413996188053649
+  ParentId: 18211764954310106989
+  ChildIds: 2328294682593655912
+  ChildIds: 6460882818168718636
+  ChildIds: 17773469646186087023
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -353,7 +353,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10691413996188053649
+  Id: 17773469646186087023
   Name: "ClientContext"
   Transform {
     Location {
@@ -366,8 +366,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6598364755101411236
-  ChildIds: 6865738002033259566
+  ParentId: 17216156935862722908
+  ChildIds: 12447863440778097014
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -393,7 +393,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6865738002033259566
+  Id: 12447863440778097014
   Name: "SetAbilityIconClient"
   Transform {
     Location {
@@ -403,7 +403,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 10691413996188053649
+  ParentId: 17773469646186087023
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -443,7 +443,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7869770048004707892
+  Id: 6460882818168718636
   Name: "MeleeBlastAttackServer"
   Transform {
     Location {
@@ -454,12 +454,12 @@ Objects {
     Scale {
     }
   }
-  ParentId: 6598364755101411236
+  ParentId: 17216156935862722908
   UnregisteredParameters {
     Overrides {
       Name: "cs:AttackAbility"
       ObjectReference {
-        SelfId: 6598364755101411236
+        SelfId: 17216156935862722908
       }
     }
     Overrides {
@@ -552,7 +552,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5251476620230064377
+  Id: 2328294682593655912
   Name: "MeleeAttackServer"
   Transform {
     Location {
@@ -563,7 +563,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 6598364755101411236
+  ParentId: 17216156935862722908
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageAPI"
@@ -574,19 +574,19 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       ObjectReference {
-        SelfId: 4157481117471016263
+        SelfId: 4067783559134380459
       }
     }
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 6598364755101411236
+        SelfId: 17216156935862722908
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 10795561208665406076
+        SelfId: 6582169888859301629
       }
     }
     Overrides {
@@ -646,7 +646,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9135939509969469001
+  Id: 11097552413540339426
   Name: "Mid Slash"
   Transform {
     Location {
@@ -656,9 +656,9 @@ Objects {
     Scale {
     }
   }
-  ParentId: 8431084143088147822
-  ChildIds: 5463469205967094388
-  ChildIds: 3912971740954586536
+  ParentId: 18211764954310106989
+  ChildIds: 13508695892464775522
+  ChildIds: 11687820362291486604
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -731,7 +731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3912971740954586536
+  Id: 11687820362291486604
   Name: "ClientContext"
   Transform {
     Location {
@@ -744,8 +744,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9135939509969469001
-  ChildIds: 10454000986139098234
+  ParentId: 11097552413540339426
+  ChildIds: 1781351905147293762
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -771,7 +771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10454000986139098234
+  Id: 1781351905147293762
   Name: "SetAbilityIconClient"
   Transform {
     Location {
@@ -781,7 +781,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 3912971740954586536
+  ParentId: 11687820362291486604
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -821,7 +821,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5463469205967094388
+  Id: 13508695892464775522
   Name: "MeleeAttackServer"
   Transform {
     Location {
@@ -832,7 +832,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 9135939509969469001
+  ParentId: 11097552413540339426
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageAPI"
@@ -843,19 +843,19 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       ObjectReference {
-        SelfId: 4157481117471016263
+        SelfId: 4067783559134380459
       }
     }
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 9135939509969469001
+        SelfId: 11097552413540339426
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 10795561208665406076
+        SelfId: 6582169888859301629
       }
     }
     Overrides {
@@ -914,7 +914,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7962167927602557681
+  Id: 3645029255474368352
   Name: "Slash"
   Transform {
     Location {
@@ -924,9 +924,9 @@ Objects {
     Scale {
     }
   }
-  ParentId: 8431084143088147822
-  ChildIds: 13049383680251497856
-  ChildIds: 6894867821600070036
+  ParentId: 18211764954310106989
+  ChildIds: 13474783440678927543
+  ChildIds: 10808107310092441910
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -996,7 +996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6894867821600070036
+  Id: 10808107310092441910
   Name: "ClientContext"
   Transform {
     Location {
@@ -1009,8 +1009,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7962167927602557681
-  ChildIds: 11117426224648096164
+  ParentId: 3645029255474368352
+  ChildIds: 1085308007019376723
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -1036,7 +1036,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11117426224648096164
+  Id: 1085308007019376723
   Name: "SetAbilityIconClient"
   Transform {
     Location {
@@ -1046,7 +1046,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 6894867821600070036
+  ParentId: 10808107310092441910
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -1086,7 +1086,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13049383680251497856
+  Id: 13474783440678927543
   Name: "MeleeAttackServer"
   Transform {
     Location {
@@ -1097,7 +1097,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 7962167927602557681
+  ParentId: 3645029255474368352
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageAPI"
@@ -1108,19 +1108,19 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       ObjectReference {
-        SelfId: 4157481117471016263
+        SelfId: 4067783559134380459
       }
     }
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 7962167927602557681
+        SelfId: 3645029255474368352
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 10795561208665406076
+        SelfId: 6582169888859301629
       }
     }
     Overrides {

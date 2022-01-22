@@ -1,7 +1,7 @@
 Name: "Body"
-RootId: 8087537512690999528
+RootId: 6995147902160157191
 Objects {
-  Id: 7501683153100581921
+  Id: 5338368140759055320
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -18,12 +18,12 @@ Objects {
       Z: 0.0625686869
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
@@ -37,6 +37,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
       Float: 0.5
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -75,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4067926083533217719
+  Id: 8674450096608195199
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -91,12 +97,12 @@ Objects {
       Z: 0.70758903
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13963055149268646253
+        Id: 17117735896314006411
       }
     }
     Overrides {
@@ -121,6 +127,13 @@ Objects {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
         Id: 2943084065665204035
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -160,7 +173,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2109318593609616862
+  Id: 2682756748819565572
   Name: "firearm_prop_blunderbuss_receiver_01"
   Transform {
     Location {
@@ -177,7 +190,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -188,7 +201,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
@@ -240,7 +253,20 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 13963055149268646253
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -280,7 +306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9002241439634185929
+  Id: 8774592376903504267
   Name: "firearm_prop_blunderbuss_receiver_01"
   Transform {
     Location {
@@ -296,7 +322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -307,7 +333,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
@@ -359,13 +385,32 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 13963055149268646253
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_Trim2:id"
       AssetReference {
-        Id: 13963055149268646253
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.929999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim2:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -405,7 +450,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10481337602251823663
+  Id: 12628321899533223779
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -421,12 +466,12 @@ Objects {
       Z: 0.066038087
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -440,6 +485,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
       Float: 1.10698807
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -478,7 +529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5270670745726767468
+  Id: 12432974607136075849
   Name: "firearm_prop_8"
   Transform {
     Location {
@@ -495,12 +546,12 @@ Objects {
       Z: 1.02979219
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
       }
     }
     Overrides {
@@ -530,15 +581,20 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
       }
     }
     Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.929999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
         A: 1
       }
     }
@@ -579,7 +635,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5544182223421152442
+  Id: 8458141560325104866
   Name: "firearm_prop_10"
   Transform {
     Location {
@@ -596,12 +652,18 @@ Objects {
       Z: 0.134205863
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18373897150747192343
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -641,7 +703,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8870790172937376791
+  Id: 1959967447507931842
   Name: "firearm_prop_10"
   Transform {
     Location {
@@ -657,12 +719,19 @@ Objects {
       Z: 0.134205699
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
+  ChildIds: 5790919175756380694
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18373897150747192343
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -702,7 +771,42 @@ Objects {
   }
 }
 Objects {
-  Id: 4611081857315888499
+  Id: 5790919175756380694
+  Name: "NewFolder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1959967447507931842
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder_4"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1068408086474493934
   Name: "Half-pipe"
   Transform {
     Location {
@@ -720,12 +824,19 @@ Objects {
       Z: 0.0282698683
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -765,7 +876,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3492742187588767547
+  Id: 3730937706666603839
   Name: "Half-pipe"
   Transform {
     Location {
@@ -783,12 +894,19 @@ Objects {
       Z: 0.0282698683
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 17117735896314006411
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -828,7 +946,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13624415595662847706
+  Id: 15884536835551303279
   Name: "Cylinder - bottom aligned"
   Transform {
     Location {
@@ -847,13 +965,20 @@ Objects {
       Z: 0.452413827
     }
   }
-  ParentId: 8087537512690999528
-  ChildIds: 5833199769512631704
+  ParentId: 6995147902160157191
+  ChildIds: 11656619542663176113
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 3834379000310649197
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -893,7 +1018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5833199769512631704
+  Id: 11656619542663176113
   Name: "EquipmentTeamColor"
   Transform {
     Location {
@@ -912,7 +1037,7 @@ Objects {
       Z: 2.21036553
     }
   }
-  ParentId: 13624415595662847706
+  ParentId: 15884536835551303279
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -940,7 +1065,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9924071241437442102
+  Id: 16558716123485934305
   Name: "Hemishpere (thin)"
   Transform {
     Location {
@@ -956,17 +1081,24 @@ Objects {
       Z: 0.0887568444
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 2264917175568480410
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1005,7 +1137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17955075306718675305
+  Id: 8750398634510879771
   Name: "Cylinder - bottom aligned"
   Transform {
     Location {
@@ -1024,13 +1156,20 @@ Objects {
       Z: 0.452414334
     }
   }
-  ParentId: 8087537512690999528
-  ChildIds: 4012303145407679811
+  ParentId: 6995147902160157191
+  ChildIds: 13371963344098194067
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 3834379000310649197
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -1070,7 +1209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4012303145407679811
+  Id: 13371963344098194067
   Name: "EquipmentTeamColor"
   Transform {
     Location {
@@ -1089,7 +1228,7 @@ Objects {
       Z: 2.21036315
     }
   }
-  ParentId: 17955075306718675305
+  ParentId: 8750398634510879771
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1117,7 +1256,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14698137811501673750
+  Id: 3755017588707981852
   Name: "Cube"
   Transform {
     Location {
@@ -1133,17 +1272,23 @@ Objects {
       Z: 0.0300098583
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 10184847056121543272
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1182,7 +1327,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6899174223829279549
+  Id: 1484952207401855148
   Name: "Cube"
   Transform {
     Location {
@@ -1198,17 +1343,23 @@ Objects {
       Z: 0.0300098583
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 10184847056121543272
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -1247,7 +1398,7 @@ Objects {
   }
 }
 Objects {
-  Id: 371989529997619982
+  Id: 10469448198717676253
   Name: "Hemisphere-wedge"
   Transform {
     Location {
@@ -1266,12 +1417,12 @@ Objects {
       Z: 0.340781718
     }
   }
-  ParentId: 8087537512690999528
+  ParentId: 6995147902160157191
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 10184847056121543272
       }
     }
     Overrides {
@@ -1285,6 +1436,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
       Float: 2.58322954
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {

@@ -1,7 +1,7 @@
 Name: "Handlers"
-RootId: 10367375059372269228
+RootId: 5163725274003087421
 Objects {
-  Id: 2338828702986046931
+  Id: 6125429995467374420
   Name: "BowLeftSide"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 0.173703864
     }
   }
-  ParentId: 10367375059372269228
+  ParentId: 5163725274003087421
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,7 +43,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9817951825232465343
+  Id: 15707534394101657827
   Name: "BowRightSide"
   Transform {
     Location {
@@ -58,7 +58,7 @@ Objects {
       Z: 0.173703864
     }
   }
-  ParentId: 10367375059372269228
+  ParentId: 5163725274003087421
   UnregisteredParameters {
   }
   Collidable_v2 {

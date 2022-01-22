@@ -1,7 +1,7 @@
 Name: "Boost Effects_1"
-RootId: 16799151563024281064
+RootId: 15954504354697653287
 Objects {
-  Id: 14794076183158242003
+  Id: 3305455390532649816
   Name: "UtilityAttachOnEquip"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1.15384626
     }
   }
-  ParentId: 16799151563024281064
+  ParentId: 15954504354697653287
   UnregisteredParameters {
     Overrides {
       Name: "cs:Socket"
@@ -52,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10341020127819568808
+  Id: 5604187295733464449
   Name: "Magic Dark Buff or Debuff 01 SFX"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16799151563024281064
+  ParentId: 15954504354697653287
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -104,7 +104,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12598479468921068791
+  Id: 1272832828066144228
   Name: "Spark Trail Wavy VFX"
   Transform {
     Location {
@@ -117,7 +117,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16799151563024281064
+  ParentId: 15954504354697653287
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -178,7 +178,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9723502974510140759
+  Id: 14769566209700628213
   Name: "Distortion Ring Trail VFX"
   Transform {
     Location {
@@ -191,7 +191,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16799151563024281064
+  ParentId: 15954504354697653287
   UnregisteredParameters {
   }
   Collidable_v2 {

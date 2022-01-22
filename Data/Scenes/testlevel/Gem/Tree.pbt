@@ -1,7 +1,7 @@
 Name: "Gem"
-RootId: 9664652954213929428
+RootId: 10187957251956612007
 Objects {
-  Id: 12549387346628700710
+  Id: 12134722183246492083
   Name: "Ring"
   Transform {
     Location {
@@ -15,12 +15,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9664652954213929428
+  ParentId: 10187957251956612007
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8928683919373888572
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -60,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14804264890483501243
+  Id: 1295900675640660297
   Name: "Sphere"
   Transform {
     Location {
@@ -73,13 +80,20 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9664652954213929428
-  ChildIds: 18121024849218929991
+  ParentId: 10187957251956612007
+  ChildIds: 1576074071741817380
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 8783133249613045902
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -119,7 +133,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18121024849218929991
+  Id: 1576074071741817380
   Name: "EquipmentTeamColor"
   Transform {
     Location {
@@ -132,7 +146,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14804264890483501243
+  ParentId: 1295900675640660297
   UnregisteredParameters {
   }
   Collidable_v2 {

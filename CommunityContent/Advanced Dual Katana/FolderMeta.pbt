@@ -1,0 +1,63 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "34c8d908a1384a32aca19780a1c90e4b"
+  OwnerAccountId: "081b051453184f9b8f0a54de570d78a5"
+  OwnerName: "hermawk"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 171090409284182791
+  value: 4374616588343123343
+}
+AssetIdsOriginalToNew {
+  key: 307406115803496087
+  value: 5267092028606784310
+}
+AssetIdsOriginalToNew {
+  key: 440168262593430639
+  value: 15862466463125201459
+}
+AssetIdsOriginalToNew {
+  key: 1427829216143793458
+  value: 4920608849509331761
+}
+AssetIdsOriginalToNew {
+  key: 1970105428586059764
+  value: 5848220051945640695
+}
+AssetIdsOriginalToNew {
+  key: 4020958367257585299
+  value: 3347748256731402233
+}
+AssetIdsOriginalToNew {
+  key: 5082628058110625875
+  value: 8938872099935861330
+}
+AssetIdsOriginalToNew {
+  key: 8459825612529451237
+  value: 4865882798959803707
+}
+AssetIdsOriginalToNew {
+  key: 9748598691135565465
+  value: 6715147347011350249
+}
+AssetIdsOriginalToNew {
+  key: 9770511928359673738
+  value: 12071547217986982413
+}
+AssetIdsOriginalToNew {
+  key: 10943635769946591809
+  value: 18413910804226170386
+}
+AssetIdsOriginalToNew {
+  key: 12439034694186114331
+  value: 2499099738086210874
+}
+AssetIdsOriginalToNew {
+  key: 12971704803185333098
+  value: 9572152686742189086
+}
+AssetIdsOriginalToNew {
+  key: 13229911882012786422
+  value: 16517803682938062419
+}

@@ -1,7 +1,7 @@
 Name: "Boost Effects"
-RootId: 8489619864200356901
+RootId: 16799151563024281064
 Objects {
-  Id: 17894753231264046227
+  Id: 14794076183158242003
   Name: "UtilityAttachOnEquip"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1.15384626
     }
   }
-  ParentId: 8489619864200356901
+  ParentId: 16799151563024281064
   UnregisteredParameters {
     Overrides {
       Name: "cs:Socket"
@@ -42,20 +42,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17894753231264046227
-    SubobjectId: 8834022342282954245
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 14794076183158242003
+    SubobjectId: 17885298059090210704
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13067442932342999615
-  Name: "Magic Frost Wind Whoosh 02 SFX"
+  Id: 10341020127819568808
+  Name: "Magic Dark Buff or Debuff 01 SFX"
   Transform {
     Location {
+      X: -60.0000153
+      Y: -177.329468
+      Z: -65
     }
     Rotation {
     }
@@ -65,7 +68,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8489619864200356901
+  ParentId: 16799151563024281064
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -79,28 +82,29 @@ Objects {
   }
   AudioInstance {
     AudioAsset {
-      Id: 15673647477826180616
+      Id: 3064527128006488196
     }
+    Pitch: 500
     Volume: 1
     Falloff: 3600
     Radius: 400
     EnableOcclusion: true
-    FadeOutTime: 1
+    FadeOutTime: 2
     IsSpatializationEnabled: true
     IsAttenuationEnabled: true
   }
   InstanceHistory {
-    SelfId: 13067442932342999615
-    SubobjectId: 4005615246283231401
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 10341020127819568808
+    SubobjectId: 13472770282064249835
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 10838544756941564634
+  Id: 12598479468921068791
   Name: "Spark Trail Wavy VFX"
   Transform {
     Location {
@@ -113,13 +117,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8489619864200356901
+  ParentId: 16799151563024281064
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
       Color {
-        R: 0.799999237
-        G: 5
+        R: 0.5
+        G: 3
+        B: 5
         A: 1
       }
     }
@@ -129,7 +134,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Chaos"
-      Float: 0.35
+      Float: 0.15
     }
     Overrides {
       Name: "bp:Spawn Radius"
@@ -160,10 +165,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10838544756941564634
-    SubobjectId: 1487332248969228364
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 12598479468921068791
+    SubobjectId: 11217481952685656500
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
@@ -173,8 +178,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10139322112012750932
-  Name: "Cast Burst Ring VFX"
+  Id: 9723502974510140759
+  Name: "Distortion Ring Trail VFX"
   Transform {
     Location {
     }
@@ -186,32 +191,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8489619864200356901
+  ParentId: 16799151563024281064
   UnregisteredParameters {
-    Overrides {
-      Name: "bp:color"
-      Color {
-        G: 0.580000043
-        B: 0.0384106711
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Edge Color"
-      Color {
-        G: 1
-        B: 0.0662252903
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Count"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Emissive Boost"
-      Float: 5
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -224,18 +205,19 @@ Objects {
   }
   Blueprint {
     BlueprintAsset {
-      Id: 2668490165851605550
+      Id: 7376223038896408808
     }
     TeamSettings {
     }
     Vfx {
+      AutoPlay: true
     }
   }
   InstanceHistory {
-    SelfId: 10139322112012750932
-    SubobjectId: 1042641009385605826
-    InstanceId: 15953890176213594052
-    TemplateId: 3709183153932681894
+    SelfId: 9723502974510140759
+    SubobjectId: 12937320301009115156
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"

@@ -1,7 +1,7 @@
 Name: "BowRightSide"
-RootId: 9817951825232465343
+RootId: 15707534394101657827
 Objects {
-  Id: 16374275312397485174
+  Id: 2672576091483586742
   Name: "Quarter-Donut"
   Transform {
     Location {
@@ -20,12 +20,18 @@ Objects {
       Z: 1.51618481
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18373897150747192343
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
       }
     }
   }
@@ -65,7 +71,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12310736953313589709
+  Id: 12046008471599452066
   Name: "Horn"
   Transform {
     Location {
@@ -84,17 +90,23 @@ Objects {
       Z: 0.626204491
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -133,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5058893524197704904
+  Id: 562352101405855068
   Name: "Donut 02"
   Transform {
     Location {
@@ -152,12 +164,19 @@ Objects {
       Z: 0.171185076
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -197,7 +216,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11215208519438746502
+  Id: 14581409393984985264
   Name: "Horn"
   Transform {
     Location {
@@ -216,17 +235,23 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16110822487457423098
+        Id: 18373897150747192343
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -265,7 +290,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9023364308480610589
+  Id: 5498462066947737115
   Name: "Donut 02"
   Transform {
     Location {
@@ -284,12 +309,19 @@ Objects {
       Z: 0.272235364
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -329,7 +361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13399532528898466490
+  Id: 5762655553165669001
   Name: "Horn"
   Transform {
     Location {
@@ -348,12 +380,19 @@ Objects {
       Z: 0.55580014
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18373897150747192343
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }
@@ -393,7 +432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14741088873794007623
+  Id: 17859528647176198493
   Name: "Donut 02"
   Transform {
     Location {
@@ -412,12 +451,19 @@ Objects {
       Z: 0.257132173
     }
   }
-  ParentId: 9817951825232465343
+  ParentId: 15707534394101657827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17434062201677249810
+        Id: 12490634349785726264
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.929999948
+        A: 1
       }
     }
   }

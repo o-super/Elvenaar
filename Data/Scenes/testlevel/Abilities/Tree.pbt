@@ -1,13 +1,10 @@
 Name: "Abilities"
-RootId: 13832913578769727098
+RootId: 8431084143088147822
 Objects {
-  Id: 13401363484159106352
+  Id: 9269454478643932824
   Name: "Boost"
   Transform {
     Location {
-      X: 90
-      Y: 435
-      Z: 60
     }
     Rotation {
     }
@@ -17,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13832913578769727098
-  ChildIds: 2921798410300443901
-  ChildIds: 12251722287748014310
+  ParentId: 8431084143088147822
+  ChildIds: 5288150609454690775
+  ChildIds: 11286569270910518697
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -35,7 +32,7 @@ Objects {
   Ability {
     IsEnabled: true
     CastPhaseSettings {
-      Duration: 0.5
+      Duration: 1.5
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -66,7 +63,7 @@ Objects {
       }
     }
     CooldownPhaseSettings {
-      Duration: 3
+      Duration: 3.5
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -82,17 +79,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13401363484159106352
-    SubobjectId: 1875991287663410527
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 9269454478643932824
+    SubobjectId: 13103783353012796379
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 12251722287748014310
+  Id: 11286569270910518697
   Name: "ClientContext"
   Transform {
     Location {
@@ -105,9 +102,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13401363484159106352
-  ChildIds: 908245196602285152
-  ChildIds: 763056015045144850
+  ParentId: 9269454478643932824
+  ChildIds: 14052791508127922058
+  ChildIds: 16799151563024281064
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -123,17 +120,17 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 12251722287748014310
-    SubobjectId: 717538768116154505
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 11286569270910518697
+    SubobjectId: 12239579577320378602
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 763056015045144850
+  Id: 16799151563024281064
   Name: "Boost Effects"
   Transform {
     Location {
@@ -146,7 +143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12251722287748014310
+  ParentId: 11286569270910518697
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -160,20 +157,20 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Boost Effects_2"
+    FilePartitionName: "Boost Effects"
   }
   InstanceHistory {
-    SelfId: 763056015045144850
-    SubobjectId: 12206164907773383037
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 16799151563024281064
+    SubobjectId: 15877679508560165035
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 908245196602285152
+  Id: 14052791508127922058
   Name: "AbilityVFXTriggerClient"
   Transform {
     Location {
@@ -186,12 +183,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12251722287748014310
+  ParentId: 11286569270910518697
   UnregisteredParameters {
     Overrides {
       Name: "cs:EffectsParent"
       ObjectReference {
-        SelfId: 763056015045144850
+        SelfId: 16799151563024281064
       }
     }
   }
@@ -210,17 +207,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 908245196602285152
-    SubobjectId: 12639727316096351247
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 14052791508127922058
+    SubobjectId: 17762128069401748169
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 2921798410300443901
+  Id: 5288150609454690775
   Name: "ImpulseBoostServer"
   Transform {
     Location {
@@ -236,19 +233,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13401363484159106352
+  ParentId: 9269454478643932824
   UnregisteredParameters {
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 13401363484159106352
+        SelfId: 9269454478643932824
       }
     }
     Overrides {
       Name: "cs:BoostDirection"
       Vector {
         X: 1100
-        Z: 450
+        Z: 500
       }
     }
   }
@@ -268,61 +265,55 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2921798410300443901
-    SubobjectId: 10051956420449152146
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 5288150609454690775
+    SubobjectId: 8942181570932335764
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 12446411520254955484
-  Name: "Heavy Smash"
+  Id: 6598364755101411236
+  Name: "Freeze Slash"
   Transform {
     Location {
-      X: 118.811951
-      Y: 100.000427
-      Z: 132.16275
     }
     Rotation {
-      Yaw: 2.04905627e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 13832913578769727098
-  ChildIds: 14446844629155207435
-  ChildIds: 9863730381795205417
-  ChildIds: 13608303217116525209
+  ParentId: 8431084143088147822
+  ChildIds: 5251476620230064377
+  ChildIds: 7869770048004707892
+  ChildIds: 10691413996188053649
   UnregisteredParameters {
   }
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Ability {
     IsEnabled: true
-    KeyBinding: "ability_ult"
+    KeyBinding: "ability_primary"
     CastPhaseSettings {
-      Duration: 0.74
+      Duration: 0.52
+      PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
         Value: "mc:eabilitysetfacing:aim"
       }
     }
     ExecutePhaseSettings {
-      Duration: 0.08
+      Duration: 0.05
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
@@ -331,13 +322,10 @@ Objects {
     }
     RecoveryPhaseSettings {
       Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
+        Value: "mc:eabilitysetfacing:aim"
       }
     }
     CooldownPhaseSettings {
@@ -347,33 +335,28 @@ Objects {
       CanRotate: true
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
     }
-    Animation: "2hand_sword_slash_vertical"
+    Animation: "1hand_melee_slash_vertical"
+    CanBePrevented: true
     KeyBinding_v2 {
       Value: "mc:egameaction:extraaction_03"
     }
   }
   InstanceHistory {
-    SelfId: 12446411520254955484
-    SubobjectId: 1101517559317278643
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 6598364755101411236
+    SubobjectId: 7991729880725091047
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13608303217116525209
+  Id: 10691413996188053649
   Name: "ClientContext"
   Transform {
     Location {
-      X: -234.625412
-      Y: 129.074295
-      Z: -237.16275
     }
     Rotation {
     }
@@ -383,8 +366,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12446411520254955484
-  ChildIds: 17998585906763930512
+  ParentId: 6598364755101411236
+  ChildIds: 6865738002033259566
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -400,31 +383,27 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 13608303217116525209
-    SubobjectId: 2245482682133730038
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 10691413996188053649
+    SubobjectId: 11611900891993810386
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 17998585906763930512
+  Id: 6865738002033259566
   Name: "SetAbilityIconClient"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -3.05175727e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 13608303217116525209
+  ParentId: 10691413996188053649
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -435,7 +414,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 10603225344082263367
+        Id: 17041884398913329708
       }
     }
   }
@@ -454,39 +433,33 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17998585906763930512
-    SubobjectId: 6499885800808938495
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 6865738002033259566
+    SubobjectId: 7652260505300443501
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 9863730381795205417
+  Id: 7869770048004707892
   Name: "MeleeBlastAttackServer"
   Transform {
     Location {
-      X: -733.401855
-      Y: -645.104187
-      Z: -144.321442
     }
     Rotation {
-      Yaw: -2.04905609e-05
+      Yaw: -1.00270136e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 12446411520254955484
+  ParentId: 6598364755101411236
   UnregisteredParameters {
     Overrides {
       Name: "cs:AttackAbility"
       ObjectReference {
-        SelfId: 12446411520254955484
+        SelfId: 6598364755101411236
       }
     }
     Overrides {
@@ -504,48 +477,48 @@ Objects {
     Overrides {
       Name: "cs:BlastImpactTemplate"
       AssetReference {
-        Id: 4954756412742548462
+        Id: 13425841862879819437
       }
     }
     Overrides {
       Name: "cs:BlastDamageRange"
       Vector2 {
-        X: 24
-        Y: 78
+        X: 28
+        Y: 56
       }
     }
     Overrides {
       Name: "cs:BlastRadius"
-      Float: 1400
+      Float: 1200
     }
     Overrides {
       Name: "cs:BlastKnockbackSpeed"
-      Float: 1000
-    }
-    Overrides {
-      Name: "cs:ApplyEffect"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:EffectName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:EffectDuration"
       Float: 0
     }
     Overrides {
+      Name: "cs:ApplyEffect"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EffectName"
+      String: "Ice"
+    }
+    Overrides {
+      Name: "cs:EffectDuration"
+      Float: 1.2
+    }
+    Overrides {
       Name: "cs:FreezeMovement"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:FreezeAbilities"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:PlayerEffectTemplate"
       AssetReference {
-        Id: 841534158063459245
+        Id: 10964820789539953980
       }
     }
     Overrides {
@@ -569,41 +542,29 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 9863730381795205417
-    SubobjectId: 3103239296131776838
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 7869770048004707892
+    SubobjectId: 6362812343326131063
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 14446844629155207435
+  Id: 5251476620230064377
   Name: "MeleeAttackServer"
   Transform {
     Location {
-      X: 31.1879883
-      Y: -0.000438399788
-      Z: -7.16275024
     }
     Rotation {
-      Yaw: -3.05175763e-05
+      Yaw: -1.00270126e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 12446411520254955484
+  ParentId: 6598364755101411236
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Equipment"
-      ObjectReference {
-        SelfId: 2464843050490467128
-      }
-    }
     Overrides {
       Name: "cs:DamageAPI"
       AssetReference {
@@ -611,33 +572,39 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Equipment"
+      ObjectReference {
+        SelfId: 4157481117471016263
+      }
+    }
+    Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 12446411520254955484
+        SelfId: 6598364755101411236
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 9481140279000305896
+        SelfId: 10795561208665406076
       }
     }
     Overrides {
       Name: "cs:DamageRange"
       Vector2 {
-        X: 32
-        Y: 48
+        X: 18
+        Y: 32
       }
     }
     Overrides {
       Name: "cs:SwipeEffect"
       AssetReference {
-        Id: 17071846797010275400
+        Id: 12294237550452636235
       }
     }
     Overrides {
       Name: "cs:SwipeSpawnDelay"
-      Float: 0
+      Float: 0.12
     }
     Overrides {
       Name: "cs:SwipeRotation"
@@ -669,32 +636,29 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14446844629155207435
-    SubobjectId: 7750248088359942500
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 5251476620230064377
+    SubobjectId: 9050744439549226426
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 4413598770023897321
-  Name: "Mid Swing"
+  Id: 9135939509969469001
+  Name: "Mid Slash"
   Transform {
     Location {
-      X: 90
-      Y: 435
-      Z: 60
     }
     Rotation {
     }
     Scale {
     }
   }
-  ParentId: 13832913578769727098
-  ChildIds: 9820440710634241062
-  ChildIds: 4084011557568534421
+  ParentId: 8431084143088147822
+  ChildIds: 5463469205967094388
+  ChildIds: 3912971740954586536
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -711,7 +675,7 @@ Objects {
     IsEnabled: true
     KeyBinding: "ability_primary"
     CastPhaseSettings {
-      Duration: 0.3
+      Duration: 0.1
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -722,7 +686,7 @@ Objects {
       }
     }
     ExecutePhaseSettings {
-      Duration: 0.36
+      Duration: 0.25
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -743,31 +707,31 @@ Objects {
       }
     }
     CooldownPhaseSettings {
-      Duration: 0.6
+      Duration: 0.4
       CanMove: true
       CanJump: true
       CanRotate: true
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
     }
-    Animation: "2hand_sword_slash_right"
+    Animation: "1hand_melee_slash_right"
     CanBePrevented: true
     KeyBinding_v2 {
       Value: "mc:egameaction:secondaryaction"
     }
   }
   InstanceHistory {
-    SelfId: 4413598770023897321
-    SubobjectId: 11435670268890478726
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 9135939509969469001
+    SubobjectId: 5454750442675710730
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 4084011557568534421
+  Id: 3912971740954586536
   Name: "ClientContext"
   Transform {
     Location {
@@ -780,8 +744,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4413598770023897321
-  ChildIds: 11134236738625841151
+  ParentId: 9135939509969469001
+  ChildIds: 10454000986139098234
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -797,28 +761,27 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 4084011557568534421
-    SubobjectId: 11195592331055085562
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 3912971740954586536
+    SubobjectId: 231901459099547883
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 11134236738625841151
+  Id: 10454000986139098234
   Name: "SetAbilityIconClient"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -1.00270126e-05
     }
     Scale {
     }
   }
-  ParentId: 4084011557568534421
+  ParentId: 3912971740954586536
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -829,7 +792,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 10241216381993092650
+        Id: 15201232689808388272
       }
     }
   }
@@ -848,17 +811,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11134236738625841151
-    SubobjectId: 4140822798110279568
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 10454000986139098234
+    SubobjectId: 11848505211240835385
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 9820440710634241062
+  Id: 5463469205967094388
   Name: "MeleeAttackServer"
   Transform {
     Location {
@@ -869,7 +832,7 @@ Objects {
     Scale {
     }
   }
-  ParentId: 4413598770023897321
+  ParentId: 9135939509969469001
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageAPI"
@@ -880,37 +843,37 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       ObjectReference {
-        SelfId: 2464843050490467128
+        SelfId: 4157481117471016263
       }
     }
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 4413598770023897321
+        SelfId: 9135939509969469001
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 9481140279000305896
+        SelfId: 10795561208665406076
       }
     }
     Overrides {
       Name: "cs:DamageRange"
       Vector2 {
-        X: 46
-        Y: 62
+        X: 14
+        Y: 28
       }
     }
     Overrides {
       Name: "cs:SwipeEffect"
       AssetReference {
-        Id: 5202526357816075119
+        Id: 1966108897595205570
       }
     }
     Overrides {
       Name: "cs:SwipeSpawnDelay"
-      Float: 0.1
+      Float: 0
     }
     Overrides {
       Name: "cs:SwipeRotation"
@@ -941,53 +904,46 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 9820440710634241062
-    SubobjectId: 3151077165860461641
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 5463469205967094388
+    SubobjectId: 9126666137575937847
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 14208027474993438741
-  Name: "Swing"
+  Id: 7962167927602557681
+  Name: "Slash"
   Transform {
     Location {
-      X: 118.811951
-      Y: 100.000427
-      Z: 132.16275
     }
     Rotation {
-      Yaw: 2.04905627e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 13832913578769727098
-  ChildIds: 5043097616097980508
-  ChildIds: 8889614972558445929
+  ParentId: 8431084143088147822
+  ChildIds: 13049383680251497856
+  ChildIds: 6894867821600070036
   UnregisteredParameters {
   }
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Ability {
     IsEnabled: true
     KeyBinding: "ability_primary"
     CastPhaseSettings {
-      Duration: 0.32
+      Duration: 0.1
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -998,7 +954,7 @@ Objects {
       }
     }
     ExecutePhaseSettings {
-      Duration: 0.38
+      Duration: 0.25
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -1009,50 +965,41 @@ Objects {
       }
     }
     RecoveryPhaseSettings {
-      Duration: 0.01
       CanMove: true
       CanJump: true
       CanRotate: true
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
       Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
+        Value: "mc:eabilitysetfacing:aim"
       }
     }
     CooldownPhaseSettings {
-      Duration: 0.6
+      Duration: 0.4
       CanMove: true
       CanJump: true
       CanRotate: true
       PreventOtherAbilities: true
       IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
     }
-    Animation: "2hand_sword_slash_left"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
+    Animation: "1hand_melee_slash_left"
+    CanBePrevented: true
   }
   InstanceHistory {
-    SelfId: 14208027474993438741
-    SubobjectId: 7412613280074498170
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 7962167927602557681
+    SubobjectId: 6558656951435831218
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8889614972558445929
+  Id: 6894867821600070036
   Name: "ClientContext"
   Transform {
     Location {
-      X: -234.625412
-      Y: 129.074295
-      Z: -237.16275
     }
     Rotation {
     }
@@ -1062,8 +1009,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14208027474993438741
-  ChildIds: 15290600948262328285
+  ParentId: 7962167927602557681
+  ChildIds: 11117426224648096164
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -1079,31 +1026,27 @@ Objects {
   NetworkContext {
   }
   InstanceHistory {
-    SelfId: 8889614972558445929
-    SubobjectId: 15613320754102365446
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 6894867821600070036
+    SubobjectId: 7698120660119637207
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 15290600948262328285
+  Id: 11117426224648096164
   Name: "SetAbilityIconClient"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -2.04905591e-05
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
     }
   }
-  ParentId: 8889614972558445929
+  ParentId: 6894867821600070036
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -1114,7 +1057,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 10241216381993092650
+        Id: 15201232689808388272
       }
     }
   }
@@ -1133,31 +1076,28 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15290600948262328285
-    SubobjectId: 8629118693298354098
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 11117426224648096164
+    SubobjectId: 12624506797072030951
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 5043097616097980508
+  Id: 13049383680251497856
   Name: "MeleeAttackServer"
   Transform {
     Location {
-      X: -113.037987
-      Y: 614.446899
-      Z: -79.9572906
     }
     Rotation {
-      Yaw: -2.04905609e-05
+      Yaw: -1.00270126e-05
     }
     Scale {
     }
   }
-  ParentId: 14208027474993438741
+  ParentId: 7962167927602557681
   UnregisteredParameters {
     Overrides {
       Name: "cs:DamageAPI"
@@ -1168,32 +1108,32 @@ Objects {
     Overrides {
       Name: "cs:Equipment"
       ObjectReference {
-        SelfId: 2464843050490467128
+        SelfId: 4157481117471016263
       }
     }
     Overrides {
       Name: "cs:Ability"
       ObjectReference {
-        SelfId: 14208027474993438741
+        SelfId: 7962167927602557681
       }
     }
     Overrides {
       Name: "cs:HitBox"
       ObjectReference {
-        SelfId: 9481140279000305896
+        SelfId: 10795561208665406076
       }
     }
     Overrides {
       Name: "cs:DamageRange"
       Vector2 {
-        X: 46
-        Y: 62
+        X: 14
+        Y: 28
       }
     }
     Overrides {
       Name: "cs:SwipeEffect"
       AssetReference {
-        Id: 5202526357816075119
+        Id: 1966108897595205570
       }
     }
     Overrides {
@@ -1230,10 +1170,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5043097616097980508
-    SubobjectId: 16577547612512964659
-    InstanceId: 2726472657027721527
-    TemplateId: 3347067087044352644
+    SelfId: 13049383680251497856
+    SubobjectId: 9251224201704184003
+    InstanceId: 17814152441956551220
+    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
