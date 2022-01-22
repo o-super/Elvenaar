@@ -24,7 +24,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 3
 local TimeBetweenWaves = 45
 local LastWaveFinishedSpawning = false
@@ -58,8 +58,29 @@ function OnRoundEnd()
     KillAllNPCs()
     CurrentWaveNb = 1
     ResetObjectives()
+    ResetAllPlayers()
     ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
     SpawnPlayers(true)
+end
+
+function ResetAllPlayers()
+    for _, player in pairs(Game.GetPlayers()) do
+        RemoveEquipment(player)
+    end
+end
+
+function RemoveEquipment(player)
+    local t_equipment = player:GetEquipment()
+
+    if t_equipment == nil then return end
+    for _, equipment in ipairs(t_equipment) do
+        if equipment ~= nil and Object.IsValid(equipment) then
+            equipment:Unequip()
+            if Object.IsValid(equipment) then
+                equipment:Destroy()
+            end
+        end        
+    end
 end
 
 function ResetObjectives()
