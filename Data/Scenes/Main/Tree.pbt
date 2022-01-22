@@ -18,6 +18,8 @@ Objects {
   ChildIds: 2540699062385856111
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
+  ChildIds: 18081526635364122419
+  ChildIds: 4487577542579214658
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +35,757 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4487577542579214658
+  Name: "2Frogs-Hero-Prophet"
+  Transform {
+    Location {
+      X: -3754
+      Y: -54
+      Z: 3228
+    }
+    Rotation {
+      Yaw: -74.9998856
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7978116857958376855
+  ChildIds: 1608908815697256005
+  ChildIds: 9587544043455907167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4487577542579214658
+    SubobjectId: 5386640107399009985
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9587544043455907167
+  Name: "StandModel"
+  Transform {
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4487577542579214658
+  ChildIds: 5882480861562523652
+  ChildIds: 14124747577633918585
+  ChildIds: 853395685101326159
+  ChildIds: 10467184518942680943
+  ChildIds: 16733564009335987035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9587544043455907167
+    SubobjectId: 17405268922932759260
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16733564009335987035
+  Name: "Stand Katana - Holder 01"
+  Transform {
+    Location {
+      X: -32
+      Y: -7
+      Z: 46
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9587544043455907167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1299540107153138585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16733564009335987035
+    SubobjectId: 11294936133863740632
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10467184518942680943
+  Name: "Stand Katana - Holder 01"
+  Transform {
+    Location {
+      X: 32
+      Y: -7
+      Z: 46
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9587544043455907167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1299540107153138585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 10467184518942680943
+    SubobjectId: 16556581881594538220
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 853395685101326159
+  Name: "Stand Katana - Back 01"
+  Transform {
+    Location {
+      Y: -14
+      Z: 46
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9587544043455907167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7948167637451889616
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 853395685101326159
+    SubobjectId: 9174392669479583948
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14124747577633918585
+  Name: "Stand Katana - Base 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9587544043455907167
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3007033251064531162
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14124747577633918585
+    SubobjectId: 12719023280497508858
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5882480861562523652
+  Name: "Magic Staff"
+  Transform {
+    Location {
+      X: 11.5217447
+      Y: -7.22837448
+      Z: 82
+    }
+    Rotation {
+      Pitch: 9.3475914
+      Yaw: 92.4542542
+      Roll: -58.141613
+    }
+    Scale {
+      X: 0.156287938
+      Y: 0.156287938
+      Z: 0.156287938
+    }
+  }
+  ParentId: 9587544043455907167
+  ChildIds: 6324922254680567571
+  ChildIds: 1393076760992521743
+  ChildIds: 15007677256455211957
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5882480861562523652
+    SubobjectId: 2676517454764597127
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15007677256455211957
+  Name: "Deco"
+  Transform {
+    Location {
+      Z: 200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 5
+    }
+  }
+  ParentId: 5882480861562523652
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Deco_1"
+  }
+  InstanceHistory {
+    SelfId: 15007677256455211957
+    SubobjectId: 11872572391134544950
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1393076760992521743
+  Name: "Ball"
+  Transform {
+    Location {
+      Z: 497.972839
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.02048481
+      Y: 1.02048481
+      Z: 1.02048481
+    }
+  }
+  ParentId: 5882480861562523652
+  ChildIds: 15565392816352479368
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 395973889484368524
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.230000019
+        G: 0.938807786
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9426188198345824359
+    }
+    Teams {
+      UseTeamColor: true
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1393076760992521743
+    SubobjectId: 7481341762998899084
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15565392816352479368
+  Name: "EquipmentTeamColor"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6.27000666
+      Y: 6.27000666
+      Z: 6.27000666
+    }
+  }
+  ParentId: 1393076760992521743
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15438218715691669456
+    }
+  }
+  InstanceHistory {
+    SelfId: 15565392816352479368
+    SubobjectId: 12431413886908679947
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6324922254680567571
+  Name: "Body"
+  Transform {
+    Location {
+      Z: 415.000031
+    }
+    Rotation {
+      Roll: 179.999954
+    }
+    Scale {
+      X: 0.650000036
+      Y: 0.5
+      Z: 20.3000011
+    }
+  }
+  ParentId: 5882480861562523652
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16317220667304389303
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3255814708276840062
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6324922254680567571
+    SubobjectId: 2540171045019918480
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1608908815697256005
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 4487577542579214658
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Choose this hero"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1608908815697256005
+    SubobjectId: 7121841755157598662
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7978116857958376855
+  Name: "2Frogs-HeroSelector"
+  Transform {
+    Location {
+      X: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4487577542579214658
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 1608908815697256005
+      }
+    }
+    Overrides {
+      Name: "cs:IceSet"
+      AssetReference {
+        Id: 3581906671385183225
+      }
+    }
+    Overrides {
+      Name: "cs:FireSet"
+      AssetReference {
+        Id: 7864648436159920345
+      }
+    }
+    Overrides {
+      Name: "cs:IceSet:tooltip"
+      String: "The equipment for ice"
+    }
+    Overrides {
+      Name: "cs:FireSet:tooltip"
+      String: "The equipment for fire"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11755775073372074457
+    }
+  }
+  InstanceHistory {
+    SelfId: 7978116857958376855
+    SubobjectId: 1887523226926295572
+    InstanceId: 17948972634666836828
+    TemplateId: 15361854756030026734
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 18081526635364122419
+  Name: "2Frogs-Hero-Ryley"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5386640107399009985
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-Hero-Ryley"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3631
+            Y: -350
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -74.9999695
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6079433210358755901
+    }
   }
 }
 Objects {
@@ -126,9 +879,6 @@ Objects {
   ChildIds: 572846477296156484
   ChildIds: 16813558807825262224
   ChildIds: 1572265990359891
-  ChildIds: 16572351611231552146
-  ChildIds: 7114030134706513641
-  ChildIds: 13851011661548898916
   ChildIds: 12874777007388652008
   ChildIds: 10122255796440110680
   WantsNetworking: true
@@ -8905,1767 +9655,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13851011661548898916
-  Name: "2Frogs - Advanced Dual Katana"
-  Transform {
-    Location {
-      X: -550
-      Y: -50
-      Z: 250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2540699062385856111
-  ChildIds: 5117357978090259426
-  ChildIds: 13069941871020021628
-  ChildIds: 9059632590895024605
-  ChildIds: 15976295540018625333
-  ChildIds: 3309891686148040163
-  ChildIds: 11858232012692596320
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EquipmentStance"
-      String: "dual_katana_stance"
-    }
-    Overrides {
-      Name: "cs:PlayerImpact"
-      AssetReference {
-        Id: 307406115803496087
-      }
-    }
-    Overrides {
-      Name: "cs:ObjectImpact"
-      AssetReference {
-        Id: 16244471840856776085
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSound"
-      AssetReference {
-        Id: 1970105428586059764
-      }
-    }
-    Overrides {
-      Name: "cs:HitSphereRadius"
-      Float: 175
-    }
-    Overrides {
-      Name: "cs:HitSphereOffset"
-      Vector {
-        X: 50
-        Z: 50
-      }
-    }
-    Overrides {
-      Name: "cs:ShowHitSphere"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:EquipmentStance:tooltip"
-      String: "The stance animation when a player picks up the equipment."
-    }
-    Overrides {
-      Name: "cs:PlayerImpact:tooltip"
-      String: "Template that is spawned at the location where the hitbox hit the player."
-    }
-    Overrides {
-      Name: "cs:SwingSound:tooltip"
-      String: "Template that is spawned at the equipment owner location when a melee ability is executed."
-    }
-    Overrides {
-      Name: "cs:HitSphereRadius:tooltip"
-      String: "Radius of hit sphere to detect players and damageable objects."
-    }
-    Overrides {
-      Name: "cs:ShowHitSphere:tooltip"
-      String: "Show sphere in editor when performing ability."
-    }
-    Overrides {
-      Name: "cs:HitSphereOffset:tooltip"
-      String: "Offset of the hit sphere from root position of equipment owner."
-    }
-    Overrides {
-      Name: "cs:ObjectImpact:tooltip"
-      String: "Impact template spawned on damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "right_prop"
-    PickupTrigger {
-      SelfId: 5117357978090259426
-    }
-  }
-  InstanceHistory {
-    SelfId: 13851011661548898916
-    SubobjectId: 15036681405414535276
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11858232012692596320
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13851011661548898916
-  ChildIds: 13625685347673958028
-  ChildIds: 16545628144569540729
-  ChildIds: 13882117770957498774
-  ChildIds: 8665329854681217184
-  ChildIds: 12841177011804150558
-  ChildIds: 8382853218824199891
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 11858232012692596320
-    SubobjectId: 12971858528110845032
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8382853218824199891
-  Name: "Armor"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  ChildIds: 13434990562278110429
-  ChildIds: 9384462755660968341
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PlayerSocket"
-      String: "upper_spine"
-    }
-    Overrides {
-      Name: "cs:LocalPosition"
-      Vector {
-        X: -20
-        Z: -20
-      }
-    }
-    Overrides {
-      Name: "cs:LocalRotation"
-      Rotator {
-        Yaw: 180
-        Roll: 45
-      }
-    }
-    Overrides {
-      Name: "cs:PlayerSocket:tooltip"
-      String: "Specify the player socket to attach the object."
-    }
-    Overrides {
-      Name: "cs:PlayerSocket:isrep"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:PlayerSocket:ml"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:LocalPosition:tooltip"
-      String: "Specify the local position of the object when attached to the player socket."
-    }
-    Overrides {
-      Name: "cs:LocalPosition:isrep"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:LocalPosition:ml"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:LocalRotation:tooltip"
-      String: "Specify the local rotation of the object when attached to the player socket."
-    }
-    Overrides {
-      Name: "cs:LocalRotation:isrep"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:LocalRotation:ml"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9384462755660968341
-  Name: "Shield"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -45
-      Yaw: -85
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8382853218824199891
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8490697223434751385
-    }
-    Teams {
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4650860512360382312
-    SubobjectId: 5773200570458277216
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13434990562278110429
-  Name: "EquipmentAttachObjectToPlayer"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -4.09811328e-05
-      Yaw: 1.02452796e-05
-      Roll: 1.70754288e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8382853218824199891
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Object"
-      ObjectReference {
-        SelfId: 8382853218824199891
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12439034694186114331
-    }
-  }
-  InstanceHistory {
-    SelfId: 13605554676401145100
-    SubobjectId: 12413337083095400196
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12841177011804150558
-  Name: "Katana Left Hand Geo"
-  Transform {
-    Location {
-      Y: -30
-    }
-    Rotation {
-      Pitch: -45
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  ChildIds: 13605554676401145100
-  ChildIds: 4650860512360382312
-  ChildIds: 5458163385029761692
-  ChildIds: 2098419821884036145
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PlayerSocket"
-      String: "left_prop"
-    }
-    Overrides {
-      Name: "cs:LocalPosition"
-      Vector {
-        Z: 10
-      }
-    }
-    Overrides {
-      Name: "cs:LocalRotation"
-      Rotator {
-      }
-    }
-    Overrides {
-      Name: "cs:PlayerSocket:tooltip"
-      String: "Specify the player socket to attach the object."
-    }
-    Overrides {
-      Name: "cs:LocalPosition:tooltip"
-      String: "Specify the local position of the object when attached to the player socket."
-    }
-    Overrides {
-      Name: "cs:LocalRotation:tooltip"
-      String: "Specify the local rotation of the object when attached to the player socket."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 12841177011804150558
-    SubobjectId: 11718557401801138454
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2098419821884036145
-  Name: "Katana Handle"
-  Transform {
-    Location {
-      Z: -0.0724563599
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12841177011804150558
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15275463334341845517
-    }
-    Teams {
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 2098419821884036145
-    SubobjectId: 975801312469282361
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5458163385029761692
-  Name: "Katana Guard"
-  Transform {
-    Location {
-      Z: 1
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12841177011804150558
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3642695097438974619
-    }
-    Teams {
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 5458163385029761692
-    SubobjectId: 6569310415826722964
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4650860512360382312
-  Name: "Katana Blade"
-  Transform {
-    Location {
-      Z: 1.78399658
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12841177011804150558
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11019742060840546363
-    }
-    Teams {
-    }
-    DisableReceiveDecals: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 4650860512360382312
-    SubobjectId: 5773200570458277216
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13605554676401145100
-  Name: "EquipmentAttachObjectToPlayer"
-  Transform {
-    Location {
-      X: 21.2131882
-      Y: 1.90734863e-06
-      Z: 21.2132111
-    }
-    Rotation {
-      Pitch: -3.4150944e-05
-      Yaw: -89.9999695
-      Roll: -45.0000038
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12841177011804150558
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Object"
-      ObjectReference {
-        SelfId: 12841177011804150558
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12439034694186114331
-    }
-  }
-  InstanceHistory {
-    SelfId: 13605554676401145100
-    SubobjectId: 12413337083095400196
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8665329854681217184
-  Name: "Katana Right Hand Geo"
-  Transform {
-    Location {
-      Y: 30
-    }
-    Rotation {
-      Pitch: -45
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  ChildIds: 14431089464929609898
-  ChildIds: 16278804030997953862
-  ChildIds: 9286436492648863834
-  ChildIds: 6886052701254472579
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PlayerSocket"
-      String: "right_prop"
-    }
-    Overrides {
-      Name: "cs:LocalPosition"
-      Vector {
-        Z: 10
-      }
-    }
-    Overrides {
-      Name: "cs:LocalRotation"
-      Rotator {
-      }
-    }
-    Overrides {
-      Name: "cs:PlayerSocket:tooltip"
-      String: "Specify the player socket to attach the object."
-    }
-    Overrides {
-      Name: "cs:LocalPosition:tooltip"
-      String: "Specify the local position of the object when attached to the player socket."
-    }
-    Overrides {
-      Name: "cs:LocalRotation:tooltip"
-      String: "Specify the local rotation of the object when attached to the player socket."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 8665329854681217184
-    SubobjectId: 7553878245201035944
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6886052701254472579
-  Name: "Katana Handle"
-  Transform {
-    Location {
-      Z: -0.0724563599
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8665329854681217184
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15275463334341845517
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 6886052701254472579
-    SubobjectId: 5694106669067954571
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9286436492648863834
-  Name: "Katana Guard"
-  Transform {
-    Location {
-      Z: 1
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8665329854681217184
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3642695097438974619
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 9286436492648863834
-    SubobjectId: 10409410160426574418
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16278804030997953862
-  Name: "Katana Blade"
-  Transform {
-    Location {
-      Z: 1.78399658
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8665329854681217184
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11019742060840546363
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 16278804030997953862
-    SubobjectId: 17400859674211403598
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14431089464929609898
-  Name: "EquipmentAttachObjectToPlayer"
-  Transform {
-    Location {
-      X: 21.2132
-      Y: -1.90734863e-06
-      Z: 21.2132015
-    }
-    Rotation {
-      Pitch: -6.83018879e-06
-      Yaw: 89.9999924
-      Roll: 44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8665329854681217184
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Object"
-      ObjectReference {
-        SelfId: 8665329854681217184
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12439034694186114331
-    }
-  }
-  InstanceHistory {
-    SelfId: 14431089464929609898
-    SubobjectId: 15623036322826736290
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13882117770957498774
-  Name: "EquipmentMeleeAttacksClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12971704803185333098
-    }
-  }
-  InstanceHistory {
-    SelfId: 13882117770957498774
-    SubobjectId: 15002223894156350366
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16545628144569540729
-  Name: "EquipmentPickupClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PickupSound"
-      AssetReference {
-        Id: 4020958367257585299
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 440168262593430639
-    }
-  }
-  InstanceHistory {
-    SelfId: 16545628144569540729
-    SubobjectId: 17656444291089422961
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13625685347673958028
-  Name: "DestructibleWeaponClient"
-  Transform {
-    Location {
-      Y: 1.52587891e-05
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: -1.02452805e-05
-      Roll: -1.02452805e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11858232012692596320
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 12445502221801794435
-    }
-  }
-  InstanceHistory {
-    SelfId: 13625685347673958028
-    SubobjectId: 12505795827190979716
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3309891686148040163
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13851011661548898916
-  ChildIds: 9104534034325275714
-  ChildIds: 11878369643063871017
-  ChildIds: 5561373009848525973
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 3309891686148040163
-    SubobjectId: 4430050381891985387
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5561373009848525973
-  Name: "EquipmentMeleeAttacksServer"
-  Transform {
-    Location {
-      Y: -325
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3309891686148040163
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ModuleManager"
-      AssetReference {
-        Id: 4880042328631836034
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5082628058110625875
-    }
-  }
-  InstanceHistory {
-    SelfId: 5561373009848525973
-    SubobjectId: 6753249771729280669
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11878369643063871017
-  Name: "EquipmentStanceServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3309891686148040163
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1427829216143793458
-    }
-  }
-  InstanceHistory {
-    SelfId: 11878369643063871017
-    SubobjectId: 12992280107359222817
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9104534034325275714
-  Name: "EquipmentPickupServer"
-  Transform {
-    Location {
-      Y: -325
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3309891686148040163
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 5117357978090259426
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 8459825612529451237
-    }
-  }
-  InstanceHistory {
-    SelfId: 9104534034325275714
-    SubobjectId: 7983869338819477066
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15976295540018625333
-  Name: "Attack 3"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13851011661548898916
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Damage"
-      Float: 70
-    }
-    Overrides {
-      Name: "cs:UseHitSphere"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SwingEffect"
-      AssetReference {
-        Id: 171090409284182791
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSpawnDelay"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:SwingRotationX"
-      Float: 85
-    }
-    Overrides {
-      Name: "cs:SwingRotationY"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Damage:tooltip"
-      String: "Damage value applied to a player hit by hitbox trigger."
-    }
-    Overrides {
-      Name: "cs:UseHitSphere:tooltip"
-      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 1.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "dual_katana_right_hand_slash_vertical"
-    CanBePrevented: true
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 15976295540018625333
-    SubobjectId: 14781552366354792765
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9059632590895024605
-  Name: "Attack 2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13851011661548898916
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Damage"
-      Float: 55
-    }
-    Overrides {
-      Name: "cs:UseHitSphere"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SwingEffect"
-      AssetReference {
-        Id: 171090409284182791
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSpawnDelay"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:SwingRotationX"
-      Float: -180
-    }
-    Overrides {
-      Name: "cs:SwingRotationY"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Damage:tooltip"
-      String: "Damage value applied to a player hit by hitbox trigger."
-    }
-    Overrides {
-      Name: "cs:UseHitSphere:tooltip"
-      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 1.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "dual_katana_right_hand_slash_right"
-    CanBePrevented: true
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 9059632590895024605
-    SubobjectId: 7867767095785141205
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13069941871020021628
-  Name: "Attack 1"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13851011661548898916
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Damage"
-      Float: 35
-    }
-    Overrides {
-      Name: "cs:UseHitSphere"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SwingEffect"
-      AssetReference {
-        Id: 171090409284182791
-      }
-    }
-    Overrides {
-      Name: "cs:SwingSpawnDelay"
-      Float: 0.04
-    }
-    Overrides {
-      Name: "cs:SwingRotationX"
-      Float: -4.8
-    }
-    Overrides {
-      Name: "cs:SwingRotationY"
-      Float: -4
-    }
-    Overrides {
-      Name: "cs:Damage:tooltip"
-      String: "Damage value applied to a player hit by hitbox trigger."
-    }
-    Overrides {
-      Name: "cs:UseHitSphere:tooltip"
-      String: "If true, this ability will use the hit sphere cast during execution phase to damage players or damageable objects."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      Duration: 0.15
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      Duration: 0.1
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      Duration: 1.2
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "dual_katana_left_hand_slash_left"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-  InstanceHistory {
-    SelfId: 13069941871020021628
-    SubobjectId: 11958298669494119796
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5117357978090259426
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-      Z: 40
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.2
-    }
-  }
-  ParentId: 13851011661548898916
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Equip Dual Katana"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 5117357978090259426
-    SubobjectId: 6309871134939216362
-    InstanceId: 6926037083254795178
-    TemplateId: 16163558575396790448
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 7114030134706513641
-  Name: "2Frogs - Advanced Hammer"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2540699062385856111
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1859352394175529873
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Advanced Hammer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -450
-            Y: -400
-            Z: 200
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2883177082366430539
-    }
-  }
-}
-Objects {
-  Id: 16572351611231552146
-  Name: "2Frogs - Advanced 2-Handed Sword"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2540699062385856111
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5442477862039634599
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Advanced 2-Handed Sword"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -700
-            Y: 250
-            Z: 250
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6805203662627609587
-    }
   }
 }
 Objects {

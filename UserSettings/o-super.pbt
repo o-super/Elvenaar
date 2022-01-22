@@ -106,5 +106,10 @@ ObjectSettings {
     value {
     }
   }
+  ObjectStates {
+    key: 15565392816352479368
+    value {
+    }
+  }
 }
-LastSavedScene: "testlevel"
+LastSavedScene: "Main"

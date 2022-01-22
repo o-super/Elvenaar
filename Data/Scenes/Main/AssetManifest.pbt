@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16317220667304389303
+  Name: "Ice Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_ice_opaque"
+  }
+}
+Assets {
   Id: 15696524381397938084
   Name: "Magic Circle Generator Advanced: Scifi VFX"
   PlatformAssetType: 8
@@ -17,30 +26,21 @@ Assets {
   }
 }
 Assets {
-  Id: 15275463334341845517
-  Name: "Katana Handle"
+  Id: 9426188198345824359
+  Name: "Ball"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_jpn_katana_handle_001"
+    AssetId: "sm_sphere_001"
   }
 }
 Assets {
-  Id: 11019742060840546363
-  Name: "Katana Blade"
+  Id: 7948167637451889616
+  Name: "Japanese - Stand Katana - Back 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_jpn_katana_blade_001"
-  }
-}
-Assets {
-  Id: 8490697223434751385
-  Name: "Shield 06"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_shield_006"
+    AssetId: "sm_prop_jpn_stand_katana_back_001_ref"
   }
 }
 Assets {
@@ -62,12 +62,21 @@ Assets {
   }
 }
 Assets {
-  Id: 3642695097438974619
-  Name: "Katana Guard"
+  Id: 3255814708276840062
+  Name: "Cone - Truncated"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_jpn_katana_guard_001"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
+  Id: 3007033251064531162
+  Name: "Japanese - Stand Katana - Base 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_stand_katana_base_001_ref"
   }
 }
 Assets {
@@ -77,6 +86,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_org_pepper_002_ref"
+  }
+}
+Assets {
+  Id: 1299540107153138585
+  Name: "Japanese - Stand Katana - Holder 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_stand_katana_holder_001_ref"
+  }
+}
+Assets {
+  Id: 395973889484368524
+  Name: "Ice Ground Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_ice_transparent_ground"
   }
 }
 Assets {
