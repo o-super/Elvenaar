@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15640677947115468700
-  Name: "Fantasy Clay Pot 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_clay_pot_001_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

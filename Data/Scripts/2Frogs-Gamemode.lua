@@ -24,23 +24,29 @@ end
 local CountDownActive = false
 local RoundStartCoutdown = 10
 local MinimumPlayers = 1
-local MaxNBWaveAttacking = 10
+local MaxNBWaveAttacking = 1
 local CurrentWaveNb = 1
 local TimeBetweenWaves = 60
+local LastWaveFinishedSpawning = false
 
 function OnRoundStart()
     SetGoalMessage("")
-    SpawnPlayers()
+    SpawnPlayers(false)
     for i = CurrentWaveNb, MaxNBWaveAttacking do
         SpawnAttackerWave()
         Task.Wait(TimeBetweenWaves)
     end
 end
 
+function OnRoundEnd()
+    Task.Wait(3)
+    ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+    SpawnPlayers(true)
+end
+
 -- Spawn a basic wave of 6 npcs on all spawns
 function SpawnAttackerWave()
-    SetGoalMessage("Spawning wave " .. CurrentWaveNb)
-    CurrentWaveNb = CurrentWaveNb + 1    
+    SetGoalMessage("Spawning wave " .. CurrentWaveNb .. " / " .. MaxNBWaveAttacking)
     for i = 1, 8 do
         for _, spawner in pairs(attackNpcSpawner) do            
             Task.Wait(0.2)
@@ -48,6 +54,11 @@ function SpawnAttackerWave()
             spawner.context["spawnNPC"]()
         end
     end
+    if CurrentWaveNb == MaxNBWaveAttacking then
+        LastWaveFinishedSpawning = true
+        SetGoalMessage("This is the final battle!")
+    end
+    CurrentWaveNb = CurrentWaveNb + 1  
 end
 
 function SetGoalMessage(message)
@@ -97,10 +108,22 @@ function OnPlayerJoin(player)
     player:Spawn(spawnSettings)
 end
 
-function SpawnPlayers()
-    for _, player in pairs(Game.GetPlayers()) do
-        player:Despawn()
-        player:Spawn()
+function SpawnPlayers(inLobby)
+    if inLobby == true then
+        -- Respawn player on lobby spawns
+        for _, player in pairs(Game.GetPlayers()) do
+            local pos = lobbySpawn:GetWorldPosition()
+            local rot = lobbySpawn:GetWorldRotation()
+            local spawnSettings = {position = pos, rotation = rot}
+            player.team = 0
+            player:Spawn(spawnSettings)
+        end
+    else
+        -- Respawn player on their InGame spawns
+        for _, player in pairs(Game.GetPlayers()) do
+            player:Despawn()
+            player:Spawn()
+        end
     end
 end
 
@@ -140,8 +163,26 @@ function Tick(DeltaTime)
                 end
             end
         end
+        -- Check for end of game
+        if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+            if LastWaveFinishedSpawning == true then
+                -- if all attacking npcs are dead then end (defender wins)
+                local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
+                if #npcs == 0 then
+                    SetGoalMessage("Defenders win!")
+                    ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+                end
+            end
+            -- if all objectives are destroyed then end (attacker wins)
+            local objectives = World.FindObjectsByName("Relic")
+            if #objectives == 0 then
+                SetGoalMessage("Attackers win!")
+                ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+            end
+        end
     end
 end
 
 Game.roundStartEvent:Connect(OnRoundStart)
+Game.roundEndEvent:Connect(OnRoundEnd)
 Game.playerJoinedEvent:Connect(OnPlayerJoin)
