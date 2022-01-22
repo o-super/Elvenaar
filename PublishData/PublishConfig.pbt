@@ -3,7 +3,7 @@ ClientVersion: "1.0.227-prod-s"
 Name: "Elvenaar"
 Description: "Defend the legacy"
 Tags: "LastTeamStanding"
-ScreenshotPaths: "C:\\Users\\holly\\Pictures\\goblins3portrait.jpg"
+ScreenshotPaths: "C:\\Users\\holly\\Pictures\\_2041793b.jpg"
 OwnerId: "95567b361c40436b8ba2619fc5a098cf"
 SerializationVersion: 2
 SceneNameToSceneIdMap {
