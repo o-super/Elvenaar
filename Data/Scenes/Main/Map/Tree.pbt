@@ -5,8 +5,8 @@ Objects {
   Name: "DefendSpawn"
   Transform {
     Location {
-      X: -550
-      Y: 450
+      X: -850
+      Y: 50
       Z: 150
     }
     Rotation {

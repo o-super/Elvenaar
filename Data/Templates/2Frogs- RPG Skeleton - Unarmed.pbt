@@ -7,7 +7,7 @@ Assets {
       RootId: 4762331870605572381
       Objects {
         Id: 4762331870605572381
-        Name: "RPG Skeleton - Unarmed"
+        Name: "2Frogs- RPG Skeleton - Unarmed"
         Transform {
           Scale {
             X: 1
