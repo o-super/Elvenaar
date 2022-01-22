@@ -22,11 +22,12 @@ function RemoveEquipment(player)
 
     if t_equipment == nil then return end
     for _, equipment in ipairs(t_equipment) do
-        if equipment.name ~= TEAM_DEF_EQUIPMENT and equipment.name ~= TEAM_ATT_EQUIPMENT then
-            equipment:Unequip()
-            if Object.IsValid(equipment) then
-                print("Destroying equipment")
-                equipment:Destroy()
+        if equipment ~= nil and Object.IsValid(equipment) then
+            if equipment.name ~= TEAM_DEF_EQUIPMENT and equipment.name ~= TEAM_ATT_EQUIPMENT then
+                equipment:Unequip()
+                if Object.IsValid(equipment) then
+                    equipment:Destroy()
+                end
             end
         end        
     end

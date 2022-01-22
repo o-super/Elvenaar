@@ -20,6 +20,10 @@ Objects {
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
   ChildIds: 17948972634666836828
+  ChildIds: 12504413828087879216
+  ChildIds: 3350673055041674239
+  ChildIds: 12272679567399242941
+  ChildIds: 13329861089451284783
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +39,178 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13329861089451284783
+  Name: "2Frogs-Hero-Boris"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2925534274541955025
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-Hero-Boris"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2772.99976
+            Y: 186.195496
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 120.000008
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11742164523280315974
+    }
+  }
+}
+Objects {
+  Id: 12272679567399242941
+  Name: "2Frogs-Hero-Volt"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5386640107399009985
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-Hero-Volt"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2843.49976
+            Y: 308.305084
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 120.000008
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5395249375066748323
+    }
+  }
+}
+Objects {
+  Id: 3350673055041674239
+  Name: "2Frogs-Hero-Albert"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6497783600766050223
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-Hero-Albert"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3881.50098
+            Y: -129.903793
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -59.9999924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5168234850048785492
+    }
+  }
+}
+Objects {
+  Id: 12504413828087879216
+  Name: "2Frogs-Hero-Mars"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10969506364228846831
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-Hero-Mars"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3962.84863
+            Y: -7.28115273
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -60
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3770095457452881067
+    }
   }
 }
 Objects {
@@ -65,15 +241,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3754
-            Y: -54
+            X: -2914.17554
+            Y: 430.999939
             Z: 3228
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -74.9998856
+            Yaw: 120
           }
         }
       }
@@ -105,15 +281,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3631
-            Y: -350
+            X: -3816.00098
+            Y: -286.654388
             Z: 3228
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -74.9999695
+            Yaw: -60
           }
         }
       }
