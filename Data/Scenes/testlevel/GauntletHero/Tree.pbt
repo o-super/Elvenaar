@@ -27,6 +27,24 @@ Objects {
             Y: -1550
           }
         }
+        Overrides {
+          Name: "MuzzleFlashId"
+          AssetReference {
+            Id: 12108918862760839933
+          }
+        }
+        Overrides {
+          Name: "ImpactProjectileId"
+          AssetReference {
+            Id: 9278282229974852456
+          }
+        }
+        Overrides {
+          Name: "TrailId"
+          AssetReference {
+            Id: 2258318585196481226
+          }
+        }
       }
     }
     TemplateAsset {
