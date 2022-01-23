@@ -241,6 +241,10 @@ function Tick(DeltaTime)
                 SetGoalMessage("Attackers win!")
                 ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
             end
+            -- If all players have left then end
+            if #Game.GetPlayers() == 0 then
+                ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+            end
         end
     end
 end
