@@ -1,13 +1,13 @@
 Assets {
-  Id: 9159635545190776678
-  Name: "2Frogs-IceballImpactSmall"
+  Id: 6552674777731126753
+  Name: "2Frogs-IceballMuzzleBigSpellSound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 12771375585045237236
+      RootId: 5028109460282341215
       Objects {
-        Id: 12771375585045237236
-        Name: "2Frogs-IceballImpactSmall"
+        Id: 5028109460282341215
+        Name: "2Frogs-IceballMuzzleBigSpellSound"
         Transform {
           Scale {
             X: 1
@@ -16,10 +16,10 @@ Assets {
           }
         }
         ParentId: 11346856131111451494
-        ChildIds: 2460994853181292360
+        ChildIds: 8975524446121914379
         UnregisteredParameters {
         }
-        Lifespan: 2.5
+        Lifespan: 3
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -38,7 +38,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2460994853181292360
+        Id: 8975524446121914379
         Name: "ClientContext"
         Transform {
           Location {
@@ -51,10 +51,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12771375585045237236
-        ChildIds: 2802098637821803852
-        ChildIds: 12190013689211426353
-        ChildIds: 13450655500500290269
+        ParentId: 5028109460282341215
+        ChildIds: 16874148203848077492
+        ChildIds: 891159786791964172
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -74,8 +73,8 @@ Assets {
         }
       }
       Objects {
-        Id: 2802098637821803852
-        Name: "Magic Fireball Small Impact 01 SFX"
+        Id: 16874148203848077492
+        Name: "Magic Fireball Whoosh Attack 01 SFX"
         Transform {
           Location {
           }
@@ -87,7 +86,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2460994853181292360
+        ParentId: 8975524446121914379
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -101,12 +100,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 12396009455283163015
+            Id: 5932116626269192866
           }
           AutoPlay: true
           Volume: 0.8
           Falloff: 3600
-          Radius: 200
+          Radius: 700
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -115,8 +114,8 @@ Assets {
         }
       }
       Objects {
-        Id: 12190013689211426353
-        Name: "Magic Fireball Whoosh Impact 01 SFX"
+        Id: 891159786791964172
+        Name: "Magic Fire Attack Impact 01 SFX"
         Transform {
           Location {
           }
@@ -128,7 +127,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2460994853181292360
+        ParentId: 8975524446121914379
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -142,11 +141,11 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 3470226793002511774
+            Id: 11586105471708866862
           }
           AutoPlay: true
-          Volume: 0.6
-          Falloff: 2500
+          Volume: 0.7
+          Falloff: 3600
           Radius: 400
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -155,104 +154,23 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
-      Objects {
-        Id: 13450655500500290269
-        Name: "Impact Sparks VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2460994853181292360
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Enable Flash"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Sparks"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Hotspot"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Spark Lines"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.230000019
-              G: 0.923510075
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 11887549032181544333
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
     }
     Assets {
-      Id: 12396009455283163015
-      Name: "Magic Frost Ice Bolt Attack 02 SFX"
+      Id: 5932116626269192866
+      Name: "Magic Frost Ice Bolt Attack 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_frost_ice_bolt_attack_02_Cue_ref"
+        AssetId: "sfx_magic_frost_ice_bolt_attack_01_Cue_ref"
       }
     }
     Assets {
-      Id: 3470226793002511774
-      Name: "Magic Fireball Whoosh Impact 01 SFX"
+      Id: 11586105471708866862
+      Name: "Magic Frost Ice Bolt Attack 03 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_fireball_whoosh_impact_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 11887549032181544333
-      Name: "Impact Sparks VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_impact_sparks"
+        AssetId: "sfx_magic_frost_ice_bolt_attack_03_Cue_ref"
       }
     }
     PrimaryAssetId {
