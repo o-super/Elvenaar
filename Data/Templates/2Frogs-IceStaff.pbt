@@ -39,10 +39,10 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 13954919790180501900
+              Id: 17099634478216039101
             }
             MuzzleFlashAssetRef {
-              Id: 6180295448507115601
+              Id: 16439204412453520729
             }
             TrailAssetRef {
               Id: 841534158063459245
@@ -65,7 +65,7 @@ Assets {
             }
             ShootAnimation: "2hand_rifle_shoot"
             ImpactProjectileAssetRef {
-              Id: 12848797401898605063
+              Id: 9159635545190776678
             }
             BeamAssetRef {
               Id: 841534158063459245
@@ -382,6 +382,12 @@ Assets {
             Name: "cs:Damage"
             Int: 35
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -582,7 +588,7 @@ Assets {
           Overrides {
             Name: "cs:AOEAsset"
             AssetReference {
-              Id: 17028048477125134178
+              Id: 14863643760024215130
             }
           }
           Overrides {
@@ -1103,7 +1109,7 @@ Assets {
           Overrides {
             Name: "cs:SecondaryEquipment"
             AssetReference {
-              Id: 5679578287697673121
+              Id: 1820970287928325213
             }
           }
           Overrides {

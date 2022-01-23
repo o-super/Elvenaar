@@ -72,8 +72,6 @@ function BlastTarget(hitResult, abilityInfo)
                     target:AddImpulse((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
                 else
                     local impulsableObject = target.parent:GetCustomProperty("impulseScript"):WaitForObject()
-                    print("Impusable? : " .. tostring(impulsableObject))
-                    --impulsableObject:AddImpulse((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
                     impulsableObject.context["AddImpulse"]((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
                 end
             end
@@ -137,47 +135,6 @@ function Blast(ability)
     -- Damage and push targets
     for index, hitResult in ipairs(hitResults) do
         BlastTarget(hitResult, abilityInfo)
-    end
-end
-
--- <nil> Blast(Ability)
--- Creates a blast impact to the enemy players within a sphere
--- Additionally applies the effect after a blast
-function Blast_OLD(ability)
-
-    -- Create the position of the blast and find players within radius
-    local center = ability.owner:GetWorldPosition() - Vector3.UP * 50
-    local players = Game.FindPlayersInSphere(center, BLAST_RADIUS)   
-
-    if BLAST_IMPACT_TEMPLATE then
-        local blastTemplate = World.SpawnAsset(BLAST_IMPACT_TEMPLATE, {position = center})
-        blastTemplate:ScaleTo(Vector3.ONE * BLAST_RADIUS / 50, 0.3, false)
-    end
-
-    for _, player in pairs(players) do
-        -- Only blast the enemy team
-        if Teams.AreTeamsEnemies(player.team, ability.owner.team) and player ~= ability.owner then
-
-            -- Create a direction at which the player is pushed away from the blast
-            local displacement = player:GetWorldPosition() - center
-            player:AddImpulse((displacement):GetNormalized() * player.mass * BLAST_KNOCKBACK_SPEED)
-
-            -- The farther the player from the blast the less damage that player takes
-            local minDamage = BLAST_DAMAGE_RANGE.x
-            local maxDamage = BLAST_DAMAGE_RANGE.y
-            displacement.z = 0
-            local t = (displacement).size / BLAST_RADIUS
-            local damage = CoreMath.Lerp(maxDamage, minDamage, t)
-
-            -- Apply damage to enemy player
-            DAMAGE_API.ApplyDamage(damage, ATTACK_ABILITY, player, ability.owner)
-
-            -- Apply effect to enemy player
-            if APPLY_EFFECT then
-                EFFECT_API.ApplyEffect(player, EFFECT_NAME, effectTable)
-            end
-        end
-
     end
 end
 

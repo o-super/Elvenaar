@@ -175,6 +175,12 @@ Assets {
               Id: 1016400983877160316
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

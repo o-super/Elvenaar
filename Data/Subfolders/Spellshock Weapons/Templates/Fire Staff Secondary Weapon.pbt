@@ -272,6 +272,12 @@ Assets {
             Name: "cs:PlayerEffectSocket"
             String: "pelvis"
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

@@ -15,6 +15,9 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER I
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
+-- NPC Object References
+local MODULE = require( script:GetCustomProperty("ModuleManager") )
+function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 -- Internal custom properties
 local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
@@ -51,46 +54,91 @@ local effectTable = {
     vfxSocket = PLAYER_EFFECT_SOCKET
 }
 
+
+function BlastTarget(hitResult, abilityInfo)
+    local target = hitResult.other
+	local ability = abilityInfo.ability
+    local center = ability.owner:GetWorldPosition()
+
+	-- Ignore if the hitbox is overlapping with the owner
+    if target == ability.owner then return end
+
+    if Teams.AreTeamsEnemies(target.team, ability.owner.team) and target ~= ability.owner then
+        -- Create a direction at which the target is pushed away from the blast
+        local displacement = target:GetWorldPosition() - center
+        local mass = nil
+        if target.mass == nil then mass = target.parent:GetCustomProperty("mass") else mass = target.mass end
+        
+        if mass ~= nil then
+            if target:IsA("Player") then
+                target:AddImpulse((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
+            else
+                local impulsableObject = target.parent:GetCustomProperty("impulseScript"):WaitForObject()
+                impulsableObject.context["AddImpulse"]((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
+            end
+        end
+
+        -- The farther the player from the blast the less damage that player takes
+        local minDamage = BLAST_DAMAGE_RANGE.x
+        local maxDamage = BLAST_DAMAGE_RANGE.y
+        displacement.z = 0
+        local t = (displacement).size / BLAST_RADIUS
+        local damage = CoreMath.Lerp(maxDamage, minDamage, t)
+
+        -- Apply the damage
+        local dmg = Damage.New(damage)
+        dmg:SetHitResult(hitResult)
+        dmg.reason = DamageReason.COMBAT
+        dmg.sourcePlayer = ability.owner
+        dmg.sourceAbility = ability
+
+        local attackData = {
+            object = hitResult.other,
+            damage = dmg,
+            source = dmg.sourcePlayer,
+            position = hitResult:GetImpactPosition(),
+            rotation = hitResult:GetTransform():GetRotation(),
+            tags = "Blast"
+        }
+
+        if target:IsA("Player") then
+            -- Apply damage to enemy player
+            DAMAGE_API.ApplyDamage(damage, ATTACK_ABILITY, target, ability.owner)
+        else
+            -- Appli damage to npc
+            COMBAT().ApplyDamage(attackData)
+        end	
+        
+        -- Apply effect to enemy target
+        if APPLY_EFFECT then
+            EFFECT_API.ApplyEffect(target, EFFECT_NAME, effectTable)
+        end
+    end
+end
+
 -- <nil> Blast(Interaction)
 -- Creates a blast at the projectile impact position
 -- Damages enemies within the blast
 -- Additionally applies the effect after a blast
 function Blast(interaction)
-
-    -- Create the position of the blast and find players within radius
     local center = interaction:GetHitResult():GetImpactPosition()
-    local players = Game.FindPlayersInSphere(center, BLAST_RADIUS)
-
+    local hitResults = World.SpherecastAll(center, center + Vector3.FORWARD, BLAST_RADIUS)
+    local ability = interaction.sourceAbility
+    local abilityInfo = {
+        ability = ability,
+        damage = ability:GetCustomProperty("Damage"),
+        useHitSphere = ability:GetCustomProperty("UseHitSphere"),
+        canAttack = false,
+        ignoreList = {}
+    }
+    -- Create Blast Asset
     if BLAST_IMPACT_TEMPLATE then
         local blastTemplate = World.SpawnAsset(BLAST_IMPACT_TEMPLATE, {position = center})
         blastTemplate:ScaleTo(Vector3.ONE * BLAST_RADIUS / 50, 0.2, false)
     end
-
-    for _, player in pairs(players) do
-
-        -- Only blast the enemy team
-        if Teams.AreTeamsEnemies(player.team, interaction.weaponOwner.team) and player ~= interaction.weaponOwner then
-
-            -- Create a direction at which the player is pushed away from the blast
-            local displacement = player:GetWorldPosition() - center
-            player:AddImpulse((displacement):GetNormalized() * player.mass * BLAST_KNOCKBACK_SPEED)
-
-            -- The farther the player from the blast the less damage that player takes
-            local minDamage = BLAST_DAMAGE_RANGE.x
-            local maxDamage = BLAST_DAMAGE_RANGE.y
-            displacement.z = 0
-            local t = (displacement).size / BLAST_RADIUS
-            local damage = CoreMath.Lerp(maxDamage, minDamage, t)
-
-            -- Apply damage to enemy player
-            DAMAGE_API.ApplyDamage(damage, ATTACK_ABILITY, player, interaction.weaponOwner)
-
-            -- Apply effect to enemy player
-            if APPLY_EFFECT then
-                EFFECT_API.ApplyEffect(player, EFFECT_NAME, effectTable)
-            end
-        end
-
+    -- Damage targets
+    for index, hitResult in ipairs(hitResults) do
+        BlastTarget(hitResult, abilityInfo)
     end
 end
 
