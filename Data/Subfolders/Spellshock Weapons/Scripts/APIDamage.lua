@@ -6,7 +6,7 @@ API.damagedPlayersEffect = {}
 function API.ApplyDamage(amount, ability, targetPlayer, sourcePlayer)
 
     -- Return if the targetPlayer is dead
-    if targetPlayer.isDead then
+    if targetPlayer.isDead or targetPlayer:IsA("Player") == false then
         return
     end
 

@@ -117,6 +117,16 @@ Assets {
             String: "Common"
           }
           Overrides {
+            Name: "cs:mass"
+            Int: 50
+          }
+          Overrides {
+            Name: "cs:impulseScript"
+            ObjectReference {
+              SubObjectId: 15099110123154632552
+            }
+          }
+          Overrides {
             Name: "cs:CurrentState:isrep"
             Bool: true
           }
@@ -266,6 +276,7 @@ Assets {
         ChildIds: 15096131017823741407
         ChildIds: 14361138669293241760
         ChildIds: 737100576919121079
+        ChildIds: 15099110123154632552
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -524,6 +535,51 @@ Assets {
         Script {
           ScriptAsset {
             Id: 4804461521504875738
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 15099110123154632552
+        Name: "2Frogs-CanBeImpulsed"
+        Transform {
+          Location {
+            Z: -100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11152934216494014976
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:root"
+            ObjectReference {
+              SubObjectId: 4762331870605572381
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5357860291685756389
           }
         }
         NetworkRelevanceDistance {

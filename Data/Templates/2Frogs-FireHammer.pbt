@@ -7,7 +7,7 @@ Assets {
       RootId: 17625387956018399407
       Objects {
         Id: 17625387956018399407
-        Name: "FireHammer"
+        Name: "2Frogs-FireHammer"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 348466399254250309
+        ParentId: 4781671109827199097
         ChildIds: 11884364813744908222
         ChildIds: 7590101233738769901
         ChildIds: 8644893381559751184
@@ -295,12 +295,12 @@ Assets {
         Name: "MeleeAttackServer"
         Transform {
           Location {
-            X: -113.037987
+            X: -113.038109
             Y: 614.446899
-            Z: -79.9572906
+            Z: -79.9572754
           }
           Rotation {
-            Yaw: -2.04905609e-05
+            Yaw: -2.04905591e-05
           }
           Scale {
           }
@@ -359,6 +359,12 @@ Assets {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
               Id: 10920259052251330910
+            }
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
             }
           }
         }
@@ -615,6 +621,12 @@ Assets {
               Id: 10920259052251330910
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -869,6 +881,12 @@ Assets {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
               Id: 10920259052251330910
+            }
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
             }
           }
         }

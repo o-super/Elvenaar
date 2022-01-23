@@ -26,9 +26,7 @@ function Tick(deltaTime)
         -- Damage the enemy player
         if Object.IsValid(HIT_BOX) then
             for _, other in ipairs(HIT_BOX:GetOverlappingObjects()) do
-                --if other:IsA("Player") then
-                    MeleeAttack(other)
-                --end
+                MeleeAttack(other)
             end
         end
     end
@@ -39,13 +37,11 @@ function MeleeAttack(other)
     if Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
 
     -- Avoid hitting the same player multiple times in a single swing
-    print("Ennemy Hit: " .. tostring(other))
     if (ignoreList[other] ~= 1) then --other:IsA("Player") and 
         local damage = math.random(DAMAGE_RANGE.x, DAMAGE_RANGE.y)
         DAMAGE_API.ApplyDamage(damage, ABILITY, other, ABILITY.owner)
         -- NPC Dmg
         local dmg = Damage.New(damage)
-		dmg:SetHitResult(other)
 		--dmg.reason = DamageReason.COMBAT
 		dmg.sourcePlayer = ABILITY.owner
 		dmg.sourceAbility = ABILITY
@@ -53,7 +49,7 @@ function MeleeAttack(other)
 			object = other,
 			damage = dmg,
 			source = dmg.sourcePlayer,
-			position = other:GetImpactPosition(),
+			position = other:GetWorldPosition(),
 			rotation = other:GetTransform():GetRotation(),
 			tags = "Melee"
 		}

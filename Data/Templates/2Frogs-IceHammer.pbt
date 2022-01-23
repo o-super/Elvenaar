@@ -7,7 +7,7 @@ Assets {
       RootId: 11570470148042365861
       Objects {
         Id: 11570470148042365861
-        Name: "IceHammer"
+        Name: "2Frogs-IceHammer"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 348466399254250309
+        ParentId: 4781671109827199097
         ChildIds: 17176219131406997135
         ChildIds: 13559560011463294813
         ChildIds: 15953172079025778759
@@ -361,6 +361,12 @@ Assets {
               Id: 10920259052251330910
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -613,6 +619,12 @@ Assets {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
               Id: 10920259052251330910
+            }
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
             }
           }
         }
@@ -869,6 +881,12 @@ Assets {
             Name: "cs:AttackPlayerImpact"
             AssetReference {
               Id: 10920259052251330910
+            }
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
             }
           }
         }

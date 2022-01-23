@@ -188,7 +188,7 @@ function Tick(deltaTime)
 	if (searchTimeElapsed >= 0) then
 		searchTimeElapsed = searchTimeElapsed + deltaTime
 	end
-	
+
 	if (currentState == STATE_ATTACK_CAST or currentState == STATE_ATTACK_RECOVERY) and
 		COMBAT().IsDead(target) then
 		SetTarget(nil)
@@ -209,7 +209,6 @@ function Tick(deltaTime)
 	if currentState == STATE_ENGAGING then
 		if COMBAT().IsDead(target) then
 			SetTarget(nil)
-			
 		elseif IsWithinRangeSquared(target, ATTACK_RANGE_SQUARED, ATTACK_MIN_ANGLE) then
 			if attackCooldown <= 0 then
 				SetState(STATE_ATTACK_CAST)
@@ -860,7 +859,7 @@ function OnObjectDamaged(id, prevHealth, dmgAmount, impactPosition, impactRotati
 			local myPos = script:GetWorldPosition()
 			local distanceToCurrentTarget = (target:GetWorldPosition() - myPos).sizeSquared
 			local distanceToNewTarget = (sourceObject:GetWorldPosition() - myPos).sizeSquared
-			if distanceToNewTarget < distanceToCurrentTarget / 2 then
+			if distanceToNewTarget < distanceToCurrentTarget / 2 then				
 				SetTarget(sourceObject)
 			end
 		end

@@ -15,6 +15,10 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER I
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
 
+-- NPC Object References
+local MODULE = require( script:GetCustomProperty("ModuleManager") )
+function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
+
 -- Internal custom properties
 local DAMAGE_API = require(script:GetCustomProperty("API_Damage"))
 local EFFECT_API = require(script:GetCustomProperty("API_Effect"))
@@ -47,14 +51,103 @@ local effectTable = {
     vfxSocket = PLAYER_EFFECT_SOCKET
 }
 
+function BlastTarget(hitResult, abilityInfo)
+    local target = hitResult.other
+	local ability = abilityInfo.ability
+    local center = ability.owner:GetWorldPosition()
+	-- Ignore if the hitbox is overlapping with the owner
+    if target == ability.owner then return end
+
+    if Teams.AreTeamsEnemies(target.team, ability.owner.team) and target ~= ability.owner then
+        -- Avoid hitting the same target object multiple times in a single swing
+        if (abilityInfo.ignoreList[target] ~= 1) then
+            
+            -- Create a direction at which the target is pushed away from the blast
+            local displacement = target:GetWorldPosition() - center
+            local mass = nil
+            if target.mass == nil then mass = target.parent:GetCustomProperty("mass") else mass = target.mass end
+            
+            if mass ~= nil then
+                if target:IsA("Player") then
+                    target:AddImpulse((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
+                else
+                    local impulsableObject = target.parent:GetCustomProperty("impulseScript"):WaitForObject()
+                    print("Impusable? : " .. tostring(impulsableObject))
+                    --impulsableObject:AddImpulse((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
+                    impulsableObject.context["AddImpulse"]((displacement):GetNormalized() * mass * BLAST_KNOCKBACK_SPEED)
+                end
+            end
+            
+            -- The farther the player from the blast the less damage that player takes
+            local minDamage = BLAST_DAMAGE_RANGE.x
+            local maxDamage = BLAST_DAMAGE_RANGE.y
+            displacement.z = 0
+            local t = (displacement).size / BLAST_RADIUS
+            local damage = CoreMath.Lerp(maxDamage, minDamage, t)
+
+            -- Apply the damage
+            local dmg = Damage.New(damage)
+            dmg:SetHitResult(hitResult)
+            dmg.reason = DamageReason.COMBAT
+            dmg.sourcePlayer = ability.owner
+            dmg.sourceAbility = ability
+
+            local attackData = {
+                object = hitResult.other,
+                damage = dmg,
+                source = dmg.sourcePlayer,
+                position = hitResult:GetImpactPosition(),
+                rotation = hitResult:GetTransform():GetRotation(),
+                tags = "Blast"
+            }
+
+            if target:IsA("Player") then
+                -- Apply damage to enemy player
+                DAMAGE_API.ApplyDamage(damage, ATTACK_ABILITY, player, ability.owner)
+            else
+                -- Appli damage to npc
+                COMBAT().ApplyDamage(attackData)
+            end	
+            
+            -- Apply effect to enemy target
+            if APPLY_EFFECT then
+                EFFECT_API.ApplyEffect(target, EFFECT_NAME, effectTable)
+            end
+
+            abilityInfo.ignoreList[target] = 1
+        end
+    end
+end
+
+function Blast(ability)
+    local center = ability.owner:GetWorldPosition()
+    local hitResults = World.SpherecastAll(center, center + Vector3.FORWARD, BLAST_RADIUS)
+    local abilityInfo = {
+        ability = ability,
+        damage = ability:GetCustomProperty("Damage"),
+        useHitSphere = ability:GetCustomProperty("UseHitSphere"),
+        canAttack = false,
+        ignoreList = {}
+    }
+    -- Create Blast Asset
+    if BLAST_IMPACT_TEMPLATE then
+        local blastTemplate = World.SpawnAsset(BLAST_IMPACT_TEMPLATE, {position = center})
+        blastTemplate:ScaleTo(Vector3.ONE * BLAST_RADIUS / 50, 0.3, false)
+    end
+    -- Damage and push targets
+    for index, hitResult in ipairs(hitResults) do
+        BlastTarget(hitResult, abilityInfo)
+    end
+end
+
 -- <nil> Blast(Ability)
 -- Creates a blast impact to the enemy players within a sphere
 -- Additionally applies the effect after a blast
-function Blast(ability)
+function Blast_OLD(ability)
 
     -- Create the position of the blast and find players within radius
     local center = ability.owner:GetWorldPosition() - Vector3.UP * 50
-    local players = Game.FindPlayersInSphere(center, BLAST_RADIUS)
+    local players = Game.FindPlayersInSphere(center, BLAST_RADIUS)   
 
     if BLAST_IMPACT_TEMPLATE then
         local blastTemplate = World.SpawnAsset(BLAST_IMPACT_TEMPLATE, {position = center})
@@ -62,7 +155,6 @@ function Blast(ability)
     end
 
     for _, player in pairs(players) do
-
         -- Only blast the enemy team
         if Teams.AreTeamsEnemies(player.team, ability.owner.team) and player ~= ability.owner then
 
