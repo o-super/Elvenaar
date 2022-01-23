@@ -30,7 +30,7 @@ Objects {
         Overrides {
           Name: "MuzzleFlashId"
           AssetReference {
-            Id: 12108918862760839933
+            Id: 964927071295833067
           }
         }
         Overrides {
@@ -49,6 +49,17 @@ Objects {
           Name: "ImpactSurfaceId"
           AssetReference {
             Id: 9278282229974852456
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7264334685370507884
+      value {
+        Overrides {
+          Name: "cs:AOEAsset"
+          AssetReference {
+            Id: 5865364754160372920
           }
         }
       }
