@@ -20,6 +20,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 3412572267931194674
+    value {
+    }
+  }
+  ObjectStates {
     key: 7734453027498033730
     value {
     }
@@ -86,4 +91,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "testlevel"
+LastSavedScene: "IceCitadel"
