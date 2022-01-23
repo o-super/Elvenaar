@@ -1,3 +1,6 @@
+-- NPC Object References
+local MODULE = require( script:GetCustomProperty("ModuleManager") )
+function COMBAT() return MODULE.Get("standardcombo.Combat.Wrap") end
 -- Core Object References
 local DAMAGE_API = require(script:GetCustomProperty("DamageAPI"))
 local EQUIPMENT = script:GetCustomProperty("Equipment"):WaitForObject()
@@ -23,9 +26,9 @@ function Tick(deltaTime)
         -- Damage the enemy player
         if Object.IsValid(HIT_BOX) then
             for _, other in ipairs(HIT_BOX:GetOverlappingObjects()) do
-                if other:IsA("Player") then
+                --if other:IsA("Player") then
                     MeleeAttack(other)
-                end
+                --end
             end
         end
     end
@@ -36,9 +39,25 @@ function MeleeAttack(other)
     if Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
 
     -- Avoid hitting the same player multiple times in a single swing
-    if other:IsA("Player") and (ignoreList[other] ~= 1) then
+    print("Ennemy Hit: " .. tostring(other))
+    if (ignoreList[other] ~= 1) then --other:IsA("Player") and 
         local damage = math.random(DAMAGE_RANGE.x, DAMAGE_RANGE.y)
         DAMAGE_API.ApplyDamage(damage, ABILITY, other, ABILITY.owner)
+        -- NPC Dmg
+        local dmg = Damage.New(damage)
+		dmg:SetHitResult(other)
+		--dmg.reason = DamageReason.COMBAT
+		dmg.sourcePlayer = ABILITY.owner
+		dmg.sourceAbility = ABILITY
+		local attackData = {
+			object = other,
+			damage = dmg,
+			source = dmg.sourcePlayer,
+			position = other:GetImpactPosition(),
+			rotation = other:GetTransform():GetRotation(),
+			tags = "Melee"
+		}
+        COMBAT().ApplyDamage(attackData)
 
         -- VFX
         if (ATTACK_PLAYER_IMPACT) then

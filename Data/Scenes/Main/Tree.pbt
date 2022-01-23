@@ -24,9 +24,7 @@ Objects {
   ChildIds: 3350673055041674239
   ChildIds: 12272679567399242941
   ChildIds: 13329861089451284783
-  ChildIds: 8961581740205408162
-  ChildIds: 329559483219998963
-  ChildIds: 2156468067957670037
+  ChildIds: 16140275120915326329
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,8 +43,8 @@ Objects {
   }
 }
 Objects {
-  Id: 2156468067957670037
-  Name: "2Frogs - Advanced 2-Handed Sword"
+  Id: 16140275120915326329
+  Name: "2Frogs-Hero-Ryley"
   Transform {
     Scale {
       X: 1
@@ -55,97 +53,43 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5442477862039634599
+      key: 2307870125670616505
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8140211634452509036
       value {
         Overrides {
           Name: "Name"
-          String: "2Frogs - Advanced 2-Handed Sword"
+          String: "2Frogs-Hero-Ryley"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -3901
-            Y: 252
-            Z: 3283
+            X: -3804.50098
+            Y: -263.271698
+            Z: 3228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -59.9999924
           }
         }
       }
     }
     TemplateAsset {
-      Id: 6805203662627609587
-    }
-  }
-}
-Objects {
-  Id: 329559483219998963
-  Name: "2Frogs-FireHammer"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17625387956018399407
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-FireHammer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3575
-            Y: 80
-            Z: 3219
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14782523183219764078
-    }
-  }
-}
-Objects {
-  Id: 8961581740205408162
-  Name: "2Frogs-FireStaff"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7824962716784656785
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-FireStaff"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3352
-            Y: 309
-            Z: 3366
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7864648436159920345
+      Id: 1464215010370924131
     }
   }
 }
@@ -184,6 +128,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8676590473526369028
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11742164523280315974
     }
@@ -207,6 +162,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1887523226926295572
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 5386640107399009985
       value {
@@ -253,6 +219,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 782543585036379002
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 6497783600766050223
       value {
@@ -316,6 +293,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 14468771579986786362
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 3770095457452881067
     }
@@ -339,6 +327,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1887523226926295572
+      value {
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 7294675523292578283
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 5386640107399009985
       value {
