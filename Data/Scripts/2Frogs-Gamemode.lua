@@ -39,7 +39,7 @@ function OnRoundStart()
     SpawnPlayers(false)
     local SeqAtRoundNb = RoundNb
     for i = CurrentWaveNb, MaxNBWaveAttacking do
-        --SpawnAttackerWave()
+        SpawnAttackerWave()
         Task.Wait(TimeBetweenWaves)
         -- Security : We make sure that the previous spawn sequence stops
         -- to avoid spawns from previous round to continue during the new one
