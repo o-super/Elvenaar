@@ -7,7 +7,7 @@ Assets {
       RootId: 7303143731003519277
       Objects {
         Id: 7303143731003519277
-        Name: "FireCrossbow"
+        Name: "2Frogs-FireCrossbow"
         Transform {
           Scale {
             X: 1
@@ -39,16 +39,16 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 6893623282842367154
+              Id: 5028845113697327521
             }
             MuzzleFlashAssetRef {
-              Id: 3716006130784657351
+              Id: 18208158386342387800
             }
             TrailAssetRef {
-              Id: 1089471781153096405
+              Id: 4423854089896083055
             }
             ImpactAssetRef {
-              Id: 12253796987285840072
+              Id: 13773744946106957920
             }
             UseReticle: true
             Muzzle {
@@ -66,7 +66,7 @@ Assets {
             }
             ShootAnimation: "2hand_rifle_shoot"
             ImpactProjectileAssetRef {
-              Id: 551684797064767526
+              Id: 12175959584676642170
             }
             BeamAssetRef {
               Id: 841534158063459245

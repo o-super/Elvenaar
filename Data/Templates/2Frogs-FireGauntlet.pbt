@@ -7,7 +7,7 @@ Assets {
       RootId: 5073545718384682271
       Objects {
         Id: 5073545718384682271
-        Name: "FireGauntlet"
+        Name: "2Frogs-FireGauntlet"
         Transform {
           Scale {
             X: 1
@@ -42,13 +42,13 @@ Assets {
               Id: 15907138628081963310
             }
             MuzzleFlashAssetRef {
-              Id: 12108918862760839933
+              Id: 964927071295833067
             }
             TrailAssetRef {
-              Id: 16742564257062277966
+              Id: 2258318585196481226
             }
             ImpactAssetRef {
-              Id: 841534158063459245
+              Id: 9278282229974852456
             }
             Muzzle {
               Location {
@@ -65,7 +65,7 @@ Assets {
               Id: 3141840460464144894
             }
             ImpactProjectileAssetRef {
-              Id: 16557616049571294279
+              Id: 9278282229974852456
             }
             IsHitscan: true
             BeamAssetRef {
@@ -1087,7 +1087,7 @@ Assets {
           Overrides {
             Name: "cs:AOEAsset"
             AssetReference {
-              Id: 6969074966523038734
+              Id: 5865364754160372920
             }
           }
           Overrides {

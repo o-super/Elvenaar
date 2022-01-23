@@ -7,7 +7,7 @@ Assets {
       RootId: 13344671792377651530
       Objects {
         Id: 13344671792377651530
-        Name: "IceCrossbow"
+        Name: "2Frogs-IceCrossbow"
         Transform {
           Scale {
             X: 1
@@ -39,16 +39,16 @@ Assets {
           }
           Weapon {
             ProjectileAssetRef {
-              Id: 6893623282842367154
+              Id: 2568980856061291598
             }
             MuzzleFlashAssetRef {
-              Id: 3716006130784657351
+              Id: 13011748029717090221
             }
             TrailAssetRef {
-              Id: 1089471781153096405
+              Id: 15548317603943964587
             }
             ImpactAssetRef {
-              Id: 12253796987285840072
+              Id: 16017986732598959977
             }
             UseReticle: true
             Muzzle {
@@ -66,7 +66,7 @@ Assets {
             }
             ShootAnimation: "2hand_rifle_shoot"
             ImpactProjectileAssetRef {
-              Id: 551684797064767526
+              Id: 10116679038056248081
             }
             BeamAssetRef {
               Id: 841534158063459245

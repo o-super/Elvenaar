@@ -7,7 +7,7 @@ Assets {
       RootId: 4995596887050103491
       Objects {
         Id: 4995596887050103491
-        Name: "IceGauntlet"
+        Name: "2Frogs-IceGauntlet"
         Transform {
           Scale {
             X: 1

@@ -19,6 +19,8 @@ Objects {
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
+  ChildIds: 9744088739169283089
+  ChildIds: 4409361935607368542
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +36,76 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4409361935607368542
+  Name: "2Frogs-IceCrossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13344671792377651530
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceCrossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3581
+            Y: -565
+            Z: 3332
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9716446713137121581
+    }
+  }
+}
+Objects {
+  Id: 9744088739169283089
+  Name: "2Frogs-FireCrossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7303143731003519277
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-FireCrossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3581
+            Y: -463
+            Z: 3332
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10266340974698813640
+    }
   }
 }
 Objects {

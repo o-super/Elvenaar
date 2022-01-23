@@ -28,38 +28,8 @@ Objects {
           }
         }
         Overrides {
-          Name: "MuzzleFlashId"
-          AssetReference {
-            Id: 964927071295833067
-          }
-        }
-        Overrides {
-          Name: "ImpactProjectileId"
-          AssetReference {
-            Id: 9278282229974852456
-          }
-        }
-        Overrides {
-          Name: "TrailId"
-          AssetReference {
-            Id: 2258318585196481226
-          }
-        }
-        Overrides {
-          Name: "ImpactSurfaceId"
-          AssetReference {
-            Id: 9278282229974852456
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7264334685370507884
-      value {
-        Overrides {
-          Name: "cs:AOEAsset"
-          AssetReference {
-            Id: 5865364754160372920
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -94,6 +64,11 @@ Objects {
           Vector {
             X: -4800
             Y: -1550
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
