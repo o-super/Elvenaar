@@ -32,7 +32,6 @@ local RoundRunning = false
 local RoundNb = 0
 
 function OnRoundStart()
-    print("Round started")
     RoundNb = RoundNb + 1
     RoundRunning = true
     SetGoalMessage("")
@@ -44,15 +43,14 @@ function OnRoundStart()
         -- Security : We make sure that the previous spawn sequence stops
         -- to avoid spawns from previous round to continue during the new one
         if RoundRunning == false or SeqAtRoundNb ~= RoundNb then
-            print("Round cycle stopped2")
             return
         end
     end
 end
 
 function OnRoundEnd()
-    print("Round off")
     RoundRunning = false
+    LastWaveFinishedSpawning = false
     CountDownActive = false
     Task.Wait(3)    
     KillAllNPCs()
