@@ -122,108 +122,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12931828534605315854
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Location {
-      X: -4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
-  Id: 1338804601277808158
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Location {
-      Y: 4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
   Id: 10832255096588484102
   Name: "2Frogs-NPCSpawner"
   Transform {
@@ -251,6 +149,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: -3857
             Y: 4000
           }
         }
@@ -289,7 +188,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: -4000
+            X: 3466
+            Y: 3901
           }
         }
       }
@@ -328,60 +228,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -250
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 282887732358444069
-    }
-  }
-}
-Objects {
-  Id: 11486445631107578819
-  Name: "2Frogs - Relic Objective"
-  Transform {
-    Location {
-      X: 250
-      Y: -100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2420317408083004382
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Relic Objective"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -50
-            Y: -300
+            X: 2110
+            Y: -3506
           }
         }
         Overrides {
@@ -433,14 +281,23 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 250
-            Y: -100
+            X: -356
+            Y: 225
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5318857036002152307
+      value {
+        Overrides {
+          Name: "Damageable.MaxHitPoints"
+          Float: 50
         }
       }
     }
@@ -472,8 +329,18 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 200
+            X: 2610
+            Y: 1593
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5318857036002152307
+      value {
+        Overrides {
+          Name: "Damageable.MaxHitPoints"
+          Float: 10
         }
       }
     }
