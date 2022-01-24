@@ -1,12 +1,62 @@
 Name: "Map"
-RootId: 14476493040834258042
+RootId: 671215497757983363
 Objects {
-  Id: 12944834042244594770
-  Name: "Walls"
+  Id: 17579171246547711669
+  Name: "Default Floor"
   Transform {
     Location {
-      X: -200
-      Y: -200
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 500
+      Y: 500
+      Z: 1
+    }
+  }
+  ParentId: 671215497757983363
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3984529091638446921
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11580710785089409110
+  Name: "OuterWalls"
+  Transform {
+    Location {
     }
     Rotation {
     }
@@ -16,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14476493040834258042
+  ParentId: 671215497757983363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,20 +81,17 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Walls"
+    FilePartitionName: "OuterWalls"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 4512888583482864961
-  Name: "DefendSpawn"
+  Id: 9086936746104183945
+  Name: "Gameplay Settings"
   Transform {
     Location {
-      X: -850
-      Y: 50
-      Z: 150
     }
     Rotation {
     }
@@ -54,7 +101,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14476493040834258042
+  ParentId: 671215497757983363
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,421 +114,14 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-    SpawnEffectsTemplate {
-      Id: 841534158063459245
-    }
-    ShouldDecrowdPlayers: true
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gameplay Settings"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15064772885316599253
-  Name: "AttackSpawn"
-  Transform {
-    Location {
-      X: -550
-      Y: -2150
-      Z: 100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:alwaysvisible"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-    PlayerScaleMultiplier: 1
-    SpawnEffectsTemplate {
-      Id: 841534158063459245
-    }
-    ShouldDecrowdPlayers: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12931828534605315854
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Location {
-      X: -4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
-  Id: 1338804601277808158
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Location {
-      Y: 4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
-  Id: 10832255096588484102
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Location {
-      Y: -4000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 4000
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
-  Id: 4341039344227566413
-  Name: "2Frogs-NPCSpawner"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16631134881011033056
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-NPCSpawner"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: -4000
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1762830272943559455
-    }
-  }
-}
-Objects {
-  Id: 5269821451962453728
-  Name: "2Frogs - Relic Objective"
-  Transform {
-    Location {
-      X: 1950
-      Y: -650
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2420317408083004382
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Relic Objective"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -250
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 282887732358444069
-    }
-  }
-}
-Objects {
-  Id: 11486445631107578819
-  Name: "2Frogs - Relic Objective"
-  Transform {
-    Location {
-      X: 250
-      Y: -100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2
-      Y: 2
-      Z: 2
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2420317408083004382
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Relic Objective"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -50
-            Y: -300
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 282887732358444069
-    }
-  }
-}
-Objects {
-  Id: 5334098467214620572
-  Name: "2Frogs - Relic Objective"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2420317408083004382
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Relic Objective"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: -100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 282887732358444069
-    }
-  }
-}
-Objects {
-  Id: 17733886931906502818
-  Name: "2Frogs - Relic Objective"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2420317408083004382
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs - Relic Objective"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 200
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 282887732358444069
-    }
   }
 }
 Objects {
@@ -497,7 +139,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14476493040834258042
+  ParentId: 671215497757983363
   ChildIds: 13551641546322277000
   ChildIds: 7155168770677928712
   ChildIds: 10505154200474359396
@@ -846,29 +488,20 @@ Objects {
   }
 }
 Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
+  Id: 13242861991021129662
+  Name: "Buildings/Obstacles"
   Transform {
     Location {
-      Z: -50
     }
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 1
+      Y: 1
       Z: 1
     }
   }
-  ParentId: 14476493040834258042
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3984529091638446921
-      }
-    }
-  }
+  ParentId: 671215497757983363
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -878,20 +511,117 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Buildings_Obstacles"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8801729405939347437
+  Name: "PlayerSpawns"
+  Transform {
+    Location {
     }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
+    Rotation {
     }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
     }
+  }
+  ParentId: 671215497757983363
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PlayerSpawns"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4088581866246381962
+  Name: "NPCSpawns"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 671215497757983363
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPCSpawns"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15509723368144162264
+  Name: "Objectives"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 671215497757983363
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Objectives"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

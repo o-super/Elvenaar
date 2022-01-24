@@ -77,6 +77,12 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 1617401466273094473
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 1802650080293120204
     value {
     }
@@ -618,4 +624,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "IceCitadel"

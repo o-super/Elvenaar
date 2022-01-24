@@ -7,7 +7,7 @@ Assets {
       RootId: 16631134881011033056
       Objects {
         Id: 16631134881011033056
-        Name: "NPCSpawner"
+        Name: "2Frogs-NPCSpawner"
         Transform {
           Scale {
             X: 1

@@ -1,9 +1,9 @@
 Assets {
-  Id: 12770354215461042263
-  Name: "Cylinder Waisted"
-  PlatformAssetType: 1
+  Id: 17957023737858948346
+  Name: "Laser Beam VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prim_cylinder_waisted_001_ref"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_Laser_Beam"
   }
 }
