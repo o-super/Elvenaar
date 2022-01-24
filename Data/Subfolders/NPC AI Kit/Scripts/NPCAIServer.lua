@@ -112,13 +112,13 @@ local temporaryHearingRadius = nil
 
 
 function SetState(newState)
-	--print("NewState = " .. newState)
+	--print("I am: " .. tostring(ROOT) .. " with NewState = " .. newState)
 
 	if (newState == STATE_SLEEPING) then
 		RootStopRotate()
 		
 	elseif (newState == STATE_ENGAGING) then
-		--print("target = " .. tostring(target) .. ", moveSpeed = " .. tostring(MOVE_SPEED) .. ", attackRange = " .. ATTACK_RANGE)
+		--print("I am: " .. tostring(ROOT) .. " target = " .. tostring(target) .. ", moveSpeed = " .. tostring(MOVE_SPEED) .. ", attackRange = " .. ATTACK_RANGE)
 
 		if currentState == STATE_SLEEPING or
 		currentState == STATE_PATROLLING or
@@ -128,7 +128,7 @@ function SetState(newState)
 			engageStartPosition = ROOT:GetWorldPosition()
 		end
 
-		if (not IsWithinRangeSquared(target, ATTACK_RANGE_SQUARED)) then
+		if (not IsWithinRangeSquared(target, ATTACK_RANGE_SQUARED)) then			
 			local targetPosition = target:GetWorldPosition()
 			StepTowards(targetPosition)
 		end
@@ -185,6 +185,9 @@ function Tick(deltaTime)
 	engageCooldown = engageCooldown - deltaTime
 	attackCooldown = attackCooldown - deltaTime
 	
+	--print("I: " .. tostring(ROOT) .. " State: " .. tostring(currentState) .. " target: " .. tostring(target) .. " NavPath: " .. tostring(navMeshPath)
+	--.. " LogicStep: " .. tostring(logicStepDelay))
+
 	if (searchTimeElapsed >= 0) then
 		searchTimeElapsed = searchTimeElapsed + deltaTime
 	end
@@ -209,6 +212,7 @@ function Tick(deltaTime)
 	if currentState == STATE_ENGAGING then
 		if COMBAT().IsDead(target) then
 			SetTarget(nil)
+			SetState(STATE_ATTACK_RECOVERY)
 		elseif IsWithinRangeSquared(target, ATTACK_RANGE_SQUARED, ATTACK_MIN_ANGLE) then
 			if attackCooldown <= 0 then
 				SetState(STATE_ATTACK_CAST)
@@ -492,7 +496,7 @@ function StepTowards(targetPosition)
 			return
 		end
 
-		if navMeshPath == nil or #navMeshPath == 0 then
+		if navMeshPath == nil or #navMeshPath == 0 then			
 			FindPathOnNavMesh(targetPosition)
 		else
 			Task.Spawn(function()

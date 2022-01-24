@@ -127,6 +127,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:MaxChaseDistance"
+            Int: 99999999
+          }
+          Overrides {
             Name: "cs:CurrentState:isrep"
             Bool: true
           }
