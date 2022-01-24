@@ -11,6 +11,11 @@ local DAMAGE_HEADSHOT = script:GetCustomProperty("DamageHeadshot")
 
 -- Argument: ImpactData
 function OnProjectileInteracted(interaction)
+
+    if interaction.targetObject == nil then
+        return
+    end
+
     local damage = DAMAGE
     if DAMAGE_HEADSHOT and DAMAGE_HEADSHOT > 0 and interaction.isHeadshot then
         damage = DAMAGE_HEADSHOT

@@ -1,3 +1,3 @@
 LeaderboardConfigs {
 }
-MainScene: "IceCitadel"
+MainScene: "Main"

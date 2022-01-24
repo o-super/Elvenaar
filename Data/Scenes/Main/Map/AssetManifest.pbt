@@ -34,12 +34,3 @@ Assets {
     AssetId: "CORESKY_Sky"
   }
 }
-Assets {
-  Id: 3984529091638446921
-  Name: "Grass Clumps"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grass_002_uv"
-  }
-}

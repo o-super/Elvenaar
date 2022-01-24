@@ -81,6 +81,11 @@ function Blast(theTrigger, target)
     -- Apply effect to enemy target
 end
 
+function SpawnProjectile()
+    -- Spawn projectile
+    local projectile = Projectile.Spawn(propProjectile, COMPONENT_ROOT:GetWorldPosition(), propDirection)
+end
+
 function OnOverlapStart(theTrigger, target)
     -- Ignore anything that is not a NPC or Player
     if target:IsA("StaticMesh") or target:IsA("Player") then
@@ -97,5 +102,7 @@ function OnOverlapStart(theTrigger, target)
     end
 end
 
+SpawnProjectile()
+
 -- Initialize
-TRIGGER.beginOverlapEvent:Connect(OnOverlapStart)
+--TRIGGER.beginOverlapEvent:Connect(OnOverlapStart)
