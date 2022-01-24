@@ -28,6 +28,11 @@ Objects {
   ChildIds: 10115918751159616128
   ChildIds: 4404014904455063166
   ChildIds: 3560350092147906919
+  ChildIds: 14545594440164839456
+  ChildIds: 1879845823651795893
+  ChildIds: 6519176350088744837
+  ChildIds: 8829068990266289724
+  ChildIds: 894369035329335631
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,12 +51,201 @@ Objects {
   }
 }
 Objects {
+  Id: 894369035329335631
+  Name: "GatesAndObjectives"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "GatesAndObjectives"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8829068990266289724
+  Name: "PlayerAndNPCsSpawns"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PlayerAndNPCsSpawns"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6519176350088744837
+  Name: "Default Floor"
+  Transform {
+    Location {
+      X: -1450
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 500
+      Y: 500
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1879845823651795893
+  Name: "OuterWalls"
+  Transform {
+    Location {
+      X: -1450
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "OuterWalls"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14545594440164839456
+  Name: "Buildings/Obstacles"
+  Transform {
+    Location {
+      X: -1450
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Buildings_Obstacles"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 3560350092147906919
   Name: "Sphere"
   Transform {
     Location {
       X: -6200
-      Y: -900
+      Y: -42400
     }
     Rotation {
     }
@@ -112,7 +306,7 @@ Objects {
   Transform {
     Location {
       X: -1050
-      Y: -850
+      Y: -42350
     }
     Scale {
       X: 1
@@ -2011,6 +2205,7 @@ Objects {
   Name: "DualSwrodHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2046,6 +2241,7 @@ Objects {
   Name: "Sword/ShieldHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2081,6 +2277,7 @@ Objects {
   Name: "GauntletHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2116,6 +2313,7 @@ Objects {
   Name: "CrossbowHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2151,6 +2349,7 @@ Objects {
   Name: "StaffHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2186,6 +2385,7 @@ Objects {
   Name: "HammerHero"
   Transform {
     Location {
+      Y: -41500
     }
     Rotation {
     }
@@ -2222,6 +2422,7 @@ Objects {
   Transform {
     Location {
       X: -5000
+      Y: -41500
       Z: -50
     }
     Rotation {
@@ -2287,6 +2488,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 400
+            Y: -41500
           }
         }
       }
@@ -2330,6 +2532,7 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
+      Y: -41500
       Z: -50
     }
     Rotation {
