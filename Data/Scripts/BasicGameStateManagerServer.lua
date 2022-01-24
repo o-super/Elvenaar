@@ -138,7 +138,7 @@ end
 -- nil Tick(float)
 -- Handles condition when state timer ran out
 function Tick(deltaTime)
-	if GetTimeRemainingInState() == 0.0 and script:GetCustomProperty("StateHasDuration") then
+	if GetTimeRemainingInState() == 0 and script:GetCustomProperty("StateHasDuration") then
 		local previousState = GetGameState()
 		local nextState
 		if previousState == ABGS.GAME_STATE_LOBBY then

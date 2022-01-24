@@ -25,8 +25,9 @@ local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
 local MinimumPlayers = 1
-local MaxNBWaveAttacking = 3
+local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
+local NbNPCPerWave = 1
 local LastWaveFinishedSpawning = false
 local RoundRunning = false
 local RoundNb = 0
@@ -107,7 +108,7 @@ end
 -- Spawn a basic wave of 6 npcs on all spawns
 function SpawnAttackerWave()
     SetGoalMessage("Spawning wave " .. CurrentWaveNb .. " / " .. MaxNBWaveAttacking)
-    for i = 1, 8 do
+    for i = 1, NbNPCPerWave do
         for _, spawner in pairs(attackNpcSpawner) do            
             Task.Wait(0.2)
             -- Patafix : spawner.spawnNPC() does not work, using context instead
