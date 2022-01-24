@@ -1,12 +1,12 @@
-Name: "OuterWalls"
-RootId: 15626046566531215812
+Name: "OuterWalls_1"
+RootId: 1879845823651795893
 Objects {
-  Id: 12528389038865729065
+  Id: 885858734811931712
   Name: "OuterWall"
   Transform {
     Location {
-      X: 950
-      Y: -8150
+      X: 650
+      Y: -7750
       Z: 400
     }
     Rotation {
@@ -14,11 +14,11 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 101
+      Y: 230
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -63,12 +63,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11474366610854978644
+  Id: 14384800262529792720
   Name: "OuterWall"
   Transform {
     Location {
-      X: 950
-      Y: 5100
+      X: 650
+      Y: 7050
       Z: 400
     }
     Rotation {
@@ -76,11 +76,11 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 101
+      Y: 230
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -125,23 +125,23 @@ Objects {
   }
 }
 Objects {
-  Id: 15389118201838106588
+  Id: 14111170854581093296
   Name: "OuterWall"
   Transform {
     Location {
-      X: 5800
-      Y: -1550
+      X: 7250
+      Y: 1000
       Z: 400
     }
     Rotation {
     }
     Scale {
       X: 4
-      Y: 129
+      Y: 230
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -186,23 +186,23 @@ Objects {
   }
 }
 Objects {
-  Id: 10380066916016287355
+  Id: 6803797746099348469
   Name: "OuterWall"
   Transform {
     Location {
-      X: -3800
-      Y: -1550
+      X: -5400
+      Y: 1000
       Z: 400
     }
     Rotation {
     }
     Scale {
       X: 4
-      Y: 129
+      Y: 230
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
