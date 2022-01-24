@@ -170,7 +170,7 @@ Assets {
           Overrides {
             Name: "cs:ProjectileImpactAligned"
             AssetReference {
-              Id: 15062460120501915252
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -184,7 +184,7 @@ Assets {
           Overrides {
             Name: "cs:BlastImpactTemplate"
             AssetReference {
-              Id: 5633505221677698637
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -319,7 +319,7 @@ Assets {
           Overrides {
             Name: "cs:SpawnersParent"
             ObjectReference {
-              SubObjectId: 15905032760237514822
+              SubObjectId: 7408621241195831747
             }
           }
           Overrides {

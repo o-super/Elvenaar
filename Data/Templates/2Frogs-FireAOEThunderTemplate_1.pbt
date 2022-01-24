@@ -16,9 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8169889545205169358
+        ChildIds: 13677881833204675547
         ChildIds: 17564869018579322702
         ChildIds: 12137002314333645366
+        ChildIds: 14221127841236413843
         UnregisteredParameters {
           Overrides {
             Name: "cs:EffectName"
@@ -74,6 +75,307 @@ Assets {
             Name: "cs:StopOnDestroyed"
             Bool: false
           }
+          Overrides {
+            Name: "cs:Direction"
+            Vector {
+              Z: -1
+            }
+          }
+          Overrides {
+            Name: "cs:SpawnDelay"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "cs:Projectile"
+            AssetReference {
+              Id: 18422605995272838678
+            }
+          }
+          Overrides {
+            Name: "cs:ProjectileSpeed"
+            Float: 1700
+          }
+          Overrides {
+            Name: "cs:ProjectileLength"
+            Float: 13
+          }
+          Overrides {
+            Name: "cs:ProjectileRadius"
+            Float: 13
+          }
+          Overrides {
+            Name: "cs:ProjectileLifeSpan"
+            Float: 20
+          }
+          Overrides {
+            Name: "cs:IntervalTime"
+            Float: 0.3
+          }
+          Overrides {
+            Name: "cs:ProjectileImpactAligned"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:BlastImpactTemplate"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:BlastDamageRange"
+            Vector2 {
+              X: 46
+              Y: 86
+            }
+          }
+          Overrides {
+            Name: "cs:BlastRadius"
+            Float: 700
+          }
+          Overrides {
+            Name: "cs:BlastKnockbackSpeed"
+            Float: 0
+          }
+          Overrides {
+            Name: "cs:ApplyEffect"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:PlayerEffectTemplate"
+            AssetReference {
+              Id: 2928324685255004683
+            }
+          }
+          Overrides {
+            Name: "cs:PlayerEffectSocket"
+            String: "pelvis"
+          }
+          Overrides {
+            Name: "cs:EffectName:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:EffectName:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SetDuration:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SetDuration:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:EffectDuration:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:EffectDuration:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SetAnimationStance:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SetAnimationStance:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:AnimationStance:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:AnimationStance:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SpeedModifier:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SpeedModifier:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:FreezeMovement:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:FreezeMovement:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:FreezeAbilities:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:FreezeAbilities:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ShowFlyUpText:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ShowFlyUpText:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerVFXSocket:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerVFXSocket:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:StopOnEndOverlap:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:StopOnEndOverlap:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:StopOnDestroyed:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:StopOnDestroyed:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Direction:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Direction:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SpawnDelay:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:SpawnDelay:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Projectile:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Projectile:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileSpeed:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileSpeed:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileLength:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileLength:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileRadius:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileRadius:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileLifeSpan:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileLifeSpan:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:IntervalTime:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:IntervalTime:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileImpactAligned:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ProjectileImpactAligned:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastImpactTemplate:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastImpactTemplate:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastDamageRange:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastDamageRange:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastRadius:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastRadius:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastKnockbackSpeed:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:BlastKnockbackSpeed:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ApplyEffect:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ApplyEffect:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerEffectTemplate:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerEffectTemplate:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerEffectSocket:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerEffectSocket:ml"
+            Bool: false
+          }
         }
         Lifespan: 5
         WantsNetworking: true
@@ -94,8 +396,8 @@ Assets {
         }
       }
       Objects {
-        Id: 8169889545205169358
-        Name: "2Frogs-BlastOnTrigger"
+        Id: 13677881833204675547
+        Name: "ProjectilesSpawnerServer"
         Transform {
           Location {
           }
@@ -110,40 +412,34 @@ Assets {
         ParentId: 17482454755871367749
         UnregisteredParameters {
           Overrides {
-            Name: "cs:ModuleManager"
-            AssetReference {
-              Id: 4880042328631836034
-            }
-          }
-          Overrides {
             Name: "cs:ComponentRoot"
             ObjectReference {
               SubObjectId: 17482454755871367749
             }
           }
           Overrides {
-            Name: "cs:trigger"
+            Name: "cs:SpawnersParent"
             ObjectReference {
-              SubObjectId: 2031384785611534562
+              SubObjectId: 14221127841236413843
             }
           }
           Overrides {
-            Name: "cs:EffectName"
+            Name: "cs:API_Damage"
             AssetReference {
-              Id: 841534158063459245
+              Id: 9779080782080215512
             }
           }
           Overrides {
-            Name: "cs:MinDamage"
-            Int: 70
+            Name: "cs:API_Effect"
+            AssetReference {
+              Id: 1016400983877160316
+            }
           }
           Overrides {
-            Name: "cs:MaxDamage"
-            Int: 140
-          }
-          Overrides {
-            Name: "cs:BlastKnockbackSpeed"
-            Int: 1000
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
           }
         }
         WantsNetworking: true
@@ -156,12 +452,9 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
         Script {
           ScriptAsset {
-            Id: 2671620213805910339
+            Id: 16852391239071805625
           }
         }
         NetworkRelevanceDistance {
@@ -1116,6 +1409,77 @@ Assets {
           ScriptAsset {
             Id: 13044264539320372749
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 14221127841236413843
+        Name: "Spawner"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17482454755871367749
+        ChildIds: 16810339030779302963
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 16810339030779302963
+        Name: "Position"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14221127841236413843
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
