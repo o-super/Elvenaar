@@ -212,7 +212,7 @@ function Tick(deltaTime)
 	if currentState == STATE_ENGAGING then
 		if COMBAT().IsDead(target) then
 			SetTarget(nil)
-			SetState(STATE_ATTACK_RECOVERY)
+			--SetState(STATE_ATTACK_RECOVERY)
 		elseif IsWithinRangeSquared(target, ATTACK_RANGE_SQUARED, ATTACK_MIN_ANGLE) then
 			if attackCooldown <= 0 then
 				SetState(STATE_ATTACK_CAST)

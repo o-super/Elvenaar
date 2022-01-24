@@ -13,6 +13,19 @@ Objects {
   ParentId: 12512823165036459682
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4920491915511984392
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -990
+            Y: -529
+            Z: 82
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10223134418665528892
       value {
         Overrides {
@@ -51,13 +64,13 @@ Objects {
           Vector {
             X: 200
             Y: 200
-            Z: 7.5
+            Z: 3.75
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: 234
+            Z: 1
           }
         }
       }
@@ -116,6 +129,12 @@ Objects {
         Overrides {
           Name: "cs:VerboseDebug"
           Bool: true
+        }
+        Overrides {
+          Name: "cs:DefaultPathfinder"
+          AssetReference {
+            Id: 16654089872690132619
+          }
         }
       }
     }

@@ -10,6 +10,7 @@ Objects {
       Z: 100
     }
     Rotation {
+      Yaw: 23
     }
     Scale {
       X: 1
@@ -52,6 +53,7 @@ Objects {
       Z: 150
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1

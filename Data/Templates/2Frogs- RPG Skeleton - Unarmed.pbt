@@ -50,7 +50,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ReturnToSpawn"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:VisionHalfAngle"
@@ -62,7 +62,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HearingRadius"
-            Float: 1000
+            Float: 0
           }
           Overrides {
             Name: "cs:SearchBonusVision"
@@ -70,7 +70,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SearchDuration"
-            Float: 6
+            Float: 1
           }
           Overrides {
             Name: "cs:PossibilityRadius"
@@ -102,7 +102,7 @@ Assets {
           }
           Overrides {
             Name: "cs:IsPushable"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:RewardResourceType"
@@ -128,7 +128,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxChaseDistance"
-            Int: 99999999
+            Int: 2500
           }
           Overrides {
             Name: "cs:CurrentState:isrep"

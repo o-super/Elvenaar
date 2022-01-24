@@ -122,7 +122,11 @@ Objects {
       value {
         Overrides {
           Name: "Damageable.MaxHitPoints"
-          Float: 50
+          Float: 1000
+        }
+        Overrides {
+          Name: "Damageable.StartingHitPoints"
+          Float: 1000
         }
       }
     }
