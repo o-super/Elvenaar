@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9742256078514821313
+        ParentId: 4781671109827199097
         ChildIds: 11703554741131487861
         ChildIds: 12022468085579293699
         ChildIds: 16960347698294458593
@@ -385,6 +385,12 @@ Assets {
           Overrides {
             Name: "cs:DamageHeadshot"
             Int: 180
+          }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
           }
         }
         WantsNetworking: true

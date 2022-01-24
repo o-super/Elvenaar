@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 8169889545205169358
         ChildIds: 17564869018579322702
         ChildIds: 12137002314333645366
         UnregisteredParameters {
@@ -87,6 +88,81 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 8169889545205169358
+        Name: "2Frogs-BlastOnTrigger"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17482454755871367749
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
+          Overrides {
+            Name: "cs:ComponentRoot"
+            ObjectReference {
+              SubObjectId: 17482454755871367749
+            }
+          }
+          Overrides {
+            Name: "cs:trigger"
+            ObjectReference {
+              SubObjectId: 2031384785611534562
+            }
+          }
+          Overrides {
+            Name: "cs:EffectName"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:MinDamage"
+            Int: 70
+          }
+          Overrides {
+            Name: "cs:MaxDamage"
+            Int: 140
+          }
+          Overrides {
+            Name: "cs:BlastKnockbackSpeed"
+            Int: 1000
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 2671620213805910339
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"

@@ -158,54 +158,6 @@ function Blast(projectile, other, hitResult)
     end
 end
 
-function Blast_OLD(projectile, other, hitResult)
-
-    -- Create the position of the blast and find players within radius
-    local center = hitResult:GetImpactPosition()
-    local normal = hitResult:GetImpactNormal()
-    local players = Game.FindPlayersInSphere(center, BLAST_RADIUS)
-
-    if BLAST_IMPACT_TEMPLATE then
-        local blastTemplate = World.SpawnAsset(BLAST_IMPACT_TEMPLATE, {position = center})
-        blastTemplate:ScaleTo(Vector3.ONE * BLAST_RADIUS / 50, 0.2, false)
-    end
-
-    if PROJECTILE_IMPACT_ALIGNED then
-        local rot = Rotation.New(normal.x, normal.y, normal.z)
-        World.SpawnAsset(PROJECTILE_IMPACT_ALIGNED,
-                        {position = center, rotation = rot})
-    end
-
-    -- If there is no owner ignore the damage and effect
-    if not Object.IsValid(sourceOwner) then return end
-
-    for _, player in pairs(players) do
-
-        -- Only blast the enemy team
-        if Teams.AreTeamsEnemies(player.team, sourceOwner.team) and player ~= sourceOwner then
-
-            -- Create a direction at which the player is pushed away from the blast
-            local displacement = player:GetWorldPosition() - center
-            player:AddImpulse((displacement):GetNormalized() * player.mass * BLAST_KNOCKBACK_SPEED)
-
-            -- The farther the player from the blast the less damage that player takes
-            local minDamage = BLAST_DAMAGE_RANGE.x
-            local maxDamage = BLAST_DAMAGE_RANGE.y
-            displacement.z = 0
-            local t = (displacement).size / BLAST_RADIUS
-            local damage = CoreMath.Lerp(maxDamage, minDamage, t)
-
-            -- Apply damage to enemy player
-            DAMAGE_API.ApplyDamage(damage, sourceAbility, player, sourceOwner)
-
-            -- Apply effect to enemy player
-            if APPLY_EFFECT then
-                EFFECT_API.ApplyEffect(player, EFFECT_NAME, effectTable)
-            end
-        end
-    end
-end
-
 function SpawnProjectiles()
 
     -- Check for source owner
