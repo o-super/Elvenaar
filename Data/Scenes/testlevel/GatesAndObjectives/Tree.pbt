@@ -29,7 +29,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder"
+    FilePartitionName: "NewFolder_2"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
