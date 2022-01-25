@@ -117,6 +117,7 @@ function BlastTarget(hitResult, abilityInfo)
             DAMAGE_API.ApplyDamage(damage, sourceAbility, target, sourceOwner)
         else
             -- Appli damage to npc
+            print("Damage: " .. tostring(attackData.damage.amount))
             COMBAT().ApplyDamage(attackData)
         end	
 
@@ -169,9 +170,29 @@ function SpawnProjectiles()
         sourceOwner = sourceAbility.owner
     end
 
+    -- if Direction is 0, 0, 0 then use the player direction instead
+    local fireInAngle = false
+    local fireAngle = 45
+    local fireAngleStep = 0
+    local nbArrows = 0
+    if propDirection == Vector3.New(0, 0, 0) then
+        nbArrows = #SPAWNERS_PARENT:GetChildren()
+        propDirection = Quaternion.New(sourceOwner:GetViewWorldRotation()):GetForwardVector()
+        fireInAngle = true
+        fireAngleStep = fireAngle / nbArrows
+        local rot = Rotation.New(0, 0, (fireAngle / 2) * -1)
+        propDirection = rot * propDirection
+    end
+
     for _, value in ipairs(SPAWNERS_PARENT:GetChildren()) do
         -- Spawn projectile
-        local projectile = Projectile.Spawn(propProjectile, value:GetWorldPosition(), propDirection)
+        local projectile = nil
+        if fireInAngle then
+            propDirection = Rotation.New(0, 0, fireAngleStep) * propDirection
+            projectile = Projectile.Spawn(propProjectile, value:GetWorldPosition(), propDirection)            
+        else
+            projectile = Projectile.Spawn(propProjectile, value:GetWorldPosition(), propDirection)
+        end
 
         projectile.owner = sourceOwner
         projectile.sourceAbility = sourceAbility

@@ -17,12 +17,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13950225922132296555
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 6854294233855189574
   Name: "Snow 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_snow_001_uv"
+  }
+}
+Assets {
+  Id: 6271704335464012675
+  Name: "Cone"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_001"
   }
 }
 Assets {

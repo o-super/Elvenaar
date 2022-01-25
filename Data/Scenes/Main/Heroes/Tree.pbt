@@ -1271,7 +1271,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_3"
+    FilePartitionName: "NewFolder"
   }
   InstanceHistory {
     SelfId: 5883284664841535169
@@ -1401,7 +1401,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Feather"
+    FilePartitionName: "Feather_4"
   }
   InstanceHistory {
     SelfId: 9263847114432167141
@@ -1442,7 +1442,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Feather_1"
+    FilePartitionName: "Feather_5"
   }
   InstanceHistory {
     SelfId: 6455319042545498378
@@ -1483,7 +1483,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Feather_2"
+    FilePartitionName: "Feather_6"
   }
   InstanceHistory {
     SelfId: 11927027567040363317
@@ -1523,7 +1523,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Feather_3"
+    FilePartitionName: "Feather_7"
   }
   InstanceHistory {
     SelfId: 14712167242925701183
@@ -1700,7 +1700,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Handlers"
+    FilePartitionName: "Handlers_1"
   }
   InstanceHistory {
     SelfId: 14241701030715135347
@@ -1743,7 +1743,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Body"
+    FilePartitionName: "Body_1"
   }
   InstanceHistory {
     SelfId: 16365608882999725897

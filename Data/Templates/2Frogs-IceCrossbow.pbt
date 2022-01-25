@@ -72,7 +72,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 1
+            BurstDuration: 4
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -86,11 +86,11 @@ Assets {
             MaxAmmo: -1
             AmmoType: "resource"
             MultiShot: 1
-            ProjectileSpeed: 7000
-            ProjectileLifeSpan: 20
+            ProjectileSpeed: 20000
+            ProjectileLifeSpan: 10
+            ProjectileGravity: 1
             ProjectileLength: 100
-            ProjectileRadius: 8
-            ProjectileDrag: -0.4
+            ProjectileRadius: 4
             SpreadMin: 1.5
             SpreadMax: 3
             SpreadIncreasePerShot: 0.4
@@ -100,6 +100,7 @@ Assets {
             ReloadAbility {
               SubObjectId: 10807129446846477166
             }
+            Damage: 10
           }
         }
         NetworkRelevanceDistance {
@@ -1401,7 +1402,7 @@ Assets {
       }
       Objects {
         Id: 4847853886893956296
-        Name: "Poison Rain"
+        Name: "Multi Arrows Shot"
         Transform {
           Location {
             Y: 330
@@ -1459,7 +1460,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 14
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -1469,7 +1470,7 @@ Assets {
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "unarmed_throw"
+          Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_03"
           }
@@ -1498,12 +1499,18 @@ Assets {
           Overrides {
             Name: "cs:AOEAsset"
             AssetReference {
-              Id: 11125207849485509870
+              Id: 3826230629215676199
             }
           }
           Overrides {
             Name: "cs:ForwardSpawnOffset"
-            Float: 3500
+            Float: 1
+          }
+          Overrides {
+            Name: "cs:SpawnPosition"
+            ObjectReference {
+              SubObjectId: 13344671792377651530
+            }
           }
         }
         WantsNetworking: true
@@ -1518,7 +1525,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 5944685514757636593
+            Id: 13817550023127483735
           }
         }
         NetworkRelevanceDistance {

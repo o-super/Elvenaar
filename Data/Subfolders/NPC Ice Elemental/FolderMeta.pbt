@@ -1,0 +1,91 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "a5dc8061f07c47d1a48b141e3c7be983"
+  OwnerAccountId: "9f92ac88ad444ced869f27850af2cb98"
+  OwnerName: "HarshitPawar"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 162151367198570398
+  value: 12343846966382187685
+}
+AssetIdsOriginalToNew {
+  key: 1116760160694603255
+  value: 17011326909663561364
+}
+AssetIdsOriginalToNew {
+  key: 1883778736238546551
+  value: 2694205256233977458
+}
+AssetIdsOriginalToNew {
+  key: 2003752736780784297
+  value: 1565929914990832332
+}
+AssetIdsOriginalToNew {
+  key: 2038077216541919415
+  value: 1133259164844865961
+}
+AssetIdsOriginalToNew {
+  key: 3212585105222752708
+  value: 6330769299106888116
+}
+AssetIdsOriginalToNew {
+  key: 5927220524009298293
+  value: 15859264184206984158
+}
+AssetIdsOriginalToNew {
+  key: 5955454102056381616
+  value: 14577447083534819516
+}
+AssetIdsOriginalToNew {
+  key: 6100350035294001459
+  value: 35403785147723631
+}
+AssetIdsOriginalToNew {
+  key: 6309063461829695674
+  value: 12752137175217419572
+}
+AssetIdsOriginalToNew {
+  key: 7577485333701035703
+  value: 8362242119048465185
+}
+AssetIdsOriginalToNew {
+  key: 9770511928359673738
+  value: 13823725596101302809
+}
+AssetIdsOriginalToNew {
+  key: 11918259483932100496
+  value: 8482189753317508944
+}
+AssetIdsOriginalToNew {
+  key: 13645484765276120961
+  value: 6258838304346951070
+}
+AssetIdsOriginalToNew {
+  key: 14084924065427283392
+  value: 10985477565793673929
+}
+AssetIdsOriginalToNew {
+  key: 14373757464648078715
+  value: 12031292347658336377
+}
+AssetIdsOriginalToNew {
+  key: 15636749404113921442
+  value: 18215592086545725392
+}
+AssetIdsOriginalToNew {
+  key: 15741543741994185287
+  value: 14790134210834995610
+}
+AssetIdsOriginalToNew {
+  key: 17326242520781650230
+  value: 6394653340817655419
+}
+AssetIdsOriginalToNew {
+  key: 17367449922255341506
+  value: 2689313488964371243
+}
+AssetIdsOriginalToNew {
+  key: 17876034834621974685
+  value: 17826537491279586913
+}

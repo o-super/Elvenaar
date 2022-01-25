@@ -1,7 +1,7 @@
 Name: "Handlers"
-RootId: 14241701030715135347
+RootId: 1391949503456485907
 Objects {
-  Id: 15495889361515629082
+  Id: 142400316623420794
   Name: "BowLeftSide"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 0.173703864
     }
   }
-  ParentId: 14241701030715135347
+  ParentId: 1391949503456485907
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,17 +33,17 @@ Objects {
     FilePartitionName: "BowLeftSide"
   }
   InstanceHistory {
-    SelfId: 15495889361515629082
-    SubobjectId: 14066763333916897662
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 142400316623420794
+    SubobjectId: 16144580617479149239
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 6625301006359381421
+  Id: 10161335972324700877
   Name: "BowRightSide"
   Transform {
     Location {
@@ -58,7 +58,7 @@ Objects {
       Z: 0.173703864
     }
   }
-  ParentId: 14241701030715135347
+  ParentId: 1391949503456485907
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -75,10 +75,10 @@ Objects {
     FilePartitionName: "BowRightSide"
   }
   InstanceHistory {
-    SelfId: 6625301006359381421
-    SubobjectId: 5749574822227689161
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 10161335972324700877
+    SubobjectId: 7849963159156840704
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
