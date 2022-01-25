@@ -1,7 +1,7 @@
 Name: "Body"
-RootId: 16365608882999725897
+RootId: 3885427258171865129
 Objects {
-  Id: 14418312607281352342
+  Id: 2228648495346334198
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.0625686869
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -71,17 +71,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14418312607281352342
-    SubobjectId: 15862655439066199538
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 2228648495346334198
+    SubobjectId: 18381799368415908411
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 18044873681079961393
+  Id: 3213837383984754769
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -97,7 +97,7 @@ Objects {
       Z: 0.70758903
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -163,17 +163,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18044873681079961393
-    SubobjectId: 17174229784565054549
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 3213837383984754769
+    SubobjectId: 14802525824417635228
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 12048961245384161610
+  Id: 8197430353314123306
   Name: "firearm_prop_blunderbuss_receiver_01"
   Transform {
     Location {
@@ -190,7 +190,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -296,17 +296,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12048961245384161610
-    SubobjectId: 12902207742297358894
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 8197430353314123306
+    SubobjectId: 10392027160552842727
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 18142766631302014149
+  Id: 3259923552711218085
   Name: "firearm_prop_blunderbuss_receiver_01"
   Transform {
     Location {
@@ -322,7 +322,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -440,17 +440,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18142766631302014149
-    SubobjectId: 17290257811811262369
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 3259923552711218085
+    SubobjectId: 14756442128652810344
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 3264367261620171309
+  Id: 18138460434092639565
   Name: "firearm_prop_23"
   Transform {
     Location {
@@ -466,7 +466,7 @@ Objects {
       Z: 0.066038087
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -519,17 +519,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3264367261620171309
-    SubobjectId: 4140504902683527497
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 18138460434092639565
+    SubobjectId: 1894954912923283072
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 3352753926770394375
+  Id: 17902585863580889703
   Name: "firearm_prop_8"
   Transform {
     Location {
@@ -546,7 +546,7 @@ Objects {
       Z: 1.02979219
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -625,17 +625,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3352753926770394375
-    SubobjectId: 4232262224742055523
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 17902585863580889703
+    SubobjectId: 1839219210049722794
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 17828846615580594604
+  Id: 2421059297157998284
   Name: "firearm_prop_10"
   Transform {
     Location {
@@ -652,7 +652,7 @@ Objects {
       Z: 0.134205863
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -693,17 +693,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17828846615580594604
-    SubobjectId: 16381723205941111496
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 2421059297157998284
+    SubobjectId: 13865930450595204353
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 11042447388050728844
+  Id: 5749753635138244844
   Name: "firearm_prop_10"
   Transform {
     Location {
@@ -719,8 +719,8 @@ Objects {
       Z: 0.134205699
     }
   }
-  ParentId: 16365608882999725897
-  ChildIds: 15154869110791917400
+  ParentId: 3885427258171865129
+  ChildIds: 334801543684683832
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -761,17 +761,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11042447388050728844
-    SubobjectId: 10161805880938192104
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 5749753635138244844
+    SubobjectId: 12555966124267715361
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 15154869110791917400
+  Id: 334801543684683832
   Name: "NewFolder"
   Transform {
     Location {
@@ -784,7 +784,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11042447388050728844
+  ParentId: 5749753635138244844
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -802,17 +802,17 @@ Objects {
     FilePartitionName: "NewFolder_4"
   }
   InstanceHistory {
-    SelfId: 15154869110791917400
-    SubobjectId: 14297718076898358332
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 334801543684683832
+    SubobjectId: 16524145631546987509
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 10150599095803820704
+  Id: 6497481550715719104
   Name: "Half-pipe"
   Transform {
     Location {
@@ -830,7 +830,7 @@ Objects {
       Z: 0.0282698683
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -872,17 +872,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10150599095803820704
-    SubobjectId: 11017343901155869124
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 6497481550715719104
+    SubobjectId: 13537622388563060237
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 12811447317920415857
+  Id: 7439658951741683473
   Name: "Half-pipe"
   Transform {
     Location {
@@ -900,7 +900,7 @@ Objects {
       Z: 0.0282698683
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -942,17 +942,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12811447317920415857
-    SubobjectId: 11957123574159440661
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 7439658951741683473
+    SubobjectId: 9712576352156359900
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 6808498641814856481
+  Id: 9838456856417375297
   Name: "Cylinder - bottom aligned"
   Transform {
     Location {
@@ -971,7 +971,8 @@ Objects {
       Z: 0.452413827
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
+  ChildIds: 17671192290254101919
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1013,17 +1014,64 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6808498641814856481
-    SubobjectId: 5352526568954878021
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 9838456856417375297
+    SubobjectId: 7601445874358435724
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 7476525084020549551
+  Id: 17671192290254101919
+  Name: "EquipmentTeamColor"
+  Transform {
+    Location {
+      X: -63364.0508
+      Y: 1082.55518
+      Z: -623.399
+    }
+    Rotation {
+      Pitch: 36.555645
+      Yaw: 161.512405
+      Roll: -102.913513
+    }
+    Scale {
+      X: 169.139664
+      Y: 166.666656
+      Z: 2.21036553
+    }
+  }
+  ParentId: 9838456856417375297
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15438218715691669456
+    }
+  }
+  InstanceHistory {
+    SelfId: 17671192290254101919
+    SubobjectId: 1497540466701907538
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12768952756091130063
   Name: "Hemishpere (thin)"
   Transform {
     Location {
@@ -1039,7 +1087,7 @@ Objects {
       Z: 0.0887568444
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1085,17 +1133,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 7476525084020549551
-    SubobjectId: 8357176831071771851
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 12768952756091130063
+    SubobjectId: 5818813709018151682
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 18114104787089471829
+  Id: 3285278379484548661
   Name: "Cylinder - bottom aligned"
   Transform {
     Location {
@@ -1114,7 +1162,8 @@ Objects {
       Z: 0.452414334
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
+  ChildIds: 17107714445098053821
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1156,17 +1205,64 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18114104787089471829
-    SubobjectId: 17246923638898442801
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 3285278379484548661
+    SubobjectId: 14727718124548728312
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13119289165176262482
+  Id: 17107714445098053821
+  Name: "EquipmentTeamColor"
+  Transform {
+    Location {
+      X: -27304.0625
+      Y: 16421.332
+      Z: 946.550659
+    }
+    Rotation {
+      Pitch: 36.4931183
+      Yaw: -2.95326662
+      Roll: 102.902687
+    }
+    Scale {
+      X: 166.666656
+      Y: 166.666656
+      Z: 2.21036315
+    }
+  }
+  ParentId: 3285278379484548661
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15438218715691669456
+    }
+  }
+  InstanceHistory {
+    SelfId: 17107714445098053821
+    SubobjectId: 909222965938150256
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6981862483710408754
   Name: "Cube"
   Transform {
     Location {
@@ -1182,7 +1278,7 @@ Objects {
       Z: 0.0300098583
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1227,17 +1323,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13119289165176262482
-    SubobjectId: 11685231363933975606
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 6981862483710408754
+    SubobjectId: 9300060989365081087
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 10850877174393642466
+  Id: 4639712981582195330
   Name: "Cube"
   Transform {
     Location {
@@ -1253,7 +1349,7 @@ Objects {
       Z: 0.0300098583
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1298,17 +1394,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10850877174393642466
-    SubobjectId: 9416275526217066118
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 4639712981582195330
+    SubobjectId: 11643890269384081743
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 1389185440587034515
+  Id: 14245727706326800627
   Name: "Hemisphere-wedge"
   Transform {
     Location {
@@ -1327,7 +1423,7 @@ Objects {
       Z: 0.340781718
     }
   }
-  ParentId: 16365608882999725897
+  ParentId: 3885427258171865129
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1380,10 +1476,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1389185440587034515
-    SubobjectId: 539371147337815287
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 14245727706326800627
+    SubobjectId: 2613784343171117886
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

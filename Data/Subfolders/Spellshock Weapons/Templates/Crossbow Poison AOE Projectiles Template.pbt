@@ -7,7 +7,7 @@ Assets {
       RootId: 13061455601162728546
       Objects {
         Id: 13061455601162728546
-        Name: "Crossbow Poison AOE Projectiles Template"
+        Name: "2Frogs -Crossbow Multishot AOE Projectiles Template"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15778795352663330980
+        ParentId: 4781671109827199097
         ChildIds: 8247585255151187515
         ChildIds: 8874890039364697616
         UnregisteredParameters {
@@ -48,7 +48,6 @@ Assets {
           Overrides {
             Name: "cs:Direction"
             Vector {
-              Z: -1
             }
           }
           Overrides {
@@ -175,6 +174,12 @@ Assets {
               Id: 1016400983877160316
             }
           }
+          Overrides {
+            Name: "cs:ModuleManager"
+            AssetReference {
+              Id: 4880042328631836034
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -200,7 +205,6 @@ Assets {
         Name: "Spawn Positions"
         Transform {
           Location {
-            Z: 1600
           }
           Rotation {
           }
@@ -240,7 +244,6 @@ Assets {
         Name: "Position"
         Transform {
           Location {
-            Z: -410
           }
           Rotation {
           }
@@ -520,9 +523,7 @@ Assets {
         Name: "Position"
         Transform {
           Location {
-            X: 420
-            Y: 410
-            Z: -210
+            X: 42
           }
           Rotation {
           }
@@ -802,9 +803,7 @@ Assets {
         Name: "Position"
         Transform {
           Location {
-            X: -630
-            Y: -380
-            Z: -140
+            X: -38
           }
           Rotation {
           }
@@ -1084,8 +1083,7 @@ Assets {
         Name: "Position"
         Transform {
           Location {
-            X: 390
-            Y: -420
+            X: 82
           }
           Rotation {
           }
@@ -1365,9 +1363,7 @@ Assets {
         Name: "Position"
         Transform {
           Location {
-            X: -470
-            Y: 390
-            Z: 250
+            X: -73
           }
           Rotation {
           }

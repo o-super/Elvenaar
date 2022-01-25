@@ -1,7 +1,7 @@
 Name: "BowLeftSide"
-RootId: 15495889361515629082
+RootId: 142400316623420794
 Objects {
-  Id: 13502058854172470064
+  Id: 7896340593088339024
   Name: "Quarter-Donut"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1.51618481
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -73,17 +73,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13502058854172470064
-    SubobjectId: 12635879007806672980
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 7896340593088339024
+    SubobjectId: 10115530284800325533
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 2672859715679421271
+  Id: 17573743577662436407
   Name: "Horn"
   Transform {
     Location {
@@ -102,7 +102,7 @@ Objects {
       Z: 0.626204491
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -147,17 +147,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2672859715679421271
-    SubobjectId: 3543413993420486707
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 17573743577662436407
+    SubobjectId: 1303370366212808698
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 4644053033369765863
+  Id: 10846744551806054535
   Name: "Donut 02"
   Transform {
     Location {
@@ -176,7 +176,7 @@ Objects {
       Z: 0.171185076
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -218,17 +218,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 4644053033369765863
-    SubobjectId: 6073568502699752579
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 10846744551806054535
+    SubobjectId: 8607393111606303562
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 15444505610025909147
+  Id: 45164731455376635
   Name: "Horn"
   Transform {
     Location {
@@ -247,7 +247,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -292,17 +292,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15444505610025909147
-    SubobjectId: 14010333373753508095
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 45164731455376635
+    SubobjectId: 16236760648661051190
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 5270749054849904561
+  Id: 11515962931411212497
   Name: "Donut 02"
   Transform {
     Location {
@@ -321,7 +321,7 @@ Objects {
       Z: 0.272235364
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -367,17 +367,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5270749054849904561
-    SubobjectId: 6709850702273975509
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 11515962931411212497
+    SubobjectId: 9089409293780349724
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 10053423040243111072
+  Id: 6733290384030573504
   Name: "Horn"
   Transform {
     Location {
@@ -396,7 +396,7 @@ Objects {
       Z: 0.55580014
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -438,17 +438,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10053423040243111072
-    SubobjectId: 11511118194053279684
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 6733290384030573504
+    SubobjectId: 13584414706743871501
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 12338473059188079762
+  Id: 9065344674272168946
   Name: "Donut 02"
   Transform {
     Location {
@@ -467,7 +467,7 @@ Objects {
       Z: 0.257132173
     }
   }
-  ParentId: 15495889361515629082
+  ParentId: 142400316623420794
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -509,10 +509,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12338473059188079762
-    SubobjectId: 13763092954402916342
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
+    SelfId: 9065344674272168946
+    SubobjectId: 11257424768108159039
+    InstanceId: 15041367231234898653
+    TemplateId: 10266340974698813640
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
