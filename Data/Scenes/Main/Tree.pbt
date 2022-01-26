@@ -19,8 +19,9 @@ Objects {
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
-  ChildIds: 4487948922941654690
-  ChildIds: 9560297971709926112
+  ChildIds: 10921877198206975215
+  ChildIds: 18114764236307063212
+  ChildIds: 14275533823187732083
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,8 +40,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9560297971709926112
-  Name: "2Frogs-FireCrossbow"
+  Id: 14275533823187732083
+  Name: "2Frogs-IceStaffSecondaryWeapon"
   Transform {
     Scale {
       X: 1
@@ -49,201 +50,95 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 4872784685576913336
-  ChildIds: 5128643243639115726
-  ChildIds: 768911034165044012
-  ChildIds: 9051303031153906064
-  UnregisteredParameters {
-  }
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "right_prop"
-    PickupTrigger {
-      SelfId: 768911034165044012
-    }
-    Weapon {
-      ProjectileAssetRef {
-        Id: 5028845113697327521
-      }
-      MuzzleFlashAssetRef {
-        Id: 18208158386342387800
-      }
-      TrailAssetRef {
-        Id: 4423854089896083055
-      }
-      ImpactAssetRef {
-        Id: 13773744946106957920
-      }
-      UseReticle: true
-      Muzzle {
-        Location {
-          X: 70
-          Z: 15
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9203989956784497633
+      value {
+        Overrides {
+          Name: "cs:PlayerEffectTemplate"
+          AssetReference {
+            Id: 8263293863462944892
+          }
         }
       }
-      AnimationSet: "2hand_rifle_stance"
-      OutOfAmmoSfxAssetRef {
-        Id: 841534158063459245
-      }
-      ReloadSfxAssetRef {
-        Id: 841534158063459245
-      }
-      ShootAnimation: "2hand_rifle_shoot"
-      ImpactProjectileAssetRef {
-        Id: 12175959584676642170
-      }
-      BeamAssetRef {
-        Id: 841534158063459245
-      }
-      BurstCount: 1
-      BurstDuration: 1
-      AttackCooldown: 0.25
-      Range: 100000
-      ImpactPlayerAssetRef {
-        Id: 10920259052251330910
-      }
-      ReticleType {
-        Value: "mc:ereticletype:crosshair"
-      }
-      AttackSfxAssetRef {
-      }
-      MaxAmmo: -1
-      AmmoType: "resource"
-      MultiShot: 1
-      ProjectileSpeed: 7000
-      ProjectileLifeSpan: 20
-      ProjectileLength: 100
-      ProjectileRadius: 8
-      ProjectileDrag: -0.4
-      SpreadMin: 1.5
-      SpreadMax: 3
-      SpreadIncreasePerShot: 0.4
-      DefaultAbility {
-        SelfId: 16176672143699908942
-      }
-      ReloadAbility {
-        SelfId: 17216418569413920434
+    }
+    ParameterOverrideMap {
+      key: 13285317196782325249
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceStaffSecondaryWeapon"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3588
+            Y: -120
+            Z: 3226
+          }
+        }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 9560297971709926112
-    SubobjectId: 7303143731003519277
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+    TemplateAsset {
+      Id: 1820970287928325213
+    }
   }
 }
 Objects {
-  Id: 9051303031153906064
-  Name: "Client Art"
+  Id: 18114764236307063212
+  Name: "2Frogs-IceStaff"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 9560297971709926112
-  ChildIds: 9017209444384250085
-  UnregisteredParameters {
-  }
+  ParentId: 4781671109827199097
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 9051303031153906064
-    SubobjectId: 11270340511386696285
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17510398434694224572
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceStaff"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3606
+            Y: -301
+            Z: 3228
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3581906671385183225
+    }
   }
 }
 Objects {
-  Id: 9017209444384250085
-  Name: "Fantasy Crossbow"
+  Id: 10921877198206975215
+  Name: "Cube"
   Transform {
     Location {
+      X: 4026.33057
+      Y: -3307.14111
+      Z: 299
     }
     Rotation {
+      Yaw: -40
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 6.4
+      Y: 3
+      Z: 6
     }
   }
-  ParentId: 9051303031153906064
-  ChildIds: 3885427258171865129
-  ChildIds: 1391949503456485907
-  ChildIds: 3815091164189235486
-  ChildIds: 9750360436199967137
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 9017209444384250085
-    SubobjectId: 11301619348355920680
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 9750360436199967137
-  Name: "NewFolder"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9017209444384250085
+  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -256,750 +151,24 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NewFolder_3"
-  }
-  InstanceHistory {
-    SelfId: 9750360436199967137
-    SubobjectId: 7396256347006001772
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3815091164189235486
-  Name: "CrossbowMagicArrowProjectile"
-  Transform {
-    Location {
-      X: 60
-      Z: 14.2018127
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.716173291
-      Y: 0.716173291
-      Z: 0.716173291
-    }
-  }
-  ParentId: 9017209444384250085
-  ChildIds: 3880926999045036397
-  ChildIds: 5365253542641643819
-  ChildIds: 3199493908313174768
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 3815091164189235486
-    SubobjectId: 15349701218272719571
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3199493908313174768
-  Name: "Feathers"
-  Transform {
-    Location {
-      X: -60.9932861
-      Y: 0.0647583
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.2
-      Y: 0.2
-      Z: 0.2
-    }
-  }
-  ParentId: 3815091164189235486
-  ChildIds: 1934721807871397727
-  ChildIds: 8318374401940802645
-  ChildIds: 10331393218060750442
-  ChildIds: 6231388473871862661
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 3199493908313174768
-    SubobjectId: 14812928649467386173
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6231388473871862661
-  Name: "Feather"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: -90.0000534
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3199493908313174768
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Feather"
-  }
-  InstanceHistory {
-    SelfId: 6231388473871862661
-    SubobjectId: 13226698344281481288
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 10331393218060750442
-  Name: "Feather"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3199493908313174768
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Feather_1"
-  }
-  InstanceHistory {
-    SelfId: 10331393218060750442
-    SubobjectId: 7968136272794985895
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8318374401940802645
-  Name: "Feather"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Roll: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3199493908313174768
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Feather_2"
-  }
-  InstanceHistory {
-    SelfId: 8318374401940802645
-    SubobjectId: 10557624655397513112
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 1934721807871397727
-  Name: "Feather"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3199493908313174768
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Feather_3"
-  }
-  InstanceHistory {
-    SelfId: 1934721807871397727
-    SubobjectId: 18099256506252649618
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5365253542641643819
-  Name: "Cylinder"
-  Transform {
-    Location {
-      X: -23.4024353
-      Y: 0.0647583
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 0.0200000014
-      Y: 0.0200000014
-      Z: 0.762546837
-    }
-  }
-  ParentId: 3815091164189235486
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3834379000310649197
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.929999948
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
   CoreMesh {
     MeshAsset {
-      Id: 13950225922132296555
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5365253542641643819
-    SubobjectId: 12358386959867058918
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3880926999045036397
-  Name: "Cone"
-  Transform {
-    Location {
-      X: 12.6046143
-      Y: -0.194335938
-    }
-    Rotation {
-      Pitch: -90
-    }
-    Scale {
-      X: 0.0400000028
-      Y: 0.0400000028
-      Z: 0.2
-    }
-  }
-  ParentId: 3815091164189235486
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3834379000310649197
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.929999948
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6271704335464012675
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 3880926999045036397
-    SubobjectId: 15289483613971739296
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 1391949503456485907
-  Name: "Handlers"
-  Transform {
-    Location {
-      X: 37.6464233
-      Y: -0.563644409
-      Z: -22.7529297
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9017209444384250085
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Handlers"
-  }
-  InstanceHistory {
-    SelfId: 1391949503456485907
-    SubobjectId: 17484601507443870174
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3885427258171865129
-  Name: "Body"
-  Transform {
-    Location {
-      X: 34.2490234
-      Y: 0.56362915
-      Z: -4.96987915
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9017209444384250085
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Body"
-  }
-  InstanceHistory {
-    SelfId: 3885427258171865129
-    SubobjectId: 15284994332579959780
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 768911034165044012
-  Name: "Pickup Trigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9560297971709926112
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Trigger {
-    Interactable: true
-    InteractionLabel: "Equip Poison Crossbow"
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 768911034165044012
-    SubobjectId: 16960347698294458593
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5128643243639115726
-  Name: "Abilities"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9560297971709926112
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Abilities_3"
-  }
-  InstanceHistory {
-    SelfId: 5128643243639115726
-    SubobjectId: 12022468085579293699
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4872784685576913336
-  Name: "EquipmentPlayerPropertiesServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9560297971709926112
-  ChildIds: 3650588662459240030
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:API_EffectSystem"
-      AssetReference {
-        Id: 1016400983877160316
-      }
-    }
-    Overrides {
-      Name: "cs:AnimationStance"
-      String: "2hand_rifle_stance"
-    }
-    Overrides {
-      Name: "cs:MaxHealth"
-      Int: 280
-    }
-    Overrides {
-      Name: "cs:WalkSpeed"
-      Float: 640
-    }
-    Overrides {
-      Name: "cs:JumpVelocity"
-      Float: 960
-    }
-    Overrides {
-      Name: "cs:JumpCount"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:RegenSpeed"
-      Float: 0.01
-    }
-    Overrides {
-      Name: "cs:CriticalHitChance"
-      Float: 0.03
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16973625822141575009
-    }
-  }
-  InstanceHistory {
-    SelfId: 4872784685576913336
-    SubobjectId: 11703554741131487861
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3650588662459240030
-  Name: "PlayerHealthRegenServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4872784685576913336
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Equipment"
-      ObjectReference {
-        SelfId: 9560297971709926112
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16249674485990016115
-    }
-  }
-  InstanceHistory {
-    SelfId: 3650588662459240030
-    SubobjectId: 15230476669783254419
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4487948922941654690
-  Name: "2Frogs-IceCrossbow"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13344671792377651530
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-IceCrossbow"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3581
-            Y: -186
-            Z: 3226
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9716446713137121581
-    }
   }
 }
 Objects {

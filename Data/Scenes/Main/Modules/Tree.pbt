@@ -1,8 +1,195 @@
 Name: "Modules"
 RootId: 14119872795076188527
 Objects {
-  Id: 11382034739886477438
-  Name: "UI Container"
+  Id: 10083303779342544475
+  Name: "Basic Effect System"
+  Transform {
+    Location {
+      X: 1242
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14119872795076188527
+  ChildIds: 857269157807515751
+  ChildIds: 16727555226711230034
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DefaultMovementSettings"
+      ObjectReference {
+        SelfId: 857269157807515751
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10083303779342544475
+    SubobjectId: 16437176384701814661
+    InstanceId: 11135072968708948872
+    TemplateId: 6662097948316039844
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16727555226711230034
+  Name: "BasicEffectSystemServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10083303779342544475
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 10083303779342544475
+      }
+    }
+    Overrides {
+      Name: "cs:API_EffectSystem"
+      AssetReference {
+        Id: 1016400983877160316
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11538588361234406493
+    }
+  }
+  InstanceHistory {
+    SelfId: 16727555226711230034
+    SubobjectId: 9788491681763278732
+    InstanceId: 11135072968708948872
+    TemplateId: 6662097948316039844
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 857269157807515751
+  Name: "Player Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10083303779342544475
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Settings {
+    PlayerMovementSettings {
+      WalkSpeed: 640
+      MaxAcceleration: 1800
+      WalkableFloorAngle: 44
+      JumpMaxCount: 1
+      JumpVelocity: 900
+      GroundFriction: 8
+      GravityScale: 1.9
+      MaxSwimSpeed: 420
+      Buoyancy: 1
+      TouchForceFactor: 1
+      BrakingDecelerationFlying: 600
+      MaxFlightSpeed: 600
+      MovementControlMode {
+        Value: "mc:emovementcontrolmode:lookrelative"
+      }
+      LookControlMode {
+        Value: "mc:elookcontrolmode:relative"
+      }
+      FacingMode {
+        Value: "mc:efacingmode:faceaimalways"
+      }
+      DefaultRotationRate: 540
+      SlideRotationRate: 20
+      LookAtCursorProjectionPlane {
+        Value: "mc:eprojectionplane:xy"
+      }
+      MountedMaxAcceleration: 1800
+      MountedWalkSpeed: 1200
+      MountedJumpMaxCount: 1
+      MountedJumpVelocity: 900
+      HeadVisibleToSelf: true
+      IsSlideEnabled: true
+      IsCrouchEnabled: true
+      IsJumpEnabled: true
+      CanMoveForward: true
+      CanMoveBackward: true
+      CanMoveLeft: true
+      CanMoveRight: true
+      AppearanceChannelingTime: 2
+      MountChannelingTime: 2
+      FlipOnMultiJump: true
+      CanMoveUp: true
+      CanMoveDown: true
+      IsMountEnabled: true
+      MaxHitpoints: 100
+      PlayerMasterVolumeMultiplier: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 857269157807515751
+    SubobjectId: 7211989551659897273
+    InstanceId: 11135072968708948872
+    TemplateId: 6662097948316039844
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13777995590550819827
+  Name: "UI"
   Transform {
     Location {
     }
@@ -27,36 +214,12 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-      ContentType {
-        Value: "mc:ecanvascontenttype:dynamic"
-      }
-      Opacity: 1
-      IsHUD: true
-      CanvasWorldSize {
-        X: 1024
-        Y: 1024
-      }
-      RedrawTime: 30
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {

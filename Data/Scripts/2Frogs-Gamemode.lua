@@ -24,13 +24,14 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 3
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
 local LastWaveFinishedSpawning = false
 local RoundRunning = false
 local RoundNb = 0
+local RespawnTime = 5
 
 function OnRoundStart()
     RoundNb = RoundNb + 1
@@ -128,12 +129,18 @@ function SetGoalMessage(message)
     end
 end
 
+function SetKillListMessage(message)
+    if ABGS.IsGameStateManagerRegistered() then
+        ABGS.SetKillMessage(message)
+    end
+end
+
 function OnPlayerDied(player, damage)
     local killer = nil
 
     if damage.sourcePlayer == nil then killer = "NPC" else killer = damage.sourcePlayer.name end
-    SetGoalMessage(killer .. " killed " .. player.name)
-    Task.Wait(5)
+    SetKillListMessage(killer .. " killed " .. player.name)
+    Task.Wait(RespawnTime)
 
     -- Spawn Player to his team spawn
     if player.team == TEAM_DEFEND then

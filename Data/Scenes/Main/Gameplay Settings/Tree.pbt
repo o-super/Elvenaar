@@ -223,6 +223,10 @@ Objects {
       String: ""
     }
     Overrides {
+      Name: "cs:KillListMessage"
+      String: ""
+    }
+    Overrides {
       Name: "cs:State:isrep"
       Bool: true
     }
@@ -236,6 +240,10 @@ Objects {
     }
     Overrides {
       Name: "cs:GoalMessage:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:KillListMessage:isrep"
       Bool: true
     }
   }
@@ -560,6 +568,7 @@ Objects {
   ChildIds: 3335114570324010281
   ChildIds: 6273486756429423122
   ChildIds: 9961633468449910824
+  ChildIds: 7118239499785907046
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -608,6 +617,80 @@ Objects {
   }
 }
 Objects {
+  Id: 7118239499785907046
+  Name: "KillList"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13962660841978079309
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 310
+    Height: 250
+    UIX: 1047
+    UIY: -855
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Player 1 killed Player 2\r\nPlayer 3 killed Player 1"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 25
+      Justification {
+        Value: "mc:etextjustify:right"
+      }
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3335114570324010281
+    SubobjectId: 6092631959476493595
+    InstanceId: 13451610188973200756
+    TemplateId: 11744264748846959994
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 9961633468449910824
   Name: "ObjectiveName"
   Transform {
@@ -644,6 +727,7 @@ Objects {
       }
     }
     Text {
+      Label: "A little phrase containing an objective"
       Color {
         R: 1
         G: 1
@@ -718,6 +802,7 @@ Objects {
       }
     }
     Text {
+      Label: "00"
       Color {
         R: 1
         G: 1
@@ -788,23 +873,26 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 100
+    Width: 142
     Height: 60
+    UIX: -393
+    UIY: -950
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
+      Label: "Lobby"
       Color {
         R: 1
         G: 1
         B: 1
-        A: 1
+        A: 0.499
       }
-      Size: 30
+      Size: 24
       Justification {
-        Value: "mc:etextjustify:center"
+        Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
       Font {
@@ -877,6 +965,12 @@ Objects {
       Name: "cs:ObjectiveName"
       ObjectReference {
         SelfId: 9961633468449910824
+      }
+    }
+    Overrides {
+      Name: "cs:KillList"
+      ObjectReference {
+        SelfId: 7118239499785907046
       }
     }
   }

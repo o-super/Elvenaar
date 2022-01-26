@@ -1530,7 +1530,7 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 4000
+      X: 3509
       Y: -3200
       Z: 300
     }
@@ -1538,68 +1538,7 @@ Objects {
     }
     Scale {
       X: 25
-      Y: 5
-      Z: 6
-    }
-  }
-  ParentId: 8582131939028173668
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12742734549236052372
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 4200
-      Y: -2450
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 10
-      Y: 10
+      Y: 4.25
       Z: 6
     }
   }

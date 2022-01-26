@@ -238,7 +238,7 @@ Assets {
         ChildIds: 14960217584941474394
         ChildIds: 1088177472130166143
         ChildIds: 10428885841176643001
-        ChildIds: 846401221017658518
+        ChildIds: 13332654358916404849
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -1400,12 +1400,12 @@ Assets {
         }
       }
       Objects {
-        Id: 846401221017658518
-        Name: "Poison Rain"
+        Id: 13332654358916404849
+        Name: "Multi Arrows Shot"
         Transform {
           Location {
-            Y: 330
-            Z: -45
+            X: 67
+            Z: 14
           }
           Rotation {
             Yaw: 2.04905591e-05
@@ -1417,8 +1417,8 @@ Assets {
           }
         }
         ParentId: 12022468085579293699
-        ChildIds: 17253897966445079178
-        ChildIds: 865227451347931597
+        ChildIds: 8990170311739154457
+        ChildIds: 6466018776212579877
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -1459,7 +1459,7 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 14
+            Duration: 1
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -1469,7 +1469,7 @@ Assets {
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "unarmed_throw"
+          Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_03"
           }
@@ -1479,7 +1479,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17253897966445079178
+        Id: 8990170311739154457
         Name: "AOESpawnAbilityServer"
         Transform {
           Location {
@@ -1493,17 +1493,23 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 846401221017658518
+        ParentId: 13332654358916404849
         UnregisteredParameters {
           Overrides {
             Name: "cs:AOEAsset"
             AssetReference {
-              Id: 11125207849485509870
+              Id: 3826230629215676199
             }
           }
           Overrides {
             Name: "cs:ForwardSpawnOffset"
-            Float: 3500
+            Float: 1
+          }
+          Overrides {
+            Name: "cs:SpawnPosition"
+            ObjectReference {
+              SubObjectId: 13332654358916404849
+            }
           }
         }
         WantsNetworking: true
@@ -1518,7 +1524,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 5944685514757636593
+            Id: 13817550023127483735
           }
         }
         NetworkRelevanceDistance {
@@ -1526,7 +1532,7 @@ Assets {
         }
       }
       Objects {
-        Id: 865227451347931597
+        Id: 6466018776212579877
         Name: "ClientContext"
         Transform {
           Location {
@@ -1542,8 +1548,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 846401221017658518
-        ChildIds: 15570308713699990887
+        ParentId: 13332654358916404849
+        ChildIds: 3113476154690088196
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -1563,7 +1569,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15570308713699990887
+        Id: 3113476154690088196
         Name: "SetAbilityIconClient"
         Transform {
           Location {
@@ -1577,7 +1583,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 865227451347931597
+        ParentId: 6466018776212579877
         UnregisteredParameters {
           Overrides {
             Name: "cs:API"

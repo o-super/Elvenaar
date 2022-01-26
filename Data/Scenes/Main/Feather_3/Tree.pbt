@@ -1,7 +1,7 @@
 Name: "Feather_3"
-RootId: 1934721807871397727
+RootId: 14712167242925701183
 Objects {
-  Id: 6075354092934629773
+  Id: 9419950733732396781
   Name: "Curved Wedge"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 1934721807871397727
+  ParentId: 14712167242925701183
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -61,17 +61,17 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6075354092934629773
-    SubobjectId: 13095065315931857472
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
+    SelfId: 9419950733732396781
+    SubobjectId: 10845011739195688329
+    InstanceId: 3350673055041674239
+    TemplateId: 5168234850048785492
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13319291342523836050
+  Id: 7935973642377662962
   Name: "Curved Wedge"
   Transform {
     Location {
@@ -88,7 +88,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 1934721807871397727
+  ParentId: 14712167242925701183
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -131,10 +131,10 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13319291342523836050
-    SubobjectId: 6423076679851969887
-    InstanceId: 15041367231234898653
-    TemplateId: 10266340974698813640
+    SelfId: 7935973642377662962
+    SubobjectId: 8798175514456451734
+    InstanceId: 3350673055041674239
+    TemplateId: 5168234850048785492
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

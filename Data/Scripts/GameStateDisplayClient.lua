@@ -21,6 +21,7 @@ local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local STATE_NAME_TEXT = script:GetCustomProperty("StateNameText"):WaitForObject()
 local STATE_TIME_TEXT = script:GetCustomProperty("StateTimeText"):WaitForObject()
 local STATE_NAME_OBJECTIVE = script:GetCustomProperty("ObjectiveName"):WaitForObject()
+local KILL_LIST = script:GetCustomProperty("KillList"):WaitForObject()
 
 -- User exposed settings
 local SHOW_STATE_NAME = COMPONENT_ROOT:GetCustomProperty("ShowStateName")
@@ -71,6 +72,8 @@ function Tick(deltaTime)
         end
         -- Update Objective Name
         STATE_NAME_OBJECTIVE.text = ABGS.GetGoalMessage()
+        -- Update List of Killings
+        KILL_LIST.text = ABGS.GetKillMessage()
     end
 end
 

@@ -17,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13950225922132296555
-  Name: "Cylinder"
+  Id: 12095835209017042614
+  Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
+    AssetId: "sm_cube_002"
   }
 }
 Assets {
@@ -32,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_snow_001_uv"
-  }
-}
-Assets {
-  Id: 6271704335464012675
-  Name: "Cone"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_001"
   }
 }
 Assets {

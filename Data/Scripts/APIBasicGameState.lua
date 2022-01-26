@@ -32,7 +32,14 @@ API.GAME_STATE_ROUND_END = 2
 -- nil RegisterGameStateManager(function, function, function, function) [Server]
 -- Called once by a manager component that at minimum handles replication.
 -- Functions passed in must match signatures of the functions below.
-function API.RegisterGameStateManagerServer(stateGetter, stateTimeGetter, stateSetter, stateTimeSetter, goalMessageSetter, goalMessageGetter)
+function API.RegisterGameStateManagerServer(stateGetter,
+											stateTimeGetter,
+											stateSetter,
+											stateTimeSetter, 
+											goalMessageSetter, 
+											goalMessageGetter,
+											killListSetter,
+											killListGetter)
 	if _G.APIBasicGameState and _G.APIBasicGameState.registeredOnServer then
 		error("A game cannot have multiple game state managers")
 	end
@@ -45,12 +52,14 @@ function API.RegisterGameStateManagerServer(stateGetter, stateTimeGetter, stateS
 	_G.APIBasicGameState.stateTimeSetter = stateTimeSetter
 	_G.APIBasicGameState.goalMessageSetter = goalMessageSetter
 	_G.APIBasicGameState.goalMessageGetter = goalMessageGetter
+	_G.APIBasicGameState.killListSetter = killListSetter
+	_G.APIBasicGameState.killListGetter = killListGetter
 end
 
 -- nil RegisterGameStateManager(function, function) [Client]
 -- Called once by a manager component that at minimum handles replication.
 -- Functions passed in must match signatures of the functions below.
-function API.RegisterGameStateManagerClient(stateGetter, stateTimeGetter, goalMessageGetter)
+function API.RegisterGameStateManagerClient(stateGetter, stateTimeGetter, goalMessageGetter, killListGetter)
 	if _G.APIBasicGameState and _G.APIBasicGameState.registeredOnClient  then
 		error("A game cannot have multiple game state managers")
 	end
@@ -60,6 +69,7 @@ function API.RegisterGameStateManagerClient(stateGetter, stateTimeGetter, goalMe
 	_G.APIBasicGameState.stateGetter = stateGetter
 	_G.APIBasicGameState.stateTimeGetter = stateTimeGetter
 	_G.APIBasicGameState.goalMessageGetter = goalMessageGetter
+	_G.APIBasicGameState.killListGetter = killListGetter
 end
 
 -- bool IsGameStateManagerRegistered() [Client, Server]
@@ -127,6 +137,22 @@ function API.GetGoalMessage()
 		return nil
 	end
 	return _G.APIBasicGameState.goalMessageGetter()
+end
+
+function API.SetKillMessage(message)
+	if not _G.APIBasicGameState then
+		warn("Cannot set game state with no manager registered")
+		return nil
+	end
+	_G.APIBasicGameState.killListSetter(message)
+end
+
+function API.GetKillMessage()
+	if not _G.APIBasicGameState then
+		warn("Cannot get game state with no manager registered")
+		return nil
+	end
+	return _G.APIBasicGameState.killListGetter()
 end
 
 return API

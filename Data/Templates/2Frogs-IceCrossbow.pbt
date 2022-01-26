@@ -1405,8 +1405,8 @@ Assets {
         Name: "Multi Arrows Shot"
         Transform {
           Location {
-            Y: 330
-            Z: -45
+            X: 67
+            Z: 15
           }
           Rotation {
             Yaw: 2.04905591e-05
@@ -1509,7 +1509,7 @@ Assets {
           Overrides {
             Name: "cs:SpawnPosition"
             ObjectReference {
-              SubObjectId: 13344671792377651530
+              SubObjectId: 4847853886893956296
             }
           }
         }
