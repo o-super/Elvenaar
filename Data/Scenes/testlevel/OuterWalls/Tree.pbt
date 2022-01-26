@@ -1,7 +1,7 @@
 Name: "OuterWalls"
-RootId: 15626046566531215812
+RootId: 7530272654730392908
 Objects {
-  Id: 12528389038865729065
+  Id: 1025430041869403135
   Name: "OuterWall"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 7530272654730392908
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -63,7 +63,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11474366610854978644
+  Id: 7415609846540912988
   Name: "OuterWall"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 7530272654730392908
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -125,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15389118201838106588
+  Id: 18156406981766169475
   Name: "OuterWall"
   Transform {
     Location {
@@ -141,7 +141,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 7530272654730392908
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -186,7 +186,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10380066916016287355
+  Id: 17926165316217103179
   Name: "OuterWall"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 8
     }
   }
-  ParentId: 15626046566531215812
+  ParentId: 7530272654730392908
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

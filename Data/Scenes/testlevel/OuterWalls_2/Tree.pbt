@@ -1,27 +1,32 @@
-Name: "NewFolder"
-RootId: 7155888103746195539
+Name: "OuterWalls_2"
+RootId: 1879845823651795893
 Objects {
-  Id: 15186849138977942046
-  Name: "Tree Redwood Big"
+  Id: 885858734811931712
+  Name: "OuterWall"
   Transform {
     Location {
-      X: 25400
-      Y: -200
+      X: 650
+      Y: -7750
+      Z: 400
     }
     Rotation {
+      Yaw: 89.9999847
     }
     Scale {
-      X: 0.3
-      Y: 0.3
-      Z: 0.3
+      X: 4
+      Y: 230
+      Z: 8
     }
   }
-  ParentId: 7155888103746195539
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Branch:id"
-      AssetReference {
-        Id: 16721487551516607679
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0677083358
+        G: 0.0677083358
+        B: 0.0677083358
+        A: 1
       }
     }
   }
@@ -32,55 +37,58 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   CoreMesh {
     MeshAsset {
-      Id: 5698999507328618806
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15615326066437547351
-    SubobjectId: 8743554289384368710
-    InstanceId: 17073514599487344671
-    TemplateId: 1815088856831607530
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 1713714607834347667
-  Name: "Tree Redwood Big"
+  Id: 14384800262529792720
+  Name: "OuterWall"
   Transform {
     Location {
-      X: 26350
-      Y: 500
+      X: 650
+      Y: 7050
+      Z: 400
     }
     Rotation {
+      Yaw: 89.9999924
     }
     Scale {
-      X: 0.3
-      Y: 0.3
-      Z: 0.3
+      X: 4
+      Y: 230
+      Z: 8
     }
   }
-  ParentId: 7155888103746195539
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Branch:id"
-      AssetReference {
-        Id: 16721487551516607679
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0677083358
+        G: 0.0677083358
+        B: 0.0677083358
+        A: 1
       }
     }
   }
@@ -91,55 +99,57 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   CoreMesh {
     MeshAsset {
-      Id: 5698999507328618806
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15615326066437547351
-    SubobjectId: 8743554289384368710
-    InstanceId: 17073514599487344671
-    TemplateId: 1815088856831607530
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8350616907503113965
-  Name: "Tree Redwood Big"
+  Id: 14111170854581093296
+  Name: "OuterWall"
   Transform {
     Location {
-      X: 25650
-      Y: 250
+      X: 7250
+      Y: 1000
+      Z: 400
     }
     Rotation {
     }
     Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
+      X: 4
+      Y: 230
+      Z: 8
     }
   }
-  ParentId: 7155888103746195539
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Branch:id"
-      AssetReference {
-        Id: 18232918349697872365
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0677083358
+        G: 0.0677083358
+        B: 0.0677083358
+        A: 1
       }
     }
   }
@@ -150,55 +160,57 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   CoreMesh {
     MeshAsset {
-      Id: 5698999507328618806
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15615326066437547351
-    SubobjectId: 8743554289384368710
-    InstanceId: 17073514599487344671
-    TemplateId: 1815088856831607530
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 15615326066437547351
-  Name: "Tree Redwood Big"
+  Id: 6803797746099348469
+  Name: "OuterWall"
   Transform {
     Location {
-      X: 26400
-      Y: -50
+      X: -5400
+      Y: 1000
+      Z: 400
     }
     Rotation {
     }
     Scale {
-      X: 0.4
-      Y: 0.4
-      Z: 0.4
+      X: 4
+      Y: 230
+      Z: 8
     }
   }
-  ParentId: 7155888103746195539
+  ParentId: 1879845823651795893
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Nature_Branch:id"
-      AssetReference {
-        Id: 16721487551516607679
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0677083358
+        G: 0.0677083358
+        B: 0.0677083358
+        A: 1
       }
     }
   }
@@ -209,28 +221,26 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   CoreMesh {
     MeshAsset {
-      Id: 11732712251066135080
+      Id: 12095835209017042614
     }
     Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    InteractWithTriggers: true
     StaticMesh {
       Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15615326066437547351
-    SubobjectId: 8743554289384368710
-    InstanceId: 17073514599487344671
-    TemplateId: 1815088856831607530
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -100,7 +100,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Buildings_Obstacles_1"
+    FilePartitionName: "Buildings_Obstacles_2"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -183,7 +183,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "OuterWalls_1"
+    FilePartitionName: "OuterWalls_2"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
