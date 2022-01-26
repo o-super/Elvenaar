@@ -1206,8 +1206,8 @@ Assets {
           Overrides {
             Name: "bp:Edge Color"
             Color {
-              G: 1
-              B: 0.0662252903
+              R: 0.840000033
+              G: 0.0333774686
               A: 1
             }
           }
@@ -1218,6 +1218,13 @@ Assets {
           Overrides {
             Name: "bp:Emissive Boost"
             Float: 5
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.87
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -1284,6 +1291,13 @@ Assets {
           Overrides {
             Name: "bp:Emissive Boost"
             Float: 7
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.87
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -1485,7 +1499,7 @@ Assets {
           Location {
           }
           Rotation {
-            Yaw: -2.04905591e-05
+            Yaw: -3.05175781e-05
           }
           Scale {
             X: 1
@@ -1498,7 +1512,7 @@ Assets {
           Overrides {
             Name: "cs:AOEAsset"
             AssetReference {
-              Id: 3826230629215676199
+              Id: 1205055754483841029
             }
           }
           Overrides {

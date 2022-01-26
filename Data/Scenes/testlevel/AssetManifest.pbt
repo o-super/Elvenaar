@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7833657128501518175
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
-  }
-}
-Assets {
   Id: 7315435246847087133
   Name: "Ice Opaque Ground"
   PlatformAssetType: 2

@@ -27,11 +27,12 @@ Objects {
   ChildIds: 8190856682919616845
   ChildIds: 10115918751159616128
   ChildIds: 4404014904455063166
-  ChildIds: 3560350092147906919
   ChildIds: 4367995645212537321
   ChildIds: 13240220216110558064
   ChildIds: 10431699884977478349
   ChildIds: 14538842687166287290
+  ChildIds: 8816077974516886949
+  ChildIds: 11205796787674539023
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -47,6 +48,85 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11205796787674539023
+  Name: "2Frogs-FireCrossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7303143731003519277
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-FireCrossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 22700
+            Y: -1850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10266340974698813640
+    }
+  }
+}
+Objects {
+  Id: 8816077974516886949
+  Name: "2Frogs-IceCrossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13344671792377651530
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceCrossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 20300
+            Y: -2250
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9716446713137121581
+    }
   }
 }
 Objects {
@@ -192,67 +272,6 @@ Objects {
       Id: 841534158063459245
     }
     ShouldDecrowdPlayers: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3560350092147906919
-  Name: "Sphere"
-  Transform {
-    Location {
-      X: -6200
-      Y: -42400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 10
-      Y: 10
-      Z: 10
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15511418879574613612
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7833657128501518175
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableCastShadows: true
-    DisableReceiveDecals: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 1583668381335110645
-    SubobjectId: 9282558392978275702
-    InstanceId: 16948521507542800301
-    TemplateId: 6969074966523038734
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
