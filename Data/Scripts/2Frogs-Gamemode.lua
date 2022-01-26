@@ -24,7 +24,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 3
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8

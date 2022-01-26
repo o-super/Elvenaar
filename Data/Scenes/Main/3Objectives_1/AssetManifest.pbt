@@ -1,13 +1,4 @@
 Assets {
-  Id: 17347352242351376435
-  Name: "Camouflage - Splinter"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "camo_splinter_001"
-  }
-}
-Assets {
   Id: 15686909077460378362
   Name: "Fantasy Castle Trim - Parapet 01"
   PlatformAssetType: 1
@@ -89,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 11679638938136483441
   Name: "Fantasy Castle Pillar Wall 01 Arch"
   PlatformAssetType: 1
@@ -131,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_wall_curve_003_top_01"
-  }
-}
-Assets {
-  Id: 6854294233855189574
-  Name: "Snow 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_snow_001_uv"
   }
 }
 Assets {

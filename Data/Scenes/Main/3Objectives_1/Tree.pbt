@@ -1,46 +1,11 @@
 Name: "3Objectives_1"
-RootId: 10431699884977478349
+RootId: 7076652421083094465
 Objects {
-  Id: 2836174485747439723
-  Name: "BrokenGate"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "BrokenGate"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3783678548117446884
+  Id: 3423714683500633341
   Name: "Castle Gatehouse"
   Transform {
     Location {
-      X: 21250
+      X: -5147
       Y: -2500
     }
     Rotation {
@@ -52,14 +17,14 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 10431699884977478349
-  ChildIds: 3951658754842781586
-  ChildIds: 6995534608800886180
-  ChildIds: 16433633825023232276
-  ChildIds: 1731044180659293164
-  ChildIds: 15433114646721249874
-  ChildIds: 11127256165704224904
-  ChildIds: 5072655730137534941
+  ParentId: 7076652421083094465
+  ChildIds: 2744077614417838471
+  ChildIds: 1907582263998778991
+  ChildIds: 14048527717881045731
+  ChildIds: 1971105086284339459
+  ChildIds: 13611198310291330560
+  ChildIds: 17803854130828863760
+  ChildIds: 5948943711901721393
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -84,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5072655730137534941
+  Id: 5948943711901721393
   Name: "Portcullis"
   Transform {
     Location {
@@ -101,7 +66,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 3783678548117446884
+  ParentId: 3423714683500633341
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -137,7 +102,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11127256165704224904
+  Id: 17803854130828863760
   Name: "battlements"
   Transform {
     Location {
@@ -153,14 +118,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 2319649303136580323
-  ChildIds: 15042157218579852863
-  ChildIds: 5789551933364140868
-  ChildIds: 14698358903746984509
-  ChildIds: 5152178011689747552
-  ChildIds: 14411798966641951316
-  ChildIds: 8483652088459755565
+  ParentId: 3423714683500633341
+  ChildIds: 5861215962400961423
+  ChildIds: 16856810697187133408
+  ChildIds: 15350990421369638442
+  ChildIds: 12793102593393942186
+  ChildIds: 16034941560077543076
+  ChildIds: 14371547888250986056
+  ChildIds: 8333699587229257056
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -184,7 +149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8483652088459755565
+  Id: 8333699587229257056
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -200,7 +165,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -236,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14411798966641951316
+  Id: 14371547888250986056
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -252,7 +217,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -288,7 +253,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5152178011689747552
+  Id: 16034941560077543076
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -304,7 +269,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -342,7 +307,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14698358903746984509
+  Id: 12793102593393942186
   Name: "Fantasy Castle Trim - Parapet 01"
   Transform {
     Location {
@@ -359,7 +324,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -406,7 +371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5789551933364140868
+  Id: 15350990421369638442
   Name: "Fantasy Castle Wall 02 Half - Window 03"
   Transform {
     Location {
@@ -422,7 +387,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -507,7 +472,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15042157218579852863
+  Id: 16856810697187133408
   Name: "Fantasy Castle Wall 02 Half - Window 03"
   Transform {
     Location {
@@ -523,7 +488,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -626,7 +591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2319649303136580323
+  Id: 5861215962400961423
   Name: "Fantasy Castle Trim - Battlement 01"
   Transform {
     Location {
@@ -643,7 +608,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11127256165704224904
+  ParentId: 17803854130828863760
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -690,7 +655,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15433114646721249874
+  Id: 13611198310291330560
   Name: "upper tower"
   Transform {
     Location {
@@ -706,26 +671,26 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 1722360062178962688
-  ChildIds: 1198431572944395987
-  ChildIds: 14006728911365584260
-  ChildIds: 904201768856363540
-  ChildIds: 358420668089053247
-  ChildIds: 16749110303820716548
-  ChildIds: 16935871868662006377
-  ChildIds: 7548731824522923080
-  ChildIds: 7189370707586413852
-  ChildIds: 12311658417732043198
-  ChildIds: 15541142571866579478
-  ChildIds: 16861695058453717237
-  ChildIds: 13409686414903981643
-  ChildIds: 3270841574962053114
-  ChildIds: 9102353273724025305
-  ChildIds: 5701107121892796911
-  ChildIds: 6058143508221998561
-  ChildIds: 10230322186170295815
-  ChildIds: 17293206656431532231
+  ParentId: 3423714683500633341
+  ChildIds: 13955280257821820905
+  ChildIds: 4174737200581561153
+  ChildIds: 2935270131006615275
+  ChildIds: 10802186882689935446
+  ChildIds: 4665016796589564480
+  ChildIds: 7996778359505601612
+  ChildIds: 7919830454178344121
+  ChildIds: 15822868311723890634
+  ChildIds: 16283907419502986593
+  ChildIds: 18121481160843414385
+  ChildIds: 70578341929115856
+  ChildIds: 3628996708886127936
+  ChildIds: 4416104215470036760
+  ChildIds: 3812063404994016631
+  ChildIds: 4427858446524960474
+  ChildIds: 2230773142310940691
+  ChildIds: 8227053481371081994
+  ChildIds: 17238066186411667974
+  ChildIds: 1580399340204341141
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -749,7 +714,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17293206656431532231
+  Id: 1580399340204341141
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -766,7 +731,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -822,7 +787,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10230322186170295815
+  Id: 17238066186411667974
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -839,7 +804,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -904,7 +869,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6058143508221998561
+  Id: 8227053481371081994
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -921,7 +886,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1007,7 +972,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5701107121892796911
+  Id: 2230773142310940691
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -1024,7 +989,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1110,7 +1075,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9102353273724025305
+  Id: 4427858446524960474
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -1126,7 +1091,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -1182,7 +1147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3270841574962053114
+  Id: 3812063404994016631
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -1199,7 +1164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -1264,7 +1229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13409686414903981643
+  Id: 4416104215470036760
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -1280,7 +1245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1366,7 +1331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16861695058453717237
+  Id: 3628996708886127936
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -1383,7 +1348,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1469,7 +1434,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15541142571866579478
+  Id: 70578341929115856
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -1486,7 +1451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1522,7 +1487,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12311658417732043198
+  Id: 18121481160843414385
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -1540,7 +1505,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1593,7 +1558,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7189370707586413852
+  Id: 16283907419502986593
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -1612,7 +1577,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1665,7 +1630,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7548731824522923080
+  Id: 15822868311723890634
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -1682,7 +1647,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1718,7 +1683,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16935871868662006377
+  Id: 7919830454178344121
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -1735,7 +1700,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1771,7 +1736,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16749110303820716548
+  Id: 7996778359505601612
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -1788,7 +1753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1824,7 +1789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 358420668089053247
+  Id: 4665016796589564480
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -1841,7 +1806,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -1897,7 +1862,7 @@ Objects {
   }
 }
 Objects {
-  Id: 904201768856363540
+  Id: 10802186882689935446
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -1914,7 +1879,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1950,7 +1915,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14006728911365584260
+  Id: 2935270131006615275
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -1967,7 +1932,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2003,7 +1968,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1198431572944395987
+  Id: 4174737200581561153
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -2020,7 +1985,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -2076,7 +2041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1722360062178962688
+  Id: 13955280257821820905
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -2093,7 +2058,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15433114646721249874
+  ParentId: 13611198310291330560
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2131,7 +2096,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1731044180659293164
+  Id: 1971105086284339459
   Name: "upper tower"
   Transform {
     Location {
@@ -2147,26 +2112,26 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 18134031896088274886
-  ChildIds: 8553715401959730899
-  ChildIds: 9352248530902623679
-  ChildIds: 13459957944887265452
-  ChildIds: 643770102508250309
-  ChildIds: 2735047052149455827
-  ChildIds: 259656282860740685
-  ChildIds: 1746521812696421118
-  ChildIds: 17746995288073303775
-  ChildIds: 6650502574474158862
-  ChildIds: 16845439656055904146
-  ChildIds: 80344297428579235
-  ChildIds: 13758806714322843699
-  ChildIds: 5890509100812768152
-  ChildIds: 10231946346723827833
-  ChildIds: 10772299158488835535
-  ChildIds: 3800716645977953719
-  ChildIds: 5223905179120615623
-  ChildIds: 3041422990208058068
+  ParentId: 3423714683500633341
+  ChildIds: 17862661431863014384
+  ChildIds: 12295515326818507127
+  ChildIds: 3440433848074450841
+  ChildIds: 9922222704458885539
+  ChildIds: 11828734487261530547
+  ChildIds: 14773780728625962957
+  ChildIds: 17801596389463550003
+  ChildIds: 12588637149992917191
+  ChildIds: 17158091420870341934
+  ChildIds: 14093329469548167234
+  ChildIds: 15507935190701604571
+  ChildIds: 10732973895925541743
+  ChildIds: 12166420683616882630
+  ChildIds: 4959597315628709547
+  ChildIds: 11849222020452907748
+  ChildIds: 6038353272168545306
+  ChildIds: 14293630459364234157
+  ChildIds: 4239628547425382406
+  ChildIds: 2256526901548333612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2190,7 +2155,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3041422990208058068
+  Id: 2256526901548333612
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -2207,7 +2172,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -2272,7 +2237,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5223905179120615623
+  Id: 4239628547425382406
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -2289,7 +2254,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -2345,7 +2310,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3800716645977953719
+  Id: 14293630459364234157
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -2362,7 +2327,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2448,7 +2413,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10772299158488835535
+  Id: 6038353272168545306
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -2465,7 +2430,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2551,7 +2516,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10231946346723827833
+  Id: 11849222020452907748
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -2568,7 +2533,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -2624,7 +2589,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5890509100812768152
+  Id: 4959597315628709547
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -2641,7 +2606,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -2697,7 +2662,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13758806714322843699
+  Id: 12166420683616882630
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -2714,7 +2679,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2800,7 +2765,7 @@ Objects {
   }
 }
 Objects {
-  Id: 80344297428579235
+  Id: 10732973895925541743
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -2817,7 +2782,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2903,7 +2868,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16845439656055904146
+  Id: 15507935190701604571
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -2921,7 +2886,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2974,7 +2939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6650502574474158862
+  Id: 14093329469548167234
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -2993,7 +2958,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3046,7 +3011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17746995288073303775
+  Id: 17158091420870341934
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -3062,7 +3027,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3098,7 +3063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1746521812696421118
+  Id: 12588637149992917191
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -3114,7 +3079,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3150,7 +3115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 259656282860740685
+  Id: 17801596389463550003
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -3167,7 +3132,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3203,7 +3168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2735047052149455827
+  Id: 14773780728625962957
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -3219,7 +3184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -3275,7 +3240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 643770102508250309
+  Id: 11828734487261530547
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -3292,7 +3257,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3328,7 +3293,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13459957944887265452
+  Id: 9922222704458885539
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -3344,7 +3309,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -3400,7 +3365,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9352248530902623679
+  Id: 3440433848074450841
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -3416,7 +3381,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3452,7 +3417,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8553715401959730899
+  Id: 12295515326818507127
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -3468,7 +3433,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3504,7 +3469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18134031896088274886
+  Id: 17862661431863014384
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -3520,7 +3485,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1731044180659293164
+  ParentId: 1971105086284339459
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3558,7 +3523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16433633825023232276
+  Id: 14048527717881045731
   Name: "lower tower"
   Transform {
     Location {
@@ -3573,23 +3538,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 8915000751269863033
-  ChildIds: 9597549007154672823
-  ChildIds: 2359895964971163673
-  ChildIds: 10907659901651201560
-  ChildIds: 7455995657587815246
-  ChildIds: 17166908466024941167
-  ChildIds: 16547945593136715136
-  ChildIds: 1037088188358570442
-  ChildIds: 3126742011468779285
-  ChildIds: 8178226237331158326
-  ChildIds: 12488980846545111561
-  ChildIds: 604512286425739007
-  ChildIds: 9209944942441680787
-  ChildIds: 8349107831066119593
-  ChildIds: 17109552278509155144
-  ChildIds: 9625875889123926366
+  ParentId: 3423714683500633341
+  ChildIds: 5450149243939425146
+  ChildIds: 15582799516440641382
+  ChildIds: 1617975733667682640
+  ChildIds: 3518859524371634881
+  ChildIds: 4446156127890968120
+  ChildIds: 4388908779669631259
+  ChildIds: 2229793174783396323
+  ChildIds: 5628223108839385517
+  ChildIds: 3171002612332330447
+  ChildIds: 16595658886385696047
+  ChildIds: 6473723831718672181
+  ChildIds: 10263962334093620780
+  ChildIds: 12976740015344031803
+  ChildIds: 11876955845918681567
+  ChildIds: 7015349971042682326
+  ChildIds: 9601165799609280336
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3613,7 +3578,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9625875889123926366
+  Id: 9601165799609280336
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -3630,7 +3595,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3666,7 +3631,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17109552278509155144
+  Id: 7015349971042682326
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -3682,7 +3647,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3743,7 +3708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8349107831066119593
+  Id: 11876955845918681567
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -3759,7 +3724,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -3815,7 +3780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9209944942441680787
+  Id: 12976740015344031803
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -3832,7 +3797,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -3888,7 +3853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 604512286425739007
+  Id: 10263962334093620780
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -3904,7 +3869,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3965,7 +3930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12488980846545111561
+  Id: 6473723831718672181
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -3982,7 +3947,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4018,7 +3983,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8178226237331158326
+  Id: 16595658886385696047
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -4035,7 +4000,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4071,7 +4036,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3126742011468779285
+  Id: 3171002612332330447
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -4088,7 +4053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -4135,7 +4100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1037088188358570442
+  Id: 5628223108839385517
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -4152,7 +4117,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -4199,7 +4164,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16547945593136715136
+  Id: 2229793174783396323
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -4216,7 +4181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4252,7 +4217,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17166908466024941167
+  Id: 4388908779669631259
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -4268,7 +4233,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimOuter:color"
@@ -4360,7 +4325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7455995657587815246
+  Id: 4446156127890968120
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -4376,7 +4341,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimOuter:color"
@@ -4468,7 +4433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10907659901651201560
+  Id: 3518859524371634881
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -4485,7 +4450,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4521,7 +4486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2359895964971163673
+  Id: 1617975733667682640
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -4537,7 +4502,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4573,7 +4538,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9597549007154672823
+  Id: 15582799516440641382
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -4590,7 +4555,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4626,7 +4591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8915000751269863033
+  Id: 5450149243939425146
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -4642,7 +4607,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16433633825023232276
+  ParentId: 14048527717881045731
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4678,7 +4643,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6995534608800886180
+  Id: 1907582263998778991
   Name: "lower tower"
   Transform {
     Location {
@@ -4694,23 +4659,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 16576833702088314852
-  ChildIds: 5037131917578303147
-  ChildIds: 357288244443176920
-  ChildIds: 7825226624201323551
-  ChildIds: 7947655228689045656
-  ChildIds: 13392259688187501007
-  ChildIds: 10150340628599949179
-  ChildIds: 588258840563698248
-  ChildIds: 7468184061612789965
-  ChildIds: 2613595694659403898
-  ChildIds: 8182297943264568153
-  ChildIds: 12999776986559323855
-  ChildIds: 3731149850509175628
-  ChildIds: 15543697535147853308
-  ChildIds: 6622557715972021395
-  ChildIds: 17592870907457806799
+  ParentId: 3423714683500633341
+  ChildIds: 9186945015981116364
+  ChildIds: 12617381126404524053
+  ChildIds: 14848022683164296294
+  ChildIds: 16811115442371098820
+  ChildIds: 937990586298083230
+  ChildIds: 7309864014333012954
+  ChildIds: 17895650389282106349
+  ChildIds: 8045064667920913778
+  ChildIds: 5291075938416640202
+  ChildIds: 15541685035042245914
+  ChildIds: 8171282228653800303
+  ChildIds: 13612774894893583485
+  ChildIds: 3442126429622137970
+  ChildIds: 200100467038948632
+  ChildIds: 10740739852293564234
+  ChildIds: 16986803932125302097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4734,7 +4699,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17592870907457806799
+  Id: 16986803932125302097
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -4751,7 +4716,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -4807,7 +4772,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6622557715972021395
+  Id: 10740739852293564234
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -4824,7 +4789,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -4880,7 +4845,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15543697535147853308
+  Id: 200100467038948632
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -4897,7 +4862,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4933,7 +4898,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3731149850509175628
+  Id: 3442126429622137970
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -4950,7 +4915,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4986,7 +4951,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12999776986559323855
+  Id: 13612774894893583485
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -5003,7 +4968,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5064,7 +5029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8182297943264568153
+  Id: 8171282228653800303
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -5081,7 +5046,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5117,7 +5082,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2613595694659403898
+  Id: 15541685035042245914
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -5133,7 +5098,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5194,7 +5159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7468184061612789965
+  Id: 5291075938416640202
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -5210,7 +5175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5246,7 +5211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 588258840563698248
+  Id: 8045064667920913778
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -5262,7 +5227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5298,7 +5263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10150340628599949179
+  Id: 17895650389282106349
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -5315,7 +5280,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -5389,7 +5354,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13392259688187501007
+  Id: 7309864014333012954
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -5406,7 +5371,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -5480,7 +5445,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7947655228689045656
+  Id: 937990586298083230
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -5497,7 +5462,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -5544,7 +5509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7825226624201323551
+  Id: 16811115442371098820
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -5561,7 +5526,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -5608,7 +5573,7 @@ Objects {
   }
 }
 Objects {
-  Id: 357288244443176920
+  Id: 14848022683164296294
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -5625,7 +5590,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5661,7 +5626,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5037131917578303147
+  Id: 12617381126404524053
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -5678,7 +5643,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5714,7 +5679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16576833702088314852
+  Id: 9186945015981116364
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -5730,7 +5695,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6995534608800886180
+  ParentId: 1907582263998778991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5766,7 +5731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3951658754842781586
+  Id: 2744077614417838471
   Name: "sally port"
   Transform {
     Location {
@@ -5781,11 +5746,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3783678548117446884
-  ChildIds: 4846118418685491972
-  ChildIds: 2740922611318551142
-  ChildIds: 8401425054307209437
-  ChildIds: 4703144981841734558
+  ParentId: 3423714683500633341
+  ChildIds: 15380429844707945947
+  ChildIds: 15189257426642698480
+  ChildIds: 15840663108764888296
+  ChildIds: 4924704834678548192
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5809,7 +5774,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4703144981841734558
+  Id: 4924704834678548192
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -5825,7 +5790,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3951658754842781586
+  ParentId: 2744077614417838471
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -5863,7 +5828,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8401425054307209437
+  Id: 15840663108764888296
   Name: "portcullis frame"
   Transform {
     Location {
@@ -5878,17 +5843,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3951658754842781586
-  ChildIds: 10821610764342126507
-  ChildIds: 7868319462099217057
-  ChildIds: 13548501787797265411
-  ChildIds: 14110176443353012246
-  ChildIds: 4430917786592749203
-  ChildIds: 4856968376457440581
-  ChildIds: 3594182886440110297
-  ChildIds: 3221468851706237344
-  ChildIds: 16376132827966224343
-  ChildIds: 11930566615564624549
+  ParentId: 2744077614417838471
+  ChildIds: 6840511541147003320
+  ChildIds: 4250468871396479406
+  ChildIds: 11486651634235930355
+  ChildIds: 16453728316703747227
+  ChildIds: 8176281068460527063
+  ChildIds: 10219502548449754816
+  ChildIds: 2489187319838886598
+  ChildIds: 18115817439604107327
+  ChildIds: 16322864977223205916
+  ChildIds: 5490735836025074185
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5912,7 +5877,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11930566615564624549
+  Id: 5490735836025074185
   Name: "Fantasy Castle Wall 03 - Arch 01"
   Transform {
     Location {
@@ -5929,7 +5894,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -6013,7 +5978,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16376132827966224343
+  Id: 16322864977223205916
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -6029,7 +5994,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -6076,7 +6041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3221468851706237344
+  Id: 18115817439604107327
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -6093,7 +6058,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6150,7 +6115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3594182886440110297
+  Id: 2489187319838886598
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -6166,7 +6131,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -6213,7 +6178,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4856968376457440581
+  Id: 10219502548449754816
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -6230,7 +6195,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6287,7 +6252,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4430917786592749203
+  Id: 8176281068460527063
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -6303,7 +6268,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -6350,7 +6315,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14110176443353012246
+  Id: 16453728316703747227
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -6367,7 +6332,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6424,7 +6389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13548501787797265411
+  Id: 11486651634235930355
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -6440,7 +6405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -6487,7 +6452,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7868319462099217057
+  Id: 4250468871396479406
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -6504,7 +6469,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6561,7 +6526,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10821610764342126507
+  Id: 6840511541147003320
   Name: "Fantasy Castle Wall 03 - Arch 01"
   Transform {
     Location {
@@ -6578,7 +6543,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8401425054307209437
+  ParentId: 15840663108764888296
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -6635,7 +6600,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2740922611318551142
+  Id: 15189257426642698480
   Name: "Fantasy Castle Pillar Wall 01 Arch"
   Transform {
     Location {
@@ -6652,7 +6617,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3951658754842781586
+  ParentId: 2744077614417838471
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6688,7 +6653,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4846118418685491972
+  Id: 15380429844707945947
   Name: "Fantasy Castle Pillar Wall 01 Arch"
   Transform {
     Location {
@@ -6705,7 +6670,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3951658754842781586
+  ParentId: 2744077614417838471
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6741,11 +6706,11 @@ Objects {
   }
 }
 Objects {
-  Id: 4517353451763703451
+  Id: 16398340109202473647
   Name: "Castle Gatehouse"
   Transform {
     Location {
-      X: 31850
+      X: 5453
       Y: -2500
     }
     Rotation {
@@ -6756,14 +6721,14 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 10431699884977478349
-  ChildIds: 12767235600484541326
-  ChildIds: 3205089107636877044
-  ChildIds: 851287820573816769
-  ChildIds: 4282458796248789354
-  ChildIds: 4028871898925659893
-  ChildIds: 8872884976648372888
-  ChildIds: 6656637391474860551
+  ParentId: 7076652421083094465
+  ChildIds: 12667169209573843317
+  ChildIds: 1334694413097022891
+  ChildIds: 12999318825417697464
+  ChildIds: 822813126000155997
+  ChildIds: 17100501200810310656
+  ChildIds: 11108499750846408047
+  ChildIds: 16055676764105675978
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6788,7 +6753,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6656637391474860551
+  Id: 16055676764105675978
   Name: "Portcullis"
   Transform {
     Location {
@@ -6805,7 +6770,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4517353451763703451
+  ParentId: 16398340109202473647
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6841,7 +6806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8872884976648372888
+  Id: 11108499750846408047
   Name: "battlements"
   Transform {
     Location {
@@ -6857,14 +6822,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 6740074469562798996
-  ChildIds: 18376889124734734306
-  ChildIds: 16529182967131950697
-  ChildIds: 3255734253380886179
-  ChildIds: 18158687971426085848
-  ChildIds: 1783917160050053745
-  ChildIds: 5425658058819769430
+  ParentId: 16398340109202473647
+  ChildIds: 1960443913791198811
+  ChildIds: 2150641184979030959
+  ChildIds: 39934352463660646
+  ChildIds: 3076910123120303001
+  ChildIds: 14897882280738433576
+  ChildIds: 18376394879391379310
+  ChildIds: 12842926550610674639
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6888,7 +6853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5425658058819769430
+  Id: 12842926550610674639
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -6904,7 +6869,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6940,7 +6905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1783917160050053745
+  Id: 18376394879391379310
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -6956,7 +6921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6992,7 +6957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18158687971426085848
+  Id: 14897882280738433576
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -7008,7 +6973,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7046,7 +7011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3255734253380886179
+  Id: 3076910123120303001
   Name: "Fantasy Castle Trim - Parapet 01"
   Transform {
     Location {
@@ -7063,7 +7028,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7110,7 +7075,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16529182967131950697
+  Id: 39934352463660646
   Name: "Fantasy Castle Wall 02 Half - Window 03"
   Transform {
     Location {
@@ -7126,7 +7091,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -7211,7 +7176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18376889124734734306
+  Id: 2150641184979030959
   Name: "Fantasy Castle Wall 02 Half - Window 03"
   Transform {
     Location {
@@ -7227,7 +7192,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:id"
@@ -7330,7 +7295,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6740074469562798996
+  Id: 1960443913791198811
   Name: "Fantasy Castle Trim - Battlement 01"
   Transform {
     Location {
@@ -7347,7 +7312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8872884976648372888
+  ParentId: 11108499750846408047
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7394,7 +7359,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4028871898925659893
+  Id: 17100501200810310656
   Name: "upper tower"
   Transform {
     Location {
@@ -7410,26 +7375,26 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 13365172347832960167
-  ChildIds: 5138530554451481673
-  ChildIds: 11620815299566250735
-  ChildIds: 8107122617081600598
-  ChildIds: 4921533315915104783
-  ChildIds: 12725700606281446604
-  ChildIds: 5032990109375813597
-  ChildIds: 9772082392329033610
-  ChildIds: 1692101739015629879
-  ChildIds: 5321178611906050538
-  ChildIds: 10109774163818839644
-  ChildIds: 818233716900738785
-  ChildIds: 17693398859383344706
-  ChildIds: 6320952366630387358
-  ChildIds: 15921794937146185174
-  ChildIds: 10719030839391546582
-  ChildIds: 3829463419246461268
-  ChildIds: 11012156920906809164
-  ChildIds: 3740749028937520235
+  ParentId: 16398340109202473647
+  ChildIds: 6568113867886464357
+  ChildIds: 16327413458976913185
+  ChildIds: 27961246573956134
+  ChildIds: 18363918691476003377
+  ChildIds: 11372029123918260485
+  ChildIds: 10559440431032304889
+  ChildIds: 2585368481866984816
+  ChildIds: 15039269361834685425
+  ChildIds: 15676457620345421886
+  ChildIds: 5309849862011354507
+  ChildIds: 13003523875587978385
+  ChildIds: 9180874861264056395
+  ChildIds: 18301545795626253488
+  ChildIds: 10358864889399074342
+  ChildIds: 4609066517725048951
+  ChildIds: 11792758655891188760
+  ChildIds: 17127823600147891649
+  ChildIds: 12216740829653295625
+  ChildIds: 6039464818225167222
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7453,7 +7418,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3740749028937520235
+  Id: 6039464818225167222
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -7470,7 +7435,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -7556,7 +7521,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11012156920906809164
+  Id: 12216740829653295625
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -7573,7 +7538,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -7629,7 +7594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3829463419246461268
+  Id: 17127823600147891649
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -7646,7 +7611,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -7732,7 +7697,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10719030839391546582
+  Id: 11792758655891188760
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -7749,7 +7714,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -7805,7 +7770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15921794937146185174
+  Id: 4609066517725048951
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -7822,7 +7787,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7858,7 +7823,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6320952366630387358
+  Id: 10358864889399074342
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -7876,7 +7841,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7929,7 +7894,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17693398859383344706
+  Id: 18301545795626253488
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -7948,7 +7913,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8001,7 +7966,7 @@ Objects {
   }
 }
 Objects {
-  Id: 818233716900738785
+  Id: 9180874861264056395
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -8018,7 +7983,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8054,7 +8019,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10109774163818839644
+  Id: 13003523875587978385
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -8071,7 +8036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8107,7 +8072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5321178611906050538
+  Id: 5309849862011354507
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -8124,7 +8089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8160,7 +8125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1692101739015629879
+  Id: 15676457620345421886
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -8177,7 +8142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -8233,7 +8198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9772082392329033610
+  Id: 15039269361834685425
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -8250,7 +8215,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8286,7 +8251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5032990109375813597
+  Id: 2585368481866984816
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -8303,7 +8268,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8339,7 +8304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12725700606281446604
+  Id: 10559440431032304889
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -8356,7 +8321,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -8412,7 +8377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4921533315915104783
+  Id: 11372029123918260485
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -8429,7 +8394,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -8467,7 +8432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8107122617081600598
+  Id: 18363918691476003377
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -8484,7 +8449,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -8570,7 +8535,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11620815299566250735
+  Id: 27961246573956134
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -8587,7 +8552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -8673,7 +8638,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5138530554451481673
+  Id: 16327413458976913185
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -8690,7 +8655,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -8746,7 +8711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13365172347832960167
+  Id: 6568113867886464357
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -8763,7 +8728,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4028871898925659893
+  ParentId: 17100501200810310656
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -8828,7 +8793,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4282458796248789354
+  Id: 822813126000155997
   Name: "upper tower"
   Transform {
     Location {
@@ -8844,26 +8809,26 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 5040464124762194775
-  ChildIds: 10061592778786837125
-  ChildIds: 11960262541627004496
-  ChildIds: 12546038532562717142
-  ChildIds: 13696539799340579503
-  ChildIds: 17034430349958138913
-  ChildIds: 2040345603355527392
-  ChildIds: 17081083140113915940
-  ChildIds: 16979130602195403722
-  ChildIds: 6708047067121479641
-  ChildIds: 17149322513053616579
-  ChildIds: 7514115062007856554
-  ChildIds: 8271080783982484653
-  ChildIds: 17423768732637193639
-  ChildIds: 16911425585065962990
-  ChildIds: 1101694065257002286
-  ChildIds: 6792906689497322334
-  ChildIds: 13683207582401788974
-  ChildIds: 12600203104067194483
+  ParentId: 16398340109202473647
+  ChildIds: 7197644880947071446
+  ChildIds: 13237137325602948193
+  ChildIds: 2448655003935836815
+  ChildIds: 7533586137442852277
+  ChildIds: 11128149823606787651
+  ChildIds: 10392002552962468412
+  ChildIds: 953603626328457325
+  ChildIds: 11659075598424482530
+  ChildIds: 6587784636743949211
+  ChildIds: 11578315916770792990
+  ChildIds: 15942272518175750430
+  ChildIds: 10054086198393293616
+  ChildIds: 7730375396147133166
+  ChildIds: 1113428042879524647
+  ChildIds: 14580130447159034846
+  ChildIds: 6695555111294135726
+  ChildIds: 15459373111045318174
+  ChildIds: 9211298726323434625
+  ChildIds: 2103419873073796694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8887,7 +8852,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12600203104067194483
+  Id: 2103419873073796694
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -8904,7 +8869,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -8969,7 +8934,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13683207582401788974
+  Id: 9211298726323434625
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -8986,7 +8951,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -9072,7 +9037,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6792906689497322334
+  Id: 15459373111045318174
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -9089,7 +9054,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -9145,7 +9110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1101694065257002286
+  Id: 6695555111294135726
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -9162,7 +9127,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -9248,7 +9213,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16911425585065962990
+  Id: 14580130447159034846
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -9266,7 +9231,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9319,7 +9284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17423768732637193639
+  Id: 1113428042879524647
   Name: "Column Topper 02"
   Transform {
     Location {
@@ -9338,7 +9303,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9391,7 +9356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8271080783982484653
+  Id: 7730375396147133166
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -9407,7 +9372,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9443,7 +9408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7514115062007856554
+  Id: 10054086198393293616
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
@@ -9459,7 +9424,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9495,7 +9460,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17149322513053616579
+  Id: 15942272518175750430
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -9512,7 +9477,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9548,7 +9513,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6708047067121479641
+  Id: 11578315916770792990
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -9564,7 +9529,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -9620,7 +9585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16979130602195403722
+  Id: 6587784636743949211
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -9637,7 +9602,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9673,7 +9638,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17081083140113915940
+  Id: 11659075598424482530
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -9689,7 +9654,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -9745,7 +9710,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2040345603355527392
+  Id: 953603626328457325
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -9761,7 +9726,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9797,7 +9762,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17034430349958138913
+  Id: 10392002552962468412
   Name: "Fantasy Castle Floor 01 - Curved 4m "
   Transform {
     Location {
@@ -9813,7 +9778,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9849,7 +9814,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13696539799340579503
+  Id: 11128149823606787651
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -9865,7 +9830,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -9903,7 +9868,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12546038532562717142
+  Id: 7533586137442852277
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -9920,7 +9885,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10006,7 +9971,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11960262541627004496
+  Id: 2448655003935836815
   Name: "Fantasy Castle Wall 03 - Curve Top"
   Transform {
     Location {
@@ -10023,7 +9988,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10109,7 +10074,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10061592778786837125
+  Id: 13237137325602948193
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -10125,7 +10090,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -10181,7 +10146,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5040464124762194775
+  Id: 7197644880947071446
   Name: "Fantasy Castle Wall 02 - Curved Window 01"
   Transform {
     Location {
@@ -10197,7 +10162,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4282458796248789354
+  ParentId: 822813126000155997
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -10253,7 +10218,7 @@ Objects {
   }
 }
 Objects {
-  Id: 851287820573816769
+  Id: 12999318825417697464
   Name: "lower tower"
   Transform {
     Location {
@@ -10268,23 +10233,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 13082644190885751586
-  ChildIds: 12846862940867000696
-  ChildIds: 693485536712337554
-  ChildIds: 14391779455098817039
-  ChildIds: 16522717141294248177
-  ChildIds: 12896826280303460657
-  ChildIds: 13259671124545308055
-  ChildIds: 17488330658815973199
-  ChildIds: 8186993323204536629
-  ChildIds: 1179561309986236040
-  ChildIds: 10157943639963916901
-  ChildIds: 11733438852769018298
-  ChildIds: 16437608286257564174
-  ChildIds: 11441419662572205765
-  ChildIds: 9683461633305629101
-  ChildIds: 10542683471503203206
+  ParentId: 16398340109202473647
+  ChildIds: 10514545526888827543
+  ChildIds: 17993990853407295712
+  ChildIds: 4319884194012618349
+  ChildIds: 7536993246973245517
+  ChildIds: 10880815579868340153
+  ChildIds: 11524910367744058472
+  ChildIds: 5602391253910457902
+  ChildIds: 16901165161795063608
+  ChildIds: 14852616124203166936
+  ChildIds: 17156045751937625192
+  ChildIds: 13165287923308142227
+  ChildIds: 15985797571308597694
+  ChildIds: 3945971340307821929
+  ChildIds: 210818065990953960
+  ChildIds: 14713029547915256930
+  ChildIds: 14743254950778563696
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10308,7 +10273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10542683471503203206
+  Id: 14743254950778563696
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -10325,7 +10290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10361,7 +10326,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9683461633305629101
+  Id: 14713029547915256930
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -10377,7 +10342,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10438,7 +10403,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11441419662572205765
+  Id: 210818065990953960
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -10454,7 +10419,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -10510,7 +10475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16437608286257564174
+  Id: 3945971340307821929
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -10527,7 +10492,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -10583,7 +10548,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11733438852769018298
+  Id: 15985797571308597694
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -10599,7 +10564,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10660,7 +10625,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10157943639963916901
+  Id: 13165287923308142227
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -10677,7 +10642,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10713,7 +10678,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1179561309986236040
+  Id: 17156045751937625192
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -10730,7 +10695,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10766,7 +10731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8186993323204536629
+  Id: 14852616124203166936
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -10783,7 +10748,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -10830,7 +10795,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17488330658815973199
+  Id: 16901165161795063608
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -10847,7 +10812,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -10894,7 +10859,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13259671124545308055
+  Id: 5602391253910457902
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -10911,7 +10876,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10947,7 +10912,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12896826280303460657
+  Id: 11524910367744058472
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -10963,7 +10928,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimOuter:color"
@@ -11055,7 +11020,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16522717141294248177
+  Id: 10880815579868340153
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -11071,7 +11036,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimOuter:color"
@@ -11163,7 +11128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14391779455098817039
+  Id: 7536993246973245517
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -11180,7 +11145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11216,7 +11181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 693485536712337554
+  Id: 4319884194012618349
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -11232,7 +11197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11268,7 +11233,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12846862940867000696
+  Id: 17993990853407295712
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -11285,7 +11250,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11321,7 +11286,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13082644190885751586
+  Id: 10514545526888827543
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -11337,7 +11302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 851287820573816769
+  ParentId: 12999318825417697464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11373,7 +11338,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3205089107636877044
+  Id: 1334694413097022891
   Name: "lower tower"
   Transform {
     Location {
@@ -11389,23 +11354,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 5308621042801558394
-  ChildIds: 1619669226371998572
-  ChildIds: 16101307391682636735
-  ChildIds: 1326361150664644808
-  ChildIds: 5810369153537198293
-  ChildIds: 16546953449401760928
-  ChildIds: 1818693726441954622
-  ChildIds: 15977028942554810107
-  ChildIds: 12559873324881986166
-  ChildIds: 17989882002002193941
-  ChildIds: 18204886521088839462
-  ChildIds: 8559781414045673891
-  ChildIds: 4669762716382233647
-  ChildIds: 11704362928627338864
-  ChildIds: 1887279226475970003
-  ChildIds: 13226656591460810556
+  ParentId: 16398340109202473647
+  ChildIds: 12665324342534271912
+  ChildIds: 16672002710438142594
+  ChildIds: 4960421558242320179
+  ChildIds: 9707970625771769660
+  ChildIds: 3549121427395152020
+  ChildIds: 7540421288043827849
+  ChildIds: 10685246248358246803
+  ChildIds: 502264264013542013
+  ChildIds: 5106399510711396212
+  ChildIds: 9839635155173956887
+  ChildIds: 8453551101088829610
+  ChildIds: 6488705434456884794
+  ChildIds: 7989510127164793133
+  ChildIds: 13525167496994585102
+  ChildIds: 9671247648020652599
+  ChildIds: 4047654526893351611
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11429,7 +11394,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13226656591460810556
+  Id: 4047654526893351611
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -11446,7 +11411,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -11502,7 +11467,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1887279226475970003
+  Id: 9671247648020652599
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -11519,7 +11484,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim2:color"
@@ -11575,7 +11540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11704362928627338864
+  Id: 13525167496994585102
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -11592,7 +11557,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11628,7 +11593,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4669762716382233647
+  Id: 7989510127164793133
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -11645,7 +11610,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11681,7 +11646,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8559781414045673891
+  Id: 6488705434456884794
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -11698,7 +11663,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11759,7 +11724,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18204886521088839462
+  Id: 8453551101088829610
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -11776,7 +11741,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11812,7 +11777,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17989882002002193941
+  Id: 9839635155173956887
   Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
   Transform {
     Location {
@@ -11828,7 +11793,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11889,7 +11854,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12559873324881986166
+  Id: 5106399510711396212
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -11905,7 +11870,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11941,7 +11906,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15977028942554810107
+  Id: 502264264013542013
   Name: "Fantasy Castle Wall 03"
   Transform {
     Location {
@@ -11957,7 +11922,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11993,7 +11958,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1818693726441954622
+  Id: 10685246248358246803
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -12010,7 +11975,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -12084,7 +12049,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16546953449401760928
+  Id: 7540421288043827849
   Name: "Fantasy Castle Wall 01 - Curved"
   Transform {
     Location {
@@ -12101,7 +12066,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -12175,7 +12140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5810369153537198293
+  Id: 3549121427395152020
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -12192,7 +12157,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -12239,7 +12204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1326361150664644808
+  Id: 9707970625771769660
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
@@ -12256,7 +12221,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallOuter:color"
@@ -12303,7 +12268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16101307391682636735
+  Id: 4960421558242320179
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
@@ -12320,7 +12285,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12356,7 +12321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1619669226371998572
+  Id: 16672002710438142594
   Name: "Fantasy Castle Pillar 01 Mid"
   Transform {
     Location {
@@ -12373,7 +12338,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12409,7 +12374,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5308621042801558394
+  Id: 12665324342534271912
   Name: "Fantasy Castle Wall 01"
   Transform {
     Location {
@@ -12425,7 +12390,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3205089107636877044
+  ParentId: 1334694413097022891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12461,7 +12426,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12767235600484541326
+  Id: 12667169209573843317
   Name: "sally port"
   Transform {
     Location {
@@ -12476,11 +12441,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4517353451763703451
-  ChildIds: 3596361203002868405
-  ChildIds: 3440910966658338722
-  ChildIds: 5473142532005888996
-  ChildIds: 5966053230108740739
+  ParentId: 16398340109202473647
+  ChildIds: 1805489611398881779
+  ChildIds: 4775442879414726974
+  ChildIds: 4791298770243965712
+  ChildIds: 7687851388272855922
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12504,7 +12469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5966053230108740739
+  Id: 7687851388272855922
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
     Location {
@@ -12520,7 +12485,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12767235600484541326
+  ParentId: 12667169209573843317
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -12558,7 +12523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5473142532005888996
+  Id: 4791298770243965712
   Name: "portcullis frame"
   Transform {
     Location {
@@ -12573,17 +12538,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12767235600484541326
-  ChildIds: 4464636080664298635
-  ChildIds: 14069357584077762642
-  ChildIds: 2629622325153900964
-  ChildIds: 1371523724729800781
-  ChildIds: 11818368142207989774
-  ChildIds: 6874572542778992307
-  ChildIds: 13343155840421958942
-  ChildIds: 504625718146648606
-  ChildIds: 3988203633379952987
-  ChildIds: 12726585310899515139
+  ParentId: 12667169209573843317
+  ChildIds: 15181204243740922183
+  ChildIds: 16550808017989013268
+  ChildIds: 1084391908657206631
+  ChildIds: 17592253099777560161
+  ChildIds: 13614655707056481401
+  ChildIds: 1132947133727344729
+  ChildIds: 6108997615816470204
+  ChildIds: 15241138266808709576
+  ChildIds: 3823212087030409953
+  ChildIds: 15473703702185380312
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12607,7 +12572,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12726585310899515139
+  Id: 15473703702185380312
   Name: "Fantasy Castle Wall 03 - Arch 01"
   Transform {
     Location {
@@ -12624,7 +12589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -12708,7 +12673,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3988203633379952987
+  Id: 3823212087030409953
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -12724,7 +12689,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -12771,7 +12736,7 @@ Objects {
   }
 }
 Objects {
-  Id: 504625718146648606
+  Id: 15241138266808709576
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -12788,7 +12753,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12845,7 +12810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13343155840421958942
+  Id: 6108997615816470204
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -12861,7 +12826,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -12908,7 +12873,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6874572542778992307
+  Id: 1132947133727344729
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -12925,7 +12890,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12982,7 +12947,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11818368142207989774
+  Id: 13614655707056481401
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -12998,7 +12963,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -13045,7 +13010,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1371523724729800781
+  Id: 17592253099777560161
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -13062,7 +13027,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13119,7 +13084,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2629622325153900964
+  Id: 1084391908657206631
   Name: "Fantasy Castle Bannister 01 - Post"
   Transform {
     Location {
@@ -13135,7 +13100,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -13182,7 +13147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14069357584077762642
+  Id: 16550808017989013268
   Name: "Fantasy Castle Pillar 01 Top"
   Transform {
     Location {
@@ -13199,7 +13164,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13256,7 +13221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4464636080664298635
+  Id: 15181204243740922183
   Name: "Fantasy Castle Wall 03 - Arch 01"
   Transform {
     Location {
@@ -13273,7 +13238,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5473142532005888996
+  ParentId: 4791298770243965712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -13330,7 +13295,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3440910966658338722
+  Id: 4775442879414726974
   Name: "Fantasy Castle Pillar Wall 01 Arch"
   Transform {
     Location {
@@ -13347,7 +13312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12767235600484541326
+  ParentId: 12667169209573843317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13383,7 +13348,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3596361203002868405
+  Id: 1805489611398881779
   Name: "Fantasy Castle Pillar Wall 01 Arch"
   Transform {
     Location {
@@ -13400,7 +13365,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12767235600484541326
+  ParentId: 12667169209573843317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13436,13 +13401,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16867491041588773788
-  Name: "samurai flag"
+  Id: 6812527441663206911
+  Name: "Misc"
   Transform {
     Location {
-      X: 19800
-      Y: -1350
-      Z: 100
+      X: -15777
+      Y: 630
+      Z: -50
     }
     Rotation {
     }
@@ -13452,295 +13417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4979049603791667975
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.2
-            Y: 0.25
-            Z: 0.25
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: 600
-            Z: 350
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0499999523
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13042327997860211493
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: 600
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.45
-            Y: 0.25
-            Z: 0.25
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0499999523
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail1:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14806440471062192669
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AttackerFlag"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 19400
-            Y: -1350
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16494440511471598164
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.97
-            G: 4.62532057e-07
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 3625351278953100875
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18367780742643777361
-    }
-  }
-}
-Objects {
-  Id: 4562258053325831969
-  Name: "samurai flag"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4979049603791667975
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.2
-            Y: 0.25
-            Z: 0.25
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: 600
-            Z: 350
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.539999962
-            G: 0.616158664
-            B: 1
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13042327997860211493
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: 600
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.45
-            Y: 0.25
-            Z: 0.25
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.539999962
-            G: 0.616158664
-            B: 1
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_Detail1:id"
-          AssetReference {
-            Id: 17151821067559188428
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14806440471062192669
-      value {
-        Overrides {
-          Name: "Name"
-          String: "DefenderFlag"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 19800
-            Y: -1350
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16494440511471598164
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.0121859359
-            B: 0.919999957
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 17347352242351376435
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17775477458373410713
-    }
-  }
-}
-Objects {
-  Id: 2971781852159391206
-  Name: "Meteor"
-  Transform {
-    Location {
-      X: 25150
-      Y: 1500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
+  ParentId: 7076652421083094465
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13755,465 +13432,18 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Meteor"
+    FilePartitionName: "Misc"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 11961592755142313066
-  Name: "Shops"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Shops"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4932925655818712149
-  Name: "fountain V1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 230646068388548084
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4269472597073615213
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.539999962
-            G: 0.616158664
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4856867517846865495
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5367547348523387537
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8649190368435948042
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.539999962
-            G: 0.616158664
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8768883719612192646
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10683132853594910693
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11248786186262300842
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fountain"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 27950
-            Y: 1650
-            Z: -50
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14364195498758857599
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14651198709250904951
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15259272151965346844
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15530381330253643776
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 3834379000310649197
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.010198731
-            B: 0.77
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16215494658155159657
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16942763154905799228
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.979337692
-            B: 1
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6537838075189374102
-    }
-  }
-}
-Objects {
-  Id: 7155888103746195539
-  Name: "Trees"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Trees"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 7501729006823329138
-  Name: "Houses"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Houses"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 17633260576026982011
-  Name: "Objectives"
-  Transform {
-    Location {
-      X: 25500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Objectives_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13593413489443493607
-  Name: "NPCSpawns"
-  Transform {
-    Location {
-      X: 25500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NPCSpawns_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8464025660852897123
-  Name: "PlayerSpawns"
-  Transform {
-    Location {
-      X: 25500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "PlayerSpawns_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 5390746150441602466
+  Id: 3655591776641367311
   Name: "Buildings/Obstacles"
   Transform {
     Location {
-      X: 25500
+      X: -897
     }
     Rotation {
     }
@@ -14223,7 +13453,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 7076652421083094465
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14245,11 +13475,11 @@ Objects {
   }
 }
 Objects {
-  Id: 15626046566531215812
+  Id: 11249461657339290140
   Name: "OuterWalls"
   Transform {
     Location {
-      X: 25500
+      X: -897
     }
     Rotation {
     }
@@ -14259,7 +13489,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 7076652421083094465
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14275,60 +13505,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "OuterWalls_1"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3146592585928887000
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: 26950
-      Y: -950
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 200
-      Y: 200
-      Z: 1
-    }
-  }
-  ParentId: 10431699884977478349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6854294233855189574
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

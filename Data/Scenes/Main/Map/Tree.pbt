@@ -1,11 +1,10 @@
 Name: "Map"
 RootId: 14476493040834258042
 Objects {
-  Id: 8582131939028173668
-  Name: "Buildings/Obstacles"
+  Id: 7076652421083094465
+  Name: "3Objectives"
   Transform {
     Location {
-      X: -883
     }
     Rotation {
     }
@@ -30,43 +29,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Buildings_Obstacles"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6844445873144175501
-  Name: "OuterWalls"
-  Transform {
-    Location {
-      X: -883
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14476493040834258042
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "OuterWalls"
+    FilePartitionName: "3Objectives_1"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -557,6 +520,12 @@ Objects {
   }
   ParentId: 14476493040834258042
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6854294233855189574
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
