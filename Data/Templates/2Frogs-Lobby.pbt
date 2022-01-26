@@ -52,7 +52,7 @@ Assets {
             Z: 46
           }
           Rotation {
-            Yaw: -22.9999828
+            Yaw: -22.9999695
           }
           Scale {
             X: 1
@@ -4325,7 +4325,7 @@ Assets {
             Z: 46
           }
           Rotation {
-            Yaw: -22.9999828
+            Yaw: -22.9999695
           }
           Scale {
             X: 1
@@ -22394,7 +22394,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 9619574496499603102
             }
           }
           Overrides {
@@ -22462,7 +22462,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 2943084065665204035
             }
           }
           Overrides {
@@ -22530,7 +22530,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 2943084065665204035
             }
           }
           Overrides {
@@ -22599,7 +22599,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 2943084065665204035
             }
           }
           Overrides {
@@ -22668,7 +22668,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 2943084065665204035
             }
           }
           Overrides {
@@ -22734,7 +22734,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4915062309712207222
+              Id: 2943084065665204035
             }
           }
           Overrides {
@@ -23533,12 +23533,12 @@ Assets {
       }
     }
     Assets {
-      Id: 4915062309712207222
-      Name: "Fog Cloud"
+      Id: 9619574496499603102
+      Name: "Frosted Glass No Distortion"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_fog_material"
+        AssetId: "fxma_frosted_glass_nodistortion"
       }
     }
     PrimaryAssetId {

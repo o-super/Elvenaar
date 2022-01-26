@@ -166,88 +166,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 510088129068280913
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -406.39566
-            Y: 817.554077
-            Z: 46
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -22.9999695
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 2567388582665495336
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 2943084065665204035
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4161657072023620577
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 330.008942
-            Y: 504.968
-            Z: 46
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -22.9999695
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8384745814170867751
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 9619574496499603102
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9565718452257214604
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 2943084065665204035
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11968486244284051679
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 2943084065665204035
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 12118949245543576678
       value {
         Overrides {
@@ -266,28 +184,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -118
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12300935890694687615
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 2943084065665204035
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12364708450116970102
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 2943084065665204035
           }
         }
       }
