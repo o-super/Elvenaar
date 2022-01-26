@@ -14,6 +14,17 @@ Objects {
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4406449788860234311
+      value {
+        Overrides {
+          Name: "cs:npc1"
+          AssetReference {
+            Id: 9262416444177668205
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16631134881011033056
       value {
         Overrides {
@@ -65,6 +76,17 @@ Objects {
   ParentId: 5203077255878810346
   WantsNetworking: true
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 4406449788860234311
+      value {
+        Overrides {
+          Name: "cs:npc1"
+          AssetReference {
+            Id: 9262416444177668205
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16631134881011033056
       value {
