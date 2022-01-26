@@ -265,7 +265,7 @@ Assets {
           Overrides {
             Name: "cs:PlayerEffectTemplate"
             AssetReference {
-              Id: 2928324685255004683
+              Id: 8263293863462944892
             }
           }
           Overrides {

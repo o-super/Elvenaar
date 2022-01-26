@@ -20,8 +20,6 @@ Objects {
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
   ChildIds: 10921877198206975215
-  ChildIds: 18114764236307063212
-  ChildIds: 14275533823187732083
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,87 +35,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 14275533823187732083
-  Name: "2Frogs-IceStaffSecondaryWeapon"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9203989956784497633
-      value {
-        Overrides {
-          Name: "cs:PlayerEffectTemplate"
-          AssetReference {
-            Id: 8263293863462944892
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13285317196782325249
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-IceStaffSecondaryWeapon"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3588
-            Y: -120
-            Z: 3226
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1820970287928325213
-    }
-  }
-}
-Objects {
-  Id: 18114764236307063212
-  Name: "2Frogs-IceStaff"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17510398434694224572
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-IceStaff"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3606
-            Y: -301
-            Z: 3228
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3581906671385183225
-    }
   }
 }
 Objects {
