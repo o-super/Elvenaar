@@ -46,5 +46,9 @@ Assets {
       VirtualFolderPath: "IceCrossbowParticles"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Volcano materials"
+      PlatformAssetType: 13
+    }
   }
 }

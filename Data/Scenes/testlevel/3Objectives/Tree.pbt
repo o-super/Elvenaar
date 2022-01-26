@@ -1,11 +1,11 @@
 Name: "3Objectives"
-RootId: 10431699884977478349
+RootId: 8892617078869837979
 Objects {
-  Id: 17633260576026982011
+  Id: 7671643229422430288
   Name: "Objectives"
   Transform {
     Location {
-      X: 25500
+      X: 56200
     }
     Rotation {
     }
@@ -15,7 +15,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37,11 +37,11 @@ Objects {
   }
 }
 Objects {
-  Id: 13593413489443493607
+  Id: 3634453801114750263
   Name: "NPCSpawns"
   Transform {
     Location {
-      X: 25500
+      X: 56200
     }
     Rotation {
     }
@@ -51,7 +51,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73,11 +73,11 @@ Objects {
   }
 }
 Objects {
-  Id: 8464025660852897123
+  Id: 15857159174231006805
   Name: "PlayerSpawns"
   Transform {
     Location {
-      X: 25500
+      X: 56200
     }
     Rotation {
     }
@@ -87,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,11 +109,11 @@ Objects {
   }
 }
 Objects {
-  Id: 5390746150441602466
+  Id: 8802106241340006454
   Name: "Buildings/Obstacles"
   Transform {
     Location {
-      X: 25500
+      X: 56200
     }
     Rotation {
     }
@@ -123,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -145,11 +145,11 @@ Objects {
   }
 }
 Objects {
-  Id: 15626046566531215812
+  Id: 7530272654730392908
   Name: "OuterWalls"
   Transform {
     Location {
-      X: 25500
+      X: 56200
     }
     Rotation {
     }
@@ -159,7 +159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -181,11 +181,11 @@ Objects {
   }
 }
 Objects {
-  Id: 3146592585928887000
+  Id: 4956856990477540992
   Name: "Default Floor"
   Transform {
     Location {
-      X: 26950
+      X: 57650
       Y: -950
       Z: -50
     }
@@ -197,7 +197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10431699884977478349
+  ParentId: 8892617078869837979
   UnregisteredParameters {
   }
   Collidable_v2 {

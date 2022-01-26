@@ -1,7 +1,7 @@
 Name: "Buildings_Obstacles"
-RootId: 5390746150441602466
+RootId: 8802106241340006454
 Objects {
-  Id: 15676536477766432583
+  Id: 7868006456368690196
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11157963357047660097
+  Id: 9739785858518391761
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -78,7 +78,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -123,7 +123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5900221154064226237
+  Id: 4749607888745110645
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -139,7 +139,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -184,84 +184,23 @@ Objects {
   }
 }
 Objects {
-  Id: 16784861171829080924
+  Id: 6898152867337348238
   Name: "Building/Obstacle"
   Transform {
     Location {
       X: 700
-      Y: -50
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 6
-    }
-  }
-  ParentId: 5390746150441602466
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11171406345374164957
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 700
-      Y: 3400
+      Y: 3650
       Z: 300
     }
     Rotation {
     }
     Scale {
       X: 10
-      Y: 10
+      Y: 5
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -306,7 +245,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5093404038635912564
+  Id: 5202596988905386415
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -322,7 +261,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -367,7 +306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6641268929565491776
+  Id: 17209867626036245893
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -383,7 +322,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -428,7 +367,7 @@ Objects {
   }
 }
 Objects {
-  Id: 89493821426444893
+  Id: 5010682664441797000
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -444,7 +383,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -489,7 +428,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9562606159139135748
+  Id: 14501186315969553550
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -505,7 +444,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -550,7 +489,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13602878787291200956
+  Id: 8077426454916842511
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -566,7 +505,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -611,7 +550,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17912569553052244480
+  Id: 3765626645838970285
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -627,7 +566,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -672,7 +611,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13860258913815906618
+  Id: 1976520735041052559
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -688,7 +627,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -733,129 +672,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14612885185290312312
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 450
-      Y: 500
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 6
-    }
-  }
-  ParentId: 5390746150441602466
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 8968736948018732594
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: -50
-      Y: -150
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 6
-    }
-  }
-  ParentId: 5390746150441602466
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 395557772240559569
+  Id: 15802369826560655271
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -871,7 +688,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -916,7 +733,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4785271560565258022
+  Id: 81134165143322896
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -932,7 +749,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -977,7 +794,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11757130254300859319
+  Id: 7257244272387751079
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -993,7 +810,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1038,7 +855,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16382735965113750698
+  Id: 13737212299830321834
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1054,7 +871,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1099,7 +916,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16887604738399945349
+  Id: 3335424804223857812
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1115,7 +932,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1160,7 +977,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12662285426587858019
+  Id: 12107120867830165826
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1176,7 +993,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1221,7 +1038,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11653839466059567088
+  Id: 5065377102323580242
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1237,7 +1054,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1282,7 +1099,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1848478022324041932
+  Id: 17428934744562101515
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1298,7 +1115,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1343,7 +1160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10989509459254938255
+  Id: 6369748823301562703
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1359,7 +1176,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1404,7 +1221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13253807020098241325
+  Id: 15677256929622761423
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1420,7 +1237,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1465,7 +1282,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1585358514485356354
+  Id: 11141619726874480411
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1481,7 +1298,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1526,7 +1343,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2727390321591049799
+  Id: 10391332166318719105
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1542,7 +1359,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1587,7 +1404,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11078003963218420210
+  Id: 1258890718111755903
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1603,7 +1420,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1648,7 +1465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17555212330749943186
+  Id: 11725509809934169252
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1663,7 +1480,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1708,7 +1525,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6825766321773923164
+  Id: 6250945553388239927
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1724,7 +1541,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1769,23 +1586,23 @@ Objects {
   }
 }
 Objects {
-  Id: 4459333467103694026
+  Id: 6423252238118696644
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 2950
+      X: 3250
       Y: -900
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 40
+      X: 35
       Y: 5
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1830,7 +1647,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5666235024352726349
+  Id: 16925836946624319264
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1846,7 +1663,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1891,7 +1708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2037707596333036680
+  Id: 5658657752692594859
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1907,7 +1724,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1952,7 +1769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17722644526074401038
+  Id: 2352090367282177605
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -1968,7 +1785,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2013,7 +1830,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5516816811998164894
+  Id: 10533195666337948169
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -2029,7 +1846,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2074,7 +1891,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10142935821332709929
+  Id: 6716744509531424951
   Name: "Building/Obstacle"
   Transform {
     Location {
@@ -2090,7 +1907,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 5390746150441602466
+  ParentId: 8802106241340006454
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

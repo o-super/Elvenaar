@@ -1,7 +1,7 @@
 Name: "Objectives"
-RootId: 17633260576026982011
+RootId: 7671643229422430288
 Objects {
-  Id: 12963858811810142280
+  Id: 16746763457419962470
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9271778509460075241
+  Id: 17757833665084919243
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -86,7 +86,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -139,7 +139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4916019244224433674
+  Id: 8206183403784774961
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11670541828588673835
+  Id: 18240791414972464592
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -217,7 +217,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -255,7 +255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13903726575721591277
+  Id: 9261297598094867053
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -264,7 +264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -302,7 +302,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2944715416861793454
+  Id: 12814263503059090602
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -311,7 +311,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17633260576026982011
+  ParentId: 7671643229422430288
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {

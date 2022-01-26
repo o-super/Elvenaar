@@ -1,7 +1,7 @@
 Name: "NPCSpawns"
-RootId: 13593413489443493607
+RootId: 3634453801114750263
 Objects {
-  Id: 14460424039580444235
+  Id: 6084919644283660153
   Name: "DefenderNPCSpawn"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13593413489443493607
+  ParentId: 3634453801114750263
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -61,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 366818694363064802
+  Id: 11485022097667295169
   Name: "DefenderNPCSpawn"
   Transform {
     Location {
@@ -77,7 +77,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13593413489443493607
+  ParentId: 3634453801114750263
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7088079121168636510
+  Id: 9270987712794757245
   Name: "DefenderNPCSpawn"
   Transform {
     Location {
@@ -136,7 +136,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13593413489443493607
+  ParentId: 3634453801114750263
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -180,7 +180,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8218058485569183564
+  Id: 2367882194907446288
   Name: "2Frogs-NPCSpawner"
   Transform {
     Scale {
@@ -189,7 +189,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13593413489443493607
+  ParentId: 3634453801114750263
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -227,7 +227,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12980200875216120394
+  Id: 13640198105295064122
   Name: "2Frogs-NPCSpawner"
   Transform {
     Scale {
@@ -236,7 +236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13593413489443493607
+  ParentId: 3634453801114750263
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
