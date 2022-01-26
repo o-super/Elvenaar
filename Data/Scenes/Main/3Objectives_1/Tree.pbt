@@ -1,6 +1,236 @@
 Name: "3Objectives_1"
 RootId: 7076652421083094465
 Objects {
+  Id: 3958469246718972576
+  Name: "Volcano 02"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7076652421083094465
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14774800304667114944
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Volcano 02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1269
+            Y: 8101
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 123.000008
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1515966021430388647
+    }
+  }
+}
+Objects {
+  Id: 11778262342624912527
+  Name: "J2-ICE(LIT)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7076652421083094465
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4833592173615356551
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18373897150747192343
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.7
+            G: 1
+            B: 0.982119322
+            A: 0.728000045
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -68.6259766
+            Yaw: 98.0367
+            Roll: -57.3392944
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7708173177287256097
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18373897150747192343
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.7
+            G: 1
+            B: 0.982119322
+            A: 0.728000045
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -37.7817307
+            Y: -19.497467
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -84.999115
+            Yaw: 44.9994583
+            Roll: -4.99853516
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9057486157179137567
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18373897150747192343
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.7
+            G: 1
+            B: 0.982119322
+            A: 0.728000045
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 40
+            Y: 30
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -74.9990234
+            Yaw: -134.999329
+            Roll: 175.001312
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9255008651952088444
+      value {
+        Overrides {
+          Name: "Name"
+          String: "J2-ICE(LIT)"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2629
+            Y: -6434
+            Z: 1509
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 20
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -32.0000191
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11798159629981298877
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 18373897150747192343
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.7
+            G: 1
+            B: 0.982119322
+            A: 0.728000045
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2.42642975
+            Y: 15.8578186
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -84.9988708
+            Yaw: -134.999176
+            Roll: 175.000412
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17207779017110446305
+    }
+  }
+}
+Objects {
   Id: 3423714683500633341
   Name: "Castle Gatehouse"
   Transform {
