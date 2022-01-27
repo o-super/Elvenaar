@@ -15,13 +15,9 @@ Assets {
             Z: 2
           }
         }
-        ParentId: 14476493040834258042
+        ParentId: 6913681982721784135
         ChildIds: 5318857036002152307
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:CurrentHealth"
-            Int: 1000
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -69,6 +65,12 @@ Assets {
           Overrides {
             Name: "cs:MaxHealth"
             Int: 1000
+          }
+          Overrides {
+            Name: "cs:Color"
+            Color {
+              A: 1
+            }
           }
         }
         WantsNetworking: true

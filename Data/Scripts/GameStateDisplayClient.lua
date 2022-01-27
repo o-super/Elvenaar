@@ -46,6 +46,10 @@ function UpdateTimeRemaining(remainingTime)
     end
 end
 
+function UpdateObjectives()
+    
+end
+
 -- nil Tick(float)
 -- Displays time for round state
 function Tick(deltaTime)

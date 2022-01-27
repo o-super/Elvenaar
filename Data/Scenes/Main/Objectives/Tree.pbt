@@ -115,6 +115,14 @@ Objects {
             Z: 2
           }
         }
+        Overrides {
+          Name: "cs:Color"
+          Color {
+            R: 0.00847663824
+            G: 0.64
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -127,6 +135,14 @@ Objects {
         Overrides {
           Name: "Damageable.StartingHitPoints"
           Float: 1000
+        }
+        Overrides {
+          Name: "cs:Color"
+          Color {
+            R: 0.00847663824
+            G: 0.64
+            A: 1
+          }
         }
       }
     }
@@ -158,7 +174,7 @@ Objects {
       Name: "bp:Color"
       Color {
         R: 0.690000057
-        G: 3.29017666e-07
+        G: 3.70144875e-07
         A: 1
       }
     }
@@ -241,6 +257,27 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:Color"
+          Color {
+            R: 0.690000057
+            G: 3.70144875e-07
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5318857036002152307
+      value {
+        Overrides {
+          Name: "cs:Color"
+          Color {
+            R: 0.690000057
+            G: 3.70144875e-07
+            A: 1
           }
         }
       }
@@ -356,6 +393,19 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5318857036002152307
+      value {
+        Overrides {
+          Name: "cs:Color"
+          Color {
+            R: 0.00980173144
+            B: 0.74
+            A: 1
           }
         }
       }

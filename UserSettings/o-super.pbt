@@ -15,6 +15,14 @@ DebuggerSettings {
       LineNumber: 221
     }
   }
+  ScriptSettings {
+    Script {
+      Id: 15625583770552449526
+    }
+    Breakpoints {
+      LineNumber: 6
+    }
+  }
 }
 ObjectSettings {
   ObjectStates {
@@ -39,6 +47,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 15164450347361904
+    value {
+    }
+  }
+  ObjectStates {
+    key: 17033646777794057
     value {
     }
   }
@@ -394,6 +407,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 366818694363064802
+    value {
+    }
+  }
+  ObjectStates {
+    key: 367977172064892888
     value {
     }
   }
@@ -3799,6 +3817,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 3269654650472733237
+    value {
+    }
+  }
+  ObjectStates {
     key: 3270324618017620505
     value {
     }
@@ -5015,6 +5038,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 4296781293979132096
+    value {
+    }
+  }
+  ObjectStates {
+    key: 4318891961452383035
     value {
     }
   }
@@ -7210,6 +7238,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 6121533671586198896
+    value {
+    }
+  }
+  ObjectStates {
+    key: 6123335408600357470
     value {
     }
   }
@@ -10701,6 +10734,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 9208896958794839246
+    value {
+    }
+  }
+  ObjectStates {
     key: 9209944942441680787
     value {
     }
@@ -10937,6 +10975,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 9457012898127845586
+    value {
+    }
+  }
+  ObjectStates {
+    key: 9461534662015270377
     value {
     }
   }
@@ -18122,6 +18165,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 15652122465326061530
+    value {
+    }
+  }
+  ObjectStates {
     key: 15664830394532890752
     value {
     }
@@ -19743,6 +19791,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 17166908466024941167
+    value {
+    }
+  }
+  ObjectStates {
+    key: 17174700679447822215
     value {
     }
   }
