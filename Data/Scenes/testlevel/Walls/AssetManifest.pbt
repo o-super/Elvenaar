@@ -8,11 +8,11 @@ Assets {
   }
 }
 Assets {
-  Id: 6854294233855189574
-  Name: "Snow 01"
+  Id: 1575688278848300752
+  Name: "Bricks Wall Flat 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_snow_001_uv"
+    AssetId: "mi_brick_wall_flat_001"
   }
 }

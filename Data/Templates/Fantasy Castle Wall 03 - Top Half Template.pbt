@@ -1,13 +1,13 @@
 Assets {
-  Id: 4368104328332809321
-  Name: "Fantasy Castle Wall 02 - Top Half Template"
+  Id: 5578355925958621246
+  Name: "Fantasy Castle Wall 03 - Top Half Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 18433720491342928471
+      RootId: 15957498545926800049
       Objects {
-        Id: 18433720491342928471
-        Name: "Fantasy Castle Wall 02 - Top Half Template"
+        Id: 15957498545926800049
+        Name: "Fantasy Castle Wall 03 - Top Half Template"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,9 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9322263425826710826
-        ChildIds: 13556876125212513896
-        ChildIds: 6018814514274282910
+        ChildIds: 5876283653285225959
+        ChildIds: 3918535101894114858
+        ChildIds: 6678128058623696386
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,8 +36,8 @@ Assets {
         }
       }
       Objects {
-        Id: 9322263425826710826
-        Name: "Fantasy Castle Wall 02 Half"
+        Id: 5876283653285225959
+        Name: "Fantasy Castle Wall 03 Half"
         Transform {
           Location {
           }
@@ -49,7 +49,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18433720491342928471
+        ParentId: 15957498545926800049
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -61,7 +61,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13689626934332135285
+            Id: 2452465297983906772
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -79,7 +79,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13556876125212513896
+        Id: 3918535101894114858
         Name: "Fantasy Castle Trim - Battlement 01 4m"
         Transform {
           Location {
@@ -93,7 +93,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18433720491342928471
+        ParentId: 15957498545926800049
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -123,7 +123,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6018814514274282910
+        Id: 6678128058623696386
         Name: "Fantasy Castle Trim - Parapet 01 4m"
         Transform {
           Location {
@@ -137,7 +137,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18433720491342928471
+        ParentId: 15957498545926800049
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -168,12 +168,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13689626934332135285
-      Name: "Fantasy Castle Wall 02 Half"
+      Id: 2452465297983906772
+      Name: "Fantasy Castle Wall 03 Half"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_ts_fan_cas_wall_half_002"
+        AssetId: "sm_ts_fan_cas_wall_half_003"
       }
     }
     Assets {
@@ -196,7 +196,7 @@ Assets {
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Fantasy_Castle_Wall_02_-_Top_Half_Template"
+      AssetId: "Fantasy_Castle_Wall_03_-_Top_Half_Template"
     }
   }
   SerializationVersion: 104
