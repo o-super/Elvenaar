@@ -5,6 +5,8 @@
 -- Constants
 local TEAM_DEFEND = 1
 local TEAM_ATTACK = 2
+local TEAM_DEF_EQUIPMENT = "Hat-Blue"
+local TEAM_ATT_EQUIPMENT = "Hat-Red"
 
 -- Custom 
 local ABGS = require(script:GetCustomProperty("API"))
@@ -24,7 +26,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -205,52 +207,68 @@ function havePlayersATeam()
     return true
 end
 
+function arePlayersEquipped()
+    for _, player in pairs(Game.GetPlayers()) do
+        if (#player:GetEquipment() < 2) then
+            return false
+        end
+    end
+    return true
+end
+
+function checkStartGame()
+    local playerCount = #Game.GetPlayers()
+    -- if minimum players are present
+    if playerCount >= MinimumPlayers then
+        -- if all players present have a team
+        if havePlayersATeam() == true and arePlayersEquipped() == true then
+            if CountDownActive == false then
+                ABGS.SetTimeRemainingInState(RoundStartCoutdown)
+                CountDownActive = true
+                SetGoalMessage("Starting Game. Prepare to fight!")
+            end
+        else
+            SetGoalMessage("All players must have selected a team and equipment.")
+        end
+    else
+        -- Reset to lobby is a player leaves during countdown
+        if CountDownActive == true then
+            ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+            CountDownActive = false
+            SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
+        end
+    end
+end
+
+function checkEndGame()
+    if LastWaveFinishedSpawning == true then
+        -- if all attacking npcs are dead then end (defender wins)
+        local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
+        if #npcs == 0 then
+            SetGoalMessage("Defenders win!")
+            ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+        end
+    end
+    -- if all objectives are destroyed then end (attacker wins)
+    local objectives = World.FindObjectsByName("Relic")
+    if #objectives == 0 then
+        SetGoalMessage("Attackers win!")
+        ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+    end
+    -- If all players have left then end
+    if #Game.GetPlayers() == 0 then
+        ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+    end
+end
+
 function Tick(DeltaTime)
     if ABGS.IsGameStateManagerRegistered() then
         if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
-            -- The condition for starting a round
-            local playerCount = #Game.GetPlayers()
-            -- if minimum players are present
-            if playerCount >= MinimumPlayers then
-                -- if all players present have a team
-                if havePlayersATeam() == true then
-                    if CountDownActive == false then
-                        ABGS.SetTimeRemainingInState(RoundStartCoutdown)
-                        CountDownActive = true
-                        SetGoalMessage("Starting Game. Prepare to fight!")
-                    end
-                else
-                    SetGoalMessage("All players must have selected a team.")
-                end
-            else
-                -- Reset to lobby is a player leaves during countdown
-                if CountDownActive == true then
-                    ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
-                    CountDownActive = false
-                    SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
-                end
-            end
-        end
-        -- Check for end of game
-        if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
-            if LastWaveFinishedSpawning == true then
-                -- if all attacking npcs are dead then end (defender wins)
-                local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
-                if #npcs == 0 then
-                    SetGoalMessage("Defenders win!")
-                    ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-                end
-            end
-            -- if all objectives are destroyed then end (attacker wins)
-            local objectives = World.FindObjectsByName("Relic")
-            if #objectives == 0 then
-                SetGoalMessage("Attackers win!")
-                ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-            end
-            -- If all players have left then end
-            if #Game.GetPlayers() == 0 then
-                ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
-            end
+            -- Check for conditions and start the game
+            checkStartGame()
+        elseif ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+            -- Check for conditions and end of game
+            checkEndGame()
         end
     end
 end

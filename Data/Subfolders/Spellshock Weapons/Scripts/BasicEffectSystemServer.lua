@@ -123,6 +123,9 @@ function UpdatePlayerEffects(player)
 end
 
 function ApplyPlayerEffect(player, effectName, effectTable)
+    -- Ignore if not a player
+    if (player:IsA("Player") == false) then return end
+
     -- If there is already the effect with the same name then ignore
     for _, effect in ipairs(player.serverUserData.effects) do
         if effect.name == effectName then
