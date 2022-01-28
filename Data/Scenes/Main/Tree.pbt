@@ -19,7 +19,6 @@ Objects {
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
-  ChildIds: 13706071489619567371
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,51 +34,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 13706071489619567371
-  Name: "2Frogs- RPG Skeleton - Unarmed"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4762331870605572381
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs- RPG Skeleton - Unarmed"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "cs:ChaseRadius"
-          Float: 80000
-        }
-        Overrides {
-          Name: "cs:MaxChaseDistance"
-          Int: 250000
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9262416444177668205
-    }
   }
 }
 Objects {
