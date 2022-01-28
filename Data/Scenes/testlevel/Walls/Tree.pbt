@@ -1,73 +1,6 @@
 Name: "Walls"
 RootId: 7143258691701530809
 Objects {
-  Id: 10974193059252765215
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: -150
-      Y: -1350
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2
-      Y: 6
-      Z: 6
-    }
-  }
-  ParentId: 7143258691701530809
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.539999962
-        G: 0.616158664
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1575688278848300752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 11171406345374164957
   Name: "Building/Obstacle"
   Transform {
@@ -542,14 +475,14 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 3250
+      X: 3600
       Y: -7200
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 47
+      X: 40
       Y: 15
       Z: 6
     }
@@ -751,7 +684,7 @@ Objects {
     }
     Scale {
       X: 13
-      Y: 2
+      Y: 3
       Z: 6
     }
   }
@@ -878,14 +811,14 @@ Objects {
   Transform {
     Location {
       X: 1800
-      Y: -4900
+      Y: -4750
       Z: 300
     }
     Rotation {
     }
     Scale {
       X: 5
-      Y: 15
+      Y: 12
       Z: 6
     }
   }
@@ -1613,14 +1546,14 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: -2200
+      X: -2150
       Y: -2350
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 2
+      X: 3
       Y: 5
       Z: 6
     }

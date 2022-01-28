@@ -66,7 +66,7 @@ Objects {
   Transform {
     Location {
       X: 24700
-      Y: -2000
+      Y: -2450
     }
     Rotation {
     }
@@ -125,8 +125,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 23750
-      Y: -1500
+      X: 23800
+      Y: -1300
     }
     Rotation {
     }

@@ -5,9 +5,9 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: 2700
-      Y: 1100
-      Z: 279
+      X: 2650
+      Y: 1250
+      Z: 750
     }
     Rotation {
     }
@@ -74,9 +74,9 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: -1650
+      X: -1700
       Y: -300
-      Z: 271
+      Z: 750
     }
     Rotation {
     }
@@ -143,9 +143,9 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: 2550
-      Y: -5200
-      Z: 288
+      X: 2500
+      Y: -5000
+      Z: 750
     }
     Rotation {
     }
@@ -4017,11 +4017,11 @@ Objects {
   Name: "2Frogs-StoneAngel"
   Transform {
     Location {
-      X: 2600
-      Y: -5200
+      X: 2450
+      Y: -4950
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 0.6
