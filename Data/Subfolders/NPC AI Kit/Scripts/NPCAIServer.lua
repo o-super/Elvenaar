@@ -836,9 +836,13 @@ function OnObjectDamaged(id, prevHealth, dmgAmount, impactPosition, impactRotati
 	then
 		local objectives = NPC_OBJECTIVE_MANAGER().GetObjectives(myTeam)
 		local isObjective = NPC_OBJECTIVE_MANAGER().IsRegistered(target)
-		-- If the actual target is an objective then change target to the attacking player
-		if isObjective == true then
-			SetTarget(sourceObject)
+		local myId = ROOT:GetCustomProperty("ObjectId")
+		-- Execute only on the attacked NPC
+		if myId == id then
+			-- If the actual target is an objective then change target to the attacking player
+			if isObjective == true then
+				SetTarget(sourceObject)
+			end
 		end
 		return
 	end
