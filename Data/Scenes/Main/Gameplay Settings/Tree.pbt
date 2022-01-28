@@ -627,7 +627,6 @@ Objects {
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
-      IsMountEnabled: true
       MaxHitpoints: 100
       PlayerMasterVolumeMultiplier: 1
     }
