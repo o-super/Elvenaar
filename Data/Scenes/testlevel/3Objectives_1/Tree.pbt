@@ -5,7 +5,7 @@ Objects {
   Name: "Banner"
   Transform {
     Location {
-      X: 27400
+      X: 16900
       Y: -200
     }
     Rotation {

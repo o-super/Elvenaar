@@ -5,11 +5,11 @@ Objects {
   Name: "Merchant Shop"
   Transform {
     Location {
-      X: 23950
-      Y: -2450
+      X: 25700
+      Y: -2100
     }
     Rotation {
-      Yaw: 90
+      Yaw: 180
     }
     Scale {
       X: 0.191278398
@@ -20195,7 +20195,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 24600
+            X: 24350
             Y: -2100
           }
         }
