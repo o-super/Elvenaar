@@ -135,7 +135,7 @@ Objects {
         }
         Overrides {
           Name: "Damageable.StartingHitPoints"
-          Float: 10
+          Float: 1000
         }
         Overrides {
           Name: "cs:Color"
