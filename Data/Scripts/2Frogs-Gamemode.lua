@@ -85,6 +85,7 @@ function RemoveEquipment(player)
             if Object.IsValid(equipment) then
                 equipment:Destroy()
             end
+            player.animationStance = "unarmed_stance"
         end        
     end
 end
@@ -242,17 +243,20 @@ function checkStartGame()
         -- if all players present have a team
         if havePlayersATeam() == true and arePlayersEquipped() == true then
             if CountDownActive == false then
-                ABGS.SetTimeRemainingInState(RoundStartCoutdown)
+                ABGS.SetTimeRemainingInState(RoundStartCoutdown)                
                 CountDownActive = true
                 SetGoalMessage("Starting Game. Prepare to fight!")
             end
         else
+            CountDownActive = false
+            ABGS.SetTimeRemainingInState(-1)
             SetGoalMessage("All players must have selected a team and equipment.")
         end
     else
         -- Reset to lobby is a player leaves during countdown
         if CountDownActive == true then
             ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+            ABGS.SetTimeRemainingInState(-1)
             CountDownActive = false
             SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
         end

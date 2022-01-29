@@ -133,12 +133,20 @@ function SetTimeRemainingInState(remainingTime)
 	local stateEndTime = time() + remainingTime
 	local currentState = GetGameState()
 
-	-- We broadcast the event because the time changed, even though we are still in the same state
-	Events.Broadcast("GameStateChanged", currentState, currentState, true, stateEndTime)
-	Events.BroadcastToAllPlayers("GameStateChanged", currentState, currentState, true, stateEndTime)
+	if remainingTime >= 0 then
+		-- We broadcast the event because the time changed, even though we are still in the same state
+		Events.Broadcast("GameStateChanged", currentState, currentState, true, stateEndTime)
+		Events.BroadcastToAllPlayers("GameStateChanged", currentState, currentState, true, stateEndTime)
 
-	script:SetNetworkedCustomProperty("StateHasDuration", true)
-	script:SetNetworkedCustomProperty("StateEndTime", stateEndTime)
+		script:SetNetworkedCustomProperty("StateHasDuration", true)
+		script:SetNetworkedCustomProperty("StateEndTime", stateEndTime)
+	else
+		Events.Broadcast("GameStateChanged", currentState, currentState, false, stateEndTime)
+		Events.BroadcastToAllPlayers("GameStateChanged", currentState, currentState, false, stateEndTime)
+
+		script:SetNetworkedCustomProperty("StateHasDuration", false)
+		script:SetNetworkedCustomProperty("StateEndTime", stateEndTime)
+	end
 end
 
 -- nil Tick(float)

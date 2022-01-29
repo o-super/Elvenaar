@@ -28,6 +28,7 @@ function RemoveEquipment(player)
                 if Object.IsValid(equipment) then
                     equipment:Destroy()
                 end
+                player.animationStance = "unarmed_stance"
             end
         end        
     end
