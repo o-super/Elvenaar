@@ -64,9 +64,9 @@ Objects {
   Name: "meteor"
   Transform {
     Location {
-      X: -3600
-      Y: -4300
-      Z: 300
+      X: -5700
+      Y: -3900
+      Z: 250
     }
     Rotation {
       Yaw: 51.1240883
@@ -123,9 +123,9 @@ Objects {
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
-      X: -3450
-      Y: -4300
-      Z: 500
+      X: -5600
+      Y: -3900
+      Z: 450
     }
     Rotation {
       Pitch: -0.753662109

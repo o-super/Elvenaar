@@ -300,8 +300,8 @@ Objects {
   Name: "Tree Redwood Big"
   Transform {
     Location {
-      X: 27250
-      Y: -3950
+      X: 27100
+      Y: -4000
     }
     Rotation {
     }

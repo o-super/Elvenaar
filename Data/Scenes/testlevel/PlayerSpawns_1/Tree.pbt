@@ -5,7 +5,7 @@ Objects {
   Name: "DefendSpawn"
   Transform {
     Location {
-      X: 5100
+      X: 8100
       Y: -2550
       Z: 100
     }
@@ -48,8 +48,8 @@ Objects {
   Name: "AttackSpawn"
   Transform {
     Location {
-      X: -3250
-      Y: -2950
+      X: -4950
+      Y: -2850
       Z: 100
     }
     Rotation {
