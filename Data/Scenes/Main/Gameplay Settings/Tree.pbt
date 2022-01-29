@@ -403,6 +403,48 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2546427881456684015
+      value {
+        Overrides {
+          Name: "cs:Objective"
+          ObjectReference {
+            SelfId: 495080666015600641
+            SubObjectId: 5318857036002152307
+            InstanceId: 1222972980876706165
+            TemplateId: 282887732358444069
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4114273155119945859
+      value {
+        Overrides {
+          Name: "cs:Objective"
+          ObjectReference {
+            SelfId: 16741395925872492826
+            SubObjectId: 5318857036002152307
+            InstanceId: 2608585193510208174
+            TemplateId: 282887732358444069
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10295574471683490048
+      value {
+        Overrides {
+          Name: "cs:Objective"
+          ObjectReference {
+            SelfId: 1967266749981698787
+            SubObjectId: 5318857036002152307
+            InstanceId: 10585259644716663524
+            TemplateId: 282887732358444069
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11397727575064778677
       value {
         Overrides {
