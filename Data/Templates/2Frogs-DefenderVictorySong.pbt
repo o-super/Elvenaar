@@ -1,13 +1,13 @@
 Assets {
-  Id: 5123646360223634946
-  Name: "2Frogs-ExplosionObjective"
+  Id: 6345880566631070868
+  Name: "2Frogs-DefenderVictorySong"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1004587423766002869
+      RootId: 1091917143831642577
       Objects {
-        Id: 1004587423766002869
-        Name: "2Frogs-ExplosionObjective"
+        Id: 1091917143831642577
+        Name: "2Frogs-DefenderVictorySong"
         Transform {
           Scale {
             X: 1
@@ -16,17 +16,16 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6245257280134460585
+        ChildIds: 9489500754280295576
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.610728502
-              B: 0.87
-              A: 1
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:emx_orchestral_adventourus_victory_fanfare_stinger_01:43"
             }
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -41,23 +40,23 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 10616134472715023449
+            Id: 13041250196608668140
           }
           TeamSettings {
           }
-          Vfx {
+          AudioBP {
             AutoPlay: true
+            Volume: 1
+            Falloff: 3600
+            Radius: 400
           }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 6245257280134460585
+        Id: 9489500754280295576
         Name: "2Frogs-DestroyWhenDone"
         Transform {
           Location {
@@ -70,15 +69,16 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1004587423766002869
+        ParentId: 1091917143831642577
         UnregisteredParameters {
           Overrides {
             Name: "cs:parent"
             ObjectReference {
-              SubObjectId: 1004587423766002869
+              SubObjectId: 1091917143831642577
             }
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -102,12 +102,12 @@ Assets {
       }
     }
     Assets {
-      Id: 10616134472715023449
-      Name: "Basic Explosion VFX"
-      PlatformAssetType: 8
+      Id: 13041250196608668140
+      Name: "Orchestral Adventurous Victory Fanfare Music Stinger Set 01"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_explosion"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "abp_stinger_orchestral_adventourus_victory_fanfare_01_ref"
       }
     }
     PrimaryAssetId {

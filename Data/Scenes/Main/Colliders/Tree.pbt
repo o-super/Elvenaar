@@ -77,7 +77,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -184,7 +184,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -291,7 +291,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -399,7 +399,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -506,7 +506,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -613,7 +613,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -720,7 +720,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -827,7 +827,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -934,7 +934,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1041,7 +1041,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1148,7 +1148,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1255,7 +1255,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1362,7 +1362,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1469,7 +1469,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1576,7 +1576,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1683,7 +1683,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1790,7 +1790,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -1897,7 +1897,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2004,7 +2004,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2111,7 +2111,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2218,7 +2218,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2325,7 +2325,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2432,7 +2432,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2539,7 +2539,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2646,7 +2646,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -2754,7 +2754,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {

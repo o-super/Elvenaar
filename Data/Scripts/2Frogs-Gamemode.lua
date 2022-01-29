@@ -16,6 +16,8 @@ local defendSpawns = World.FindObjectsByName("DefendSpawn")
 local npcSpawners = World.FindObjectsByName("2Frogs-NPCSpawner")
 local iceTeleportVfx = script:GetCustomProperty("IceTeleportVFX")
 local fireTeleportVfx = script:GetCustomProperty("FireTeleportVFX")
+local defenderSong = script:GetCustomProperty("DefenderHymne")
+local attackerSong = script:GetCustomProperty("AttackerHymne")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -28,7 +30,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -262,6 +264,7 @@ function checkEndGame()
         -- if all attacking npcs are dead then end (defender wins)
         local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
         if #npcs == 0 then
+            World.SpawnAsset(defenderSong)
             SetGoalMessage("Defenders win!")
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
@@ -269,6 +272,7 @@ function checkEndGame()
     -- if all objectives are destroyed then end (attacker wins)
     local objectives = World.FindObjectsByName("Relic")
     if #objectives == 0 then
+        World.SpawnAsset(attackerSong)
         SetGoalMessage("Attackers win!")
         ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
     end
