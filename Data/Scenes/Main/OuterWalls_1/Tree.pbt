@@ -8033,7 +8033,7 @@ Objects {
   Transform {
     Location {
       X: -5300
-      Y: -2300
+      Y: -2305
       Z: 500
     }
     Rotation {
@@ -13396,8 +13396,8 @@ Objects {
   Name: "Fantasy Castle Pillar 01 Base"
   Transform {
     Location {
-      X: 450
-      Y: 450
+      X: 450.000336
+      Y: 457.142883
     }
     Rotation {
       Yaw: -90
