@@ -234,12 +234,12 @@ Objects {
   Name: "2Frogs-Lobby"
   Transform {
     Location {
-      X: 3267.05054
-      Y: -4470.36426
-      Z: 2500
+      X: -2269
+      Y: -5058.66113
+      Z: 552
     }
     Rotation {
-      Yaw: -118
+      Yaw: 113.206886
     }
     Scale {
       X: 1
