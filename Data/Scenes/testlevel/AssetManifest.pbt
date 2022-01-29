@@ -1,4 +1,13 @@
 Assets {
+  Id: 17302403984128814398
+  Name: "Techno Abstract Failure Defeat Music Stinger 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_stinger_techno_abstract_defeat_01_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -44,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8942368342937108878
+  Name: "Evil Failure Low Brass Music Loop/Stinger Kit 01 "
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_Evil_Failure_Low_Horn_stinger_kit_01_ref"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -62,12 +80,30 @@ Assets {
   }
 }
 Assets {
+  Id: 5010257263114209984
+  Name: "Orchestral Victory Achievement Music Stinger Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_stinger_orchestral_victory_achievement_01_ref"
+  }
+}
+Assets {
   Id: 3593597783924766211
   Name: "Cone - Bullet"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bullet_001"
+  }
+}
+Assets {
+  Id: 3249391595042498126
+  Name: "Orchestral Adventurous Victory Fanfare Music Stinger Set 01"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_stinger_orchestral_adventourus_victory_fanfare_01_ref"
   }
 }
 Assets {
@@ -113,14 +149,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_capsule_001"
-  }
-}
-Assets {
-  Id: 265308748168784902
-  Name: "\"Heroic Fantasy Battle\" Music Construction Kit (Sections) 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_heroic_fantasy_battle_sections_kit_ref"
   }
 }
