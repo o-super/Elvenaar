@@ -23,6 +23,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:BasicGameState"
+        AssetReference {
+          Id: 11974742996071064388
+        }
+      }
+      Overrides {
         Name: "cs:CombatWrapPlayer:tooltip"
         String: "A wrapper for combat-related functions and properties on Players. The wrappers provide common interface between different entity types."
       }

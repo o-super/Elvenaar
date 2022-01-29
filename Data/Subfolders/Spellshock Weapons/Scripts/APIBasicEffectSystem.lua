@@ -1,3 +1,4 @@
+local ABGS = require(script:GetCustomProperty("BasicGameState"))
 local API = {}
 
 function API.RegisterEffectsManagerServer(effectFunctions)
@@ -20,6 +21,13 @@ function API.ApplyEffect(player, effectName, effectTable)
 		warn("Cannot apply effect with no effect manager registered")
 		return nil
 	end
+	
+	-- We prevent any damage to be done during lobby
+    if ABGS.IsGameStateManagerRegistered() then
+        if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+            return
+        end
+    end
 
 	return _G.APIBasicEffectSystem.effectApply(player, effectName, effectTable)
 end

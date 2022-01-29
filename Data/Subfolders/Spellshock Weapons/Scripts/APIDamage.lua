@@ -1,9 +1,16 @@
+local ABGS = require(script:GetCustomProperty("BasicGameState"))
 local API = {}
 
 API.damagedPlayersEffect = {}
 
 -- Creates a customized damage effect and information
 function API.ApplyDamage(amount, ability, targetPlayer, sourcePlayer)
+    -- We prevent any damage to be done during lobby
+    if ABGS.IsGameStateManagerRegistered() then
+        if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+            return
+        end
+    end
 
     -- Return if the targetPlayer is dead
     if targetPlayer.isDead or targetPlayer:IsA("Player") == false then
@@ -82,6 +89,12 @@ end
 
 -- Apply damage without UI flyup
 function API.ApplyEffectDamage(amount, ability, targetPlayer, sourcePlayer)
+    -- We prevent any damage to be done during lobby
+    if ABGS.IsGameStateManagerRegistered() then
+        if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+            return
+        end
+    end
 
     -- Return if the targetPlayer is dead
     if targetPlayer.isDead then

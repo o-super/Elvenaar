@@ -50,7 +50,7 @@ function MeleeAttack(other)
 			damage = dmg,
 			source = dmg.sourcePlayer,
 			position = other:GetWorldPosition(),
-			rotation = other:GetTransform():GetRotation(),
+			rotation = other:GetWorldRotation(),
 			tags = "Melee"
 		}
         COMBAT().ApplyDamage(attackData)

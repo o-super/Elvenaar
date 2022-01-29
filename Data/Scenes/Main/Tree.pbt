@@ -19,6 +19,8 @@ Objects {
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
+  ChildIds: 11339577418296480189
+  ChildIds: 2458214089493988790
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +36,77 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2458214089493988790
+  Name: "2Frogs-IceCrossbow_backup"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13344671792377651530
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceCrossbow_backup"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9716446713137121581
+    }
+  }
+}
+Objects {
+  Id: 11339577418296480189
+  Name: "2Frogs-IceCrossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7303143731003519277
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-IceCrossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 450
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11982211491340339055
+    }
   }
 }
 Objects {
@@ -165,6 +238,17 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 10775483016874877463
+      value {
+        Overrides {
+          Name: "cs:IceSet"
+          AssetReference {
+            Id: 11982211491340339055
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 12118949245543576678
       value {

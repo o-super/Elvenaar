@@ -27,7 +27,7 @@ local DAMAGE_HEADSHOT = WEAPON:GetCustomProperty("HeadshotDamage")
 
 local function OnWeaponInteraction(weaponInteraction)
     local target = weaponInteraction.targetObject
-
+    print("SUS!")
     -- Apply damage to target if it's a player
     if Object.IsValid(target) and target:IsA("Player") then
 
