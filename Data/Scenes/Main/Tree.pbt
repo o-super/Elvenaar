@@ -19,8 +19,6 @@ Objects {
   ChildIds: 14119872795076188527
   ChildIds: 14476493040834258042
   ChildIds: 18081526635364122419
-  ChildIds: 11339577418296480189
-  ChildIds: 2458214089493988790
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,77 +34,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2458214089493988790
-  Name: "2Frogs-IceCrossbow_backup"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13344671792377651530
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-IceCrossbow_backup"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9716446713137121581
-    }
-  }
-}
-Objects {
-  Id: 11339577418296480189
-  Name: "2Frogs-IceCrossbow"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7303143731003519277
-      value {
-        Overrides {
-          Name: "Name"
-          String: "2Frogs-IceCrossbow"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 450
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11982211491340339055
-    }
   }
 }
 Objects {
@@ -239,12 +166,72 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2567388582665495336
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 2000
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9565718452257214604
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.00048828125
+            Y: -999.991089
+            Z: 987
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Roll: 90.0000076
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10775483016874877463
       value {
         Overrides {
           Name: "cs:IceSet"
           AssetReference {
             Id: 11982211491340339055
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11968486244284051679
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.000122070312
+            Y: 999.999756
+            Z: 987
           }
         }
       }
@@ -268,6 +255,48 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -118
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12300935890694687615
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -999.999756
+            Y: -0.000122070312
+            Z: 987
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12364708450116970102
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 999.993408
+            Y: 0.00402832031
+            Z: 987
           }
         }
       }
