@@ -143,7 +143,7 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: 2500
+      X: 3000
       Y: -5000
       Z: 750
     }
@@ -4017,7 +4017,7 @@ Objects {
   Name: "2Frogs-StoneAngel"
   Transform {
     Location {
-      X: 2450
+      X: 2950
       Y: -4950
     }
     Rotation {

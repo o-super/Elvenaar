@@ -68,141 +68,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1532622693777294959
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 4876.59766
-      Y: -3324.10913
-      Z: 299
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
-    Scale {
-      X: 7.1
-      Y: 3.5
-      Z: 6
-    }
-  }
-  ParentId: 7143258691701530809
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1575688278848300752
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.539999962
-        G: 0.616158664
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 89493821426444893
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 650
-      Y: -3750
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5
-      Y: 5
-      Z: 6
-    }
-  }
-  ParentId: 7143258691701530809
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.539999962
-        G: 0.616158664
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1575688278848300752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 13602878787291200956
   Name: "Building/Obstacle"
   Transform {
@@ -341,14 +206,14 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 1200
+      X: 1150
       Y: -2350
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 15
+      X: 16
       Y: 10
       Z: 6
     }
@@ -471,85 +336,18 @@ Objects {
   }
 }
 Objects {
-  Id: 16887604738399945349
-  Name: "Building/Obstacle"
-  Transform {
-    Location {
-      X: 3600
-      Y: -7200
-      Z: 300
-    }
-    Rotation {
-    }
-    Scale {
-      X: 40
-      Y: 15
-      Z: 6
-    }
-  }
-  ParentId: 7143258691701530809
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.539999962
-        G: 0.616158664
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1575688278848300752
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 12662285426587858019
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 3050
+      X: 3150
       Y: -4400
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 20
+      X: 12
       Y: 5
       Z: 6
     }
@@ -609,7 +407,7 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 5000
+      X: 4650
       Y: -4700
       Z: 300
     }
@@ -677,7 +475,7 @@ Objects {
   Transform {
     Location {
       X: -2950
-      Y: -1600
+      Y: -1650
       Z: 300
     }
     Rotation {
@@ -743,14 +541,14 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: -1300
+      X: -1200
       Y: -2950
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 20
+      X: 14
       Y: 7
       Z: 6
     }
@@ -810,7 +608,7 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 1800
+      X: 2300
       Y: -4750
       Z: 300
     }
@@ -877,15 +675,15 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: -1350
-      Y: -5950
+      X: -1600
+      Y: -5250
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 45
-      Y: 40
+      X: 40
+      Y: 25
       Z: 6
     }
   }
@@ -944,7 +742,7 @@ Objects {
   Name: "Building/Obstacle"
   Transform {
     Location {
-      X: 3750
+      X: 3900
       Y: -3200
       Z: 300
     }
@@ -1012,13 +810,14 @@ Objects {
   Transform {
     Location {
       X: -900
+      Y: 50
       Z: 300
     }
     Rotation {
     }
     Scale {
       X: 5
-      Y: 15
+      Y: 14
       Z: 6
     }
   }
@@ -1078,7 +877,7 @@ Objects {
   Transform {
     Location {
       X: -1550
-      Y: -900
+      Y: -800
       Z: 300
     }
     Rotation {
@@ -1547,14 +1346,14 @@ Objects {
   Transform {
     Location {
       X: -2150
-      Y: -2350
+      Y: -2850
       Z: 300
     }
     Rotation {
     }
     Scale {
-      X: 3
-      Y: 5
+      X: 5
+      Y: 9
       Z: 6
     }
   }

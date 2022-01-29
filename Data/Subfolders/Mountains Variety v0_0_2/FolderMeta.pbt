@@ -1,0 +1,75 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "55fd56d8487246238731de119e2813d5"
+  OwnerAccountId: "f2d3850042fe49fa9510a8e778f273ee"
+  OwnerName: "Nattoroki"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 539351431928385570
+  value: 7930616982413399934
+}
+AssetIdsOriginalToNew {
+  key: 4831118396326374286
+  value: 15240879770740601727
+}
+AssetIdsOriginalToNew {
+  key: 7240176194330826333
+  value: 13264926554814170818
+}
+AssetIdsOriginalToNew {
+  key: 9845053760704002971
+  value: 4373464513846142888
+}
+AssetIdsOriginalToNew {
+  key: 10344449124033801392
+  value: 9276372571506793760
+}
+AssetIdsOriginalToNew {
+  key: 11427038330224369368
+  value: 18257456233391314510
+}
+AssetIdsOriginalToNew {
+  key: 11788453166115048509
+  value: 16593233736869986863
+}
+AssetIdsOriginalToNew {
+  key: 11897556379510606518
+  value: 4377792942590557014
+}
+AssetIdsOriginalToNew {
+  key: 12460652228620485657
+  value: 4513062075139417234
+}
+AssetIdsOriginalToNew {
+  key: 13325758537280765088
+  value: 9727184794028818842
+}
+AssetIdsOriginalToNew {
+  key: 14292952474333979158
+  value: 10931345139190416510
+}
+AssetIdsOriginalToNew {
+  key: 14313491713929733401
+  value: 4050692944096757542
+}
+AssetIdsOriginalToNew {
+  key: 15533023757389877987
+  value: 272157336619918512
+}
+AssetIdsOriginalToNew {
+  key: 16052293368552272176
+  value: 6007476251751618285
+}
+AssetIdsOriginalToNew {
+  key: 17156146811683377026
+  value: 6343520181228043052
+}
+AssetIdsOriginalToNew {
+  key: 17244937100641071867
+  value: 18093457265739791992
+}
+AssetIdsOriginalToNew {
+  key: 17958857153052672870
+  value: 8487198365292459850
+}

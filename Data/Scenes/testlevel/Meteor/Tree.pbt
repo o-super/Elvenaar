@@ -1,6 +1,453 @@
 Name: "Meteor"
 RootId: 2971781852159391206
 Objects {
+  Id: 13588740122921903044
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -4250
+      Y: -8600
+      Z: 850
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3445690017738440980
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -4300
+      Y: -8450
+      Z: 250
+    }
+    Rotation {
+      Yaw: 51.1241684
+    }
+    Scale {
+      X: 6
+      Y: 4
+      Z: 7
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11952512103554352383
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -5600
+      Y: -8600
+      Z: 1250
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 6
+      Y: 7
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7634358653443365277
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -5650
+      Y: -8800
+      Z: 350
+    }
+    Rotation {
+      Yaw: 51.1241684
+    }
+    Scale {
+      X: 6
+      Y: 6
+      Z: 8
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16257430046824425496
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -5150
+      Y: -7850
+      Z: 850
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5013864548317892980
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -5200
+      Y: -7750
+      Z: 250
+    }
+    Rotation {
+      Yaw: 51.1241302
+    }
+    Scale {
+      X: 5
+      Y: 4
+      Z: 6
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 12318570850170880743
   Name: "meteor"
   Transform {
@@ -64,8 +511,8 @@ Objects {
   Name: "meteor"
   Transform {
     Location {
-      X: -5700
-      Y: -3900
+      X: -5550
+      Y: -4250
       Z: 250
     }
     Rotation {
@@ -123,8 +570,8 @@ Objects {
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
-      X: -5600
-      Y: -3900
+      X: -5450
+      Y: -4250
       Z: 450
     }
     Rotation {
