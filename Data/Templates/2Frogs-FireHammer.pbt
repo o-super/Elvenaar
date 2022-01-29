@@ -863,7 +863,7 @@ Assets {
           Overrides {
             Name: "cs:SwipeEffect"
             AssetReference {
-              Id: 17071846797010275400
+              Id: 2155803251052322292
             }
           }
           Overrides {
@@ -950,7 +950,7 @@ Assets {
           Overrides {
             Name: "cs:BlastImpactTemplate"
             AssetReference {
-              Id: 4954756412742548462
+              Id: 15868741217716415015
             }
           }
           Overrides {

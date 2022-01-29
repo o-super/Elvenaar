@@ -863,7 +863,7 @@ Assets {
           Overrides {
             Name: "cs:SwipeEffect"
             AssetReference {
-              Id: 17071846797010275400
+              Id: 16434021786816794248
             }
           }
           Overrides {
@@ -950,7 +950,7 @@ Assets {
           Overrides {
             Name: "cs:BlastImpactTemplate"
             AssetReference {
-              Id: 4954756412742548462
+              Id: 11865788228993621761
             }
           }
           Overrides {
@@ -1443,6 +1443,15 @@ Assets {
           Overrides {
             Name: "bp:Emissive Boost"
             Float: 7
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.329999983
+              G: 0.986688495
+              B: 1
+              A: 1
+            }
           }
         }
         Collidable_v2 {

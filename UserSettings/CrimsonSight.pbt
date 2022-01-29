@@ -137,6 +137,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 3427201114079425343
+    value {
+    }
+  }
+  ObjectStates {
     key: 3586723652955239486
     value {
     }
@@ -688,4 +693,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "testlevel"
