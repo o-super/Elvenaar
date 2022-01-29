@@ -151,6 +151,19 @@ function OnProjectileImpact(projectile, other, hitResult)
 	projectile:Destroy()
 end
 
+function findDamageableInParent(object)
+	local damageable = nil
+	local result = object.parent
+
+	while result ~= nil do
+		if result.IsA("Damageable") then
+			return result
+		else
+			result = object.parent
+		end
+	end
+	return result
+end
 
 function CleanupProjectileListener()
 	if projectileImpactListener then

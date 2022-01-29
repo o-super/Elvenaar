@@ -5,12 +5,12 @@ Objects {
   Name: "AttackSpawn"
   Transform {
     Location {
-      X: -3840
-      Y: -2950
+      X: -6054
+      Y: -2768
       Z: 100
     }
     Rotation {
-      Yaw: 23
+      Yaw: 3
     }
     Scale {
       X: 1
@@ -48,8 +48,8 @@ Objects {
   Name: "DefendSpawn"
   Transform {
     Location {
-      X: 4327
-      Y: -2605
+      X: 7261
+      Y: -2802
       Z: 150
     }
     Rotation {

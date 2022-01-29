@@ -18,7 +18,6 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 164832055579128469
         ChildIds: 10006022594323920035
-        ChildIds: 8875967176947316138
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -100,8 +99,9 @@ Assets {
           }
         }
         ParentId: 1650095906729134252
-        ChildIds: 3009475666429349357
         ChildIds: 3925815561011721101
+        ChildIds: 3009475666429349357
+        ChildIds: 8875967176947316138
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -119,71 +119,11 @@ Assets {
         }
       }
       Objects {
-        Id: 3009475666429349357
-        Name: "BG"
-        Transform {
-          Location {
-            X: -0.2
-            Z: -1.3999989
-          }
-          Rotation {
-            Roll: 1.02452814e-05
-          }
-          Scale {
-            X: 0.01
-            Y: 0.13
-            Z: 1.03
-          }
-        }
-        ParentId: 10006022594323920035
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5351428073291024820
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 198353679974341757
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableCastShadows: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
         Id: 3925815561011721101
         Name: "Fill"
         Transform {
           Location {
+            X: 138.616669
           }
           Rotation {
           }
@@ -240,23 +180,85 @@ Assets {
         }
       }
       Objects {
+        Id: 3009475666429349357
+        Name: "BG"
+        Transform {
+          Location {
+            X: 138.416656
+            Z: -1.3999989
+          }
+          Rotation {
+            Roll: 1.02452814e-05
+          }
+          Scale {
+            X: 0.01
+            Y: 0.13
+            Z: 1.03
+          }
+        }
+        ParentId: 10006022594323920035
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 5351428073291024820
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableCastShadows: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
         Id: 8875967176947316138
         Name: "Label"
         Transform {
           Location {
-            X: 1.07507086
-            Z: -0.628738403
+            X: 139.333466
+            Y: -0.41913861
+            Z: 49.9991531
           }
           Rotation {
-            Roll: -3.05175781e-05
+            Roll: 89.9999619
           }
           Scale {
-            X: 0.779753268
-            Y: 0.779753268
-            Z: 0.779753268
+            X: 0.519835591
+            Y: 0.519835591
+            Z: 0.519835591
           }
         }
-        ParentId: 1650095906729134252
+        ParentId: 10006022594323920035
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

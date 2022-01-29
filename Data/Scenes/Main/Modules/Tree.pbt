@@ -1,6 +1,54 @@
 Name: "Modules"
 RootId: 14119872795076188527
 Objects {
+  Id: 17356749225014148361
+  Name: "Nameplates"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14119872795076188527
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15979967455835987047
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Nameplates"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:ShowOnSelf"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6246902276137523640
+    }
+  }
+}
+Objects {
   Id: 10083303779342544475
   Name: "Basic Effect System"
   Transform {

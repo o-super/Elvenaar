@@ -5,9 +5,9 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: 1875
-      Y: 1144
-      Z: 140
+      X: 1836
+      Y: 1119
+      Z: 811
     }
     Rotation {
     }
@@ -105,14 +105,15 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         Overrides {
@@ -134,7 +135,7 @@ Objects {
         }
         Overrides {
           Name: "Damageable.StartingHitPoints"
-          Float: 1000
+          Float: 10
         }
         Overrides {
           Name: "cs:Color"
@@ -156,11 +157,12 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: -2594
-      Y: -196
-      Z: 280
+      X: -2552
+      Y: -182
+      Z: 802
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -282,6 +284,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5481454142125880606
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 282887732358444069
     }
@@ -292,9 +307,9 @@ Objects {
   Name: "Laser Beam VFX"
   Transform {
     Location {
-      X: 1828
-      Y: -5046
-      Z: 280
+      X: 2033
+      Y: -5059
+      Z: 813
     }
     Rotation {
     }
@@ -386,26 +401,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1828
-            Y: -5046
+            X: 2077
+            Y: -5020
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5318857036002152307
-      value {
-        Overrides {
-          Name: "cs:Color"
-          Color {
-            R: 0.00980173144
-            B: 0.74
-            A: 1
+            Yaw: 180
           }
         }
       }
