@@ -14,6 +14,8 @@ local lobbySpawn = World.FindObjectByName("LobbySpawn")
 local attackSpawns = World.FindObjectsByName("AttackSpawn")
 local defendSpawns = World.FindObjectsByName("DefendSpawn")
 local npcSpawners = World.FindObjectsByName("2Frogs-NPCSpawner")
+local iceTeleportVfx = script:GetCustomProperty("IceTeleportVFX")
+local fireTeleportVfx = script:GetCustomProperty("FireTeleportVFX")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -154,6 +156,7 @@ function OnPlayerDied(player, damage)
         local rot = spawn:GetWorldRotation()
         local spawnSettings = {position = pos, rotation = rot}
         player:Spawn(spawnSettings)
+        SpawnPlayerFx(player)
     elseif player.team == TEAM_ATTACK then
         -- Get Attacker spawnSettings
         local nbSpawns = #attackSpawns
@@ -163,7 +166,20 @@ function OnPlayerDied(player, damage)
         local rot = spawn:GetWorldRotation()
         local spawnSettings = {position = pos, rotation = rot}
         player:Spawn(spawnSettings)
+        SpawnPlayerFx(player)
     end
+end
+
+function SpawnPlayerFx(player)
+    -- Play VFX
+    local vfx = nil
+    if player.team == TEAM_ATTACK then
+        vfx = World.SpawnAsset(fireTeleportVfx)
+        vfx:AttachToPlayer(player, "root")
+    elseif player.team == TEAM_DEFEND then
+        vfx = World.SpawnAsset(iceTeleportVfx)
+        vfx:AttachToPlayer(player, "root")
+    end 
 end
 
 function OnPlayerJoin(player)
@@ -193,6 +209,7 @@ function SpawnPlayers(inLobby)
         for _, player in pairs(Game.GetPlayers()) do
             player:Despawn()
             player:Spawn()
+            SpawnPlayerFx(player)
         end
     end
 end
