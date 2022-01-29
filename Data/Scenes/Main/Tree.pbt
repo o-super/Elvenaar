@@ -21,6 +21,7 @@ Objects {
   ChildIds: 18081526635364122419
   ChildIds: 1081995987986146460
   ChildIds: 4825877439213614864
+  ChildIds: 3244802292604714270
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,44 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3244802292604714270
+  Name: "Colliders"
+  Transform {
+    Location {
+      X: 4997
+      Y: -2221
+      Z: 236
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Colliders"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
