@@ -21,6 +21,7 @@ Objects {
   ChildIds: 18081526635364122419
   ChildIds: 1081995987986146460
   ChildIds: 4825877439213614864
+  ChildIds: 13345408830027908043
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +37,41 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13345408830027908043
+  Name: "2Frogs-FireHammer"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17625387956018399407
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs-FireHammer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3921
+            Y: -5234
+            Z: 2563
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14782523183219764078
+    }
   }
 }
 Objects {

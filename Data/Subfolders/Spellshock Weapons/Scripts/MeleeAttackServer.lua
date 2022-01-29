@@ -37,24 +37,26 @@ function MeleeAttack(other)
     if Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
 
     -- Avoid hitting the same player multiple times in a single swing
-    if (ignoreList[other] ~= 1) then --other:IsA("Player") and 
+    if (ignoreList[other] ~= 1) then
         local damage = math.random(DAMAGE_RANGE.x, DAMAGE_RANGE.y)
-        DAMAGE_API.ApplyDamage(damage, ABILITY, other, ABILITY.owner)
-        -- NPC Dmg
-        local dmg = Damage.New(damage)
-		--dmg.reason = DamageReason.COMBAT
-		dmg.sourcePlayer = ABILITY.owner
-		dmg.sourceAbility = ABILITY
-		local attackData = {
-			object = other,
-			damage = dmg,
-			source = dmg.sourcePlayer,
-			position = other:GetWorldPosition(),
-			rotation = other:GetWorldRotation(),
-			tags = "Melee"
-		}
-        COMBAT().ApplyDamage(attackData)
-
+        if other:IsA("Player") then
+            DAMAGE_API.ApplyDamage(damage, ABILITY, other, ABILITY.owner)
+        else
+            -- NPC Dmg
+            local dmg = Damage.New(damage)
+            --dmg.reason = DamageReason.COMBAT
+            dmg.sourcePlayer = ABILITY.owner
+            dmg.sourceAbility = ABILITY
+            local attackData = {
+                object = other,
+                damage = dmg,
+                source = dmg.sourcePlayer,
+                position = other:GetWorldPosition(),
+                rotation = other:GetWorldRotation(),
+                tags = "Melee"
+            }
+            COMBAT().ApplyDamage(attackData)
+        end
         -- VFX
         if (ATTACK_PLAYER_IMPACT) then
             World.SpawnAsset(ATTACK_PLAYER_IMPACT, {position = other:GetWorldPosition()})
