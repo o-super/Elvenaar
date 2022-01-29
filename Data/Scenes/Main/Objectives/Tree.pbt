@@ -1,7 +1,7 @@
 Name: "Objectives"
-RootId: 6913681982721784135
+RootId: 12691462456084246947
 Objects {
-  Id: 5080266972800359777
+  Id: 4456761033683109017
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5334098467214620572
+  Id: 1222972980876706165
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -152,7 +152,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11417553011009612669
+  Id: 1242606811546376178
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -168,7 +168,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -222,7 +222,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17733886931906502818
+  Id: 10585259644716663524
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -231,7 +231,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -288,7 +288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2801893713802211812
+  Id: 2605242773264810061
   Name: "Laser Beam VFX"
   Transform {
     Location {
@@ -304,7 +304,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color"
@@ -358,7 +358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5269821451962453728
+  Id: 2608585193510208174
   Name: "2Frogs - Relic Objective"
   Transform {
     Scale {
@@ -367,7 +367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6913681982721784135
+  ParentId: 12691462456084246947
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

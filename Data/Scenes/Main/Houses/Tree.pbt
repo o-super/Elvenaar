@@ -1,7 +1,7 @@
 Name: "Houses"
-RootId: 6248777157353002255
+RootId: 8855964119580321960
 Objects {
-  Id: 10366069709937282163
+  Id: 3098599254716903243
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -388,7 +388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6190421281239800606
+  Id: 5305162205898096673
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -403,7 +403,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -773,7 +773,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3539272022825278455
+  Id: 4546887227482596114
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -788,7 +788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -949,7 +949,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 22650
-            Y: -250
+            Y: -120
           }
         }
         Overrides {
@@ -1158,7 +1158,7 @@ Objects {
   }
 }
 Objects {
-  Id: 229512083717169514
+  Id: 7752067642198312473
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -1174,30 +1174,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
-  ChildIds: 14162194516567219855
-  ChildIds: 3667908516894796237
-  ChildIds: 7524146019874606913
-  ChildIds: 15822091008674522721
-  ChildIds: 5851440730696797172
-  ChildIds: 8059382676189659559
-  ChildIds: 15334505028292750292
-  ChildIds: 17643417656297747971
-  ChildIds: 11597773627978745839
-  ChildIds: 18052267579691131152
-  ChildIds: 11665810499651362575
-  ChildIds: 7263588498890263389
-  ChildIds: 9714667804633780350
-  ChildIds: 2045778066153159903
-  ChildIds: 16075001921080055476
-  ChildIds: 15136170284853138254
-  ChildIds: 16560442390084532355
-  ChildIds: 9660165712627122699
-  ChildIds: 10356838235415560070
-  ChildIds: 8284900754060576464
-  ChildIds: 14850150227504862633
-  ChildIds: 14468974853002191130
-  ChildIds: 11112079217625225631
+  ParentId: 8855964119580321960
+  ChildIds: 4896206057216264726
+  ChildIds: 14660884905359478363
+  ChildIds: 9639452870057278354
+  ChildIds: 1054700314905444646
+  ChildIds: 7626120059279001991
+  ChildIds: 5193742308207910444
+  ChildIds: 12959594736669961664
+  ChildIds: 5223391031995308763
+  ChildIds: 7788116173344141291
+  ChildIds: 3841138398803360673
+  ChildIds: 8150519986047537483
+  ChildIds: 7577217966607216333
+  ChildIds: 13235915105750749276
+  ChildIds: 8016544159507298911
+  ChildIds: 195700666141402923
+  ChildIds: 16435012817209795711
+  ChildIds: 17973707499955545922
+  ChildIds: 14982086194104861617
+  ChildIds: 8779078448927512946
+  ChildIds: 15170110232497394031
+  ChildIds: 5041017453608853317
+  ChildIds: 9238607396737595089
+  ChildIds: 10862266717512550322
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1224,7 +1224,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11112079217625225631
+  Id: 10862266717512550322
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1241,7 +1241,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1288,7 +1288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14468974853002191130
+  Id: 9238607396737595089
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1302,7 +1302,7 @@ Objects {
       Z: 0.55
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1349,7 +1349,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14850150227504862633
+  Id: 5041017453608853317
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1364,7 +1364,7 @@ Objects {
       Z: 0.55
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1411,7 +1411,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8284900754060576464
+  Id: 15170110232497394031
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1430,7 +1430,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1477,7 +1477,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10356838235415560070
+  Id: 8779078448927512946
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1496,7 +1496,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1543,7 +1543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9660165712627122699
+  Id: 14982086194104861617
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -1562,7 +1562,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1609,7 +1609,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16560442390084532355
+  Id: 17973707499955545922
   Name: "Graftsman Dining Table"
   Transform {
     Location {
@@ -1626,7 +1626,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1684,7 +1684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15136170284853138254
+  Id: 16435012817209795711
   Name: "Whitebox Floor 01 4m x 4m"
   Transform {
     Location {
@@ -1700,7 +1700,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_Ceiling:id"
@@ -1750,7 +1750,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16075001921080055476
+  Id: 195700666141402923
   Name: "Large Round Wood Beam 8m"
   Transform {
     Location {
@@ -1769,7 +1769,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1807,7 +1807,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2045778066153159903
+  Id: 8016544159507298911
   Name: "Large Round Wood Beam 8m"
   Transform {
     Location {
@@ -1826,7 +1826,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1864,7 +1864,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9714667804633780350
+  Id: 13235915105750749276
   Name: "Large Round Wood Beam 8m"
   Transform {
     Location {
@@ -1881,7 +1881,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1919,7 +1919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7263588498890263389
+  Id: 7577217966607216333
   Name: "Large Round Wood Beam 8m"
   Transform {
     Location {
@@ -1935,7 +1935,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1973,7 +1973,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11665810499651362575
+  Id: 8150519986047537483
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
@@ -1989,7 +1989,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -2057,7 +2057,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18052267579691131152
+  Id: 3841138398803360673
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -2072,7 +2072,7 @@ Objects {
       Z: 0.753665626
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2119,7 +2119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11597773627978745839
+  Id: 7788116173344141291
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -2134,7 +2134,7 @@ Objects {
       Z: 0.753665626
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2181,7 +2181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17643417656297747971
+  Id: 5223391031995308763
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -2196,7 +2196,7 @@ Objects {
       Z: 0.753665626
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2243,7 +2243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15334505028292750292
+  Id: 12959594736669961664
   Name: "Stone Wall End 6m"
   Transform {
     Location {
@@ -2258,7 +2258,7 @@ Objects {
       Z: 0.753665626
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2305,7 +2305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8059382676189659559
+  Id: 5193742308207910444
   Name: "Whitebox Window Insert - Basic Frame"
   Transform {
     Location {
@@ -2321,7 +2321,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -2371,7 +2371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5851440730696797172
+  Id: 7626120059279001991
   Name: "Door Large"
   Transform {
     Location {
@@ -2389,7 +2389,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -2427,7 +2427,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15822091008674522721
+  Id: 1054700314905444646
   Name: "Whitebox Wall 01 Half"
   Transform {
     Location {
@@ -2443,7 +2443,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -2511,7 +2511,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7524146019874606913
+  Id: 9639452870057278354
   Name: "Whitebox Wall 01 Half - Window Slot 1x"
   Transform {
     Location {
@@ -2527,7 +2527,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -2595,7 +2595,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3667908516894796237
+  Id: 14660884905359478363
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -2612,7 +2612,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -2680,7 +2680,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14162194516567219855
+  Id: 4896206057216264726
   Name: "Whitebox Wall 01 Doorway"
   Transform {
     Location {
@@ -2695,7 +2695,7 @@ Objects {
       Z: 0.720000327
     }
   }
-  ParentId: 229512083717169514
+  ParentId: 7752067642198312473
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -2763,7 +2763,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13390791105819173883
+  Id: 17817904512996222210
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -2778,7 +2778,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -3149,7 +3149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9863243566423564669
+  Id: 10695543969492729525
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -3164,7 +3164,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -3534,7 +3534,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2797931349314984770
+  Id: 1311750817749982228
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -3549,7 +3549,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525
@@ -3919,7 +3919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11514093482539571936
+  Id: 7104200019797779243
   Name: "StoneWoodHouse"
   Transform {
     Location {
@@ -3934,7 +3934,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6248777157353002255
+  ParentId: 8855964119580321960
   TemplateInstance {
     ParameterOverrideMap {
       key: 428307994030993525

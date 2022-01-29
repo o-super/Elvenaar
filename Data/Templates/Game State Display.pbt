@@ -657,10 +657,7 @@ Assets {
           Overrides {
             Name: "cs:Objective"
             ObjectReference {
-              SelfId: 2780998984166558008
-              SubObjectId: 5318857036002152307
-              InstanceId: 5334098467214620572
-              TemplateId: 282887732358444069
+              SelfId: 841534158063459245
             }
           }
           Overrides {
@@ -1030,10 +1027,7 @@ Assets {
           Overrides {
             Name: "cs:Objective"
             ObjectReference {
-              SelfId: 11451177112856535879
-              SubObjectId: 5318857036002152307
-              InstanceId: 17733886931906502818
-              TemplateId: 282887732358444069
+              SelfId: 841534158063459245
             }
           }
           Overrides {
@@ -1399,10 +1393,7 @@ Assets {
           Overrides {
             Name: "cs:Objective"
             ObjectReference {
-              SelfId: 14998375079285155267
-              SubObjectId: 5318857036002152307
-              InstanceId: 5269821451962453728
-              TemplateId: 282887732358444069
+              SelfId: 841534158063459245
             }
           }
           Overrides {

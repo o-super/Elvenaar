@@ -1,7 +1,7 @@
 Name: "NPCSpawns"
-RootId: 5203077255878810346
+RootId: 17400985416357802768
 Objects {
-  Id: 4341039344227566413
+  Id: 5654776915839643119
   Name: "2Frogs-NPCSpawner"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5203077255878810346
+  ParentId: 17400985416357802768
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10832255096588484102
+  Id: 10346706586708847113
   Name: "2Frogs-NPCSpawner"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5203077255878810346
+  ParentId: 17400985416357802768
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {

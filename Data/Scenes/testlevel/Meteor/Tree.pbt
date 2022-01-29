@@ -1,6 +1,200 @@
 Name: "Meteor"
 RootId: 2971781852159391206
 Objects {
+  Id: 17146264629304933224
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 413
+      Y: 871
+      Z: 650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6773854378151152121
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 48
+      Y: 536
+      Z: 650
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8188834848617584162
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 2679
+      Y: 2545
+      Z: 650
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2971781852159391206
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 13588740122921903044
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
@@ -1352,15 +1546,15 @@ Objects {
   Transform {
     Location {
       X: 3080
-      Y: 2621
+      Y: 2542
       Z: 650
     }
     Rotation {
       Yaw: -89.999939
     }
     Scale {
-      X: 1.5
-      Y: 2
+      X: 1
+      Y: 1
       Z: 1
     }
   }
@@ -2855,8 +3049,8 @@ Objects {
   Name: "Waterfall Straight"
   Transform {
     Location {
-      X: -1806.99805
-      Y: 1222
+      X: -1849
+      Y: 1219
       Z: 675.742065
     }
     Rotation {
@@ -3634,15 +3828,15 @@ Objects {
   Transform {
     Location {
       X: 447
-      Y: 615
+      Y: 536
       Z: 650
     }
     Rotation {
       Yaw: -89.9999695
     }
     Scale {
-      X: 1.5
-      Y: 2
+      X: 1
+      Y: 1
       Z: 1
     }
   }

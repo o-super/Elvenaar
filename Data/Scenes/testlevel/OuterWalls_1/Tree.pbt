@@ -1,6 +1,74 @@
 Name: "OuterWalls_1"
 RootId: 15626046566531215812
 Objects {
+  Id: 13904010168651202329
+  Name: "OuterWall"
+  Transform {
+    Location {
+      X: -3241
+      Y: 5100
+      Z: 500
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 4
+      Y: 15.1999989
+      Z: 10
+    }
+  }
+  ParentId: 15626046566531215812
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.26
+        G: 0.367813945
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14031147348977058477
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
   Id: 9170084255851897095
   Name: "OuterWall"
   Transform {
@@ -8234,7 +8302,7 @@ Objects {
   Name: "OuterWall"
   Transform {
     Location {
-      X: 7150
+      X: 6985
       Y: -2700
       Z: 500
     }
@@ -8243,7 +8311,7 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 15
+      Y: 18.3000011
       Z: 10
     }
   }
@@ -8302,7 +8370,7 @@ Objects {
   Name: "OuterWall"
   Transform {
     Location {
-      X: 7400
+      X: 7263
       Y: -1750
       Z: 500
     }
@@ -8311,7 +8379,7 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 20
+      Y: 23.5000114
       Z: 10
     }
   }
@@ -8572,7 +8640,7 @@ Objects {
   Name: "OuterWall"
   Transform {
     Location {
-      X: 950
+      X: 4207
       Y: 5100
       Z: 500
     }
@@ -8581,7 +8649,7 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 101
+      Y: 35.9
       Z: 10
     }
   }
@@ -15971,7 +16039,7 @@ Objects {
   Name: "Castle Gatehouse"
   Transform {
     Location {
-      X: 6350
+      X: 6314
       Y: -2500
     }
     Rotation {

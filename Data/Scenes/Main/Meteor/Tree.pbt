@@ -1,146 +1,16 @@
 Name: "Meteor"
-RootId: 11365810021320581606
+RootId: 7814443804087783315
 Objects {
-  Id: 11909883362676560862
-  Name: "Waterfall Straight"
+  Id: 16086428984138118763
+  Name: "lava fall 04"
   Transform {
     Location {
-      X: 2683
-      Y: 2543
-      Z: 650
+      X: 3439
+      Y: 3662
+      Z: 693
     }
     Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11365810021320581606
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:waterfall:id"
-      AssetReference {
-        Id: 16250901274908161854
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 243382138785344071
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17682176127531101636
-    SubobjectId: 7588188018403227562
-    InstanceId: 9560748858811424076
-    TemplateId: 11576647366053876667
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6305433716402366508
-  Name: "Waterfall Straight"
-  Transform {
-    Location {
-      X: 50
-      Y: 511
-      Z: 650
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11365810021320581606
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:waterfall:id"
-      AssetReference {
-        Id: 16250901274908161854
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 243382138785344071
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17682176127531101636
-    SubobjectId: 7588188018403227562
-    InstanceId: 9560748858811424076
-    TemplateId: 11576647366053876667
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 7299357952002507139
-  Name: "meteor"
-  Transform {
-    Location {
-      X: -250
-      Y: 300
-      Z: 100
-    }
-    Rotation {
-      Yaw: 51.1240196
+      Yaw: -105.000069
     }
     Scale {
       X: 2
@@ -148,15 +18,23 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 11365810021320581606
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14171802247446092046
-      }
-    }
-  }
+  ParentId: 7814443804087783315
+  ChildIds: 9311440638455491675
+  ChildIds: 11272663892432408330
+  ChildIds: 3685551838979433829
+  ChildIds: 10532186637807451085
+  ChildIds: 15106288088105097768
+  ChildIds: 4410431029066331209
+  ChildIds: 12383553149227897355
+  ChildIds: 8411708166804010313
+  ChildIds: 17848313431515269570
+  ChildIds: 2707751495702922860
+  ChildIds: 17426139971074721990
+  ChildIds: 17037928313039788767
+  ChildIds: 2165563903166875592
+  ChildIds: 14401686132766675441
+  ChildIds: 2434772032919942892
+  ChildIds: 6450101679016465904
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -169,50 +47,201 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 18244274405329183209
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14770937574641279909
+    SubobjectId: 3394137655270854265
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8410824584887442430
-  Name: "meteor"
+  Id: 6450101679016465904
+  Name: "Decal Soil Cracks Smal Variants 02"
   Transform {
     Location {
-      X: -3600
-      Y: -4300
-      Z: 300
+      X: -35.6523438
+      Y: -173.645508
+      Z: 261.9552
     }
     Rotation {
-      Yaw: 51.1240883
+      Yaw: 166.078537
+      Roll: 89.9230728
     }
     Scale {
-      X: 2
-      Y: 2
-      Z: 3
+      X: 1.43240881
+      Y: 1.11507881
+      Z: 0.464985
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.052
+        G: 0.052
+        B: 0.052
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 50
+    }
+    Overrides {
+      Name: "bp:Color Emissive"
+      Color {
+        R: 0.98
+        G: 0.0584106259
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10072171335294877962
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  InstanceHistory {
+    SelfId: 1807554020338247247
+    SubobjectId: 18082858010980633491
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2434772032919942892
+  Name: "Decal Soil Cracks Smal Variants 02"
+  Transform {
+    Location {
+      X: 147.698242
+      Y: 39.8847656
+      Z: 261.9552
+    }
+    Rotation {
+      Yaw: -68.545723
+      Roll: 89.9234543
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.052
+        G: 0.052
+        B: 0.052
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 50
+    }
+    Overrides {
+      Name: "bp:Color Emissive"
+      Color {
+        R: 0.98
+        G: 0.0584106259
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10072171335294877962
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  InstanceHistory {
+    SelfId: 14095320862128103297
+    SubobjectId: 2340232317970723421
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14401686132766675441
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -27.7128906
+      Y: -145.203125
+      Z: 122.806549
+    }
+    Rotation {
+      Yaw: 153.355804
+    }
+    Scale {
+      X: 0.387380093
+      Y: 1.06905258
+      Z: 0.92499125
+    }
+  }
+  ParentId: 16086428984138118763
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 14171802247446092046
+        Id: 18172052824516087290
       }
     }
   }
@@ -230,7 +259,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 18244274405329183209
+      Id: 9361281363944340576
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -244,29 +273,1132 @@ Objects {
       BoundsScale: 1
     }
   }
+  InstanceHistory {
+    SelfId: 12659292921339039037
+    SubobjectId: 5496740751419318497
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 120708681379070342
+  Id: 2165563903166875592
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -224.805664
+      Y: -205.226562
+      Z: 122.806549
+    }
+    Rotation {
+      Yaw: 62.3639946
+    }
+    Scale {
+      X: 0.594966948
+      Y: 0.594966948
+      Z: 1.13231671
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18172052824516087290
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9361281363944340576
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 16783134146710530364
+    SubobjectId: 796896159983207648
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17037928313039788767
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: -102.060547
+      Y: -89.9043
+      Z: 280.91098
+    }
+    Rotation {
+      Pitch: 1.00269222
+      Yaw: -84.9075623
+      Roll: -1.80856276
+    }
+    Scale {
+      X: 0.806443512
+      Y: 0.287249953
+      Z: 1.50559664
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 7132947923168656106
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 549260736599319411
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15066529631489939432
+    SubobjectId: 3670890678815963700
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17426139971074721990
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 155.005859
+      Y: -257.675781
+      Z: 241.144836
+    }
+    Rotation {
+      Pitch: -1.02401602
+      Yaw: -143.576385
+      Roll: -1.7966001
+    }
+    Scale {
+      X: 0.806456149
+      Y: 0.41253823
+      Z: 1.5055958
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 7132947923168656106
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 549260736599319411
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 13563422607850425653
+    SubobjectId: 6907531992467349737
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 2707751495702922860
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: 214.983398
+      Y: -90.0449219
+      Z: 122.806549
+    }
+    Rotation {
+      Yaw: 65.4715652
+    }
+    Scale {
+      X: 0.479526043
+      Y: 0.479526043
+      Z: 0.741851389
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18172052824516087290
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9361281363944340576
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4333223678696751495
+    SubobjectId: 16124079335585672283
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17848313431515269570
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 51.8789062
+      Y: 112.341797
+      Z: 239.137848
+    }
+    Rotation {
+      Pitch: 1.21507013
+      Yaw: 30.1200733
+      Roll: 1.67333043
+    }
+    Scale {
+      X: 0.702848732
+      Y: 0.547383726
+      Z: 1.50559509
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 7132947923168656106
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 549260736599319411
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15139342256932963443
+    SubobjectId: 3602651905945774511
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8411708166804010313
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -58.4882812
+      Y: -23.2753906
+      Z: 416.253143
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.876294315
+      Y: 0.876294315
+      Z: 0.530094087
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18172052824516087290
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9361281363944340576
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 4213406231993471621
+    SubobjectId: 15681404043272896345
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12383553149227897355
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: -263.007812
+      Y: -10.6210938
+      Z: 112.071747
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.792187512
+      Z: 4.81873
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16019052359166918375
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14977884509570210381
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 6601953966795440220
+    SubobjectId: 13292468202204704128
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4410431029066331209
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: 187.666992
+      Y: -184.427734
+      Z: 134.67453
+    }
+    Rotation {
+      Yaw: 120.419342
+    }
+    Scale {
+      X: 1.00003326
+      Y: 0.69711417
+      Z: 2.79151988
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16019052359166918375
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14977884509570210381
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 12496395127338882097
+    SubobjectId: 5659496861064509933
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15106288088105097768
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: 19.8095703
+      Y: 231.410156
+      Z: 122.806549
+    }
+    Rotation {
+      Yaw: -116.014473
+    }
+    Scale {
+      X: 1.35214031
+      Y: 1.41677153
+      Z: 1.50303578
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18172052824516087290
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9361281363944340576
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 7424002108201454158
+    SubobjectId: 9575169395280160658
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 10532186637807451085
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: 199.375
+      Y: -353.21582
+      Z: 122.806549
+    }
+    Rotation {
+      Yaw: 127.50827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18172052824516087290
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9361281363944340576
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 9206538362213803004
+    SubobjectId: 11250764398496992800
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 3685551838979433829
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: 156.894531
+      Y: -185.644531
+      Z: 132.200104
+    }
+    Rotation {
+      Yaw: 120.419342
+    }
+    Scale {
+      X: 1.00001836
+      Y: 1.14038754
+      Z: 2.79151988
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7307612894031274482
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14977884509570210381
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 15411311176526992738
+    SubobjectId: 3907284568220301502
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11272663892432408330
+  Name: "Rock Flat 01"
+  Transform {
+    Location {
+      X: -240.583008
+      Y: 6.890625
+      Z: 101.665131
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1.58542967
+      Z: 4.81873
+    }
+  }
+  ParentId: 16086428984138118763
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7307612894031274482
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14977884509570210381
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 14299740625740484024
+    SubobjectId: 2707909216336552036
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9311440638455491675
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -26.5556641
+      Y: -34.9199219
+      Z: 298.303772
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16086428984138118763
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 100
+    Color {
+      R: 0.799999952
+      G: 0.127152339
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 518.621216
+        PointLight {
+          SourceRadius: 371.212402
+          SoftSourceRadius: 109.633339
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 18022294194346477508
+    SubobjectId: 1871951898074917400
+    InstanceId: 3658310330303811392
+    TemplateId: 10577002390106911089
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9039775801690650279
+  Name: "Volcano 02"
+  Transform {
+    Location {
+      X: -1269
+      Y: 8101
+    }
+    Rotation {
+      Yaw: 123.000008
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14774800304667114944
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Volcano 02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 362
+            Y: 6205
+            Z: 622
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 123.000008
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1515966021430388647
+    }
+  }
+}
+Objects {
+  Id: 3553016234135420442
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 413
+      Y: 871
+      Z: 650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11665466640722744576
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 48
+      Y: 536
+      Z: 650
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13904164724626294927
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: 2679
+      Y: 2545
+      Z: 650
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 16250901274908161854
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 243382138785344071
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 17682176127531101636
+    SubobjectId: 7588188018403227562
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4097659901965428391
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
-      X: -3450
-      Y: -4300
-      Z: 500
+      X: -4250
+      Y: -8600
+      Z: 850
     }
     Rotation {
       Pitch: -0.753662109
     }
     Scale {
-      X: 4
+      X: 5
       Y: 5
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -339,7 +1471,572 @@ Objects {
   }
 }
 Objects {
-  Id: 18073167718622220600
+  Id: 8042668926249510899
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -4300
+      Y: -8450
+      Z: 250
+    }
+    Rotation {
+      Yaw: 51.1241684
+    }
+    Scale {
+      X: 6
+      Y: 4
+      Z: 7
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16825174296065823337
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -5600
+      Y: -8600
+      Z: 1250
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 6
+      Y: 7
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5017019387086188123
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -5650
+      Y: -8800
+      Z: 350
+    }
+    Rotation {
+      Yaw: 51.1241684
+    }
+    Scale {
+      X: 6
+      Y: 6
+      Z: 8
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 4796097656780120615
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -5150
+      Y: -7850
+      Z: 850
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11185421419981292283
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -5200
+      Y: -7750
+      Z: 250
+    }
+    Rotation {
+      Yaw: 51.1241302
+    }
+    Scale {
+      X: 5
+      Y: 4
+      Z: 6
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 15208681438066401829
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -250
+      Y: 300
+      Z: 100
+    }
+    Rotation {
+      Yaw: 51.1240196
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13761602803856077036
+  Name: "meteor"
+  Transform {
+    Location {
+      X: -5550
+      Y: -4250
+      Z: 250
+    }
+    Rotation {
+      Yaw: 51.1240883
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 3
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14171802247446092046
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18244274405329183209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12686340419629834497
+  Name: "Boiling lava effect (Waterfall Top Volume VFX)"
+  Transform {
+    Location {
+      X: -5450
+      Y: -4250
+      Z: 450
+    }
+    Rotation {
+      Pitch: -0.753662109
+    }
+    Scale {
+      X: 4
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 7814443804087783315
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Volume Color"
+      Color {
+        R: 0.786
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.826000094
+        G: 0.0792960227
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: 5.79969215
+    }
+    Overrides {
+      Name: "bp:Waterfall Density"
+      Float: 2.30011439
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 1.14041352
+    }
+    Overrides {
+      Name: "bp:Enable Waterfall"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10584366710334493691
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 9775504602743375178
+    SubobjectId: 1982864664917810980
+    InstanceId: 9560748858811424076
+    TemplateId: 11576647366053876667
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17864247243392546534
   Name: "meteor"
   Transform {
     Location {
@@ -356,7 +2053,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -398,7 +2095,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12221561551005646637
+  Id: 7562707609417650594
   Name: "meteor"
   Transform {
     Location {
@@ -415,7 +2112,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -457,7 +2154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15246842422731100045
+  Id: 16554853238624317503
   Name: "meteor"
   Transform {
     Location {
@@ -476,7 +2173,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -518,7 +2215,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10965267702245133717
+  Id: 4970069712941394863
   Name: "meteor"
   Transform {
     Location {
@@ -535,7 +2232,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -577,7 +2274,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17812117113988094341
+  Id: 11611926486298931504
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -594,7 +2291,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -667,7 +2364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16676180152844026459
+  Id: 9556756367083721244
   Name: "Waterfall Straight"
   Transform {
     Location {
@@ -684,7 +2381,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -732,7 +2429,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16847435413776806251
+  Id: 15869932903516788377
   Name: "meteor"
   Transform {
     Location {
@@ -749,7 +2446,7 @@ Objects {
       Z: 2.52
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -791,7 +2488,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14394227090684878686
+  Id: 6759176641111858548
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -808,7 +2505,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -881,7 +2578,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3212005004553189210
+  Id: 2410771573522301244
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -898,7 +2595,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -971,7 +2668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13682474731728330524
+  Id: 14836996055975522399
   Name: "meteor"
   Transform {
     Location {
@@ -988,7 +2685,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1030,12 +2727,12 @@ Objects {
   }
 }
 Objects {
-  Id: 1338502557362070229
+  Id: 12673991630263048370
   Name: "Waterfall Straight"
   Transform {
     Location {
       X: 3080
-      Y: 2543
+      Y: 2542
       Z: 650
     }
     Rotation {
@@ -1047,7 +2744,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -1095,7 +2792,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7489373011887847098
+  Id: 10453830914761204851
   Name: "meteor"
   Transform {
     Location {
@@ -1114,7 +2811,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1156,7 +2853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5680347703023265245
+  Id: 1876089635848030786
   Name: "meteor"
   Transform {
     Location {
@@ -1173,7 +2870,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1215,7 +2912,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3613396567377090641
+  Id: 15965806476623520639
   Name: "meteor"
   Transform {
     Location {
@@ -1232,7 +2929,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1274,7 +2971,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4561593506845329783
+  Id: 3491611657606219178
   Name: "meteor"
   Transform {
     Location {
@@ -1291,7 +2988,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1333,7 +3030,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13358339689406234199
+  Id: 8408637335632822908
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -1350,7 +3047,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -1423,7 +3120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13561328755200595127
+  Id: 8627406013186090706
   Name: "meteor"
   Transform {
     Location {
@@ -1440,7 +3137,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1482,7 +3179,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2300280963790130036
+  Id: 8976343426007202603
   Name: "meteor"
   Transform {
     Location {
@@ -1501,7 +3198,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1543,7 +3240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1417702776444496815
+  Id: 705112634794917771
   Name: "Waterfall Straight"
   Transform {
     Location {
@@ -1560,7 +3257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -1608,7 +3305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7615856892483043702
+  Id: 3575189623586215196
   Name: "meteor"
   Transform {
     Location {
@@ -1625,7 +3322,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1667,7 +3364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18260593910990139972
+  Id: 13415544894627018973
   Name: "meteor"
   Transform {
     Location {
@@ -1684,7 +3381,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1726,7 +3423,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6475260528072496920
+  Id: 4083898174682787997
   Name: "meteor"
   Transform {
     Location {
@@ -1743,7 +3440,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1785,7 +3482,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7436295834412300224
+  Id: 4914782154822747795
   Name: "meteor"
   Transform {
     Location {
@@ -1802,7 +3499,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1844,7 +3541,7 @@ Objects {
   }
 }
 Objects {
-  Id: 360034955576424009
+  Id: 13662016598802781147
   Name: "meteor"
   Transform {
     Location {
@@ -1863,7 +3560,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1905,7 +3602,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15343392263491219090
+  Id: 15949170527883856475
   Name: "Waterfall Straight"
   Transform {
     Location {
@@ -1922,7 +3619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -1970,7 +3667,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8943268583482391901
+  Id: 15525037809258333960
   Name: "meteor"
   Transform {
     Location {
@@ -1987,7 +3684,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2029,7 +3726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3451229411097182009
+  Id: 10392873555071718977
   Name: "meteor"
   Transform {
     Location {
@@ -2046,7 +3743,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2088,7 +3785,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14657909402956018841
+  Id: 15960955639270163582
   Name: "meteor"
   Transform {
     Location {
@@ -2105,7 +3802,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2147,7 +3844,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7580626711470470983
+  Id: 1673824439667230901
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -2164,7 +3861,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -2237,7 +3934,7 @@ Objects {
   }
 }
 Objects {
-  Id: 818491624375822255
+  Id: 17750181778290816597
   Name: "meteor"
   Transform {
     Location {
@@ -2254,7 +3951,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2296,7 +3993,7 @@ Objects {
   }
 }
 Objects {
-  Id: 339342640599754584
+  Id: 981378548935944424
   Name: "meteor"
   Transform {
     Location {
@@ -2315,7 +4012,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2357,7 +4054,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10962201829000157882
+  Id: 7590542641926054994
   Name: "meteor"
   Transform {
     Location {
@@ -2374,7 +4071,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2416,7 +4113,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7825447075556599706
+  Id: 11612283300594655628
   Name: "meteor"
   Transform {
     Location {
@@ -2433,7 +4130,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2475,7 +4172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3173492747564178390
+  Id: 11127986629384795667
   Name: "meteor"
   Transform {
     Location {
@@ -2492,7 +4189,7 @@ Objects {
       Z: 2.52
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2534,12 +4231,12 @@ Objects {
   }
 }
 Objects {
-  Id: 18178311586092218834
+  Id: 348138626049519426
   Name: "Waterfall Straight"
   Transform {
     Location {
-      X: -1806.99805
-      Y: 1222
+      X: -1849
+      Y: 1219
       Z: 675.742065
     }
     Rotation {
@@ -2551,7 +4248,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -2599,7 +4296,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1708030779154973731
+  Id: 8719784872086088048
   Name: "meteor"
   Transform {
     Location {
@@ -2616,7 +4313,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2658,7 +4355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8081188481955800497
+  Id: 9620419080785215713
   Name: "meteor"
   Transform {
     Location {
@@ -2676,7 +4373,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2718,7 +4415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2832273058721798867
+  Id: 6437946903798953038
   Name: "meteor"
   Transform {
     Location {
@@ -2735,7 +4432,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2777,7 +4474,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11491196096432607217
+  Id: 1867864054402048129
   Name: "meteor"
   Transform {
     Location {
@@ -2794,7 +4491,7 @@ Objects {
       Z: 0.7
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2836,7 +4533,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14101170211853968619
+  Id: 10361603778188574178
   Name: "meteor"
   Transform {
     Location {
@@ -2853,7 +4550,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2895,12 +4592,12 @@ Objects {
   }
 }
 Objects {
-  Id: 1893673922939158280
+  Id: 9806301552648803418
   Name: "meteor"
   Transform {
     Location {
       X: 313.763672
-      Y: 446.03479
+      Y: 450
       Z: 653.419373
     }
     Rotation {
@@ -2914,7 +4611,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2956,12 +4653,12 @@ Objects {
   }
 }
 Objects {
-  Id: 13546036389306681581
+  Id: 2387550425311594483
   Name: "meteor"
   Transform {
     Location {
       X: 400.466797
-      Y: 465.881104
+      Y: 450
       Z: 650
     }
     Rotation {
@@ -2973,7 +4670,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3015,7 +4712,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5060053777507520875
+  Id: 833526999001040166
   Name: "meteor"
   Transform {
     Location {
@@ -3032,7 +4729,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3074,7 +4771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1631221259784463907
+  Id: 730065142883727096
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -3090,7 +4787,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -3163,7 +4860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2249130900782474985
+  Id: 17561076005640234220
   Name: "meteor"
   Transform {
     Location {
@@ -3180,7 +4877,7 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3222,7 +4919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3383639255933377218
+  Id: 7503645453083332967
   Name: "Boiling lava effect (Waterfall Top Volume VFX)"
   Transform {
     Location {
@@ -3239,7 +4936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volume Type"
@@ -3312,12 +5009,12 @@ Objects {
   }
 }
 Objects {
-  Id: 9005450103803275091
+  Id: 5761545424584718473
   Name: "Waterfall Straight"
   Transform {
     Location {
       X: 447
-      Y: 511
+      Y: 536
       Z: 650
     }
     Rotation {
@@ -3329,7 +5026,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:waterfall:id"
@@ -3377,7 +5074,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18012158100600911541
+  Id: 8929937303622418454
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -3395,7 +5092,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3445,7 +5142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5732952408510650259
+  Id: 6238563777854461373
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -3464,7 +5161,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3514,7 +5211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6892200514549393487
+  Id: 2995396191932663920
   Name: "meteor"
   Transform {
     Location {
@@ -3530,7 +5227,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3572,7 +5269,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1653074509799322447
+  Id: 4287402615123431821
   Name: "Wood 2x4 4m"
   Transform {
     Location {
@@ -3590,7 +5287,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 11365810021320581606
+  ParentId: 7814443804087783315
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

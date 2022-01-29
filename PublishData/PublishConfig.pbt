@@ -3,7 +3,7 @@ ClientVersion: "1.0.227-prod-s"
 Name: "Elvenaar"
 Description: "Defend the legacy"
 Tags: "LastTeamStanding"
-ScreenshotPaths: "C:\\Users\\holly\\Documents\\My games\\Core\\Saved\\Maps\\Elvenaar\\Screenshots\\Screenshot0002.png"
+ScreenshotPaths: "C:\\Users\\Administrator.o-super-SSD\\Documents\\My Games\\Core\\Saved\\Maps\\Eldenaar\\Screenshots\\Screenshot0002.png"
 OwnerId: "95567b361c40436b8ba2619fc5a098cf"
 SerializationVersion: 2
 SceneNameToSceneIdMap {

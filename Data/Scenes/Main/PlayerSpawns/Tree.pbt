@@ -1,7 +1,7 @@
 Name: "PlayerSpawns"
-RootId: 6966066637976808717
+RootId: 14322340723614627503
 Objects {
-  Id: 15064772885316599253
+  Id: 4835241237224074161
   Name: "AttackSpawn"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6966066637976808717
+  ParentId: 14322340723614627503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44,7 +44,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4512888583482864961
+  Id: 3157139317282490861
   Name: "DefendSpawn"
   Transform {
     Location {
@@ -61,7 +61,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6966066637976808717
+  ParentId: 14322340723614627503
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
