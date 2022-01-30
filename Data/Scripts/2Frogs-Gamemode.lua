@@ -17,6 +17,7 @@ local fireTeleportVfx = script:GetCustomProperty("FireTeleportVFX")
 local defenderSong = script:GetCustomProperty("DefenderHymne")
 local attackerSong = script:GetCustomProperty("AttackerHymne")
 local RELIC = script:GetCustomProperty("Relic")
+local spawnSound = script:GetCustomProperty("SpawnSound")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -39,7 +40,7 @@ local musics = {MUSIC_IG_1, MUSIC_IG_2, MUSIC_IG_3, MUSIC_IG_4, MUSIC_LOBBY}
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -200,7 +201,7 @@ function OnPlayerDied(player, damage)
         local spawnSettings = {position = pos, rotation = rot}
         player:Spawn(spawnSettings)
         SpawnPlayerFx(player)
-    end
+    end    
 end
 
 function SpawnPlayerFx(player)
@@ -212,12 +213,23 @@ function SpawnPlayerFx(player)
     elseif player.team == TEAM_DEFEND then
         vfx = World.SpawnAsset(iceTeleportVfx)
         vfx:AttachToPlayer(player, "root")
-    end 
+    end
+    -- Play Audio
+    local sSound = World.SpawnAsset(spawnSound, player:GetWorldPosition())
+    -- Give full ammo and reset cooldowns
+    for _, obj in ipairs(player:GetEquipment()) do
+        if obj:IsA("Weapon") == true then
+            obj.currentAmmo = obj.maxAmmo        
+        end
+        for _, ability in pairs(obj:GetAbilities()) do
+            if ability:GetCurrentPhase() == AbilityPhase.COOLDOWN then
+                ability:AdvancePhase()
+            end
+        end
+    end
 end
 
-function OnPlayerJoin(player)
-    -- Update Server Message
-    SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
+function OnPlayerJoin(player)    
     -- Set Events
     player.diedEvent:Connect(OnPlayerDied)
     local pos = lobbySpawn:GetWorldPosition()
@@ -228,6 +240,8 @@ function OnPlayerJoin(player)
     if ABGS.IsGameStateManagerRegistered() then
         if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
             StartLobbyMusic()
+            -- Update Server Message
+            SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
         end
     end
 end

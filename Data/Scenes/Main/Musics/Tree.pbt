@@ -44,7 +44,7 @@ Objects {
     }
     AudioBP {
       Repeat: true
-      Volume: 1
+      Volume: 0.8
       Falloff: 3600
       Radius: 400
     }
@@ -97,7 +97,7 @@ Objects {
     }
     AudioBP {
       Repeat: true
-      Volume: 1
+      Volume: 0.8
       Falloff: 3600
       Radius: 400
     }
@@ -150,7 +150,7 @@ Objects {
     }
     AudioBP {
       Repeat: true
-      Volume: 1
+      Volume: 0.8
       Falloff: 3600
       Radius: 400
     }
@@ -203,7 +203,7 @@ Objects {
     }
     AudioBP {
       Repeat: true
-      Volume: 1
+      Volume: 0.8
       Falloff: 3600
       Radius: 400
     }
@@ -256,7 +256,7 @@ Objects {
     }
     AudioBP {
       Repeat: true
-      Volume: 1
+      Volume: 0.8
       Falloff: 3600
       Radius: 400
     }

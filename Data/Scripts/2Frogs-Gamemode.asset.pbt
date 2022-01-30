@@ -40,6 +40,12 @@ Assets {
           Id: 16614090954154140053
         }
       }
+      Overrides {
+        Name: "cs:SpawnSound"
+        AssetReference {
+          Id: 3924432235595686267
+        }
+      }
     }
   }
   SerializationVersion: 104
