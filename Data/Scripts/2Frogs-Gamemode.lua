@@ -29,7 +29,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -207,6 +207,7 @@ function SpawnPlayers(inLobby)
             local spawnSettings = {position = pos, rotation = rot}
             player.team = 0
             player:Spawn(spawnSettings)
+            player.animationStance = "unarmed_stance"
         end
     else
         -- Respawn player on their InGame spawns
