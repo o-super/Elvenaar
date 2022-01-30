@@ -1,6 +1,7 @@
 -- Custom
 local PREVENT_PROJECTILES = script:GetCustomProperty("PreventProjectiles")
 local DAMAGE_PARTICLE = script:GetCustomProperty("DamageParticle")
+local ABGS = require(script:GetCustomProperty("ABGS"))
 local trigger = script.parent
 
 pList = {}
@@ -26,15 +27,16 @@ function OnEndOverlap(theTrigger, player)
 end
 
 function applyWallDamage(player)
-    player:ApplyDamage(Damage.New(15))
-    Task.Wait(.5)
+    if ABGS.IsGameStateManagerRegistered() and ABGS.GetGameState() ~= ABGS.GAME_STATE_LOBBY then
+        player:ApplyDamage(Damage.New(15))
+        Task.Wait(.5)
+    end    
 end
 
 function Tick(DeltaTime)
     for i, player in pairs(pList) do
         if trigger:IsOverlapping(player) then
             applyWallDamage(player)
-            World.SpawnAsset(DAMAGE_PARTICLE, {position = player:GetWorldPosition()})
         else
             table.remove(pList, i)
             --player.movementControlMode = MovementControlMode.VIEW_RELATIVE

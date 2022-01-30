@@ -14,6 +14,12 @@ Assets {
           Id: 16215182570570598064
         }
       }
+      Overrides {
+        Name: "cs:ABGS"
+        AssetReference {
+          Id: 11974742996071064388
+        }
+      }
     }
   }
   SerializationVersion: 104
