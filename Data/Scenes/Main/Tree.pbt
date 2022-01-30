@@ -22,6 +22,7 @@ Objects {
   ChildIds: 1081995987986146460
   ChildIds: 4825877439213614864
   ChildIds: 3244802292604714270
+  ChildIds: 11228391714141444049
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +35,42 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 11228391714141444049
+  Name: "WallFire"
+  Transform {
+    Location {
+      X: -20830
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WallFire"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
