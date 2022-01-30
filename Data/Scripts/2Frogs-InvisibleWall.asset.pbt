@@ -8,6 +8,12 @@ Assets {
         Name: "cs:PreventProjectiles"
         Bool: false
       }
+      Overrides {
+        Name: "cs:DamageParticle"
+        AssetReference {
+          Id: 16215182570570598064
+        }
+      }
     }
   }
   SerializationVersion: 104

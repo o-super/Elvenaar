@@ -19,7 +19,7 @@ Objects {
         Overrides {
           Name: "cs:npc1"
           AssetReference {
-            Id: 9262416444177668205
+            Id: 9232860901244671922
           }
         }
       }
@@ -82,7 +82,7 @@ Objects {
         Overrides {
           Name: "cs:npc1"
           AssetReference {
-            Id: 9262416444177668205
+            Id: 9232860901244671922
           }
         }
       }

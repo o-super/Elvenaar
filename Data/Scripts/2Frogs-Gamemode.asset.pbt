@@ -22,6 +22,18 @@ Assets {
           Id: 7971595369220755832
         }
       }
+      Overrides {
+        Name: "cs:DefenderHymne"
+        AssetReference {
+          Id: 6345880566631070868
+        }
+      }
+      Overrides {
+        Name: "cs:AttackerHymne"
+        AssetReference {
+          Id: 12062383161230281691
+        }
+      }
     }
   }
   SerializationVersion: 104

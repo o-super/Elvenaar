@@ -282,6 +282,10 @@ Objects {
             A: 1
           }
         }
+        Overrides {
+          Name: "Damageable.MaxHitPoints"
+          Float: 1000
+        }
       }
     }
     ParameterOverrideMap {
@@ -410,6 +414,15 @@ Objects {
           Rotator {
             Yaw: 180
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5318857036002152307
+      value {
+        Overrides {
+          Name: "Damageable.MaxHitPoints"
+          Float: 1000
         }
       }
     }

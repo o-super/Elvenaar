@@ -16,6 +16,8 @@ local defendSpawns = World.FindObjectsByName("DefendSpawn")
 local npcSpawners = World.FindObjectsByName("2Frogs-NPCSpawner")
 local iceTeleportVfx = script:GetCustomProperty("IceTeleportVFX")
 local fireTeleportVfx = script:GetCustomProperty("FireTeleportVFX")
+local defenderSong = script:GetCustomProperty("DefenderHymne")
+local attackerSong = script:GetCustomProperty("AttackerHymne")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -28,7 +30,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -83,6 +85,7 @@ function RemoveEquipment(player)
             if Object.IsValid(equipment) then
                 equipment:Destroy()
             end
+            player.animationStance = "unarmed_stance"
         end        
     end
 end
@@ -104,7 +107,7 @@ end
 
 -- Kill all NPCs from both teams
 function KillAllNPCs()
-    local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed")
+    local npcs = World.FindObjectsByName("2Frogs - Magma NPC")
     for _, npc in pairs(npcs) do
         npc:Destroy()
     end
@@ -240,17 +243,22 @@ function checkStartGame()
         -- if all players present have a team
         if havePlayersATeam() == true and arePlayersEquipped() == true then
             if CountDownActive == false then
-                ABGS.SetTimeRemainingInState(RoundStartCoutdown)
+                ABGS.SetTimeRemainingInState(RoundStartCoutdown)                
                 CountDownActive = true
                 SetGoalMessage("Starting Game. Prepare to fight!")
             end
         else
-            SetGoalMessage("All players must have selected a team and equipment.")
+            if CountDownActive == true then
+                CountDownActive = false
+                ABGS.SetTimeRemainingInState(-1)            
+                SetGoalMessage("All players must have selected a team and equipment.")
+            end
         end
     else
         -- Reset to lobby is a player leaves during countdown
         if CountDownActive == true then
             ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
+            ABGS.SetTimeRemainingInState(-1)
             CountDownActive = false
             SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
         end
@@ -262,6 +270,7 @@ function checkEndGame()
         -- if all attacking npcs are dead then end (defender wins)
         local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
         if #npcs == 0 then
+            World.SpawnAsset(defenderSong)
             SetGoalMessage("Defenders win!")
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
         end
@@ -269,6 +278,7 @@ function checkEndGame()
     -- if all objectives are destroyed then end (attacker wins)
     local objectives = World.FindObjectsByName("Relic")
     if #objectives == 0 then
+        World.SpawnAsset(attackerSong)
         SetGoalMessage("Attackers win!")
         ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
     end
