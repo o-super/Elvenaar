@@ -1,29 +1,28 @@
 Name: "Colliders"
 RootId: 3244802292604714270
 Objects {
-  Id: 13470370335106665012
-  Name: "2Frogs-InvisibleWall"
+  Id: 4958134532897300855
+  Name: "BlockAll"
   Transform {
     Location {
-      X: -5568.65381
-      Y: -3077
-      Z: 2385
+      X: -108.236328
+      Y: 1400
+      Z: 2700
     }
     Rotation {
     }
     Scale {
-      X: 2.19999862
-      Y: 27
+      X: 5
+      Y: 120.899986
       Z: 40
     }
   }
   ParentId: 3244802292604714270
-  ChildIds: 5064228613643009366
   UnregisteredParameters {
     Overrides {
-      Name: "cs:hitbox"
-      ObjectReference {
-        SelfId: 13470370335106665012
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18123023743670948327
       }
     }
   }
@@ -39,45 +38,51 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Trigger {
-    TeamSettings {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2235352329705380535
-    SubobjectId: 6653981372002065499
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 5064228613643009366
-  Name: "2Frogs-InvisibleWall"
+  Id: 3072982421687089733
+  Name: "BlockAll"
   Transform {
     Location {
+      X: -4860
+      Y: 7332.55615
+      Z: 2700
     }
     Rotation {
+      Yaw: 89.9999847
     }
     Scale {
-      X: 1
-      Y: 0.300000042
-      Z: 1.1
+      X: 5
+      Y: 101.399994
+      Z: 40
     }
   }
-  ParentId: 13470370335106665012
+  ParentId: 3244802292604714270
   UnregisteredParameters {
     Overrides {
-      Name: "cs:PreventProjectiles"
-      Bool: false
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18123023743670948327
+      }
     }
   }
   Collidable_v2 {
@@ -92,24 +97,88 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Script {
-    ScriptAsset {
-      Id: 6201802266941758969
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
     }
-  }
-  InstanceHistory {
-    SelfId: 9533702085410670304
-    SubobjectId: 14347521032953020428
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13955350143970406546
-  Name: "2Frogs-InvisibleWall"
+  Id: 12821094118734992085
+  Name: "BlockAll"
+  Transform {
+    Location {
+      X: -4766
+      Y: -4468.08447
+      Z: 2700
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 5
+      Y: 109.622322
+      Z: 40
+    }
+  }
+  ParentId: 3244802292604714270
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18123023743670948327
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16822877917108190457
+  Name: "BlockAll"
   Transform {
     Location {
       X: -9718.7334
@@ -125,12 +194,11 @@ Objects {
     }
   }
   ParentId: 3244802292604714270
-  ChildIds: 8972692076794256956
   UnregisteredParameters {
     Overrides {
-      Name: "cs:hitbox"
-      ObjectReference {
-        SelfId: 13955350143970406546
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18123023743670948327
       }
     }
   }
@@ -146,98 +214,50 @@ Objects {
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  Trigger {
-    TeamSettings {
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2235352329705380535
-    SubobjectId: 6653981372002065499
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-    WasRoot: true
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 8972692076794256956
+  Id: 11590919363956182660
   Name: "2Frogs-InvisibleWall"
   Transform {
     Location {
+      X: -7458
+      Y: -3082
+      Z: 2385
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 0.300000042
-      Z: 1.1
-    }
-  }
-  ParentId: 13955350143970406546
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PreventProjectiles"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6201802266941758969
-    }
-  }
-  InstanceHistory {
-    SelfId: 9533702085410670304
-    SubobjectId: 14347521032953020428
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 2375785911171445105
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-      X: -108.23613
-      Y: 1400
-      Z: 2700
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5
-      Y: 120.899986
+      X: 40
+      Y: 26.100008
       Z: 40
     }
   }
   ParentId: 3244802292604714270
-  ChildIds: 4165418603321384272
+  ChildIds: 15918807545140116674
   UnregisteredParameters {
     Overrides {
       Name: "cs:hitbox"
       ObjectReference {
-        SelfId: 2375785911171445105
+        SelfId: 11590919363956182660
       }
     }
   }
@@ -274,7 +294,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4165418603321384272
+  Id: 15918807545140116674
   Name: "2Frogs-InvisibleWall"
   Transform {
     Location {
@@ -287,115 +307,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 2375785911171445105
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PreventProjectiles"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6201802266941758969
-    }
-  }
-  InstanceHistory {
-    SelfId: 9533702085410670304
-    SubobjectId: 14347521032953020428
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 69668234762390839
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-      X: -1926.00024
-      Y: 7332.55615
-      Z: 2700
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 5
-      Y: 40
-      Z: 40
-    }
-  }
-  ParentId: 3244802292604714270
-  ChildIds: 16496257358277483155
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:hitbox"
-      ObjectReference {
-        SelfId: 69668234762390839
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 2235352329705380535
-    SubobjectId: 6653981372002065499
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16496257358277483155
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.300000042
-      Z: 1.1
-    }
-  }
-  ParentId: 69668234762390839
+  ParentId: 11590919363956182660
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"
@@ -2536,221 +2448,6 @@ Objects {
     }
   }
   ParentId: 10561467541688248164
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PreventProjectiles"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6201802266941758969
-    }
-  }
-  InstanceHistory {
-    SelfId: 9533702085410670304
-    SubobjectId: 14347521032953020428
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 11590919363956182660
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-      X: -7458
-      Y: -1853.9928
-      Z: 2385
-    }
-    Rotation {
-    }
-    Scale {
-      X: 40
-      Y: 2
-      Z: 40
-    }
-  }
-  ParentId: 3244802292604714270
-  ChildIds: 15918807545140116674
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:hitbox"
-      ObjectReference {
-        SelfId: 11590919363956182660
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 2235352329705380535
-    SubobjectId: 6653981372002065499
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15918807545140116674
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.300000042
-      Z: 1.1
-    }
-  }
-  ParentId: 11590919363956182660
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PreventProjectiles"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6201802266941758969
-    }
-  }
-  InstanceHistory {
-    SelfId: 9533702085410670304
-    SubobjectId: 14347521032953020428
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 673347677256501690
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-      X: -4766
-      Y: -4468.08447
-      Z: 2700
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 5
-      Y: 109.622322
-      Z: 40
-    }
-  }
-  ParentId: 3244802292604714270
-  ChildIds: 15764731562598005453
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:hitbox"
-      ObjectReference {
-        SelfId: 673347677256501690
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 2235352329705380535
-    SubobjectId: 6653981372002065499
-    InstanceId: 275149401546170836
-    TemplateId: 8454579152465897524
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15764731562598005453
-  Name: "2Frogs-InvisibleWall"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 0.300000042
-      Z: 1.1
-    }
-  }
-  ParentId: 673347677256501690
   UnregisteredParameters {
     Overrides {
       Name: "cs:PreventProjectiles"

@@ -5,8 +5,6 @@
 -- Constants
 local TEAM_DEFEND = 1
 local TEAM_ATTACK = 2
-local TEAM_DEF_EQUIPMENT = "Hat-Blue"
-local TEAM_ATT_EQUIPMENT = "Hat-Red"
 
 -- Custom 
 local ABGS = require(script:GetCustomProperty("API"))
