@@ -1,18 +1,18 @@
 DebuggerSettings {
   ScriptSettings {
     Script {
-      Id: 14268789575749770572
-    }
-    Breakpoints {
-      LineNumber: 18
-    }
-  }
-  ScriptSettings {
-    Script {
       Id: 16852391239071805625
     }
     Breakpoints {
       LineNumber: 221
+    }
+  }
+  ScriptSettings {
+    Script {
+      Id: 6201802266941758969
+    }
+    Breakpoints {
+      LineNumber: 18
     }
   }
 }
