@@ -26,6 +26,16 @@ for _, spawner in pairs(npcSpawners) do
         table.insert(attackNpcSpawner, spawner:GetCustomProperty("spawner"):WaitForObject())
     end
 end
+
+-- Musics 
+local MUSIC_IG_1 = script:GetCustomProperty("Music_IG_1"):WaitForObject()
+local MUSIC_IG_2 = script:GetCustomProperty("Music_IG_2"):WaitForObject()
+local MUSIC_IG_3 = script:GetCustomProperty("Music_IG_3"):WaitForObject()
+local MUSIC_IG_4 = script:GetCustomProperty("Music_IG_4"):WaitForObject()
+local MUSIC_LOBBY = script:GetCustomProperty("Music_Lobby"):WaitForObject()
+
+local musics = {MUSIC_IG_1, MUSIC_IG_2, MUSIC_IG_3, MUSIC_IG_4, MUSIC_LOBBY}
+
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
@@ -38,11 +48,29 @@ local RoundRunning = false
 local RoundNb = 0
 local RespawnTime = 5
 
+function StopMusics()
+    for _, music in pairs(musics) do
+        music:Stop()
+    end
+end
+
+function StartInGameMusic()
+    local id = math.random(1, 4)
+    StopMusics()
+    musics[id]:Play()
+end
+
+function StartLobbyMusic()
+    StopMusics()
+    musics[5]:Play()
+end
+
 function OnRoundStart()
     RoundNb = RoundNb + 1
     RoundRunning = true
     SetGoalMessage("")
     SpawnPlayers(false)
+    StartInGameMusic()
     local SeqAtRoundNb = RoundNb
     for i = CurrentWaveNb, MaxNBWaveAttacking do
         SpawnAttackerWave()
@@ -66,6 +94,7 @@ function OnRoundEnd()
     ResetAllPlayers()
     ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
     SpawnPlayers(true)
+    StartLobbyMusic()
 end
 
 function ResetAllPlayers()
@@ -196,6 +225,11 @@ function OnPlayerJoin(player)
     local spawnSettings = {position = pos, rotation = rot}
     player.team = 0
     player:Spawn(spawnSettings)
+    if ABGS.IsGameStateManagerRegistered() then
+        if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+            StartLobbyMusic()
+        end
+    end
 end
 
 function SpawnPlayers(inLobby)

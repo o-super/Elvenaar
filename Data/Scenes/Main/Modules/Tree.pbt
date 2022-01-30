@@ -363,6 +363,36 @@ Objects {
         Id: 11974742996071064388
       }
     }
+    Overrides {
+      Name: "cs:Music_IG_1"
+      ObjectReference {
+        SelfId: 7770316575058878467
+      }
+    }
+    Overrides {
+      Name: "cs:Music_IG_2"
+      ObjectReference {
+        SelfId: 10017707864670351807
+      }
+    }
+    Overrides {
+      Name: "cs:Music_IG_3"
+      ObjectReference {
+        SelfId: 11445259539831666622
+      }
+    }
+    Overrides {
+      Name: "cs:Music_IG_4"
+      ObjectReference {
+        SelfId: 12905752529484232927
+      }
+    }
+    Overrides {
+      Name: "cs:Music_Lobby"
+      ObjectReference {
+        SelfId: 14944638993826413113
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
