@@ -22,6 +22,7 @@ Objects {
   ChildIds: 1081995987986146460
   ChildIds: 4825877439213614864
   ChildIds: 3244802292604714270
+  ChildIds: 7327596278836350180
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,44 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 7327596278836350180
+  Name: "2Frogs - Wall fire"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 653988353592615222
+      value {
+        Overrides {
+          Name: "Name"
+          String: "2Frogs - Wall fire"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3588
+            Y: -791
+            Z: 600
+          }
+        }
+        Overrides {
+          Name: "bp:Density"
+          Float: 5
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16215182570570598064
+    }
   }
 }
 Objects {

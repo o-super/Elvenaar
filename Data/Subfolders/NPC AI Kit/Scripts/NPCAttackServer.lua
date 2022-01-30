@@ -143,7 +143,7 @@ function OnProjectileImpact(projectile, other, hitResult)
 	COMBAT().ApplyDamage(attackData)
 
 	-- Apply Damage to Damageable objects
-	if other.parent ~= nil then
+	if other.parent ~= nil and other.parent:IsA("Damageable") then
 		other.parent:ApplyDamage(dmg)
 	end
 

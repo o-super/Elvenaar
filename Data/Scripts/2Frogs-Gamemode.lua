@@ -30,7 +30,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 1
+local MinimumPlayers = 2
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -107,7 +107,7 @@ end
 
 -- Kill all NPCs from both teams
 function KillAllNPCs()
-    local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed")
+    local npcs = World.FindObjectsByName("2Frogs - Magma NPC")
     for _, npc in pairs(npcs) do
         npc:Destroy()
     end

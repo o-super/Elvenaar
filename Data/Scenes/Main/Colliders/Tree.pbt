@@ -3121,7 +3121,7 @@ Objects {
   }
   Trigger {
     TeamSettings {
-      TeamInt: 1
+      TeamInt: 2
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
