@@ -30,7 +30,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -248,9 +248,11 @@ function checkStartGame()
                 SetGoalMessage("Starting Game. Prepare to fight!")
             end
         else
-            CountDownActive = false
-            ABGS.SetTimeRemainingInState(-1)
-            SetGoalMessage("All players must have selected a team and equipment.")
+            if CountDownActive == true then
+                CountDownActive = false
+                ABGS.SetTimeRemainingInState(-1)            
+                SetGoalMessage("All players must have selected a team and equipment.")
+            end
         end
     else
         -- Reset to lobby is a player leaves during countdown
