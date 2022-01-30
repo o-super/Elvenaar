@@ -34,6 +34,7 @@ end
 
 function MeleeAttack(other)
     if other == ABILITY.owner then return end
+    if other:IsA("Player") == false and other:IsA("StaticMesh") == false then return end
     if Teams.AreTeamsFriendly(other.team, ABILITY.owner.team) then return end
 
     -- Avoid hitting the same player multiple times in a single swing

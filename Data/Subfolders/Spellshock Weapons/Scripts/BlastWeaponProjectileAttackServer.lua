@@ -62,6 +62,8 @@ function BlastTarget(hitResult, abilityInfo)
 
 	-- Ignore if the hitbox is overlapping with the owner
     if target == ability.owner then return end
+    -- Ignore if target is not a player or mesh
+    if target:IsA("Player") == false and target:IsA("StaticMesh") == false then return end
 
     if Teams.AreTeamsEnemies(target.team, ability.owner.team) and target ~= ability.owner then
         -- Create a direction at which the target is pushed away from the blast

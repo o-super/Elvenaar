@@ -57,6 +57,8 @@ function BlastTarget(hitResult, abilityInfo)
     local center = ability.owner:GetWorldPosition()
 	-- Ignore if the hitbox is overlapping with the owner
     if target == ability.owner then return end
+    -- Ignore if target is not a player or mesh
+    if target:IsA("Player") == false and target:IsA("StaticMesh") == false then return end
 
     if Teams.AreTeamsEnemies(target.team, ability.owner.team) and target ~= ability.owner then
         -- Avoid hitting the same target object multiple times in a single swing

@@ -71,6 +71,8 @@ function BlastTarget(hitResult, abilityInfo)
 
 	-- Ignore if the hitbox is overlapping with the owner
     if target == ability.owner then return end
+    -- Ignore if target is not a player or mesh
+    if target:IsA("Player") == false and target:IsA("StaticMesh") == false then return end
 
     -- Only blast the enemy team
     if Teams.AreTeamsEnemies(target.team, sourceOwner.team) and target ~= sourceOwner then
@@ -100,7 +102,6 @@ function BlastTarget(hitResult, abilityInfo)
             DAMAGE_API.ApplyDamage(damage, sourceAbility, target, sourceOwner)
         else
             -- Appli damage to npc
-            print("Damage: " .. tostring(attackData.damage.amount))
             COMBAT().ApplyDamage(attackData)
         end	
 

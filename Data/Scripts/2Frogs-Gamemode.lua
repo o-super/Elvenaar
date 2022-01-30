@@ -29,7 +29,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -270,7 +270,7 @@ end
 function checkEndGame()
     if LastWaveFinishedSpawning == true then
         -- if all attacking npcs are dead then end (defender wins)
-        local npcs = World.FindObjectsByName("2Frogs- RPG Skeleton - Unarmed") -- Todo: Make a function who test all type of npc we have
+        local npcs = World.FindObjectsByName("2Frogs - Magma NPC") -- Todo: Make a function who test all type of npc we have
         if #npcs == 0 then
             World.SpawnAsset(defenderSong)
             SetGoalMessage("Defenders win!")
