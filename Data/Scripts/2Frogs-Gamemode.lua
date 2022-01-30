@@ -248,9 +248,9 @@ function checkStartGame()
         else
             if CountDownActive == true then
                 CountDownActive = false
-                ABGS.SetTimeRemainingInState(-1)            
-                SetGoalMessage("All players must have selected a team and equipment.")
+                ABGS.SetTimeRemainingInState(-1)
             end
+            SetGoalMessage("All players must have selected a team and equipment.")
         end
     else
         -- Reset to lobby is a player leaves during countdown

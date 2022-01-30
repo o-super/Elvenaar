@@ -665,7 +665,7 @@ Objects {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
-      MountChannelingTime: 2
+      MountChannelingTime: 1e+11
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
