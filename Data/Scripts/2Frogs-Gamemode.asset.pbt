@@ -34,6 +34,12 @@ Assets {
           Id: 12062383161230281691
         }
       }
+      Overrides {
+        Name: "cs:Relic"
+        AssetReference {
+          Id: 16614090954154140053
+        }
+      }
     }
   }
   SerializationVersion: 104

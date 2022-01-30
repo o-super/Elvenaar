@@ -145,6 +145,14 @@ Objects {
             A: 1
           }
         }
+        Overrides {
+          Name: "Damageable.StartImmortal"
+          Bool: false
+        }
+        Overrides {
+          Name: "Damageable.DestroyOnDeath"
+          Bool: true
+        }
       }
     }
     TemplateAsset {
@@ -285,6 +293,14 @@ Objects {
         Overrides {
           Name: "Damageable.MaxHitPoints"
           Float: 1000
+        }
+        Overrides {
+          Name: "Damageable.StartImmortal"
+          Bool: false
+        }
+        Overrides {
+          Name: "Damageable.DestroyOnDeath"
+          Bool: true
         }
       }
     }

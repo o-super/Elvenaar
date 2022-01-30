@@ -16,6 +16,7 @@ local iceTeleportVfx = script:GetCustomProperty("IceTeleportVFX")
 local fireTeleportVfx = script:GetCustomProperty("FireTeleportVFX")
 local defenderSong = script:GetCustomProperty("DefenderHymne")
 local attackerSong = script:GetCustomProperty("AttackerHymne")
+local RELIC = script:GetCustomProperty("Relic")
 local attackNpcSpawner = {}
 local defendNpcSpawner = {}
 for _, spawner in pairs(npcSpawners) do
@@ -28,7 +29,7 @@ end
 local CurrentWaveNb = 1
 local CountDownActive = false
 local RoundStartCoutdown = 10
-local MinimumPlayers = 2
+local MinimumPlayers = 1
 local MaxNBWaveAttacking = 5
 local TimeBetweenWaves = 45
 local NbNPCPerWave = 8
@@ -96,10 +97,12 @@ function ResetObjectives()
         local rot = obj:GetWorldRotation()
         local scale = obj:GetWorldScale()
         local templateId = obj.sourceTemplateId
-        -- destroy obj
-        obj:Destroy()        
-        -- spawn new
-        World.SpawnAsset(templateId, {position = pos, rotation = rot, scale = scale})
+        -- Get children and destroy them all
+        for _, debris in pairs(obj:GetChildren()) do
+            debris:Destroy()
+        end
+        -- Spawn new Angel
+        World.SpawnAsset(RELIC, {parent = obj})
     end
 end
 
