@@ -16,6 +16,12 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Density"
+            Float: 6
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
