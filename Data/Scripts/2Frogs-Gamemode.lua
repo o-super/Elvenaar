@@ -320,6 +320,7 @@ function checkEndGame()
         -- if all attacking npcs are dead then end (defender wins)
         local npcs = World.FindObjectsByName("2Frogs - Magma NPC") -- Todo: Make a function who test all type of npc we have
         if #npcs == 0 then
+            StopMusics()
             World.SpawnAsset(defenderSong)
             SetGoalMessage("Defenders win!")
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
@@ -328,6 +329,7 @@ function checkEndGame()
     -- if all objectives are destroyed then end (attacker wins)
     local objectives = World.FindObjectsByName("Relic")
     if #objectives == 0 then
+        StopMusics()
         World.SpawnAsset(attackerSong)
         SetGoalMessage("Attackers win!")
         ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
