@@ -488,6 +488,7 @@ Objects {
   ChildIds: 3275755909699242710
   ChildIds: 1129570314909477509
   ChildIds: 12163231001796548897
+  ChildIds: 12710949571594016951
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -509,6 +510,96 @@ Objects {
     SubobjectId: 4801458946608525175
     InstanceId: 4121279684177381495
     TemplateId: 14674554960158094798
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12710949571594016951
+  Name: "GameDesc"
+  Transform {
+    Location {
+      X: -21.0948486
+      Y: 1152.33459
+      Z: 534
+    }
+    Rotation {
+      Yaw: -90.2068939
+      Roll: -90
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 14541979221909656958
+  ChildIds: 70832123068243180
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 70832123068243180
+  Name: "Label"
+  Transform {
+    Location {
+      X: 139.333496
+      Y: -57.3331261
+      Z: -16
+    }
+    Rotation {
+      Roll: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12710949571594016951
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Text {
+    Text: "Protect Or Retreive Your Legacy\r\n\r\nIn the world of Poryl, the Ice Citadel stands as a stronghold for many citizens and acts as the capital of the Frost Nation.\r\nThe Ice Citadel\342\200\231s citizens now face an invasion from the Lava Region that threatens their home, peace, and safety.\r\nMeanwhile, the citizens of the Lava Region face a crisis of overcrowding.\r\nLong ago, the Lava Region\342\200\231s land was stolen by the Frost Nation.\r\nNow in an attempt to solve their overcrowding crisis and regain their land, they invade the Ice Citadel. \r\n\r\nIce Defenders: Defend your citadel\342\200\231s treasured statues from hordes of invaders and attacking players!\r\n\r\nLava Attackers: Attack ice defender players so that your horde of lava invaders can take down the Ice Citadel\342\200\231s statues!"
+    FontAsset {
+    }
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
