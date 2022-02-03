@@ -34,9 +34,9 @@ function Tick(DeltaTime)
                 end
             end
         elseif ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
-            if LOCAL_PLAYER.team == TEAM_DEFEND then
+            if LOCAL_PLAYER.team == TEAM_ATTACK then
                 OBJECTIVE_TEXT.text = "Help the lava minions to destroy the green, red and blue ice structures."
-            elseif LOCAL_PLAYER.team == TEAM_ATTACK then
+            elseif LOCAL_PLAYER.team == TEAM_DEFEND then
                 OBJECTIVE_TEXT.text = "Defend your green, red and blue structures from the lava people."
             else
                 OBJECTIVE_TEXT.text = "A Game is ongoing, feel free to spectate, you will join the next round soon."
