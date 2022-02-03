@@ -199,5 +199,5 @@ Assets {
       AssetId: "Fantasy_Castle_Wall_02_-_Top_Template"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

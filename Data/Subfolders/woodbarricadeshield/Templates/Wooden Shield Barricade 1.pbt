@@ -2493,6 +2493,6 @@ Assets {
   Marketplace {
     Description: "woodbarricadeshield"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

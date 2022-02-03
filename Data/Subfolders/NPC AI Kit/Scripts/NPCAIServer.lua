@@ -184,9 +184,14 @@ function Tick(deltaTime)
 	logicStepDelay = logicStepDelay - deltaTime
 	engageCooldown = engageCooldown - deltaTime
 	attackCooldown = attackCooldown - deltaTime
-	
+
 	--print("I: " .. tostring(ROOT) .. " State: " .. tostring(currentState) .. " target: " .. tostring(target) .. " NavPath: " .. tostring(navMeshPath)
 	--.. " LogicStep: " .. tostring(logicStepDelay))
+
+	-- Remove invicible AIs
+	if ROOT:GetCustomProperty("CurrentHealth") <= 0 and stateTime > 5 then
+		ROOT:Destroy()
+	end
 
 	if (searchTimeElapsed >= 0) then
 		searchTimeElapsed = searchTimeElapsed + deltaTime
@@ -624,7 +629,7 @@ function FindNearestEnemy()
 	
 	-- Players
 	for _,enemy in ipairs(Game.GetPlayers()) do
-		if (enemy.team ~= myTeam and not enemy.isDead) then
+		if (enemy.team ~= 0 and enemy.team ~= myTeam and not enemy.isDead) then
 			local canSee,distSquared = CanSeeEnemy(enemy, myPos, forwardVector, nearestDistSquared)
 			if canSee then
 				nearestDistSquared = distSquared

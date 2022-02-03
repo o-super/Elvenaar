@@ -58,12 +58,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11162541300072939537
-    SubobjectId: 10291301106256870261
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -125,12 +119,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 1550244375303954995
-    SubobjectId: 124069942591347031
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

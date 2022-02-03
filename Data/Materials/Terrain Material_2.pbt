@@ -2,7 +2,7 @@ Assets {
   Id: 6572272394791331601
   Name: "Terrain Material_2"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14393092036547303015
     ParameterOverrides {

@@ -86,12 +86,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 10083303779342544475
-    SubobjectId: 16437176384701814661
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -138,12 +132,6 @@ Objects {
     ScriptAsset {
       Id: 11538588361234406493
     }
-  }
-  InstanceHistory {
-    SelfId: 16727555226711230034
-    SubobjectId: 9788491681763278732
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -223,12 +211,6 @@ Objects {
       MaxHitpoints: 100
       PlayerMasterVolumeMultiplier: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 857269157807515751
-    SubobjectId: 7211989551659897273
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

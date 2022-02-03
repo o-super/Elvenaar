@@ -581,6 +581,6 @@ Assets {
   Marketplace {
     Description: "an samurai flag"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

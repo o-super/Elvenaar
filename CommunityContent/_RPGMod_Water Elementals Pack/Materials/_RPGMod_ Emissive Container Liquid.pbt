@@ -2,7 +2,7 @@ Assets {
   Id: 6714649531792146384
   Name: "_RPGMod_ Emissive Container Liquid"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 18280303351516875622
     ParameterOverrides {

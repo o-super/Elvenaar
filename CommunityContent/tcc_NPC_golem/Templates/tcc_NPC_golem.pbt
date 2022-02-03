@@ -2887,6 +2887,6 @@ Assets {
   Marketplace {
     Description: "npc golem"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 18257456233391314510
   Name: "Transparent Ice"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14275860011872341880
     ParameterOverrides {

@@ -110,5 +110,5 @@ Assets {
       AssetId: "Damageable_Fire_Hydrant"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

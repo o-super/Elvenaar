@@ -831,13 +831,6 @@ Objects {
       SelfId: 16218769969666252306
     }
   }
-  InstanceHistory {
-    SelfId: 4157481117471016263
-    SubobjectId: 921018252173873156
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-    WasRoot: true
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -871,12 +864,6 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 3961681023118874046
-    SubobjectId: 252480659251036413
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -915,12 +902,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 10729137854286532877
-    SubobjectId: 11646242925558006862
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -988,12 +969,6 @@ Objects {
       AutoPlay: true
     }
   }
-  InstanceHistory {
-    SelfId: 6317534980883688002
-    SubobjectId: 7121931138625814273
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1032,12 +1007,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Handle Body"
   }
-  InstanceHistory {
-    SelfId: 17042318583397940135
-    SubobjectId: 15706356759796936420
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1074,12 +1043,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Handle Bar"
   }
-  InstanceHistory {
-    SelfId: 5829149970466021592
-    SubobjectId: 7322579453595596187
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1115,12 +1078,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Inner Blade"
   }
-  InstanceHistory {
-    SelfId: 6362448913531545097
-    SubobjectId: 7868280748907082570
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1155,12 +1112,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Outer Blade"
-  }
-  InstanceHistory {
-    SelfId: 5904784604548476462
-    SubobjectId: 7244119598892989293
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1205,12 +1156,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 14596117957492561933
-    SubobjectId: 18443816924970470734
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1254,12 +1199,6 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
-  InstanceHistory {
-    SelfId: 10795561208665406076
-    SubobjectId: 11577562273790848831
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1294,12 +1233,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Abilities_1"
-  }
-  InstanceHistory {
-    SelfId: 8431084143088147822
-    SubobjectId: 4646431063865428013
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1375,12 +1308,6 @@ Objects {
       Id: 16973625822141575009
     }
   }
-  InstanceHistory {
-    SelfId: 7000226670142244434
-    SubobjectId: 6079726617678304017
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -1422,12 +1349,6 @@ Objects {
     ScriptAsset {
       Id: 16249674485990016115
     }
-  }
-  InstanceHistory {
-    SelfId: 1578984538014774893
-    SubobjectId: 2347470685754680110
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

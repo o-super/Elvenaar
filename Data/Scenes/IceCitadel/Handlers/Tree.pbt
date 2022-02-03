@@ -32,12 +32,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "BowLeftSide"
   }
-  InstanceHistory {
-    SelfId: 15495889361515629082
-    SubobjectId: 14066763333916897662
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -73,12 +67,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "BowRightSide"
-  }
-  InstanceHistory {
-    SelfId: 6625301006359381421
-    SubobjectId: 5749574822227689161
-    InstanceId: 3350673055041674239
-    TemplateId: 5168234850048785492
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

@@ -2,7 +2,7 @@ Assets {
   Id: 7855409781024907996
   Name: "Crossbow Magic Wood"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10634098119816284342
     ParameterOverrides {

@@ -76,5 +76,5 @@ Assets {
     Version: "1.0.0"
     Description: "This template is for people who want mountains that are neither too shabby nor too curried quickly so as not to have to do them. It is my first template, so I will improve it. If you don\'t like something, there is a mistake or you would like there to be something, just tell me. I hope you like it!!!  "
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

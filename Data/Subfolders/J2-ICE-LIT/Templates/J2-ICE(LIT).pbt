@@ -389,6 +389,6 @@ Assets {
   Marketplace {
     Description: "Ice cluster with light. Use sparingly.\r\nUse with\r\nJ2-ICE-(S)\r\nJ2-ICE-WALL\r\nJ2_ICE-WALL(LIT)\r\nJ2-ICE-WALL(S)\r\nJ2-ICE(LIT)"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

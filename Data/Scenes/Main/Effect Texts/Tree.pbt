@@ -46,12 +46,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Poison Effect Text"
   }
-  InstanceHistory {
-    SelfId: 6934558807634495215
-    SubobjectId: 1139133586811387697
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -101,12 +95,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Lightning Effect Text"
-  }
-  InstanceHistory {
-    SelfId: 13672261080566322321
-    SubobjectId: 15154087776762883407
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -159,12 +147,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Ice Effect Text"
   }
-  InstanceHistory {
-    SelfId: 13991039331618114416
-    SubobjectId: 12527232595560919726
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -214,12 +196,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Fire Effect Text"
-  }
-  InstanceHistory {
-    SelfId: 13182586142258474111
-    SubobjectId: 15637192557543953825
-    InstanceId: 11135072968708948872
-    TemplateId: 6662097948316039844
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

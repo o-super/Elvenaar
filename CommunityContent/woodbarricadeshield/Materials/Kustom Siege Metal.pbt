@@ -2,7 +2,7 @@ Assets {
   Id: 18042365400136793499
   Name: "Kustom Siege Metal"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 17999311708092879895
     ParameterOverrides {

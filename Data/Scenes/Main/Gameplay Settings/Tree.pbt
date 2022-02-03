@@ -403,6 +403,56 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 434560559355800402
+      value {
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 25
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 255
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1732975911080891220
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: 25
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -25
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:topright"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:topright"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 2546427881456684015
       value {
         Overrides {
@@ -412,6 +462,31 @@ Objects {
             SubObjectId: 2420317408083004382
             InstanceId: 1222972980876706165
             TemplateId: 282887732358444069
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3299506318204361248
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:middlecenter"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:middlecenter"
           }
         }
       }
@@ -427,6 +502,81 @@ Objects {
             InstanceId: 2608585193510208174
             TemplateId: 282887732358444069
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5838496747691019587
+      value {
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 25
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 25
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6092631959476493595
+      value {
+        Overrides {
+          Name: "UIY"
+          Float: -20
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -475
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:bottomright"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:bottomright"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8670212066576060451
+      value {
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:topleft"
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 25
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 140
         }
       }
     }
@@ -460,6 +610,74 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13474914646443004031
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+        Overrides {
+          Name: "Opacity"
+          Float: 1
+        }
+        Overrides {
+          Name: "Width"
+          Int: 0
+        }
+        Overrides {
+          Name: "Height"
+          Int: 0
+        }
+        Overrides {
+          Name: "UIInheritParentWidth"
+          Bool: true
+        }
+        Overrides {
+          Name: "UIInheritParentHeight"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17364474613470644250
+      value {
+        Overrides {
+          Name: "OutlineSize"
+          Int: 3
+        }
+        Overrides {
+          Name: "OutlineColor"
+          Color {
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Dock"
+          Enum {
+            Value: "mc:euianchor:topcenter"
+          }
+        }
+        Overrides {
+          Name: "Anchor"
+          Enum {
+            Value: "mc:euianchor:topcenter"
+          }
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 15
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 0
         }
       }
     }

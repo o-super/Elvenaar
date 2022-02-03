@@ -2,7 +2,7 @@ Assets {
   Id: 17377961860349576631
   Name: "Slime"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 599622271814296443
     ParameterOverrides {

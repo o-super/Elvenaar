@@ -2,7 +2,7 @@ Assets {
   Id: 3768983205206590289
   Name: "Custom Base Material from Fantasy Chest Treasure Pile 01"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 2343329785943659229
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 775976004286793046
   Name: "Vol Lava Waterfall Straight"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Volcano materials"
   CustomMaterialAsset {
     BaseMaterialId: 15050760250574004677

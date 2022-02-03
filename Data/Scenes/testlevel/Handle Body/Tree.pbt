@@ -32,12 +32,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Gem"
   }
-  InstanceHistory {
-    SelfId: 9664652954213929428
-    SubobjectId: 12927007260355413143
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -74,12 +68,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gem_1"
-  }
-  InstanceHistory {
-    SelfId: 8544897376758883804
-    SubobjectId: 4895369711477977247
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -144,12 +132,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 6400575999625799983
-    SubobjectId: 7901886334253317228
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -222,12 +204,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 17290246157391010729
-    SubobjectId: 15747119157816200938
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

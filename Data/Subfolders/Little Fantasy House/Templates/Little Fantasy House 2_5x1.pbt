@@ -8080,6 +8080,6 @@ Assets {
   Marketplace {
     Description: "Just a simple little fantasy House made with the Fantasy meshes from the DnD framework and a bed created by grimland\r\n\r\nIf you find any bugs or glitches, let me know :)\r\n\r\nChangelog:\r\n\r\n+ added a one sided floor\r\n+ Hierarchy is now clean and organized"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

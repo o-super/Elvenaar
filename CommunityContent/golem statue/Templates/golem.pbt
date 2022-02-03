@@ -2309,6 +2309,6 @@ Assets {
   Marketplace {
     Description: "wanted to make an animatable charechter but i couldnt but i thought t would be a cool statue instead"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

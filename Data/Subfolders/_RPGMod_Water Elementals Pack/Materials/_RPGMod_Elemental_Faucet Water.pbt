@@ -2,7 +2,7 @@ Assets {
   Id: 11697426624915082543
   Name: "_RPGMod_Elemental_Faucet Water"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11274272001261266984
     ParameterOverrides {

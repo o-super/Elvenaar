@@ -2,7 +2,7 @@ Assets {
   Id: 5522843835086508900
   Name: "Virtual Folders"
   PlatformAssetType: 30
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderSetAsset {
     Folders {
       VirtualFolderPath: "Volcano materials"

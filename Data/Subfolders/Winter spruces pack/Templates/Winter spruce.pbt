@@ -371,6 +371,6 @@ Assets {
   Marketplace {
     Description: "5 winter spruces models"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 17701148753134059594
   Name: "Custom - Bubble Brains"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 13542265519619239198
     ParameterOverrides {

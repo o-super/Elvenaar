@@ -56,12 +56,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12549387346628700710
-    SubobjectId: 11192055825204871013
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -122,12 +116,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14804264890483501243
-    SubobjectId: 17872845525774433784
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -162,12 +150,6 @@ Objects {
     ScriptAsset {
       Id: 15438218715691669456
     }
-  }
-  InstanceHistory {
-    SelfId: 18121024849218929991
-    SubobjectId: 14844033850023088132
-    InstanceId: 17814152441956551220
-    TemplateId: 11218264689613588592
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

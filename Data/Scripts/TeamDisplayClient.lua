@@ -7,7 +7,7 @@ local TEAM_ATTACK = 2
 
 function GetTeamLabel()
     if not Object.IsValid(LOCAL_PLAYER) then return end
-    local label = "Pick a team in order to select a hero preset."
+    local label = "No Team Selected"
     if Game.GetLocalPlayer().team == TEAM_DEFEND then
         label = "Team Defenders"
     elseif Game.GetLocalPlayer().team == TEAM_ATTACK then

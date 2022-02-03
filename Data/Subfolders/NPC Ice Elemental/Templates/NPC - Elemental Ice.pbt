@@ -5125,6 +5125,6 @@ Assets {
   Marketplace {
     Description: "Ice elemental NPC"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

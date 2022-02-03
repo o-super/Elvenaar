@@ -697,5 +697,5 @@ Assets {
       AssetId: "Japanese_Katana_Stand_01_with_Swords_Prop_"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

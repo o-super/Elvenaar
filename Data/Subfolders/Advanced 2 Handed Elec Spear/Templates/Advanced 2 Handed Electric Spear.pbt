@@ -2901,6 +2901,6 @@ Assets {
   Marketplace {
     Description: "An awseome spear to go stabby stabby shocky shocky on your ennemies\r\nComes with 2 thrusts. Hope you\'ll like it :3"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

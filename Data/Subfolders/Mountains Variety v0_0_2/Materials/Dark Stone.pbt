@@ -2,7 +2,7 @@ Assets {
   Id: 9276372571506793760
   Name: "Dark Stone"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 6373652067711720236
     ParameterOverrides {

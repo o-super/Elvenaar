@@ -65,12 +65,6 @@ Objects {
     Vfx {
     }
   }
-  InstanceHistory {
-    SelfId: 14923503699335433858
-    SubobjectId: 14275323634922594185
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -132,12 +126,6 @@ Objects {
       MaxDrawDistance: 5000
       MaxDistanceFadeRange: 1000
     }
-  }
-  InstanceHistory {
-    SelfId: 1390536670350574427
-    SubobjectId: 1894574010511381072
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -217,12 +205,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12013711469244313854
-    SubobjectId: 12663992769027940853
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -301,12 +283,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14927557152934833408
-    SubobjectId: 14280802928344497163
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -348,12 +324,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Arm Diamonds_2"
-  }
-  InstanceHistory {
-    SelfId: 16120840522328093466
-    SubobjectId: 15473936996015530513
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -397,12 +367,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Hand Diamonds_2"
   }
-  InstanceHistory {
-    SelfId: 1004108486902064707
-    SubobjectId: 353959064886179656
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -445,12 +409,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Palm Diamonds_2"
   }
-  InstanceHistory {
-    SelfId: 6000028000221627282
-    SubobjectId: 6503951098553488025
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -489,12 +447,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Arm Cover_2"
   }
-  InstanceHistory {
-    SelfId: 2028337654761730259
-    SubobjectId: 1522452949308957144
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -532,12 +484,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Thorn Detail_2"
-  }
-  InstanceHistory {
-    SelfId: 14555478606564249574
-    SubobjectId: 13905354304746561261
-    InstanceId: 12272679567399242941
-    TemplateId: 5395249375066748323
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

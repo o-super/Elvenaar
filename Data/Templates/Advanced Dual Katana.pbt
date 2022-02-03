@@ -1310,5 +1310,5 @@ Assets {
       AssetId: "Advanced_Dual_Katana"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

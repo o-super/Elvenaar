@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "- small Sellinpost ( without script )\r\n- medieval/fantasy\r\n"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

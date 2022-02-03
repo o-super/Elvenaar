@@ -5704,5 +5704,5 @@ Assets {
   Marketplace {
     Description: "Advanced car template with four wheeled vehicle object, preset values and visuals. Includes various scripts for engine simulation, engine sounds, damage effects, ground detection and autoflip."
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 6203229045838792579
   Name: "Fire Magic Staff Gold Material"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11337413471323694429
     ParameterOverrides {

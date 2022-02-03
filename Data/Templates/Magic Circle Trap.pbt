@@ -1477,5 +1477,5 @@ Assets {
       AssetId: "Magic_Circle_Trap"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

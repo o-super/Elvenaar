@@ -108,12 +108,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 572846477296156484
-    SubobjectId: 10132642457295488333
-    InstanceId: 4121279684177381495
-    TemplateId: 14674554960158094798
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -161,12 +155,6 @@ Objects {
     ScriptAsset {
       Id: 2095807772852949911
     }
-  }
-  InstanceHistory {
-    SelfId: 12219139430997364183
-    SubobjectId: 2521543987637041118
-    InstanceId: 4121279684177381495
-    TemplateId: 14674554960158094798
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

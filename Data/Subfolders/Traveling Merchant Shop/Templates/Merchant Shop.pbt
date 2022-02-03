@@ -16656,6 +16656,6 @@ Assets {
   Marketplace {
     Description: "Nice little shop to sell things from."
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

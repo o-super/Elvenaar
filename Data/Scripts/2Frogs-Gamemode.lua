@@ -88,14 +88,14 @@ function OnRoundEnd()
     RoundRunning = false
     LastWaveFinishedSpawning = false
     CountDownActive = false
-    Task.Wait(3)    
-    KillAllNPCs()
-    CurrentWaveNb = 1
+    CurrentWaveNb = 1 
+    Task.Wait(3)       
+    KillAllNPCs()    
     ResetObjectives()
     ResetAllPlayers()
     ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
     SpawnPlayers(true)
-    StartLobbyMusic()
+    StartLobbyMusic()    
 end
 
 function ResetAllPlayers()
@@ -229,7 +229,7 @@ function SpawnPlayerFx(player)
     end
 end
 
-function OnPlayerJoin(player)    
+function OnPlayerJoin(player)
     -- Set Events
     player.diedEvent:Connect(OnPlayerDied)
     local pos = lobbySpawn:GetWorldPosition()
@@ -242,11 +242,14 @@ function OnPlayerJoin(player)
             StartLobbyMusic()
             -- Update Server Message
             SetGoalMessage("Waiting for more players to join ( " .. #Game.GetPlayers() .. " / " .. MinimumPlayers .. " )")
+        elseif ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
+            player:ActivateFlying()
+            player.isVisible = false
         end
     end
 end
 
-function SpawnPlayers(inLobby)
+function SpawnPlayers(inLobby)    
     if inLobby == true then
         -- Respawn player on lobby spawns
         for _, player in pairs(Game.GetPlayers()) do
@@ -256,6 +259,8 @@ function SpawnPlayers(inLobby)
             player.team = 0
             player:Spawn(spawnSettings)
             player.animationStance = "unarmed_stance"
+            player:ActivateWalking()
+            player.isVisible = true
         end
     else
         -- Respawn player on their InGame spawns

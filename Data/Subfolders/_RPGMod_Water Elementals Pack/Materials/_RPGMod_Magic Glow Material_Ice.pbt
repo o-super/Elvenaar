@@ -2,7 +2,7 @@ Assets {
   Id: 17956321536766718615
   Name: "_RPGMod_Magic Glow Material_Ice"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15761460511220986007
     ParameterOverrides {

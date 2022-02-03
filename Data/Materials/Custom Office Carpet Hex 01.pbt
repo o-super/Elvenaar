@@ -2,7 +2,7 @@ Assets {
   Id: 13837522271535709338
   Name: "Custom Office Carpet Hex 01"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 2452850963655664843
     ParameterOverrides {

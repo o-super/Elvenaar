@@ -1750,6 +1750,6 @@ Assets {
   Marketplace {
     Description: "networked version"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

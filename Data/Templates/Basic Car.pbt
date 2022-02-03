@@ -4945,5 +4945,5 @@ Assets {
   Marketplace {
     Description: "Basic car template with four wheeled vehicle object, preset values and visuals. No scripts included."
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

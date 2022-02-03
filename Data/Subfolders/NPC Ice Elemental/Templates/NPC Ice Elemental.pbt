@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Ice elemental NPC"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

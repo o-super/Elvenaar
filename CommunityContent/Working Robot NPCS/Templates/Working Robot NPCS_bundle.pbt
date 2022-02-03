@@ -46,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "They take damage and do damage, as long as you have a weapon with the dungeon crawlers template scripts"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

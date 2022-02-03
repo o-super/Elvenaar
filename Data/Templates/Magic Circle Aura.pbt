@@ -4196,5 +4196,5 @@ Assets {
       AssetId: "Magic_Circle_Aura"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

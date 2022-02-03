@@ -2,7 +2,7 @@ Assets {
   Id: 2433707103050145739
   Name: "Custom - Bubble Belly"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 13542265519619239198
     ParameterOverrides {

@@ -122,5 +122,5 @@ Assets {
       AssetId: "Game_State_Geometry"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
 }

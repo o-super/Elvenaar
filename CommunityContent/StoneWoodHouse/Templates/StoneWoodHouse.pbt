@@ -2025,6 +2025,6 @@ Assets {
   Marketplace {
     Description: "Made of stone and wood. Made for display purposes not interactive. Some stuff inside. One window in the back. "
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

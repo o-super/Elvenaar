@@ -2,7 +2,7 @@ Assets {
   Id: 14510443197314539732
   Name: "Vol rock Cliff 02"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Volcano materials"
   CustomMaterialAsset {
     BaseMaterialId: 11652341043099888422

@@ -2,7 +2,7 @@ Assets {
   Id: 7799130916388479263
   Name: "Kustom Wood"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4050437425243511619
     ParameterOverrides {

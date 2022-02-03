@@ -4055,6 +4055,6 @@ Assets {
   Marketplace {
     Description: "Long ago, when the Core was created, one of the programmers put a sword called the Sword of a 100 Truths into the game inventory"
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   DirectlyPublished: true
 }

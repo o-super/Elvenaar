@@ -27,7 +27,7 @@ function OnEndOverlap(theTrigger, player)
 end
 
 function applyWallDamage(player)
-    if ABGS.IsGameStateManagerRegistered() and ABGS.GetGameState() ~= ABGS.GAME_STATE_LOBBY then
+    if ABGS.IsGameStateManagerRegistered() and ABGS.GetGameState() ~= ABGS.GAME_STATE_LOBBY and player.team ~= 0 then
         player:ApplyDamage(Damage.New(15))
         Task.Wait(.5)
     end    

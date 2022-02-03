@@ -2,7 +2,7 @@ Assets {
   Id: 14206343344040130196
   Name: "Vol rock Cliff light"
   PlatformAssetType: 13
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Volcano materials"
   CustomMaterialAsset {
     BaseMaterialId: 11652341043099888422
