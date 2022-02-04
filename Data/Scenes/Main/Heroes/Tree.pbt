@@ -410,13 +410,13 @@ Objects {
     Overrides {
       Name: "cs:IceSet"
       AssetReference {
-        Id: 10987865044064021824
+        Id: 841534158063459245
       }
     }
     Overrides {
       Name: "cs:FireSet"
       AssetReference {
-        Id: 15668098463443669723
+        Id: 841534158063459245
       }
     }
     Overrides {
@@ -5925,7 +5925,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6365,7 +6365,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6626,13 +6626,13 @@ Objects {
     Overrides {
       Name: "cs:IceSet"
       AssetReference {
-        Id: 5271783192899370719
+        Id: 841534158063459245
       }
     }
     Overrides {
       Name: "cs:FireSet"
       AssetReference {
-        Id: 10628837356424378004
+        Id: 841534158063459245
       }
     }
     Overrides {
