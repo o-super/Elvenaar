@@ -34,7 +34,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: -4
+            Float: 200
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -276,7 +276,6 @@ Assets {
           }
         }
         ParentId: 4762331870605572381
-        ChildIds: 5601859959251991525
         ChildIds: 14048051053851795663
         ChildIds: 15096131017823741407
         ChildIds: 14361138669293241760
@@ -294,50 +293,6 @@ Assets {
         }
         NetworkContext {
           Type: Server
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 5601859959251991525
-        Name: "2Frogs-InvincibleFix"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11152934216494014976
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:root"
-            ObjectReference {
-              SubObjectId: 4762331870605572381
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6001469287943995650
-          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"

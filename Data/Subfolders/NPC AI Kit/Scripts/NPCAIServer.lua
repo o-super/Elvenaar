@@ -53,6 +53,7 @@ local ATTACK_CAST_TIME = ROOT:GetCustomProperty("AttackCast") or 0.5
 local ATTACK_RECOVERY_TIME = ROOT:GetCustomProperty("AttackRecovery") or 1.5
 local ATTACK_COOLDOWN = ROOT:GetCustomProperty("AttackCooldown") or 0
 local OBJECTIVE_THRESHOLD_DISTANCE_SQUARED = 900
+local CURRENT_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
 
 MAX_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
 
@@ -188,8 +189,11 @@ function Tick(deltaTime)
 	--print("I: " .. tostring(ROOT) .. " State: " .. tostring(currentState) .. " target: " .. tostring(target) .. " NavPath: " .. tostring(navMeshPath)
 	--.. " LogicStep: " .. tostring(logicStepDelay))
 
-	-- Remove invicible AIs
-	if ROOT:GetCustomProperty("CurrentHealth") <= 0 and stateTime > 5 then
+	-- Remove invincible AIs
+	if currentState < STATE_DEAD_1 and CURRENT_HEALTH < 0 then
+		SetState(STATE_DEAD_1)
+	end
+	if currentState == STATE_DISABLED then
 		ROOT:Destroy()
 	end
 
