@@ -765,8 +765,12 @@ function IsWithinRangeSquared(enemy, rangeSquared, minAngle)
 		if delta.sizeSquared < rangeSquared then
 			if minAngle then
 				local forwardVector = ROTATION_ROOT:GetWorldRotation() * Vector3.FORWARD
+				local deltaNomalized = delta
 				delta.z = 0
-				local angleBetweenForward = Angle(forwardVector, delta:GetNormalized())
+				if delta.size > 1 then
+					deltaNomalized = delta:GetNormalized()
+				end
+				local angleBetweenForward = Angle(forwardVector, deltaNomalized)
 				return angleBetweenForward <= minAngle
 			end
 			return true
@@ -1063,7 +1067,7 @@ function HandleTeamChanged()
 end
 HandleTeamChanged()
 
-ROOT.networkedPropertyChangedEvent:Connect(OnPropertyChanged)
+ROOT.customPropertyChangedEvent:Connect(OnPropertyChanged)
 
 
 NPC_MANAGER().Register(script)
