@@ -14,6 +14,7 @@ Tips:
 
 --]]
 
+local ABGS = require(script:GetCustomProperty("API"))
 local ROOT = script.parent
 local MAP_PANEL = script:GetCustomProperty("UIPanel"):WaitForObject()
 local MAP_PIECE_TEMPLATE = script:GetCustomProperty("MinimapPiece")
@@ -185,18 +186,30 @@ function Tick()
 	end
 
 	-- NPCs
-	local npcs = World.FindObjectsByName("2Frogs - Magma NPC")
-    for _, npc in pairs(npcs) do
-        local indicator = GetIndicatorForNPC(npc)
-		if npc:GetCustomProperty("CurrentHealth") > 0 then
-			indicator.visibility = Visibility.INHERIT		
-			local pos = npc:GetWorldPosition()
-			indicator.x = (pos.x - boundsLeft) * scaleX
-			indicator.y = (pos.y - boundsTop) * scaleY
-		else
-			indicator.visibility = Visibility.FORCE_OFF
+	if ABGS.IsGameStateManagerRegistered() then
+        if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+			-- Flush all NPCs indicators
+			local indicators = World.FindObjectsByName("MinimapNPCIcon")
+			for _, indicator in pairs(indicators) do
+				if Object.IsValid(indicator) == true then
+					indicator:Destroy()
+				end
+			end
+		else -- If not in lobby draw Npcs
+			local npcs = World.FindObjectsByName("2Frogs - Magma NPC")
+			for _, npc in pairs(npcs) do
+				local indicator = GetIndicatorForNPC(npc)
+				if npc:GetCustomProperty("CurrentHealth") > 0 then
+					indicator.visibility = Visibility.INHERIT		
+					local pos = npc:GetWorldPosition()
+					indicator.x = (pos.x - boundsLeft) * scaleX
+					indicator.y = (pos.y - boundsTop) * scaleY
+				else
+					indicator.visibility = Visibility.FORCE_OFF
+				end
+			end
 		end
-    end
+	end
 
 end
 

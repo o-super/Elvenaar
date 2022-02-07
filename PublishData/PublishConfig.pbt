@@ -10,7 +10,7 @@ Tags: "ThirdPerson"
 ScreenshotPaths: "C:\\Users\\Administrator.o-super-SSD\\Documents\\My Games\\Core\\Saved\\Maps\\Eldenaar\\Screenshots\\PORYL1.png"
 ScreenshotPaths: "C:\\Users\\Administrator.o-super-SSD\\Documents\\My Games\\Core\\Saved\\Maps\\Eldenaar\\Screenshots\\PORYL2.png"
 ScreenshotPaths: "C:\\Users\\Administrator.o-super-SSD\\Documents\\My Games\\Core\\Saved\\Maps\\Eldenaar\\Screenshots\\PORYL3.png"
-ReleaseNotes: "- Removed katana\r\n- Fixed rare bug where an NPC could turn invincible\r\n- Updated UI positions and docks\r\n- Added labels giving direction to the players\r\n- Added a spectator mode after joining an ongoing game"
+ReleaseNotes: "- Added minimap including objectives, players and npcs\r\n- Removed katana\r\n- Fixed rare bug where an NPC could turn invincible\r\n- Updated UI positions and docks\r\n- Added labels giving direction to the players\r\n- Added a spectator mode after joining an ongoing game"
 OwnerId: "95567b361c40436b8ba2619fc5a098cf"
 SerializationVersion: 3
 PublishedState: Public

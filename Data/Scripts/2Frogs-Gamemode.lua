@@ -323,8 +323,14 @@ end
 function checkEndGame()
     if LastWaveFinishedSpawning == true then
         -- if all attacking npcs are dead then end (defender wins)
+        local gameIsOver = true
         local npcs = World.FindObjectsByName("2Frogs - Magma NPC") -- Todo: Make a function who test all type of npc we have
-        if #npcs == 0 then
+        for _, npc in pairs(npcs) do
+            if npc:GetCustomProperty("CurrentHealth") > 0 then
+                gameIsOver = false
+            end
+        end
+        if gameIsOver == true then
             StopMusics()
             World.SpawnAsset(defenderSong)
             SetGoalMessage("Defenders win!")
